@@ -81,20 +81,14 @@ function manageHunger(player) {
   const hunger = player.getComponent(EntityComponentTypes.Hunger);
   if (!hunger) return;
 
-  // Matcha's Java rule forces hunger down above 9 and restores it below 7.
-  // This keeps the bar out of the progression loop while preserving the
-  // original oscillating threshold behavior.
-  if (hunger.currentValue >= 10) {
-    player.addEffect("hunger", 20, {
-      amplifier: 255,
-      showParticles: false
-    });
-  } else if (hunger.currentValue <= 6) {
-    player.addEffect("saturation", 20, {
-      amplifier: 1,
-      showParticles: false
-    });
-  }
+  // Hunger is not part of Matcha's survival loop. Keep it full so exhaustion
+  // can never gate sprinting; food healing is handled by its consume effects.
+  // Directly setting the component also avoids Saturation/Hunger effects
+  // interacting with Bedrock's hunger and regeneration implementation.
+  try {
+    hunger.setCurrentValue(hunger.effectiveMax);
+    player.removeEffect("hunger");
+  } catch {}
 }
 
 function advanceSleepingTime() {
@@ -120,7 +114,12 @@ world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
       player.sendMessage("§cYou lost one maximum heart on death.");
     }
   }
-  system.run(() => applyTrackedHealth(player));
+  system.run(() => {
+    applyTrackedHealth(player);
+    try {
+      player.runCommand("hud @s hide hunger");
+    } catch {}
+  });
 });
 
 system.runInterval(advanceSleepingTime);
@@ -131,4 +130,4 @@ system.runInterval(() => {
     consumeHeartContainer(player);
     applyTrackedHealth(player);
   }
-}, 10);
+});
