@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_popped_chorus_fruit_campfire"
+    },
+    "tags": [
+      "campfire"
+    ],
+    "input": "minecraft:chorus_fruit",
+    "output": "matcha:popped_chorus_fruit"
+  }
+}

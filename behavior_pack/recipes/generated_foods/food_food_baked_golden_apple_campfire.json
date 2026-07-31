@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_baked_golden_apple_campfire"
+    },
+    "tags": [
+      "campfire"
+    ],
+    "input": "minecraft:golden_apple",
+    "output": "matcha:baked_golden_apple"
+  }
+}

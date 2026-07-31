@@ -1,47 +1,93 @@
 import { system, world } from "@minecraft/server";
-
-const HEALING_FOODS = new Map([
-  ["matcha:charred_meat", { duration: 15, amplifier: 3 }],
-  ["matcha:charred_fish", { duration: 15, amplifier: 3 }],
-  ["matcha:charred_potato", { duration: 20, amplifier: 2 }],
-  ["matcha:fried_egg", { duration: 24, amplifier: 2 }]
-]);
+import { FOOD_EFFECTS } from "./food_effects.js";
 
 world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn || player.hasTag("matcha_alpha_welcomed")) return;
 
   player.addTag("matcha_alpha_welcomed");
-  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.2.0");
+  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.3.0");
   player.sendMessage("§7Food restores health instead of hunger. Try cooking an egg, apple, or raw meat.");
   player.sendMessage("§7With cheats enabled, run §f/function matcha_alpha_test§7 for a test kit.");
 });
 
-world.afterEvents.itemCompleteUse.subscribe(({ itemStack, source }) => {
-  if (itemStack.typeId === "matcha:baked_apple") {
-    // Java layers Regen III for 48 ticks over Regen I for 200 ticks. Bedrock
-    // cannot retain two instances of one effect, so reproduce the visible
-    // phases: 48 ticks at amplifier 2, then the remaining 152 at amplifier 0.
-    source.addEffect("regeneration", 48, {
-      amplifier: 2,
-      showParticles: false
+function applyEffectTimeline(source, effectId, effects, elapsed = 0) {
+  if (!source.isValid) return;
+
+  const remaining = effects.filter((effect) => effect.duration > elapsed);
+  if (remaining.length === 0) return;
+
+  // Java keeps weaker instances hidden while a stronger instance is active.
+  // Bedrock stores one instance per effect type, so select Java's active
+  // instance now and schedule the next hidden instance when it would surface.
+  remaining.sort(
+    (left, right) =>
+      right.amplifier - left.amplifier || right.duration - left.duration
+  );
+  const active = remaining[0];
+  const duration = active.duration - elapsed;
+
+  try {
+    source.addEffect(effectId, duration, {
+      amplifier: active.amplifier,
+      showParticles: active.showParticles
     });
-    system.runTimeout(() => {
-      if (!source.isValid) return;
-      source.addEffect("regeneration", 152, {
-        amplifier: 0,
-        showParticles: false
-      });
-    }, 48);
+  } catch {
+    // A future Java effect may not yet exist in the installed Bedrock build.
     return;
   }
 
-  const effect = HEALING_FOODS.get(itemStack.typeId);
-  if (!effect) return;
+  const nextElapsed = active.duration;
+  if (remaining.some((effect) => effect.duration > nextElapsed)) {
+    system.runTimeout(
+      () => applyEffectTimeline(source, effectId, effects, nextElapsed),
+      duration
+    );
+  }
+}
 
-  source.addEffect("regeneration", effect.duration, {
-    amplifier: effect.amplifier,
-    showParticles: false
-  });
+function applyEffects(source, effects) {
+  const grouped = new Map();
+  for (const effect of effects) {
+    const group = grouped.get(effect.id) ?? [];
+    group.push(effect);
+    grouped.set(effect.id, group);
+  }
+  for (const [effectId, timeline] of grouped) {
+    applyEffectTimeline(source, effectId, timeline);
+  }
+}
+
+function consumeFood(source, actions) {
+  for (const action of actions) {
+    if (Math.random() > (action.probability ?? 1)) continue;
+
+    if (action.type === "apply_effects") {
+      applyEffects(source, action.effects);
+      continue;
+    }
+
+    if (action.type === "remove_effects") {
+      for (const effectId of action.effects) {
+        try {
+          source.removeEffect(effectId);
+        } catch {
+          // Ignore effects unavailable in this Bedrock engine version.
+        }
+      }
+      continue;
+    }
+
+    if (action.type === "clear_all_effects") {
+      for (const effect of source.getEffects()) {
+        source.removeEffect(effect.typeId);
+      }
+    }
+  }
+}
+
+world.afterEvents.itemCompleteUse.subscribe(({ itemStack, source }) => {
+  const actions = FOOD_EFFECTS[itemStack.typeId];
+  if (actions) consumeFood(source, actions);
 });
 
 // Alpha approximation of Matcha's managed-hunger system. Keeping saturation

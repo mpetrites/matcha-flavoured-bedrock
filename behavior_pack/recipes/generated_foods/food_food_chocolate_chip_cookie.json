@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:food_food_chocolate_chip_cookie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:mushroom_stew"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:shulker_spawn_egg"
+      }
+    ],
+    "result": {
+      "item": "matcha:chocolate_chip_cookie"
+    }
+  }
+}

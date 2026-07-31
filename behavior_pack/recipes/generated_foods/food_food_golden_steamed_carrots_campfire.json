@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_golden_steamed_carrots_campfire"
+    },
+    "tags": [
+      "campfire"
+    ],
+    "input": "minecraft:golden_carrot",
+    "output": "matcha:golden_steamed_carrots"
+  }
+}

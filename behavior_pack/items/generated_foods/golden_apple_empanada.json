@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:golden_apple_empanada",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.cookedFood"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:golden_apple_empanada.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_food_golden_apple_empanada"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 0,
+        "saturation_modifier": 0.0
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "eat"
+    }
+  }
+}

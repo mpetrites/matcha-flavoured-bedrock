@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:food_food_french_toast"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "#minecraft:eggs"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:bread"
+      }
+    ],
+    "result": {
+      "item": "matcha:french_toast"
+    }
+  }
+}

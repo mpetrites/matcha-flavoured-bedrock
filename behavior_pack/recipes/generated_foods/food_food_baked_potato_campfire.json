@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_baked_potato_campfire"
+    },
+    "tags": [
+      "campfire"
+    ],
+    "input": "minecraft:potato",
+    "output": "matcha:baked_potato"
+  }
+}

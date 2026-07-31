@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:food_food_milk_bottle"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:milk_bucket"
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      }
+    ],
+    "result": {
+      "item": "matcha:milk_bottle",
+      "count": 4
+    }
+  }
+}

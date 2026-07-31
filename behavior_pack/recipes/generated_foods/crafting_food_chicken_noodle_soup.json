@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_food_chicken_noodle_soup"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "TPS",
+      " M",
+      "BBB"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "T": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "S": {
+        "item": "minecraft:bone"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      },
+      "M": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "item": "matcha:crafting_chicken_noodle_soup",
+      "count": 3
+    }
+  }
+}

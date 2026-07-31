@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_honey_ginger_tea_campfire"
+    },
+    "tags": [
+      "campfire"
+    ],
+    "input": "minecraft:honey_bottle",
+    "output": "matcha:honey_ginger_tea"
+  }
+}

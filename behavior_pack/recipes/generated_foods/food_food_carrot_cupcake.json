@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:food_food_carrot_cupcake"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:cocoa_beans"
+      },
+      {
+        "item": "minecraft:shulker_spawn_egg"
+      }
+    ],
+    "result": {
+      "item": "matcha:carrot_cupcake"
+    }
+  }
+}

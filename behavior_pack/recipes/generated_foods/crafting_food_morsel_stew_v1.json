@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_food_morsel_stew_v1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:cooked_rabbit"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    "result": {
+      "item": "matcha:crafting_morsel_stew"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_grilled_melon_campfire"
+    },
+    "tags": [
+      "campfire"
+    ],
+    "input": "minecraft:melon_slice",
+    "output": "matcha:grilled_melon"
+  }
+}

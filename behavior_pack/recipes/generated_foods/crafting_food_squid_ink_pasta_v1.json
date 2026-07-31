@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_food_squid_ink_pasta_v1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:rotten_flesh"
+      },
+      {
+        "item": "minecraft:ink_sac"
+      },
+      {
+        "item": "minecraft:beetroot"
+      },
+      {
+        "item": "minecraft:cod"
+      }
+    ],
+    "result": {
+      "item": "matcha:crafting_squid_ink_pasta"
+    }
+  }
+}

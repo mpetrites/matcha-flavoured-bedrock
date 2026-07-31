@@ -22,6 +22,261 @@
     },
     "matcha_bronze_sword": {
       "textures": "textures/items/bronze_sword"
+    },
+    "matcha_food_apple_empanada": {
+      "textures": "textures/items/generated_foods/apple_empanada"
+    },
+    "matcha_food_baked_apple": {
+      "textures": "textures/items/generated_foods/baked_apple"
+    },
+    "matcha_food_baked_golden_apple": {
+      "textures": "textures/items/generated_foods/baked_golden_apple"
+    },
+    "matcha_food_baked_potato": {
+      "textures": "textures/items/generated_foods/baked_potato"
+    },
+    "matcha_food_baked_pumpkin": {
+      "textures": "breeze_rod"
+    },
+    "matcha_food_bokguk": {
+      "textures": "textures/items/generated_foods/bokguk"
+    },
+    "matcha_food_braised_brown_mushroom": {
+      "textures": "textures/items/generated_foods/braised_brown_mushroom"
+    },
+    "matcha_food_braised_crimson_fungus": {
+      "textures": "textures/items/generated_foods/braised_crimson_fungus"
+    },
+    "matcha_food_braised_red_mushroom": {
+      "textures": "textures/items/generated_foods/braised_red_mushroom"
+    },
+    "matcha_food_braised_warped_fungus": {
+      "textures": "textures/items/generated_foods/braised_warped_fungus"
+    },
+    "matcha_food_bread": {
+      "textures": "textures/items/generated_foods/bread"
+    },
+    "matcha_food_brownie": {
+      "textures": "textures/items/generated_foods/brownie"
+    },
+    "matcha_food_bruschetta": {
+      "textures": "textures/items/generated_foods/bruschetta"
+    },
+    "matcha_food_canned_apples": {
+      "textures": "textures/items/generated_foods/canned_apples"
+    },
+    "matcha_food_canned_golden_apples": {
+      "textures": "textures/items/generated_foods/canned_golden_apples"
+    },
+    "matcha_food_carrot_cupcake": {
+      "textures": "textures/items/generated_foods/carrot_cupcake"
+    },
+    "matcha_food_charred_fish": {
+      "textures": "textures/items/generated_foods/charred_fish"
+    },
+    "matcha_food_charred_meat": {
+      "textures": "textures/items/generated_foods/charred_meat"
+    },
+    "matcha_food_charred_potato": {
+      "textures": "textures/items/generated_foods/charred_potato"
+    },
+    "matcha_food_cheese": {
+      "textures": "cookie"
+    },
+    "matcha_food_chocolate": {
+      "textures": "textures/items/generated_foods/chocolate"
+    },
+    "matcha_food_chocolate_chip_cookie": {
+      "textures": "textures/items/generated_foods/chocolate_chip_cookie"
+    },
+    "matcha_food_chorus_mochi": {
+      "textures": "textures/items/generated_foods/chorus_mochi"
+    },
+    "matcha_food_cooked_beef": {
+      "textures": "cooked_beef"
+    },
+    "matcha_food_cooked_chicken": {
+      "textures": "cooked_chicken"
+    },
+    "matcha_food_cooked_cod": {
+      "textures": "textures/items/generated_foods/cooked_cod"
+    },
+    "matcha_food_cooked_mutton": {
+      "textures": "cooked_mutton"
+    },
+    "matcha_food_cooked_porkchop": {
+      "textures": "cooked_porkchop"
+    },
+    "matcha_food_cooked_pufferfish": {
+      "textures": "textures/items/generated_foods/cooked_pufferfish"
+    },
+    "matcha_food_cooked_rabbit": {
+      "textures": "textures/items/generated_foods/cooked_rabbit"
+    },
+    "matcha_food_cooked_salmon": {
+      "textures": "textures/items/generated_foods/cooked_salmon"
+    },
+    "matcha_food_chicken_noodle_soup": {
+      "textures": "rabbit_stew"
+    },
+    "matcha_food_golden_pie": {
+      "textures": "pumpkin_pie"
+    },
+    "matcha_food_green_curry": {
+      "textures": "textures/items/generated_foods/green_curry"
+    },
+    "matcha_food_morsel_stew": {
+      "textures": "rabbit_stew"
+    },
+    "matcha_food_paneer_makhani": {
+      "textures": "textures/items/generated_foods/paneer_makhani"
+    },
+    "matcha_food_ramen": {
+      "textures": "textures/items/generated_foods/ramen"
+    },
+    "matcha_food_squid_ink_pasta": {
+      "textures": "rabbit_stew"
+    },
+    "matcha_food_stuffed_mushrooms": {
+      "textures": "baked_potato"
+    },
+    "matcha_food_crimson_stroganoff": {
+      "textures": "textures/items/generated_foods/crimson_stroganoff"
+    },
+    "matcha_food_dried_kelp": {
+      "textures": "dried_kelp"
+    },
+    "matcha_food_dried_kelp_from_dried_kelp_block": {
+      "textures": "dried_kelp"
+    },
+    "matcha_food_french_toast": {
+      "textures": "textures/items/generated_foods/french_toast"
+    },
+    "matcha_food_fried_egg": {
+      "textures": "textures/items/generated_foods/fried_egg"
+    },
+    "matcha_food_gimmari": {
+      "textures": "textures/items/generated_foods/gimmari"
+    },
+    "matcha_food_glow_berry_crumble": {
+      "textures": "textures/items/generated_foods/glow_berry_crumble"
+    },
+    "matcha_food_glow_jam": {
+      "textures": "textures/items/generated_foods/glow_jam"
+    },
+    "matcha_food_glow_mash": {
+      "textures": "textures/items/generated_foods/glow_mash"
+    },
+    "matcha_food_gnocchi": {
+      "textures": "textures/items/generated_foods/gnocchi"
+    },
+    "matcha_food_golden_apple": {
+      "textures": "textures/items/generated_foods/golden_apple"
+    },
+    "matcha_food_golden_apple_empanada": {
+      "textures": "textures/items/generated_foods/golden_apple_empanada"
+    },
+    "matcha_food_golden_carrot": {
+      "textures": "textures/items/generated_foods/golden_carrot"
+    },
+    "matcha_food_golden_carrot_cupcake": {
+      "textures": "textures/items/generated_foods/golden_carrot_cupcake"
+    },
+    "matcha_food_golden_pickled_carrots": {
+      "textures": "textures/items/generated_foods/golden_pickled_carrots"
+    },
+    "matcha_food_golden_steamed_carrots": {
+      "textures": "textures/items/generated_foods/golden_steamed_carrots"
+    },
+    "matcha_food_grilled_melon": {
+      "textures": "textures/items/generated_foods/grilled_melon"
+    },
+    "matcha_food_grilled_tomatoes": {
+      "textures": "textures/items/generated_foods/grilled_tomatoes"
+    },
+    "matcha_food_honey_ginger_tea": {
+      "textures": "textures/items/generated_foods/honey_ginger_tea"
+    },
+    "matcha_food_honied_french_toast": {
+      "textures": "textures/items/generated_foods/honied_french_toast"
+    },
+    "matcha_food_japanese_curry": {
+      "textures": "textures/items/generated_foods/japanese_curry"
+    },
+    "matcha_food_latke": {
+      "textures": "textures/items/generated_foods/latke"
+    },
+    "matcha_food_mead": {
+      "textures": "textures/items/generated_foods/mead"
+    },
+    "matcha_food_melon_sorbet": {
+      "textures": "textures/items/generated_foods/melon_sorbet"
+    },
+    "matcha_food_milk_bottle": {
+      "textures": "beetroot_soup"
+    },
+    "matcha_food_naan": {
+      "textures": "textures/items/generated_foods/naan"
+    },
+    "matcha_food_pickled_carrots": {
+      "textures": "textures/items/generated_foods/pickled_carrots"
+    },
+    "matcha_food_pickled_mushrooms": {
+      "textures": "textures/items/generated_foods/pickled_mushrooms"
+    },
+    "matcha_food_pickled_potatoes": {
+      "textures": "textures/items/generated_foods/pickled_potatoes"
+    },
+    "matcha_food_pickled_tomatoes": {
+      "textures": "textures/items/generated_foods/pickled_tomatoes"
+    },
+    "matcha_food_pickled_warped_fungus": {
+      "textures": "textures/items/generated_foods/pickled_warped_fungus"
+    },
+    "matcha_food_popped_chorus_fruit": {
+      "textures": "popped_chorus_fruit"
+    },
+    "matcha_food_estus_flask": {
+      "textures": "potion"
+    },
+    "matcha_food_puerquito": {
+      "textures": "textures/items/generated_foods/puerquito"
+    },
+    "matcha_food_pumpkin_empanada": {
+      "textures": "textures/items/generated_foods/pumpkin_empanada"
+    },
+    "matcha_food_pumpkin_jam": {
+      "textures": "textures/items/generated_foods/pumpkin_jam"
+    },
+    "matcha_food_pupusa": {
+      "textures": "textures/items/generated_foods/pupusa"
+    },
+    "matcha_food_red_mushroom_stroganoff": {
+      "textures": "textures/items/generated_foods/red_mushroom_stroganoff"
+    },
+    "matcha_food_rind_jam": {
+      "textures": "textures/items/generated_foods/rind_jam"
+    },
+    "matcha_food_steamed_carrots": {
+      "textures": "textures/items/generated_foods/steamed_carrots"
+    },
+    "matcha_food_stroganoff": {
+      "textures": "textures/items/generated_foods/stroganoff"
+    },
+    "matcha_food_sweet_berry_danish": {
+      "textures": "textures/items/generated_foods/sweet_berry_danish"
+    },
+    "matcha_food_sweet_berry_jam": {
+      "textures": "textures/items/generated_foods/sweet_berry_jam"
+    },
+    "matcha_food_sweet_berry_mash": {
+      "textures": "textures/items/generated_foods/sweet_berry_mash"
+    },
+    "matcha_food_sweet_berry_toast": {
+      "textures": "textures/items/generated_foods/sweet_berry_toast"
+    },
+    "matcha_food_warped_stroganoff": {
+      "textures": "textures/items/generated_foods/warped_stroganoff"
     }
   }
 }

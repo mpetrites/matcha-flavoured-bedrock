@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_green_curry"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:zombified_piglin_spawn_egg",
+    "output": "matcha:green_curry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:crafting_golden_pie",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.cookedFood"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:crafting_golden_pie.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_food_golden_pie"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 6,
+        "saturation_modifier": 0.583333
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "eat"
+    }
+  }
+}

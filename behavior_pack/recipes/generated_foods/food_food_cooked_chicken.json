@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:food_food_cooked_chicken"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:chicken",
+    "output": "matcha:cooked_chicken"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:food_food_chorus_mochi"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:popped_chorus_fruit"
+      },
+      {
+        "item": "minecraft:snowball"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:beetroot_soup"
+      },
+      {
+        "item": "minecraft:shulker_spawn_egg"
+      }
+    ],
+    "result": {
+      "item": "matcha:chorus_mochi",
+      "count": 4
+    }
+  }
+}

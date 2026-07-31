@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:crafting_stuffed_mushrooms",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.cookedFood"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:crafting_stuffed_mushrooms.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_food_stuffed_mushrooms"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 2,
+        "saturation_modifier": 0.125
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 0.5,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "eat"
+    }
+  }
+}
