@@ -17,13 +17,13 @@ add("trade inventory",235,len(source_trade_ids)); add("trade set inventory",68,l
 add("generated trade coverage",source_trade_ids,generated_trade_ids,sorted(source_trade_ids-generated_trade_ids)); add("generated set coverage",source_set_ids,generated_set_ids,sorted(source_set_ids-generated_set_ids))
 for name,needles in {
  "profession routing":["PROFESSION_BY_VARIANT",'getComponent("minecraft:variant")',"wandering_trader"],"tier progression":["LEVEL_THRESHOLDS","matcha:trade_level"],
- "deterministic offers":["chosenMembers","entity.id"],"daily restock":["getAbsoluteTime","matcha:trade_restock_day"],
- "stock enforcement":["maxUses","out of stock"],"inventory-safe payment":["itemCount(player","removeItems(player"],
+ "deterministic offers":["chosenMembers","entity.id"],"unlimited trades":["§8Unlimited"],
+ "inventory-safe payment":["itemCount(player","removeItems(player"],
  "component-specific outputs":["generated_trade_items","villager_trade_data.js"],"interaction UI":["ActionFormData","MessageFormData","event.cancel=true"]}.items():
   add(name,True,all(x in script+data+json.dumps(report) for x in needles),needles)
 add("script loaded",True,'import "./villagers.js"' in main)
 report["checks"]=checks; report["summary"]={"checks":len(checks),"passed":sum(x["status"]=="pass" for x in checks),"failed":sum(x["status"]=="fail" for x in checks)}
-report["approximations"]=["Offers restock once per Minecraft day rather than at workstation visits.","Java reputation discounts and demand curves are recorded but not exposed by Bedrock Script API.","Exploration-map destinations and several Java-only stack components remain presentation-only until their owning structure/loot systems are ported."]
+report["approximations"]=["Offers have unlimited uses and never require restocking.","Java reputation discounts and demand curves are recorded but not exposed by Bedrock Script API.","Exploration-map destinations and several Java-only stack components remain presentation-only until their owning structure/loot systems are ported."]
 (ROOT/"docs/villager-trade-report.json").write_text(json.dumps(report,indent=2,default=lambda x:sorted(x))+"\n")
 for row in checks: print(row["status"].upper(),row["name"])
 if report["summary"]["failed"]: raise SystemExit(1)

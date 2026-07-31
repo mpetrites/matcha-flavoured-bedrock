@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "matcha.golden": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/matcha/custom/golden_demo",
+          "stream": true
+        }
+      ]
+    },
+    "matcha.false_subwoofer_lullaby": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/matcha/custom/false_subwoofer_lullaby",
+          "stream": true
+        }
+      ]
+    },
+    "matcha.labyrinthine": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/swamp/labyrinthine",
+          "stream": true
+        }
+      ]
+    },
+    "matcha.dry_hands": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/dry_hands",
+          "stream": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "checks": 14,
+  "passed": 14,
+  "failed": [],
+  "splash_foods": 2,
+  "drink_interactions": [
+    "matcha:mead",
+    "matcha:milk_bottle"
+  ],
+  "placed_food_interactions": [
+    "minecraft:cake"
+  ]
+}

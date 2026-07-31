@@ -49,6 +49,8 @@ def custom_item(base,c):
  if model and src.exists():shutil.copy2(src,TEXTURES/f"{h}.png"); texture=f"textures/items/generated_loot/{h}"
  else:texture=f"textures/items/{base.split(':')[-1]}"
  atlas["texture_data"][key]={"textures":texture}; comps={"minecraft:display_name":{"value":f"item.{ident}.name"},"minecraft:icon":{"textures":{"default":key}},"minecraft:max_stack_size":c.get("minecraft:max_stack_size",1 if c.get("minecraft:max_damage") else 64)}
+ if model in {"cheerful_clay_statue","mournful_clay_statue"}:
+  comps["minecraft:interact_button"]="Use";comps["minecraft:use_animation"]="bow";comps["minecraft:use_modifiers"]={"use_duration":0.1,"movement_modifier":1.0}
  if c.get("minecraft:max_damage"):comps["minecraft:durability"]={"max_durability":c["minecraft:max_damage"]}
  if c.get("minecraft:enchantment_glint_override") or c.get("minecraft:enchantments") or c.get("minecraft:stored_enchantments"):comps["minecraft:glint"]=True
  item={"format_version":"1.21.100","minecraft:item":{"description":{"identifier":ident,"menu_category":{"category":"items"}},"components":comps}}

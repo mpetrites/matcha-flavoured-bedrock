@@ -1,0 +1,864 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "source_biomes": 65,
+  "generated_client_biomes": 65,
+  "generated_fogs": 42,
+  "ported_component_counts": {
+    "minecraft:biome_music": 40,
+    "minecraft:dry_foliage_color": 4,
+    "minecraft:fog_appearance": 42,
+    "minecraft:foliage_appearance": 7,
+    "minecraft:grass_appearance": 5,
+    "minecraft:sky_color": 55,
+    "minecraft:water_appearance": 65
+  },
+  "unmapped_attribute_counts": {
+    "minecraft:gameplay/can_pillager_patrol_spawn": 1,
+    "minecraft:gameplay/increased_fire_burnout": 8,
+    "minecraft:gameplay/snow_golem_melts": 7,
+    "minecraft:gameplay/water_evaporates": 1
+  },
+  "scripted_attribute_counts": {
+    "minecraft:audio/ambient_sounds": 5,
+    "minecraft:visual/ambient_particles": 16
+  },
+  "worldgen_classification": {
+    "presentation": "ported through client_biome and fog definitions",
+    "village_structures": "ported through native structures and deterministic scripted assembly",
+    "features_and_carvers": "retain Bedrock terrain; Java configured-feature registries cannot replace vanilla Bedrock generation safely",
+    "spawners": "partly covered by global spawn rules; weighted biome spawn tables have no equivalent vanilla-biome override",
+    "ambient_particles": "16 source routes mapped through scripted stable Bedrock particle identifiers",
+    "biome_music_and_ambient_audio": "40 active music definitions use client biomes; five ambient sets use scripted Bedrock sound events; Pale Garden retains its empty source entry"
+  },
+  "dimensions": [
+    {
+      "dimension": "minecraft:overworld",
+      "source": {
+        "default_clock": "minecraft:overworld",
+        "has_ender_dragon_fight": false,
+        "ambient_light": 0,
+        "attributes": {
+          "minecraft:audio/ambient_sounds": {
+            "mood": {
+              "block_search_extent": 8,
+              "offset": 2,
+              "sound": "minecraft:ambient.cave",
+              "tick_delay": 6000
+            }
+          },
+          "minecraft:audio/background_music": {
+            "creative": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "sound": "minecraft:music.creative"
+            },
+            "default": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "sound": "minecraft:music.game"
+            }
+          },
+          "minecraft:gameplay/bed_rule": {
+            "can_set_spawn": "always",
+            "can_sleep": "always",
+            "error_message": {
+              "translate": "block.minecraft.bed.no_sleep"
+            }
+          },
+          "minecraft:gameplay/nether_portal_spawns_piglin": true,
+          "minecraft:gameplay/respawn_anchor_works": false,
+          "minecraft:visual/ambient_light_color": "#0a0a0a",
+          "minecraft:visual/cloud_color": "#ccffffff",
+          "minecraft:visual/cloud_height": 192.33,
+          "minecraft:visual/fog_color": "#c0d8ff",
+          "minecraft:visual/sky_color": "#78a7ff"
+        },
+        "coordinate_scale": 1,
+        "has_ceiling": false,
+        "has_skylight": true,
+        "has_fixed_time": false,
+        "height": 384,
+        "infiniburn": "#minecraft:infiniburn_overworld",
+        "logical_height": 384,
+        "min_y": -64,
+        "monster_spawn_block_light_limit": 0,
+        "monster_spawn_light_level": {
+          "type": "minecraft:uniform",
+          "max_inclusive": 7,
+          "min_inclusive": 0
+        },
+        "timelines": "#minecraft:in_overworld"
+      },
+      "classification": {
+        "ported": [],
+        "native_equivalent": [
+          "height",
+          "min_y",
+          "coordinate_scale",
+          "has_skylight",
+          "has_ceiling"
+        ],
+        "engine_limited": [
+          "cloud height/color",
+          "dimension ambient/sky lighting",
+          "logical height",
+          "timeline replacement"
+        ]
+      }
+    },
+    {
+      "dimension": "minecraft:the_nether",
+      "source": {
+        "ambient_light": 0.1,
+        "attributes": {
+          "minecraft:gameplay/bed_rule": {
+            "can_set_spawn": "never",
+            "can_sleep": "never",
+            "explodes": true
+          },
+          "minecraft:gameplay/can_start_raid": false,
+          "minecraft:gameplay/fast_lava": true,
+          "minecraft:gameplay/piglins_zombify": false,
+          "minecraft:gameplay/respawn_anchor_works": true,
+          "minecraft:gameplay/sky_light_level": 4,
+          "minecraft:gameplay/snow_golem_melts": true,
+          "minecraft:gameplay/water_evaporates": false,
+          "minecraft:visual/ambient_light_color": "#302821",
+          "minecraft:visual/default_dripstone_particle": {
+            "type": "minecraft:dripping_dripstone_lava"
+          },
+          "minecraft:visual/fog_end_distance": 300,
+          "minecraft:visual/fog_start_distance": 0,
+          "minecraft:visual/sky_light_color": "#7a7aff",
+          "minecraft:visual/sky_light_factor": 0
+        },
+        "cardinal_light": "nether",
+        "coordinate_scale": 8,
+        "has_ceiling": true,
+        "has_ender_dragon_fight": false,
+        "has_fixed_time": true,
+        "has_skylight": false,
+        "height": 256,
+        "infiniburn": "#minecraft:infiniburn_nether",
+        "logical_height": 128,
+        "min_y": 0,
+        "monster_spawn_block_light_limit": 15,
+        "monster_spawn_light_level": 7,
+        "skybox": "none",
+        "timelines": "#minecraft:in_nether"
+      },
+      "classification": {
+        "ported": [
+          "the_nether.attributes.minecraft:gameplay/water_evaporates"
+        ],
+        "native_equivalent": [
+          "height",
+          "min_y",
+          "coordinate_scale",
+          "has_skylight",
+          "has_ceiling"
+        ],
+        "engine_limited": [
+          "cloud height/color",
+          "dimension ambient/sky lighting",
+          "logical height",
+          "timeline replacement"
+        ]
+      }
+    }
+  ],
+  "biomes": [
+    {
+      "biome": "minecraft:badlands",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:foliage_appearance",
+        "minecraft:grass_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:bamboo_jungle",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:basalt_deltas",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 8,
+      "spawn_categories": 2
+    },
+    {
+      "biome": "minecraft:beach",
+      "ported_components": [
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:cherry_grove",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:foliage_appearance",
+        "minecraft:grass_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:cold_ocean",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:crimson_forest",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 10,
+      "spawn_categories": 2
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:dry_foliage_color",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:deep_cold_ocean",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:deep_dark",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 0
+    },
+    {
+      "biome": "minecraft:deep_frozen_ocean",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 6
+    },
+    {
+      "biome": "minecraft:deep_lukewarm_ocean",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:deep_ocean",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:desert",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:dripstone_caves",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 3
+    },
+    {
+      "biome": "minecraft:end_barrens",
+      "ported_components": [
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 0,
+      "spawn_categories": 1
+    },
+    {
+      "biome": "minecraft:end_highlands",
+      "ported_components": [
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 10,
+      "spawn_categories": 1
+    },
+    {
+      "biome": "minecraft:end_midlands",
+      "ported_components": [
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 0,
+      "spawn_categories": 1
+    },
+    {
+      "biome": "minecraft:eroded_badlands",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:foliage_appearance",
+        "minecraft:grass_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:forest",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:frozen_ocean",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 6
+    },
+    {
+      "biome": "minecraft:frozen_peaks",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:frozen_river",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:grove",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:ice_spikes",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:jagged_peaks",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:jungle",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:lukewarm_ocean",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:lush_caves",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:mangrove_swamp",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:dry_foliage_color",
+        "minecraft:fog_appearance",
+        "minecraft:foliage_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:meadow",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:mushroom_fields",
+      "ported_components": [
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 3
+    },
+    {
+      "biome": "minecraft:nether_wastes",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 10,
+      "spawn_categories": 2
+    },
+    {
+      "biome": "minecraft:ocean",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:old_growth_pine_taiga",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:old_growth_spruce_taiga",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:pale_garden",
+      "ported_components": [
+        "minecraft:dry_foliage_color",
+        "minecraft:fog_appearance",
+        "minecraft:foliage_appearance",
+        "minecraft:grass_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 3
+    },
+    {
+      "biome": "minecraft:plains",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:river",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:savanna",
+      "ported_components": [
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:savanna_plateau",
+      "ported_components": [
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:small_end_islands",
+      "ported_components": [
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 1,
+      "spawn_categories": 1
+    },
+    {
+      "biome": "minecraft:snowy_beach",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 3
+    },
+    {
+      "biome": "minecraft:snowy_plains",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:snowy_slopes",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:snowy_taiga",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:soul_sand_valley",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 10,
+      "spawn_categories": 2
+    },
+    {
+      "biome": "minecraft:sparse_jungle",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:stony_peaks",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 3
+    },
+    {
+      "biome": "minecraft:stony_shore",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 3
+    },
+    {
+      "biome": "minecraft:sunflower_plains",
+      "ported_components": [
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:swamp",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:dry_foliage_color",
+        "minecraft:fog_appearance",
+        "minecraft:foliage_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:taiga",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:the_end",
+      "ported_components": [
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 1
+    },
+    {
+      "biome": "minecraft:the_void",
+      "ported_components": [
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 0
+    },
+    {
+      "biome": "minecraft:warm_ocean",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 5
+    },
+    {
+      "biome": "minecraft:warped_forest",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 10,
+      "spawn_categories": 2
+    },
+    {
+      "biome": "minecraft:windswept_forest",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:windswept_gravelly_hills",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:windswept_hills",
+      "ported_components": [
+        "minecraft:fog_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:windswept_savanna",
+      "ported_components": [
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    },
+    {
+      "biome": "minecraft:wooded_badlands",
+      "ported_components": [
+        "minecraft:biome_music",
+        "minecraft:fog_appearance",
+        "minecraft:foliage_appearance",
+        "minecraft:grass_appearance",
+        "minecraft:sky_color",
+        "minecraft:water_appearance"
+      ],
+      "feature_stages": 11,
+      "spawn_categories": 4
+    }
+  ]
+}

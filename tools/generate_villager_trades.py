@@ -46,6 +46,8 @@ def resolve_stack(stack, context):
         else: texture=f"textures/items/{base.split(':')[-1]}"
         atlas["texture_data"][key]={"textures":texture}; name=component_name(components,base)
         item_components={"minecraft:display_name":{"value":f"item.{identifier}.name"},"minecraft:icon":{"textures":{"default":key}},"minecraft:max_stack_size":components.get("minecraft:max_stack_size",64)}
+        if model=="application":
+            item_components["minecraft:interact_button"]="Use";item_components["minecraft:use_animation"]="bow";item_components["minecraft:use_modifiers"]={"use_duration":0.1,"movement_modifier":1.0}
         if components.get("minecraft:max_damage"): item_components["minecraft:durability"]={"max_durability":components["minecraft:max_damage"]}; item_components["minecraft:max_stack_size"]=1
         if components.get("minecraft:enchantment_glint_override") or components.get("minecraft:enchantments") or components.get("minecraft:stored_enchantments"): item_components["minecraft:glint"]=True
         item={"format_version":"1.21.100","minecraft:item":{"description":{"identifier":identifier,"menu_category":{"category":"items"}},"components":item_components}}

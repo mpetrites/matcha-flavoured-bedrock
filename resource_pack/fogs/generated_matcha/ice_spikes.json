@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "matcha:ice_spikes"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.8,
+        "fog_end": 1.0,
+        "fog_color": "#c0d8ff",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 60.0,
+        "fog_color": "#272844",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

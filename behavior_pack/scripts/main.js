@@ -3,8 +3,12 @@ import { FOOD_EFFECTS } from "./food_effects.js";
 import "./survival.js";
 import "./estus.js";
 import "./item_replacements.js";
+import "./advancements.js";
 import "./enchantments.js";
 import "./survival_systems.js";
+import "./global_mechanics.js";
+import "./food_interactions.js";
+import "./worldgen.js";
 import "./villagers.js";
 import "./structures.js";
 

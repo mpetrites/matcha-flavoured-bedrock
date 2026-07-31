@@ -1,0 +1,150 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "summary": {
+    "checks": 13,
+    "passed": 13,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "extended day cycle",
+      "status": "pass",
+      "evidence": [
+        "setTimeOfDay",
+        "},3)"
+      ]
+    },
+    {
+      "name": "spawn sky restriction",
+      "status": "pass",
+      "evidence": [
+        "entitySpawn",
+        "visibleSky",
+        "UNDEAD"
+      ]
+    },
+    {
+      "name": "post-dragon safe surface",
+      "status": "pass",
+      "evidence": [
+        "matcha:first_dragon_reward",
+        "location.y>=63"
+      ]
+    },
+    {
+      "name": "mob health rebalance",
+      "status": "pass",
+      "evidence": [
+        "minecraft:cave_spider",
+        "setCurrentValue"
+      ]
+    },
+    {
+      "name": "mob movement and damage approximation",
+      "status": "pass",
+      "evidence": [
+        "minecraft:zombie",
+        "minecraft:husk",
+        "strength",
+        "speed"
+      ]
+    },
+    {
+      "name": "clay statue weather",
+      "status": "pass",
+      "evidence": [
+        "matcha:loot_item_108c0dc960",
+        "matcha:loot_item_cdfc89dd82",
+        "weather clear",
+        "weather rain"
+      ]
+    },
+    {
+      "name": "eerie village ambience",
+      "status": "pass",
+      "evidence": [
+        "villager_v2",
+        "stopsound @s music",
+        "ambient.cave"
+      ]
+    },
+    {
+      "name": "Happy Ghast horn",
+      "status": "pass",
+      "evidence": [
+        "minecraft:goat_horn",
+        "minecraft:happy_ghast",
+        "teleport"
+      ]
+    },
+    {
+      "name": "stackable water bottles",
+      "status": "pass",
+      "evidence": [
+        "matcha:water_bottle",
+        "minecraft:glass_bottle",
+        "minecraft:water"
+      ]
+    },
+    {
+      "name": "boat particles",
+      "status": "pass",
+      "evidence": [
+        "minecraft:riding",
+        "matcha:splash_",
+        "getVelocity"
+      ]
+    },
+    {
+      "name": "sulfur particles",
+      "status": "pass",
+      "evidence": [
+        "minecraft:nether_quartz_ore",
+        "basic_smoke_particle"
+      ]
+    },
+    {
+      "name": "asylum application particles",
+      "status": "pass",
+      "evidence": [
+        "APPLICATIONS",
+        "villager_v2",
+        "basic_smoke_particle"
+      ]
+    },
+    {
+      "name": "script loaded",
+      "status": "pass",
+      "evidence": [
+        "main.js import"
+      ]
+    }
+  ],
+  "approximations": [
+    "Sky exposure uses the topmost-block test because Bedrock Script API has no can_see_sky predicate.",
+    "Unsupported entity base-attribute mutation is represented by current-health caps and long status effects.",
+    "Bedrock does not expose Java equipment drop-chance NBT, so natural equipment drops retain Bedrock behavior.",
+    "Village structure membership is approximated by nearby villagers for eerie ambience.",
+    "Divine-favour item gravity cannot be disabled stably; its presentation remains particle-only.",
+    "Water bottles use a stackable matcha:water_bottle carrier filled by using glass bottles on water."
+  ]
+}

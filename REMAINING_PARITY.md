@@ -12,14 +12,14 @@ that still differs from the pinned Java source.
 
 | Priority | Area | Current Bedrock behavior | Remaining parity work |
 | --- | --- | --- | --- |
-| High | Advancements | The 234 Java advancement definitions and their UI are not ported. | Rebuild gameplay-critical triggers and rewards with Script API state; treat UI-only achievements separately. |
-| High | Global survival mechanics | Core health, hunger, death, sleep, freezing water, XP, Warding Stone, Bedrock Buster, anvil, and dragon reward rules are present. | Port the extended day/load state, mob-spawn and safe-surface rules, weather controls, eerie-village behavior, boat and special-block particles, clay statues, Happy Ghast horn, stacked water bottles, and remaining one-off mechanics. |
+| Medium | Advancements | All 223 definitions and 507 criteria have persistent completion and requirement handling; 67 displayed definitions use toast/chat feedback. | Add exact structure-location adapters; replace result-acquisition approximations if Bedrock adds stable crafting and fishing events. |
+| Medium | Global survival mechanics | Health, hunger, death, sleep, freezing water, XP, Warding Stone, Bedrock Buster, anvil, dragon reward, extended days, spawn/safe-surface rules, weather statues, eerie villages, particles, Happy Ghast horns, applications, and stacked water bottles are present. | Refine the documented spawn attributes, village membership, divine-item gravity, and other engine-limited approximations through in-game testing. |
 | High | Loot semantics | All 282 tables are converted and identifiers/references are valid. | Refine or replace the unsupported Java conditions and functions listed below; verify progression through an in-game survival playthrough. |
-| Medium | Food interactions | 90 custom consumables cover 120 source recipes and scripted effects. | Replace drinkable splash-potion approximations where possible and refine cake, mead, milk-bottle, and non-effect interactions. |
-| Medium | World generation | Sixteen beta-village templates are assembled deterministically in eight source biomes. | Evaluate 65 biome presentation overrides and the remaining dimension/world-generation changes; validate terrain fit and village frequency in game. |
-| Medium | Villager economy | All 235 trades and 68 sets are routed through custom UI with stable offers, tiers, stock, and daily restock. | Validate balance in game; reputation/demand pricing and workstation-timed restocking have no direct Script API equivalent. |
+| Medium | Food interactions | 90 custom consumables cover 120 source recipes and scripted effects; both splash preserves are aimed area effects, cake heals per bite, and mead/milk preserve drink completion and bottle semantics. | Validate cake-bite timing and splash targeting in the target Bedrock release; Bedrock does not expose a native custom splash-potion projectile. |
+| Medium | World generation | All 65 biome presentation overrides, 40 active music routes (plus Pale Garden's empty/default entry), 16 particle routes, and five ambient-sound sets are wired; sixteen beta-village templates are assembled in eight source biomes; Nether water placement matches the non-evaporation rule. | Validate rendering, audio, terrain fit, and village frequency in game. Java feature, carver, spawn-table, and vanilla dimension-type replacement remain engine-limited. |
+| Medium | Villager economy | All 235 trades and 68 sets are routed through custom UI with stable offers, tiers, and unlimited uses. | Validate balance in game; reputation and demand pricing have no direct Script API equivalent. |
 | Medium | Enchantments and blessings | All 23 custom effects and 23 blessings have scripted equivalents. | Perform combat/movement balance verification and confirm every off-hand blessing path in game. |
-| Low | Presentation | Assets required by the implemented food, equipment, blessing, loot, and trade items are present. | Port remaining models, blockstates, trims, particles, GUIs, environment textures, paintings, colormaps, two sounds, jukebox definitions, and localization as their systems land. |
+| Low | Presentation | Implemented items plus source block texture layers, trims, particles, environment art, paintings, colormaps, sounds, and jukebox records are present. Java's 699 model and 30 blockstate files are classified and their usable textures are ported. | Port remaining GUIs and localization; replace Java model/blockstate geometry only where a corresponding custom Bedrock block or entity is introduced. |
 
 ## Deliberate Bedrock approximations
 
@@ -39,13 +39,15 @@ that still differs from the pinned Java source.
   blessing effects are applied to the off-hand item; Matcha-only effects are
   persisted on the player.
 - Raw Estus keeps the source base drop odds, but Looting does not increase its
-  quantity. Splash-potion foods are currently drinkable custom consumables.
+  quantity. Custom splash foods use a short aimed trajectory and scripted
+  distance-scaled area impact because stable Bedrock item components cannot
+  attach custom potion contents to a native splash-potion projectile.
 - Frozen-biome checks use an explicit biome list because Script API does not
   expose Java biome tags. Warding Stones use an invisible armor-stand marker
   attached to a lodestone.
-- Villager offers restock daily rather than at workstation visits. Java
-  reputation and demand metadata remain in the generated catalog, but custom
-  UI prices use source base counts. Exploration-map destinations and some
+- Villager offers intentionally have unlimited uses and never require
+  restocking. Java reputation and demand metadata remain in the generated
+  catalog, but custom UI prices use source base counts. Exploration-map destinations and some
   Java-only trade-stack presentation components are not reproduced.
 - Converted loot conservatively disables Java conditions without stable
   equivalents instead of broadening drops. Current totals are 24
@@ -55,6 +57,21 @@ that still differs from the pinned Java source.
 - Structure conversion removes Java jigsaw and command blocks. Script API
   assembles the converted well and weighted road/building pools using the
   source 80/50-chunk placement parameters and salt.
+- Bedrock 2.0 has no stable recipe-crafted or fishing-hook event. Those
+  criteria complete when their result enters inventory; recipe-unlock criteria
+  are treated as available because behavior-pack recipes are globally exposed.
+  Structure-location criteria remain pending exact adapters; block-underfoot
+  and started-riding criteria use stable component checks.
+- Sky exposure uses Bedrock's topmost block as a `can_see_sky` approximation.
+  Mob base attributes and equipment drop chances are not mutable through the
+  stable Script API, so health is capped and movement/damage use long effects;
+  equipment drops retain Bedrock behavior. Eerie-village membership uses
+  nearby villagers. Divine-favour items retain particles but not Java's
+  no-gravity NBT.
+- Client-biome files reproduce source sky, water, grass, foliage, dry-foliage,
+  and fog colors. Bedrock retains its terrain/carvers/features and weighted
+  biome spawn tables; vanilla dimension geometry and lighting cannot be
+  replaced safely. See `docs/WORLDGEN_PORT.md` for the field-level evaluation.
 - The official 1.03 Wither-fight experiment states that it is not implemented;
   this port does not invent replacement behavior.
 

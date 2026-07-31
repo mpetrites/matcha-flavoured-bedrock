@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:pale_garden"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#b9b9b9"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#9b9fa8"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#778272"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#878d76"
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#a0a69c"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "matcha:pale_garden"
+      }
+    }
+  }
+}

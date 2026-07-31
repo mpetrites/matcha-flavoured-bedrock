@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:nether_wastes"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#a2b5dd"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "music.game.nether_wastes",
+        "volume_multiplier": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "matcha:nether_wastes"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "matcha:pale_garden"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.8,
+        "fog_end": 1.0,
+        "fog_color": "#817770",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 60.0,
+        "fog_color": "#556980",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}
