@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha:charred_pufferfish"
+    },
+    "tags": ["smoker"],
+    "input": "minecraft:pufferfish",
+    "output": "matcha:charred_fish"
+  }
+}

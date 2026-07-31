@@ -1,0 +1,9 @@
+pack.name=Matcha Flavoured Alpha
+pack.description=Playable Bedrock alpha for initial testing
+item.matcha:charred_meat.name=Charred Meat
+item.matcha:charred_fish.name=Charred Fish
+item.matcha:charred_potato.name=Charred Potato
+item.matcha:fried_egg.name=Fried Egg
+item.matcha:baked_apple.name=Baked Apple
+item.matcha:bronze_alloy.name=Bronze Alloy
+item.matcha:bronze_sword.name=Bronze Sword

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha:baked_apple"
+    },
+    "tags": ["furnace", "campfire"],
+    "input": "minecraft:apple",
+    "output": "matcha:baked_apple"
+  }
+}

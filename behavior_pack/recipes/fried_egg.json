@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha:fried_egg"
+    },
+    "tags": ["furnace", "campfire"],
+    "input": "minecraft:egg",
+    "output": "matcha:fried_egg"
+  }
+}

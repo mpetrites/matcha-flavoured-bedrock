@@ -1,0 +1,4 @@
+.DS_Store
+*.mcpack
+dist/*.mcaddon
+!dist/Matcha_Flavoured_Bedrock_Alpha_0.1.1.mcaddon

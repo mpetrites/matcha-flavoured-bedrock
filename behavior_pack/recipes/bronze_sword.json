@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "matcha:bronze_sword"
+    },
+    "tags": ["smithing_table"],
+    "template": "minecraft:copper_ingot",
+    "base": "minecraft:copper_sword",
+    "addition": "matcha:bronze_alloy",
+    "result": "matcha:bronze_sword"
+  }
+}

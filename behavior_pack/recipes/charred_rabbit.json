@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha:charred_rabbit"
+    },
+    "tags": ["smoker"],
+    "input": "minecraft:rabbit",
+    "output": "matcha:charred_meat"
+  }
+}

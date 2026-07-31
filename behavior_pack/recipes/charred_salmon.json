@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha:charred_salmon"
+    },
+    "tags": ["smoker"],
+    "input": "minecraft:salmon",
+    "output": "matcha:charred_fish"
+  }
+}

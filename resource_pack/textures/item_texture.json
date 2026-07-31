@@ -1,0 +1,27 @@
+{
+  "resource_pack_name": "matcha_flavoured_alpha",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "matcha_charred_meat": {
+      "textures": "textures/items/charred_meat"
+    },
+    "matcha_charred_fish": {
+      "textures": "textures/items/charred_fish"
+    },
+    "matcha_charred_potato": {
+      "textures": "textures/items/charred_potato"
+    },
+    "matcha_fried_egg": {
+      "textures": "textures/items/fried_egg"
+    },
+    "matcha_baked_apple": {
+      "textures": "textures/items/baked_apple"
+    },
+    "matcha_bronze_alloy": {
+      "textures": "textures/items/bronze_alloy"
+    },
+    "matcha_bronze_sword": {
+      "textures": "textures/items/bronze_sword"
+    }
+  }
+}
