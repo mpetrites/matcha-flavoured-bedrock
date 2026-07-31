@@ -23,8 +23,8 @@
               ]
             },
             {
-              "type": "item",
-              "name": "minecraft:wheat_seeds",
+              "type": "loot_table",
+              "name": "loot_tables/generated/fortune/ddf3c749e5b3.json",
               "weight": 1,
               "conditions": [
                 {

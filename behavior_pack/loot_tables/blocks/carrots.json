@@ -14,8 +14,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "matcha:loot_item_28e2874b14",
+          "type": "loot_table",
+          "name": "loot_tables/generated/fortune/4f040929998a.json",
           "weight": 1
         }
       ],

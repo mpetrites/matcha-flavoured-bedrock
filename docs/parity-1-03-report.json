@@ -90,19 +90,19 @@
       "name": "silver_sword 1.03 source regeneration",
       "status": "pass",
       "ownership": "implemented",
-      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/generated_components/silver_sword.json"
+      "detail": "behavior_pack/items/generated_components/silver_sword.json"
     },
     {
       "name": "warding_sword 1.03 source regeneration",
       "status": "pass",
       "ownership": "implemented",
-      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/generated_components/warding_sword.json"
+      "detail": "behavior_pack/items/generated_components/warding_sword.json"
     },
     {
       "name": "warding_shield 1.03 source regeneration",
       "status": "pass",
       "ownership": "implemented",
-      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/generated_components/warding_shield.json"
+      "detail": "behavior_pack/items/generated_components/warding_shield.json"
     },
     {
       "name": "food_bruschetta recipe",

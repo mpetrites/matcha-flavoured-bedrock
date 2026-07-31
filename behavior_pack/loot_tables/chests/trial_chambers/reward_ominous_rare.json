@@ -25,7 +25,17 @@
         {
           "type": "item",
           "name": "minecraft:crossbow",
-          "weight": 4
+          "weight": 4,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 5,
+                "max": 20
+              },
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "loot_table",
@@ -35,17 +45,34 @@
         {
           "type": "item",
           "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/generated/enchant_options/5a01c31f5a04.json",
           "weight": 2
         },
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "minecraft:book",
-          "weight": 2
+          "weight": 2,
+          "functions": [
+            {
+              "function": "specific_enchants",
+              "enchants": [
+                {
+                  "id": "wind_burst",
+                  "level": 1
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "item",

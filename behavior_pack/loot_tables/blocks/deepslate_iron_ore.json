@@ -25,15 +25,9 @@
               ]
             },
             {
-              "type": "item",
-              "name": "minecraft:raw_iron",
-              "weight": 1,
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 2
-                }
-              ]
+              "type": "loot_table",
+              "name": "loot_tables/generated/fortune/7687636074fd.json",
+              "weight": 1
             }
           ],
           "weight": 1

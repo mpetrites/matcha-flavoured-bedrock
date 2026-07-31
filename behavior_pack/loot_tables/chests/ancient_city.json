@@ -90,7 +90,15 @@
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 8
+          "weight": 8,
+          "functions": [
+            {
+              "function": "specific_enchants",
+              "enchants": [
+                "swift_sneak"
+              ]
+            }
+          ]
         },
         {
           "type": "item",
@@ -184,7 +192,13 @@
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",

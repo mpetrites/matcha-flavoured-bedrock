@@ -1,0 +1,235 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "match_tool",
+          "enchantments": [
+            {
+              "enchantment": "fortune",
+              "levels": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 66667
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 16667,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 16667,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "match_tool",
+          "enchantments": [
+            {
+              "enchantment": "fortune",
+              "levels": {
+                "min": 2,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "match_tool",
+          "enchantments": [
+            {
+              "enchantment": "fortune",
+              "levels": {
+                "min": 3,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 6
+            },
+            {
+              "function": "explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

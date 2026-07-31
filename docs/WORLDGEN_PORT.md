@@ -15,6 +15,10 @@ dimension types.
   placement rule remain handled by the structure system.
 - The Nether `water_evaporates: false` rule is approximated by controlled water
   bucket placement, including empty-bucket conversion in Survival mode.
+- Sixteen biome particle attributes are routed through stable Bedrock particle
+  identifiers. Five Nether ambient sets and 40 active biome music definitions
+  are mapped to Bedrock sound events; Pale Garden retains its empty/default
+  entry and the Deep Dark volume multiplier is retained.
 
 ## Retained from Bedrock
 
@@ -26,15 +30,11 @@ dimension types.
   bed, and respawn-anchor behavior already matches the corresponding source
   dimension fields closely enough to retain.
 
-## Still engine-limited or pending mapping
+## Engine-limited gameplay differences
 
 - Java dimension cloud height/color, ambient light, sky lighting, logical
   height, and timeline definitions have no equivalent stable dimension-type
   override for vanilla Bedrock dimensions.
-- Sixteen biome particle attributes are routed through stable Bedrock particle
-  identifiers. Five Nether ambient sets and 40 active biome music definitions
-  are mapped to Bedrock sound events; Pale Garden retains its empty/default
-  entry and the Deep Dark volume multiplier is retained.
 - The Java biome gameplay attributes for fire burnout, snow-golem melting,
   patrols, and local water evaporation remain governed by Bedrock or by the
   existing global mechanics where applicable.

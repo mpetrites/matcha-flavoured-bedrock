@@ -21,6 +21,7 @@
   },
   "source_tables": 282,
   "converted_tables": 282,
+  "generated_helper_tables": 16,
   "generated_loot_items": 98,
   "empty_sources": [
     "advancement/custom/root.json"
@@ -32,22 +33,327 @@
     "group": 1,
     "empty": 32
   },
-  "dropped_functions": {
-    "apply_bonus": 13,
+  "translated_functions": {
     "explosion_decay": 14,
+    "set_stew_effect": 2,
+    "set_ominous_bottle_amplifier": 2,
+    "set_enchantments": 1
+  },
+  "approximated_functions": {
+    "apply_bonus": 13,
     "limit_count": 1,
     "enchant_randomly": 74,
-    "set_stew_effect": 2,
     "enchant_with_levels": 10,
     "exploration_map": 3,
-    "set_ominous_bottle_amplifier": 2,
-    "set_enchantments": 1,
     "set_contents": 1
   },
+  "dropped_functions": {},
   "dropped_conditions": {
     "inverted": 4,
     "location_check": 24,
     "damage_source_properties": 2,
     "entity_properties": 6
-  }
+  },
+  "approximation_details": [
+    {
+      "source_table": "blocks/carrots.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/copper_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/deepslate_emerald_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/deepslate_iron_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/deepslate_redstone_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/emerald_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/lapis_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/melon.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/melon.json",
+      "function": "limit_count",
+      "strategy": "Fortune bonus clipped against the maximum possible base count so combined melon output cannot exceed nine",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/nether_quartz_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/redstone_ore.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 2
+    },
+    {
+      "source_table": "blocks/short_grass.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "blocks/wheat.json",
+      "function": "apply_bonus",
+      "strategy": "Java Fortune formula emitted as exact-level weighted bonus pools; randomized base and bonus samples are independent",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/abandoned_mineshaft.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/adventure_old/ruin_library.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/ancient_city.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/ancient_city.json",
+      "function": "enchant_randomly",
+      "strategy": "single Java option routed through Bedrock specific_enchants",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/bastion_bridge.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/bastion_other.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/bastion_other.json",
+      "function": "enchant_randomly",
+      "strategy": "single Java option routed through Bedrock specific_enchants",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/desert_pyramid.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/equipment/chainmail.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 4
+    },
+    {
+      "source_table": "chests/equipment/diamond.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 10
+    },
+    {
+      "source_table": "chests/equipment/diamond_tools.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 4
+    },
+    {
+      "source_table": "chests/equipment/diamond_tools_damaged.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 4
+    },
+    {
+      "source_table": "chests/equipment/gold.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 10
+    },
+    {
+      "source_table": "chests/equipment/iron.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 10
+    },
+    {
+      "source_table": "chests/equipment/iron_tools.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 6
+    },
+    {
+      "source_table": "chests/equipment/iron_tools_damaged.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 4
+    },
+    {
+      "source_table": "chests/equipment/sturdy_leather.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 4
+    },
+    {
+      "source_table": "chests/jungle_temple.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/pillager_outpost.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/shipwreck_map.json",
+      "function": "exploration_map",
+      "strategy": "source map context mapped to Bedrock buriedtreasure destination",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/simple_dungeon.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/stronghold_corridor.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/stronghold_crossing.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/stronghold_library.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/trial_chambers/reward_ominous_rare.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure disabled replaces Java #minecraft:in_enchanting_table",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/trial_chambers/reward_ominous_rare.json",
+      "function": "enchant_randomly",
+      "strategy": "restricted Java option list expanded into an equal-weight Bedrock helper table",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/trial_chambers/reward_ominous_rare.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/trial_chambers/reward_rare.json",
+      "function": "enchant_randomly",
+      "strategy": "restricted Java option list expanded into an equal-weight Bedrock helper table",
+      "occurrences": 2
+    },
+    {
+      "source_table": "chests/trial_chambers/reward_rare.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 2
+    },
+    {
+      "source_table": "chests/underwater_ruin_big.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 2
+    },
+    {
+      "source_table": "chests/underwater_ruin_big.json",
+      "function": "exploration_map",
+      "strategy": "source map context mapped to Bedrock buriedtreasure destination",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/underwater_ruin_small.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/underwater_ruin_small.json",
+      "function": "exploration_map",
+      "strategy": "source map context mapped to Bedrock buriedtreasure destination",
+      "occurrences": 1
+    },
+    {
+      "source_table": "chests/woodland_mansion.json",
+      "function": "enchant_randomly",
+      "strategy": "Bedrock enchant_randomly with treasure enabled replaces Java #minecraft:on_random_loot",
+      "occurrences": 1
+    },
+    {
+      "source_table": "gameplay/fishing/treasure.json",
+      "function": "enchant_with_levels",
+      "strategy": "Bedrock enchanting-table algorithm preserves levels; Java option tag becomes the treasure flag",
+      "occurrences": 2
+    },
+    {
+      "source_table": "gameplay/fishing/treasure.json",
+      "function": "set_contents",
+      "strategy": "single Java container entry mapped to Bedrock fill_container",
+      "occurrences": 1
+    },
+    {
+      "source_table": "gameplay/piglin_bartering.json",
+      "function": "enchant_randomly",
+      "strategy": "single Java option routed through Bedrock specific_enchants",
+      "occurrences": 1
+    }
+  ]
 }

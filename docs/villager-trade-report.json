@@ -1718,6 +1718,6 @@
   "approximations": [
     "Offers have unlimited uses and never require restocking.",
     "Java reputation discounts and demand curves are recorded but not exposed by Bedrock Script API.",
-    "Exploration-map destinations and several Java-only stack components remain presentation-only until their owning structure/loot systems are ported."
+    "Java-only trade-stack presentation components without Bedrock item equivalents remain presentation-only; loot-table exploration maps are handled separately by the loot converter."
   ]
 }

@@ -6,52 +6,112 @@
         {
           "type": "item",
           "name": "matcha:golden_helmet",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_chestplate",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_leggings",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_boots",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_pickaxe",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_axe",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_shovel",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:loot_item_0317534a0d",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_spear",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:golden_sword",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         }
       ]
     }

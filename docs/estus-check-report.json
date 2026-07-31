@@ -8,12 +8,12 @@
     {
       "name": "raw_estus item",
       "status": "pass",
-      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/raw_estus.json"
+      "detail": "behavior_pack/items/raw_estus.json"
     },
     {
       "name": "estus_ash item",
       "status": "pass",
-      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/estus_ash.json"
+      "detail": "behavior_pack/items/estus_ash.json"
     },
     {
       "name": "blaze drop hook",

@@ -44,6 +44,10 @@
                 "min": 0.1
               },
               "function": "set_damage"
+            },
+            {
+              "function": "enchant_randomly",
+              "treasure": true
             }
           ]
         },

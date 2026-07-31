@@ -20,8 +20,8 @@
     }
   },
   "summary": {
-    "checks": 16,
-    "passed": 16,
+    "checks": 26,
+    "passed": 26,
     "failed": 0
   },
   "checks": [
@@ -620,6 +620,114 @@
       "detail": ""
     },
     {
+      "name": "native loot function translations",
+      "expected": {
+        "explosion_decay": 14,
+        "set_enchantments": 1,
+        "set_ominous_bottle_amplifier": 2,
+        "set_stew_effect": 2
+      },
+      "actual": {
+        "explosion_decay": 14,
+        "set_stew_effect": 2,
+        "set_ominous_bottle_amplifier": 2,
+        "set_enchantments": 1
+      },
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "documented loot function approximations",
+      "expected": {
+        "apply_bonus": 13,
+        "enchant_randomly": 74,
+        "enchant_with_levels": 10,
+        "exploration_map": 3,
+        "limit_count": 1,
+        "set_contents": 1
+      },
+      "actual": {
+        "apply_bonus": 13,
+        "limit_count": 1,
+        "enchant_randomly": 74,
+        "enchant_with_levels": 10,
+        "exploration_map": 3,
+        "set_contents": 1
+      },
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "no omitted loot functions",
+      "expected": {},
+      "actual": {},
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "generated loot helper tables",
+      "expected": 16,
+      "actual": 16,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "per-table approximation inventory",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "approximation detail totals",
+      "expected": {
+        "apply_bonus": 13,
+        "limit_count": 1,
+        "enchant_randomly": 74,
+        "enchant_with_levels": 10,
+        "exploration_map": 3,
+        "set_contents": 1
+      },
+      "actual": {
+        "apply_bonus": 13,
+        "limit_count": 1,
+        "enchant_randomly": 74,
+        "enchant_with_levels": 10,
+        "exploration_map": 3,
+        "set_contents": 1
+      },
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Fortune helper inventory",
+      "expected": 13,
+      "actual": 13,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "restricted enchantment helper inventory",
+      "expected": 3,
+      "actual": 3,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Fortune I-III routing",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "melon nine-slice cap",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": ""
+    },
+    {
       "name": "structure template inventory",
       "expected": 16,
       "actual": 16,
@@ -763,17 +871,20 @@
       "damage_source_properties": 2,
       "entity_properties": 6
     },
-    "approximated_or_omitted_functions": {
-      "apply_bonus": 13,
+    "translated_functions": {
       "explosion_decay": 14,
+      "set_stew_effect": 2,
+      "set_ominous_bottle_amplifier": 2,
+      "set_enchantments": 1
+    },
+    "approximated_functions": {
+      "apply_bonus": 13,
       "limit_count": 1,
       "enchant_randomly": 74,
-      "set_stew_effect": 2,
       "enchant_with_levels": 10,
       "exploration_map": 3,
-      "set_ominous_bottle_amplifier": 2,
-      "set_enchantments": 1,
       "set_contents": 1
-    }
+    },
+    "omitted_functions": {}
   }
 }

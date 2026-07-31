@@ -23,7 +23,7 @@ estus=(ROOT/"behavior_pack/scripts/estus.js").read_text()
 add("nerfed Blaze Estus chance",'["minecraft:blaze", 0.5]' in estus,"50% base chance")
 for stem in ("silver_sword","warding_sword","warding_shield"):
     path=ROOT/f"behavior_pack/items/generated_components/{stem}.json"
-    add(f"{stem} 1.03 source regeneration",path.exists(),str(path))
+    add(f"{stem} 1.03 source regeneration",path.exists(),str(path.relative_to(ROOT)))
 for stem in ("food_bruschetta","food_baked_apple","smoking_charcoal","smoking_terracotta_from_smoking_clay"):
     needle=stem.replace("food_","")
     paths=[p for p in (ROOT/"behavior_pack/recipes").rglob("*.json") if needle in p.stem]
