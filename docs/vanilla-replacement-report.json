@@ -1,11 +1,10 @@
 {
-  "singleton_replacements": 80,
+  "singleton_replacements": 79,
   "ambiguous_bases": 43,
   "replacements": {
     "minecraft:beetroot_soup": "matcha:milk_bottle",
     "minecraft:blaze_rod": "matcha:stabilised_estus",
     "minecraft:breeze_rod": "matcha:baked_pumpkin",
-    "minecraft:cake": "matcha:cake",
     "minecraft:campfire": "matcha:campfire",
     "minecraft:chainmail_boots": "matcha:chainmail_boots",
     "minecraft:chainmail_chestplate": "matcha:chainmail_chestplate",
@@ -93,7 +92,6 @@
       "matcha:naan"
     ],
     "minecraft:chicken_spawn_egg": [
-      "matcha:amnestic",
       "matcha:bedrock_buster",
       "matcha:warding_stone"
     ],

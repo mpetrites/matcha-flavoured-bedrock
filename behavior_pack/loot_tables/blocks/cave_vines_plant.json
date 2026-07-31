@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:loot_item_c45f6b6d8f",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "block_state_property",
+          "block": "minecraft:cave_vines_plant",
+          "properties": {
+            "berries": "true"
+          }
+        }
+      ]
+    }
+  ]
+}

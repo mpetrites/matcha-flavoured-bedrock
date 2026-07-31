@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": {},
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:diamond_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:diamond_axe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:diamond_shovel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:diamond_hoe",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

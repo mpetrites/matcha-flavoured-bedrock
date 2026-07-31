@@ -16,7 +16,13 @@
           "default": "matcha_component_warding_stone"
         }
       },
-      "minecraft:max_stack_size": 1
+      "minecraft:max_stack_size": 1,
+      "minecraft:interact_button": "Place",
+      "minecraft:use_animation": "bow",
+      "minecraft:use_modifiers": {
+        "use_duration": 0.1,
+        "movement_modifier": 1.0
+      }
     }
   }
 }

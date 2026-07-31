@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:dead_bush",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "item": "minecraft:shears"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:dead_bush",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "item": "#minecraft:hoes"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:stick",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 0,
+                    "max": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

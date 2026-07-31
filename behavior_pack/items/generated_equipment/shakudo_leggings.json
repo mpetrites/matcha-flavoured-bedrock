@@ -21,6 +21,7 @@
       "minecraft:durability": {
         "max_durability": 500
       },
+      "minecraft:glint": true,
       "minecraft:wearable": {
         "slot": "slot.armor.legs",
         "protection": 5

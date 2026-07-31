@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:sea_lantern",
+              "weight": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

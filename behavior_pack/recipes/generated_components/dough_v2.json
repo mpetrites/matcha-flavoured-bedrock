@@ -16,11 +16,14 @@
       },
       {
         "item": "matcha:flour"
+      },
+      {
+        "item": "matcha:flour"
       }
     ],
     "result": {
       "item": "matcha:dough",
-      "count": 4
+      "count": 3
     }
   }
 }

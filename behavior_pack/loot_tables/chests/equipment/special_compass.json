@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:loot_item_155c35c823",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:golden_compass",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:copper_compass",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

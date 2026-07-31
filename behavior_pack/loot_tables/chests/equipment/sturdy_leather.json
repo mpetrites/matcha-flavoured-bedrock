@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": {},
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:sturdy_leather_helmet",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:sturdy_leather_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:sturdy_leather_pants",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:sturdy_leather_boots",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

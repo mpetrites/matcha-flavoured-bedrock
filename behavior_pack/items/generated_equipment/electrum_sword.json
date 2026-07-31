@@ -21,6 +21,7 @@
       "minecraft:durability": {
         "max_durability": 3000
       },
+      "minecraft:glint": true,
       "minecraft:hand_equipped": true,
       "minecraft:damage": 7,
       "minecraft:enchantable": {

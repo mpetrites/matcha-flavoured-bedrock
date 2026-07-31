@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:trade_item_52b576b551",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:trade_item_52b576b551.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_trade_52b576b551"
+        }
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

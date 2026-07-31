@@ -1,5 +1,4 @@
 # Generated component-item test kit
-give @s matcha:amnestic 1
 give @s matcha:bedrock_buster 1
 give @s matcha:benzene 1
 give @s matcha:campfire 1
@@ -85,7 +84,6 @@ give @s matcha:wooden_shovel 1
 give @s matcha:wooden_spear 1
 give @s matcha:wooden_sword 1
 give @s matcha:music_disc_labyrinthine 1
-give @s matcha:cake 1
 give @s matcha:dough 1
 give @s matcha:flour 1
 give @s matcha:flour_bag 1

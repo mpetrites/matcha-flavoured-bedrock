@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:loot_item_6f4213d042",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:loot_item_6f4213d042.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_loot_6f4213d042"
+        }
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

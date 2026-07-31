@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/mediterranean_killifish.json",
+          "weight": 15
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/freshwater_pufferfish.json",
+          "weight": 15
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/lamprey.json",
+          "weight": 8
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/tunisian_barb.json",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/european_eel.json",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

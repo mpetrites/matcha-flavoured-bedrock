@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_reach"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " S ",
+      "SBS",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:ender_pearl"
+      },
+      "B": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_reach"
+    }
+  }
+}

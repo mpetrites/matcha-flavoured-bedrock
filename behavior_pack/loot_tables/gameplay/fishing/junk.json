@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:lily_pad",
+          "weight": 17
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "matcha:loot_item_e07c904137",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "minecraft:water"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fishing_rod",
+          "weight": 2,
+          "functions": [
+            {
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0
+              },
+              "function": "set_damage"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bowl",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ink_sac",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tripwire_hook",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bamboo",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "matcha:loot_item_aadb914327",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "matcha:loot_item_02bdb93dc2",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "matcha:loot_item_6f4213d042",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

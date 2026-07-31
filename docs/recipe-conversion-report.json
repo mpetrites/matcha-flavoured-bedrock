@@ -1,1258 +1,1250 @@
 {
-  "source_recipe_count": 1061,
+  "source_recipe_count": 1060,
   "counts": {
-    "bedrock_recipes_generated": 944,
+    "bedrock_recipes_generated": 945,
     "minecraft:blasting": 26,
     "minecraft:campfire_cooking": 3,
-    "minecraft:crafting_shaped": 164,
+    "minecraft:crafting_shaped": 165,
     "minecraft:crafting_shapeless": 194,
     "minecraft:smelting": 6,
     "minecraft:smoking": 28,
     "minecraft:stonecutting": 330,
-    "skipped_component_results": 310,
-    "source_recipes_converted": 751
+    "skipped_component_results": 308,
+    "source_recipes_converted": 752
   },
-  "generated_files": 944,
-  "skipped_count": 310,
+  "generated_files": 945,
+  "skipped_count": 308,
   "skipped": [
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/bane_of_arthopods.json",
+      "source": "data/blessings/recipe/bane_of_arthopods.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/channeling_smite.json",
+      "source": "data/blessings/recipe/channeling_smite.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/density_knockback_punch.json",
+      "source": "data/blessings/recipe/density_knockback_punch.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/depth_strider_riptide_aqua_affinity_respiration.json",
+      "source": "data/blessings/recipe/depth_strider_riptide_aqua_affinity_respiration.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/efficiency_unbreaking.json",
+      "source": "data/blessings/recipe/efficiency_unbreaking.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/feather_falling.json",
+      "source": "data/blessings/recipe/feather_falling.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/flame_fire_aspect_fire_protection.json",
+      "source": "data/blessings/recipe/flame_fire_aspect_fire_protection.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/frost_walker_frost_protection.json",
+      "source": "data/blessings/recipe/frost_walker_frost_protection.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/hell_bound_book.json",
+      "source": "data/blessings/recipe/hell_bound_book.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/infinity.json",
+      "source": "data/blessings/recipe/infinity.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/lunge_breach.json",
+      "source": "data/blessings/recipe/lunge_breach.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/lure_luck_of_the_sea.json",
+      "source": "data/blessings/recipe/lure_luck_of_the_sea.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/mending.json",
+      "source": "data/blessings/recipe/mending.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/piercing_impaling.json",
+      "source": "data/blessings/recipe/piercing_impaling.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/power_multishot.json",
+      "source": "data/blessings/recipe/power_multishot.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/reach.json",
+      "source": "data/blessings/recipe/reach.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/silk_touch.json",
+      "source": "data/blessings/recipe/silk_touch.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/swift_sneak_soul_speed.json",
+      "source": "data/blessings/recipe/swift_sneak_soul_speed.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/traversal.json",
+      "source": "data/blessings/recipe/traversal.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/unbreaking.json",
+      "source": "data/blessings/recipe/unbreaking.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/warding.json",
+      "source": "data/blessings/recipe/warding.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/wind_burst_anemos.json",
+      "source": "data/blessings/recipe/wind_burst_anemos.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/blessings/recipe/zephyr.json",
+      "source": "data/blessings/recipe/zephyr.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/amnestic.json",
+      "source": "data/crafting/recipe/bedrock_buster.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/bedrock_buster.json",
+      "source": "data/crafting/recipe/benzene.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/benzene.json",
+      "source": "data/crafting/recipe/campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/campfire.json",
+      "source": "data/crafting/recipe/carbon_rich_iron.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/carbon_rich_iron.json",
+      "source": "data/crafting/recipe/chainmail_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_boots.json",
+      "source": "data/crafting/recipe/chainmail_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_chestplate.json",
+      "source": "data/crafting/recipe/chainmail_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_helmet.json",
+      "source": "data/crafting/recipe/chainmail_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_leggings.json",
+      "source": "data/crafting/recipe/chicken_noodle_soup.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chicken_noodle_soup.json",
+      "source": "data/crafting/recipe/copper_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_axe.json",
+      "source": "data/crafting/recipe/copper_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_boots.json",
+      "source": "data/crafting/recipe/copper_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_chestplate.json",
+      "source": "data/crafting/recipe/copper_compass.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_compass.json",
+      "source": "data/crafting/recipe/copper_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_dolabra.json",
+      "source": "data/crafting/recipe/copper_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_helmet.json",
+      "source": "data/crafting/recipe/copper_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_hoe.json",
+      "source": "data/crafting/recipe/copper_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_leggings.json",
+      "source": "data/crafting/recipe/copper_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_mattock.json",
+      "source": "data/crafting/recipe/copper_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_pickaxe.json",
+      "source": "data/crafting/recipe/copper_shears.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_shears.json",
+      "source": "data/crafting/recipe/copper_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_shovel.json",
+      "source": "data/crafting/recipe/copper_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_spear.json",
+      "source": "data/crafting/recipe/copper_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_sword.json",
+      "source": "data/crafting/recipe/crystal_heart.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/crystal_heart.json",
+      "source": "data/crafting/recipe/diamond_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_axe.json",
+      "source": "data/crafting/recipe/diamond_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_boots.json",
+      "source": "data/crafting/recipe/diamond_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_chestplate.json",
+      "source": "data/crafting/recipe/diamond_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_dolabra.json",
+      "source": "data/crafting/recipe/diamond_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_helmet.json",
+      "source": "data/crafting/recipe/diamond_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_hoe.json",
+      "source": "data/crafting/recipe/diamond_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_leggings.json",
+      "source": "data/crafting/recipe/diamond_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_mattock.json",
+      "source": "data/crafting/recipe/diamond_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_pickaxe.json",
+      "source": "data/crafting/recipe/diamond_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_shovel.json",
+      "source": "data/crafting/recipe/diamond_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_spear.json",
+      "source": "data/crafting/recipe/diamond_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_sword.json",
+      "source": "data/crafting/recipe/divine_fragment.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/divine_fragment.json",
+      "source": "data/crafting/recipe/golden_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_axe.json",
+      "source": "data/crafting/recipe/golden_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_boots.json",
+      "source": "data/crafting/recipe/golden_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_chestplate.json",
+      "source": "data/crafting/recipe/golden_compass.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_compass.json",
+      "source": "data/crafting/recipe/golden_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_helmet.json",
+      "source": "data/crafting/recipe/golden_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_hoe.json",
+      "source": "data/crafting/recipe/golden_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_leggings.json",
+      "source": "data/crafting/recipe/golden_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_pickaxe.json",
+      "source": "data/crafting/recipe/golden_pie.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_pie.json",
+      "source": "data/crafting/recipe/golden_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_shovel.json",
+      "source": "data/crafting/recipe/golden_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_spear.json",
+      "source": "data/crafting/recipe/golden_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_sword.json",
+      "source": "data/crafting/recipe/green_curry.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/green_curry.json",
+      "source": "data/crafting/recipe/invisible_item_frame.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/invisible_item_frame.json",
+      "source": "data/crafting/recipe/iron_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_axe.json",
+      "source": "data/crafting/recipe/iron_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_boots.json",
+      "source": "data/crafting/recipe/iron_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_chestplate.json",
+      "source": "data/crafting/recipe/iron_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_dolabra.json",
+      "source": "data/crafting/recipe/iron_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_helmet.json",
+      "source": "data/crafting/recipe/iron_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_hoe.json",
+      "source": "data/crafting/recipe/iron_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_leggings.json",
+      "source": "data/crafting/recipe/iron_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_mattock.json",
+      "source": "data/crafting/recipe/iron_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_pickaxe.json",
+      "source": "data/crafting/recipe/iron_shears.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_shears.json",
+      "source": "data/crafting/recipe/iron_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_shovel.json",
+      "source": "data/crafting/recipe/iron_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_spear.json",
+      "source": "data/crafting/recipe/iron_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_sword.json",
+      "source": "data/crafting/recipe/leather_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_boots.json",
+      "source": "data/crafting/recipe/leather_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_chestplate.json",
+      "source": "data/crafting/recipe/leather_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_helmet.json",
+      "source": "data/crafting/recipe/leather_pants.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_pants.json",
+      "source": "data/crafting/recipe/mace.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/mace.json",
+      "source": "data/crafting/recipe/minecart_from_steel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/minecart_from_steel.json",
+      "source": "data/crafting/recipe/morsel_stew.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/morsel_stew.json",
+      "source": "data/crafting/recipe/music_disc_golden.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/music_disc_golden.json",
+      "source": "data/crafting/recipe/nazar.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/nazar.json",
+      "source": "data/crafting/recipe/paneer_makhani.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/paneer_makhani.json",
+      "source": "data/crafting/recipe/ramen.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/ramen.json",
+      "source": "data/crafting/recipe/snow_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/snow_shovel.json",
+      "source": "data/crafting/recipe/soul_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/soul_campfire.json",
+      "source": "data/crafting/recipe/squid_ink_pasta.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/squid_ink_pasta.json",
+      "source": "data/crafting/recipe/stabilised_estus.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/stabilised_estus.json",
+      "source": "data/crafting/recipe/stuffed_mushrooms.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/stuffed_mushrooms.json",
+      "source": "data/crafting/recipe/sturdy_leather_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_boots.json",
+      "source": "data/crafting/recipe/sturdy_leather_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_chestplate.json",
+      "source": "data/crafting/recipe/sturdy_leather_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_helmet.json",
+      "source": "data/crafting/recipe/sturdy_leather_pants.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_pants.json",
+      "source": "data/crafting/recipe/tinder.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/tinder.json",
+      "source": "data/crafting/recipe/warding_stone.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/warding_stone.json",
+      "source": "data/crafting/recipe/wooden_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_axe.json",
+      "source": "data/crafting/recipe/wooden_cross.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_cross.json",
+      "source": "data/crafting/recipe/wooden_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_hoe.json",
+      "source": "data/crafting/recipe/wooden_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_pickaxe.json",
+      "source": "data/crafting/recipe/wooden_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_shovel.json",
+      "source": "data/crafting/recipe/wooden_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_spear.json",
+      "source": "data/crafting/recipe/wooden_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_sword.json",
+      "source": "data/custom_music/recipe/music_disc_labyrinthine.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/custom_music/recipe/music_disc_labyrinthine.json",
+      "source": "data/food/recipe/apple_empanada.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/apple_empanada.json",
+      "source": "data/food/recipe/baked_apple.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_apple.json",
+      "source": "data/food/recipe/baked_apple_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_apple_campfire.json",
+      "source": "data/food/recipe/baked_golden_apple.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_golden_apple.json",
+      "source": "data/food/recipe/baked_golden_apple_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_golden_apple_campfire.json",
+      "source": "data/food/recipe/baked_potato.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_potato.json",
+      "source": "data/food/recipe/baked_potato_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_potato_campfire.json",
+      "source": "data/food/recipe/baked_pumpkin.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_pumpkin.json",
+      "source": "data/food/recipe/baked_pumpkin_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/baked_pumpkin_campfire.json",
+      "source": "data/food/recipe/bokguk.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/bokguk.json",
+      "source": "data/food/recipe/braised_brown_mushroom.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/braised_brown_mushroom.json",
+      "source": "data/food/recipe/braised_brown_mushroom_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/braised_brown_mushroom_campfire.json",
+      "source": "data/food/recipe/braised_crimson_fungus.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/braised_crimson_fungus.json",
+      "source": "data/food/recipe/braised_crimson_fungus_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/braised_crimson_fungus_campfire.json",
+      "source": "data/food/recipe/braised_red_mushroom.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/braised_red_mushroom.json",
+      "source": "data/food/recipe/braised_red_mushroom_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/braised_red_mushroom_campfire.json",
+      "source": "data/food/recipe/brasied_warped_fungus.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/brasied_warped_fungus.json",
+      "source": "data/food/recipe/brasied_warped_fungus_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/brasied_warped_fungus_campfire.json",
+      "source": "data/food/recipe/bread.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/bread.json",
+      "source": "data/food/recipe/bread_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/bread_campfire.json",
+      "source": "data/food/recipe/brownie.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/brownie.json",
+      "source": "data/food/recipe/bruschetta.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/bruschetta.json",
+      "source": "data/food/recipe/canned_apples.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cake.json",
+      "source": "data/food/recipe/canned_golden_apples.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/canned_apples.json",
+      "source": "data/food/recipe/carrot_cupcake.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/canned_golden_apples.json",
+      "source": "data/food/recipe/charred_fish.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/carrot_cupcake.json",
+      "source": "data/food/recipe/charred_meat.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/charred_fish.json",
+      "source": "data/food/recipe/charred_potato.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/charred_meat.json",
+      "source": "data/food/recipe/cheese.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/charred_potato.json",
+      "source": "data/food/recipe/chocolate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cheese.json",
+      "source": "data/food/recipe/chocolate_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/chocolate.json",
+      "source": "data/food/recipe/chocolate_chip_cookie.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/chocolate_campfire.json",
+      "source": "data/food/recipe/chorus_mochi.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/chocolate_chip_cookie.json",
+      "source": "data/food/recipe/cooked_beef.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/chorus_mochi.json",
+      "source": "data/food/recipe/cooked_beef_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_beef.json",
+      "source": "data/food/recipe/cooked_chicken.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_beef_campfire.json",
+      "source": "data/food/recipe/cooked_chicken_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_chicken.json",
+      "source": "data/food/recipe/cooked_cod.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_chicken_campfire.json",
+      "source": "data/food/recipe/cooked_cod_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_cod.json",
+      "source": "data/food/recipe/cooked_mutton.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_cod_campfire.json",
+      "source": "data/food/recipe/cooked_mutton_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_mutton.json",
+      "source": "data/food/recipe/cooked_pork.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_mutton_campfire.json",
+      "source": "data/food/recipe/cooked_pork_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_pork.json",
+      "source": "data/food/recipe/cooked_pufferfish.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_pork_campfire.json",
+      "source": "data/food/recipe/cooked_pufferfish_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_pufferfish.json",
+      "source": "data/food/recipe/cooked_rabbit.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_pufferfish_campfire.json",
+      "source": "data/food/recipe/cooked_rabbit_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_rabbit.json",
+      "source": "data/food/recipe/cooked_salmon.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_rabbit_campfire.json",
+      "source": "data/food/recipe/cooked_salmon_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_salmon.json",
+      "source": "data/food/recipe/cooked_tropical_fish.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_salmon_campfire.json",
+      "source": "data/food/recipe/cooked_tropical_fish_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_tropical_fish.json",
+      "source": "data/food/recipe/crimson_stroganoff.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cooked_tropical_fish_campfire.json",
+      "source": "data/food/recipe/dough.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/crimson_stroganoff.json",
+      "source": "data/food/recipe/dough_from_water.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dough.json",
+      "source": "data/food/recipe/dried_kelp.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dough_from_water.json",
+      "source": "data/food/recipe/dried_kelp_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dried_kelp.json",
+      "source": "data/food/recipe/dried_kelp_from_dried_kelp_block.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dried_kelp_campfire.json",
+      "source": "data/food/recipe/flour.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dried_kelp_from_dried_kelp_block.json",
+      "source": "data/food/recipe/flour_bag.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour.json",
+      "source": "data/food/recipe/flour_from_flour_bag.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour_bag.json",
+      "source": "data/food/recipe/french_toast.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour_from_flour_bag.json",
+      "source": "data/food/recipe/fried_egg.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/french_toast.json",
+      "source": "data/food/recipe/fried_egg_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/fried_egg.json",
+      "source": "data/food/recipe/gimmari.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/fried_egg_campfire.json",
+      "source": "data/food/recipe/glow_berry_crumble.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/gimmari.json",
+      "source": "data/food/recipe/glow_jam.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/glow_berry_crumble.json",
+      "source": "data/food/recipe/glow_mash.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/glow_jam.json",
+      "source": "data/food/recipe/glow_mash_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/glow_mash.json",
+      "source": "data/food/recipe/gnocchi.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/glow_mash_campfire.json",
+      "source": "data/food/recipe/golden_apple.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/gnocchi.json",
+      "source": "data/food/recipe/golden_apple_empanada.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/golden_apple.json",
+      "source": "data/food/recipe/golden_carrot.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/golden_apple_empanada.json",
+      "source": "data/food/recipe/golden_carrot_cupcake.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/golden_carrot.json",
+      "source": "data/food/recipe/golden_pickled_carrots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/golden_carrot_cupcake.json",
+      "source": "data/food/recipe/golden_steamed_carrots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/golden_pickled_carrots.json",
+      "source": "data/food/recipe/golden_steamed_carrots_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/golden_steamed_carrots.json",
+      "source": "data/food/recipe/green_curry.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/golden_steamed_carrots_campfire.json",
+      "source": "data/food/recipe/grilled_melon.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/green_curry.json",
+      "source": "data/food/recipe/grilled_melon_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/grilled_melon.json",
+      "source": "data/food/recipe/grilled_tomatoes.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/grilled_melon_campfire.json",
+      "source": "data/food/recipe/grilled_tomatoes_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/grilled_tomatoes.json",
+      "source": "data/food/recipe/honey_ginger_tea.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/grilled_tomatoes_campfire.json",
+      "source": "data/food/recipe/honey_ginger_tea_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/honey_ginger_tea.json",
+      "source": "data/food/recipe/honied_french_toast.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/honey_ginger_tea_campfire.json",
+      "source": "data/food/recipe/japanese_curry.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/honied_french_toast.json",
+      "source": "data/food/recipe/latke.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/japanese_curry.json",
+      "source": "data/food/recipe/mead.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/latke.json",
+      "source": "data/food/recipe/melon_sorbet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/mead.json",
+      "source": "data/food/recipe/milk_bottle.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/melon_sorbet.json",
+      "source": "data/food/recipe/naan.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/milk_bottle.json",
+      "source": "data/food/recipe/paneer_makhani.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/naan.json",
+      "source": "data/food/recipe/pickled_carrots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/paneer_makhani.json",
+      "source": "data/food/recipe/pickled_crimson_fungus.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pickled_carrots.json",
+      "source": "data/food/recipe/pickled_mushrooms.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pickled_crimson_fungus.json",
+      "source": "data/food/recipe/pickled_potatoes.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pickled_mushrooms.json",
+      "source": "data/food/recipe/pickled_red_mushrooms.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pickled_potatoes.json",
+      "source": "data/food/recipe/pickled_tomatoes.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pickled_red_mushrooms.json",
+      "source": "data/food/recipe/pickled_warped_fungus.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pickled_tomatoes.json",
+      "source": "data/food/recipe/popped_chorus_fruit.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pickled_warped_fungus.json",
+      "source": "data/food/recipe/popped_chorus_fruit_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/popped_chorus_fruit.json",
+      "source": "data/food/recipe/puerquito.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/popped_chorus_fruit_campfire.json",
+      "source": "data/food/recipe/pumpkin_empanada.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/puerquito.json",
+      "source": "data/food/recipe/pumpkin_jam.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pumpkin_empanada.json",
+      "source": "data/food/recipe/pupusa.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pumpkin_jam.json",
+      "source": "data/food/recipe/ramen.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/pupusa.json",
+      "source": "data/food/recipe/red_mushroom_stroganoff.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/ramen.json",
+      "source": "data/food/recipe/rind_jam.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/red_mushroom_stroganoff.json",
+      "source": "data/food/recipe/steamed_carrots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/rind_jam.json",
+      "source": "data/food/recipe/steamed_carrots_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/steamed_carrots.json",
+      "source": "data/food/recipe/stroganoff.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/steamed_carrots_campfire.json",
+      "source": "data/food/recipe/sweet_berry_danish.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/stroganoff.json",
+      "source": "data/food/recipe/sweet_berry_jam.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/sweet_berry_danish.json",
+      "source": "data/food/recipe/sweet_berry_mash.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/sweet_berry_jam.json",
+      "source": "data/food/recipe/sweet_berry_mash_campfire.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/sweet_berry_mash.json",
+      "source": "data/food/recipe/sweet_berry_toast.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/sweet_berry_mash_campfire.json",
+      "source": "data/food/recipe/uncooked_curry.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/sweet_berry_toast.json",
+      "source": "data/food/recipe/uncooked_green_curry.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_curry.json",
+      "source": "data/food/recipe/uncooked_paneer_makhani.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_green_curry.json",
+      "source": "data/food/recipe/uncooked_ramen.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_paneer_makhani.json",
+      "source": "data/food/recipe/warped_stroganoff.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_ramen.json",
+      "source": "data/potions/recipe/estus_flask.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/warped_stroganoff.json",
+      "source": "data/smithing_table/recipe/adamant_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/potions/recipe/estus_flask.json",
+      "source": "data/smithing_table/recipe/adamant_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_axe.json",
+      "source": "data/smithing_table/recipe/adamant_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_boots.json",
+      "source": "data/smithing_table/recipe/adamant_claymore.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_chestplate.json",
+      "source": "data/smithing_table/recipe/adamant_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_claymore.json",
+      "source": "data/smithing_table/recipe/adamant_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_dolabra.json",
+      "source": "data/smithing_table/recipe/adamant_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_helmet.json",
+      "source": "data/smithing_table/recipe/adamant_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_hoe.json",
+      "source": "data/smithing_table/recipe/adamant_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_leggings.json",
+      "source": "data/smithing_table/recipe/adamant_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_mattock.json",
+      "source": "data/smithing_table/recipe/adamant_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_pickaxe.json",
+      "source": "data/smithing_table/recipe/adamant_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_shovel.json",
+      "source": "data/smithing_table/recipe/adamant_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_spear.json",
+      "source": "data/smithing_table/recipe/amber_earrings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/adamant_sword.json",
+      "source": "data/smithing_table/recipe/bronze_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/amber_earrings.json",
+      "source": "data/smithing_table/recipe/bronze_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_axe.json",
+      "source": "data/smithing_table/recipe/bronze_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_boots.json",
+      "source": "data/smithing_table/recipe/bronze_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_chestplate.json",
+      "source": "data/smithing_table/recipe/bronze_elytra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_dolabra.json",
+      "source": "data/smithing_table/recipe/bronze_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_elytra.json",
+      "source": "data/smithing_table/recipe/bronze_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_helmet.json",
+      "source": "data/smithing_table/recipe/bronze_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_hoe.json",
+      "source": "data/smithing_table/recipe/bronze_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_leggings.json",
+      "source": "data/smithing_table/recipe/bronze_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_mattock.json",
+      "source": "data/smithing_table/recipe/bronze_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_pickaxe.json",
+      "source": "data/smithing_table/recipe/bronze_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_shovel.json",
+      "source": "data/smithing_table/recipe/bronze_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_spear.json",
+      "source": "data/smithing_table/recipe/butcher_knife.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_sword.json",
+      "source": "data/smithing_table/recipe/electrum_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/butcher_knife.json",
+      "source": "data/smithing_table/recipe/electrum_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_axe.json",
+      "source": "data/smithing_table/recipe/electrum_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_boots.json",
+      "source": "data/smithing_table/recipe/electrum_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_chestplate.json",
+      "source": "data/smithing_table/recipe/electrum_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_dolabra.json",
+      "source": "data/smithing_table/recipe/electrum_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_helmet.json",
+      "source": "data/smithing_table/recipe/electrum_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_hoe.json",
+      "source": "data/smithing_table/recipe/electrum_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_leggings.json",
+      "source": "data/smithing_table/recipe/electrum_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_mattock.json",
+      "source": "data/smithing_table/recipe/electrum_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_pickaxe.json",
+      "source": "data/smithing_table/recipe/electrum_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_shovel.json",
+      "source": "data/smithing_table/recipe/electrum_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_spear.json",
+      "source": "data/smithing_table/recipe/gilded_leather_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/electrum_sword.json",
+      "source": "data/smithing_table/recipe/lesser_warding_shield.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/gilded_leather_boots.json",
+      "source": "data/smithing_table/recipe/shakudo_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/lesser_warding_shield.json",
+      "source": "data/smithing_table/recipe/shakudo_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_axe.json",
+      "source": "data/smithing_table/recipe/shakudo_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_boots.json",
+      "source": "data/smithing_table/recipe/shakudo_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_chestplate.json",
+      "source": "data/smithing_table/recipe/shakudo_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_dolabra.json",
+      "source": "data/smithing_table/recipe/shakudo_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_helmet.json",
+      "source": "data/smithing_table/recipe/shakudo_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_hoe.json",
+      "source": "data/smithing_table/recipe/shakudo_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_leggings.json",
+      "source": "data/smithing_table/recipe/shakudo_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_mattock.json",
+      "source": "data/smithing_table/recipe/shakudo_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_pickaxe.json",
+      "source": "data/smithing_table/recipe/shakudo_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_shovel.json",
+      "source": "data/smithing_table/recipe/shakudo_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_spear.json",
+      "source": "data/smithing_table/recipe/silver_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/shakudo_sword.json",
+      "source": "data/smithing_table/recipe/steel_axe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/silver_sword.json",
+      "source": "data/smithing_table/recipe/steel_boots.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_axe.json",
+      "source": "data/smithing_table/recipe/steel_chestplate.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_boots.json",
+      "source": "data/smithing_table/recipe/steel_dolabra.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_chestplate.json",
+      "source": "data/smithing_table/recipe/steel_helmet.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_dolabra.json",
+      "source": "data/smithing_table/recipe/steel_hoe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_helmet.json",
+      "source": "data/smithing_table/recipe/steel_leggings.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_hoe.json",
+      "source": "data/smithing_table/recipe/steel_mattock.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_leggings.json",
+      "source": "data/smithing_table/recipe/steel_pickaxe.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_mattock.json",
+      "source": "data/smithing_table/recipe/steel_shears.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_pickaxe.json",
+      "source": "data/smithing_table/recipe/steel_shovel.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_shears.json",
+      "source": "data/smithing_table/recipe/steel_spear.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_shovel.json",
+      "source": "data/smithing_table/recipe/steel_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_spear.json",
+      "source": "data/smithing_table/recipe/warding_shield.json",
       "reason": "Java-only result components require a custom Bedrock item"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/steel_sword.json",
-      "reason": "Java-only result components require a custom Bedrock item"
-    },
-    {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/warding_shield.json",
-      "reason": "Java-only result components require a custom Bedrock item"
-    },
-    {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/warding_sword.json",
+      "source": "data/smithing_table/recipe/warding_sword.json",
       "reason": "Java-only result components require a custom Bedrock item"
     }
   ]

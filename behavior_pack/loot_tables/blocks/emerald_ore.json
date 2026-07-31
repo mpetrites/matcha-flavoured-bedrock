@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:emerald_ore",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "enchantments": [
+                    {
+                      "enchantment": "silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:prismarine_shard",
+              "weight": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

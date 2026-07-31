@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Extract reusable tier definitions from Matcha's Java smithing recipes."""
-import json, re
+import argparse, json, re
 from pathlib import Path
+from upstream import add_source_argument, validate_source
 
 ROOT = Path(__file__).resolve().parents[1]
-JAVA = ROOT.parent / "work/java-source-104"
+parser = argparse.ArgumentParser(); add_source_argument(parser)
+JAVA = validate_source(parser.parse_args().source)
 RECIPES = JAVA / "data/smithing_table/recipe"
 LANG = json.loads((JAVA / "assets/minecraft/lang/en_us.json").read_text())
 OUT = Path(__file__).parent / "equipment_tiers"

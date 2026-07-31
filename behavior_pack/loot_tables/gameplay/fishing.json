@@ -1,0 +1,190 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/junk.json",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/treasure.json",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/freshwater_cold.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/freshwater_cool.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/freshwater_temperate.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/freshwater_hot_wet.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/freshwater_hot_dry.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/saltwater_cold.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/saltwater_cool.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/saltwater_temperate.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/saltwater_warm.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/saltwater_hot.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/swamps.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/deep_dark.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/sulfur_caves.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/freshwater_temperate.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/pale_garden.json",
+          "weight": 85,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

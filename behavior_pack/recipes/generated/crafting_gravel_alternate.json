@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_gravel_alternate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DF",
+      "FD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:dirt"
+      },
+      "F": {
+        "item": "minecraft:flint"
+      }
+    },
+    "result": {
+      "item": "minecraft:gravel",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_efficiency_unbreaking"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ESE",
+      "pBd",
+      "EDE"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "B": {
+        "item": "minecraft:enchanted_book"
+      },
+      "E": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "d": {
+        "item": "minecraft:diamond_axe"
+      },
+      "p": {
+        "item": "matcha:diamond_pickaxe"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_efficiency_unbreaking"
+    }
+  }
+}

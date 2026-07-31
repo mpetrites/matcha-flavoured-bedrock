@@ -1,19 +1,11 @@
 {
-  "source_component_item_recipes": 106,
-  "custom_items_generated": 101,
+  "source_component_item_recipes": 104,
+  "custom_items_generated": 99,
   "existing_items_reused": 5,
-  "recipe_files_generated": 111,
+  "recipe_files_generated": 109,
   "items": [
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/amnestic.json",
-      "item": "matcha:amnestic",
-      "status": "generated",
-      "untranslated_components": [
-        "minecraft:entity_data"
-      ]
-    },
-    {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/bedrock_buster.json",
+      "source": "data/crafting/recipe/bedrock_buster.json",
       "item": "matcha:bedrock_buster",
       "status": "generated",
       "untranslated_components": [
@@ -21,7 +13,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/benzene.json",
+      "source": "data/crafting/recipe/benzene.json",
       "item": "matcha:benzene",
       "status": "generated",
       "untranslated_components": [
@@ -29,7 +21,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/campfire.json",
+      "source": "data/crafting/recipe/campfire.json",
       "item": "matcha:campfire",
       "status": "generated",
       "untranslated_components": [
@@ -37,7 +29,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/carbon_rich_iron.json",
+      "source": "data/crafting/recipe/carbon_rich_iron.json",
       "item": "matcha:carbon_rich_iron",
       "status": "generated",
       "untranslated_components": [
@@ -45,7 +37,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_boots.json",
+      "source": "data/crafting/recipe/chainmail_boots.json",
       "item": "matcha:chainmail_boots",
       "status": "generated",
       "untranslated_components": [
@@ -53,7 +45,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_chestplate.json",
+      "source": "data/crafting/recipe/chainmail_chestplate.json",
       "item": "matcha:chainmail_chestplate",
       "status": "generated",
       "untranslated_components": [
@@ -61,7 +53,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_helmet.json",
+      "source": "data/crafting/recipe/chainmail_helmet.json",
       "item": "matcha:chainmail_helmet",
       "status": "generated",
       "untranslated_components": [
@@ -69,7 +61,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/chainmail_leggings.json",
+      "source": "data/crafting/recipe/chainmail_leggings.json",
       "item": "matcha:chainmail_leggings",
       "status": "generated",
       "untranslated_components": [
@@ -77,174 +69,174 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_axe.json",
+      "source": "data/crafting/recipe/copper_axe.json",
       "item": "matcha:copper_axe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_boots.json",
+      "source": "data/crafting/recipe/copper_boots.json",
       "item": "matcha:copper_boots",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_chestplate.json",
+      "source": "data/crafting/recipe/copper_chestplate.json",
       "item": "matcha:copper_chestplate",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_compass.json",
+      "source": "data/crafting/recipe/copper_compass.json",
       "item": "matcha:copper_compass",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_dolabra.json",
+      "source": "data/crafting/recipe/copper_dolabra.json",
       "item": "matcha:copper_dolabra",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_helmet.json",
+      "source": "data/crafting/recipe/copper_helmet.json",
       "item": "matcha:copper_helmet",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_hoe.json",
+      "source": "data/crafting/recipe/copper_hoe.json",
       "item": "matcha:copper_hoe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_leggings.json",
+      "source": "data/crafting/recipe/copper_leggings.json",
       "item": "matcha:copper_leggings",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_mattock.json",
+      "source": "data/crafting/recipe/copper_mattock.json",
       "item": "matcha:copper_mattock",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_pickaxe.json",
+      "source": "data/crafting/recipe/copper_pickaxe.json",
       "item": "matcha:copper_pickaxe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_shears.json",
+      "source": "data/crafting/recipe/copper_shears.json",
       "item": "matcha:copper_shears",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_shovel.json",
+      "source": "data/crafting/recipe/copper_shovel.json",
       "item": "matcha:copper_shovel",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_spear.json",
+      "source": "data/crafting/recipe/copper_spear.json",
       "item": "matcha:copper_spear",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/copper_sword.json",
+      "source": "data/crafting/recipe/copper_sword.json",
       "item": "matcha:copper_sword",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/crystal_heart.json",
+      "source": "data/crafting/recipe/crystal_heart.json",
       "item": "matcha:heart_container",
       "status": "existing_item_reused"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_axe.json",
+      "source": "data/crafting/recipe/diamond_axe.json",
       "item": "matcha:diamond_axe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_boots.json",
+      "source": "data/crafting/recipe/diamond_boots.json",
       "item": "matcha:diamond_boots",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_chestplate.json",
+      "source": "data/crafting/recipe/diamond_chestplate.json",
       "item": "matcha:diamond_chestplate",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_dolabra.json",
+      "source": "data/crafting/recipe/diamond_dolabra.json",
       "item": "matcha:diamond_dolabra",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_helmet.json",
+      "source": "data/crafting/recipe/diamond_helmet.json",
       "item": "matcha:diamond_helmet",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_hoe.json",
+      "source": "data/crafting/recipe/diamond_hoe.json",
       "item": "matcha:diamond_hoe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_leggings.json",
+      "source": "data/crafting/recipe/diamond_leggings.json",
       "item": "matcha:diamond_leggings",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_mattock.json",
+      "source": "data/crafting/recipe/diamond_mattock.json",
       "item": "matcha:diamond_mattock",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_pickaxe.json",
+      "source": "data/crafting/recipe/diamond_pickaxe.json",
       "item": "matcha:diamond_pickaxe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_shovel.json",
+      "source": "data/crafting/recipe/diamond_shovel.json",
       "item": "matcha:diamond_shovel",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_spear.json",
+      "source": "data/crafting/recipe/diamond_spear.json",
       "item": "matcha:diamond_spear",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/diamond_sword.json",
+      "source": "data/crafting/recipe/diamond_sword.json",
       "item": "matcha:diamond_sword",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/divine_fragment.json",
+      "source": "data/crafting/recipe/divine_fragment.json",
       "item": "matcha:divine_fragment",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_axe.json",
+      "source": "data/crafting/recipe/golden_axe.json",
       "item": "matcha:golden_axe",
       "status": "generated",
       "untranslated_components": [
@@ -252,7 +244,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_boots.json",
+      "source": "data/crafting/recipe/golden_boots.json",
       "item": "matcha:golden_boots",
       "status": "generated",
       "untranslated_components": [
@@ -260,7 +252,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_chestplate.json",
+      "source": "data/crafting/recipe/golden_chestplate.json",
       "item": "matcha:golden_chestplate",
       "status": "generated",
       "untranslated_components": [
@@ -268,13 +260,13 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_compass.json",
+      "source": "data/crafting/recipe/golden_compass.json",
       "item": "matcha:golden_compass",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_helmet.json",
+      "source": "data/crafting/recipe/golden_helmet.json",
       "item": "matcha:golden_helmet",
       "status": "generated",
       "untranslated_components": [
@@ -282,7 +274,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_hoe.json",
+      "source": "data/crafting/recipe/golden_hoe.json",
       "item": "matcha:golden_hoe",
       "status": "generated",
       "untranslated_components": [
@@ -290,7 +282,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_leggings.json",
+      "source": "data/crafting/recipe/golden_leggings.json",
       "item": "matcha:golden_leggings",
       "status": "generated",
       "untranslated_components": [
@@ -298,7 +290,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_pickaxe.json",
+      "source": "data/crafting/recipe/golden_pickaxe.json",
       "item": "matcha:golden_pickaxe",
       "status": "generated",
       "untranslated_components": [
@@ -306,7 +298,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_shovel.json",
+      "source": "data/crafting/recipe/golden_shovel.json",
       "item": "matcha:golden_shovel",
       "status": "generated",
       "untranslated_components": [
@@ -314,7 +306,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_spear.json",
+      "source": "data/crafting/recipe/golden_spear.json",
       "item": "matcha:golden_spear",
       "status": "generated",
       "untranslated_components": [
@@ -322,7 +314,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/golden_sword.json",
+      "source": "data/crafting/recipe/golden_sword.json",
       "item": "matcha:golden_sword",
       "status": "generated",
       "untranslated_components": [
@@ -330,7 +322,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/invisible_item_frame.json",
+      "source": "data/crafting/recipe/invisible_item_frame.json",
       "item": "matcha:invisible_item_frame",
       "status": "generated",
       "untranslated_components": [
@@ -338,85 +330,85 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_axe.json",
+      "source": "data/crafting/recipe/iron_axe.json",
       "item": "matcha:iron_axe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_boots.json",
+      "source": "data/crafting/recipe/iron_boots.json",
       "item": "matcha:iron_boots",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_chestplate.json",
+      "source": "data/crafting/recipe/iron_chestplate.json",
       "item": "matcha:iron_chestplate",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_dolabra.json",
+      "source": "data/crafting/recipe/iron_dolabra.json",
       "item": "matcha:iron_dolabra",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_helmet.json",
+      "source": "data/crafting/recipe/iron_helmet.json",
       "item": "matcha:iron_helmet",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_hoe.json",
+      "source": "data/crafting/recipe/iron_hoe.json",
       "item": "matcha:iron_hoe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_leggings.json",
+      "source": "data/crafting/recipe/iron_leggings.json",
       "item": "matcha:iron_leggings",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_mattock.json",
+      "source": "data/crafting/recipe/iron_mattock.json",
       "item": "matcha:iron_mattock",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_pickaxe.json",
+      "source": "data/crafting/recipe/iron_pickaxe.json",
       "item": "matcha:iron_pickaxe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_shears.json",
+      "source": "data/crafting/recipe/iron_shears.json",
       "item": "matcha:iron_shears",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_shovel.json",
+      "source": "data/crafting/recipe/iron_shovel.json",
       "item": "matcha:iron_shovel",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_spear.json",
+      "source": "data/crafting/recipe/iron_spear.json",
       "item": "matcha:iron_spear",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/iron_sword.json",
+      "source": "data/crafting/recipe/iron_sword.json",
       "item": "matcha:iron_sword",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_boots.json",
+      "source": "data/crafting/recipe/leather_boots.json",
       "item": "matcha:leather_boots",
       "status": "generated",
       "untranslated_components": [
@@ -424,37 +416,37 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_chestplate.json",
+      "source": "data/crafting/recipe/leather_chestplate.json",
       "item": "matcha:leather_chestplate",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_helmet.json",
+      "source": "data/crafting/recipe/leather_helmet.json",
       "item": "matcha:leather_helmet",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/leather_pants.json",
+      "source": "data/crafting/recipe/leather_pants.json",
       "item": "matcha:leather_pants",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/mace.json",
+      "source": "data/crafting/recipe/mace.json",
       "item": "matcha:mace",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/minecart_from_steel.json",
+      "source": "data/crafting/recipe/minecart_from_steel.json",
       "item": "matcha:minecart_from_steel",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/music_disc_golden.json",
+      "source": "data/crafting/recipe/music_disc_golden.json",
       "item": "matcha:music_disc_golden",
       "status": "generated",
       "untranslated_components": [
@@ -462,7 +454,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/nazar.json",
+      "source": "data/crafting/recipe/nazar.json",
       "item": "matcha:nazar",
       "status": "generated",
       "untranslated_components": [
@@ -470,13 +462,13 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/snow_shovel.json",
+      "source": "data/crafting/recipe/snow_shovel.json",
       "item": "matcha:snow_shovel",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/soul_campfire.json",
+      "source": "data/crafting/recipe/soul_campfire.json",
       "item": "matcha:soul_campfire",
       "status": "generated",
       "untranslated_components": [
@@ -484,13 +476,13 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/stabilised_estus.json",
+      "source": "data/crafting/recipe/stabilised_estus.json",
       "item": "matcha:stabilised_estus",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_boots.json",
+      "source": "data/crafting/recipe/sturdy_leather_boots.json",
       "item": "matcha:sturdy_leather_boots",
       "status": "generated",
       "untranslated_components": [
@@ -498,7 +490,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_chestplate.json",
+      "source": "data/crafting/recipe/sturdy_leather_chestplate.json",
       "item": "matcha:sturdy_leather_chestplate",
       "status": "generated",
       "untranslated_components": [
@@ -506,7 +498,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_helmet.json",
+      "source": "data/crafting/recipe/sturdy_leather_helmet.json",
       "item": "matcha:sturdy_leather_helmet",
       "status": "generated",
       "untranslated_components": [
@@ -514,7 +506,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/sturdy_leather_pants.json",
+      "source": "data/crafting/recipe/sturdy_leather_pants.json",
       "item": "matcha:sturdy_leather_pants",
       "status": "generated",
       "untranslated_components": [
@@ -522,13 +514,13 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/tinder.json",
+      "source": "data/crafting/recipe/tinder.json",
       "item": "matcha:tinder",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/warding_stone.json",
+      "source": "data/crafting/recipe/warding_stone.json",
       "item": "matcha:warding_stone",
       "status": "generated",
       "untranslated_components": [
@@ -536,13 +528,13 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_axe.json",
+      "source": "data/crafting/recipe/wooden_axe.json",
       "item": "matcha:wooden_axe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_cross.json",
+      "source": "data/crafting/recipe/wooden_cross.json",
       "item": "matcha:wooden_cross",
       "status": "generated",
       "untranslated_components": [
@@ -551,37 +543,37 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_hoe.json",
+      "source": "data/crafting/recipe/wooden_hoe.json",
       "item": "matcha:wooden_hoe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_pickaxe.json",
+      "source": "data/crafting/recipe/wooden_pickaxe.json",
       "item": "matcha:wooden_pickaxe",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_shovel.json",
+      "source": "data/crafting/recipe/wooden_shovel.json",
       "item": "matcha:wooden_shovel",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_spear.json",
+      "source": "data/crafting/recipe/wooden_spear.json",
       "item": "matcha:wooden_spear",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/crafting/recipe/wooden_sword.json",
+      "source": "data/crafting/recipe/wooden_sword.json",
       "item": "matcha:wooden_sword",
       "status": "generated",
       "untranslated_components": []
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/custom_music/recipe/music_disc_labyrinthine.json",
+      "source": "data/custom_music/recipe/music_disc_labyrinthine.json",
       "item": "matcha:music_disc_labyrinthine",
       "status": "generated",
       "untranslated_components": [
@@ -589,13 +581,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/cake.json",
-      "item": "matcha:cake",
-      "status": "generated",
-      "untranslated_components": []
-    },
-    {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dough.json",
+      "source": "data/food/recipe/dough.json",
       "item": "matcha:dough",
       "status": "generated",
       "untranslated_components": [
@@ -603,12 +589,12 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dough_from_water.json",
+      "source": "data/food/recipe/dough_from_water.json",
       "item": "matcha:dough",
       "status": "canonical_alias"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour.json",
+      "source": "data/food/recipe/flour.json",
       "item": "matcha:flour",
       "status": "generated",
       "untranslated_components": [
@@ -616,7 +602,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour_bag.json",
+      "source": "data/food/recipe/flour_bag.json",
       "item": "matcha:flour_bag",
       "status": "generated",
       "untranslated_components": [
@@ -624,12 +610,12 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour_from_flour_bag.json",
+      "source": "data/food/recipe/flour_from_flour_bag.json",
       "item": "matcha:flour",
       "status": "canonical_alias"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_curry.json",
+      "source": "data/food/recipe/uncooked_curry.json",
       "item": "matcha:uncooked_curry",
       "status": "generated",
       "untranslated_components": [
@@ -637,7 +623,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_green_curry.json",
+      "source": "data/food/recipe/uncooked_green_curry.json",
       "item": "matcha:uncooked_green_curry",
       "status": "generated",
       "untranslated_components": [
@@ -645,7 +631,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_paneer_makhani.json",
+      "source": "data/food/recipe/uncooked_paneer_makhani.json",
       "item": "matcha:uncooked_paneer_makhani",
       "status": "generated",
       "untranslated_components": [
@@ -653,7 +639,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_ramen.json",
+      "source": "data/food/recipe/uncooked_ramen.json",
       "item": "matcha:uncooked_ramen",
       "status": "generated",
       "untranslated_components": [
@@ -661,7 +647,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/amber_earrings.json",
+      "source": "data/smithing_table/recipe/amber_earrings.json",
       "item": "matcha:amber_earrings",
       "status": "generated",
       "untranslated_components": [
@@ -669,7 +655,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_elytra.json",
+      "source": "data/smithing_table/recipe/bronze_elytra.json",
       "item": "matcha:bronze_elytra",
       "status": "generated",
       "untranslated_components": [
@@ -677,12 +663,12 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/bronze_sword.json",
+      "source": "data/smithing_table/recipe/bronze_sword.json",
       "item": "matcha:bronze_sword",
       "status": "existing_item_reused"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/butcher_knife.json",
+      "source": "data/smithing_table/recipe/butcher_knife.json",
       "item": "matcha:butcher_knife",
       "status": "generated",
       "untranslated_components": [
@@ -690,7 +676,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/gilded_leather_boots.json",
+      "source": "data/smithing_table/recipe/gilded_leather_boots.json",
       "item": "matcha:gilded_leather_boots",
       "status": "generated",
       "untranslated_components": [
@@ -699,7 +685,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/lesser_warding_shield.json",
+      "source": "data/smithing_table/recipe/lesser_warding_shield.json",
       "item": "matcha:warding_shield",
       "status": "generated",
       "untranslated_components": [
@@ -708,7 +694,7 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/silver_sword.json",
+      "source": "data/smithing_table/recipe/silver_sword.json",
       "item": "matcha:silver_sword",
       "status": "generated",
       "untranslated_components": [
@@ -716,12 +702,12 @@
       ]
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/warding_shield.json",
+      "source": "data/smithing_table/recipe/warding_shield.json",
       "item": "matcha:warding_shield",
       "status": "canonical_alias"
     },
     {
-      "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/warding_sword.json",
+      "source": "data/smithing_table/recipe/warding_sword.json",
       "item": "matcha:warding_sword",
       "status": "generated",
       "untranslated_components": [

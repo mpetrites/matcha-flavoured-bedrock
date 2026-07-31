@@ -1,0 +1,168 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:short_grass",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "item": "minecraft:shears"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:wheat_seeds",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "survives_explosion"
+                },
+                {
+                  "condition": "random_chance",
+                  "chance": 0.125
+                },
+                {
+                  "condition": "match_tool",
+                  "item": "#minecraft:hoes"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "children": [
+                {
+                  "type": "item",
+                  "name": "minecraft:short_grass",
+                  "weight": 1,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": 2
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "match_tool",
+                      "item": "#minecraft:hoes"
+                    }
+                  ]
+                }
+              ],
+              "weight": 1
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "block_state_property",
+          "block": "minecraft:tall_grass",
+          "properties": {
+            "half": "lower"
+          }
+        },
+        {
+          "condition": "random_chance",
+          "chance": 0
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:short_grass",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "item": "minecraft:shears"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:wheat_seeds",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "survives_explosion"
+                },
+                {
+                  "condition": "random_chance",
+                  "chance": 0.125
+                },
+                {
+                  "condition": "match_tool",
+                  "item": "#minecraft:hoes"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "children": [
+                {
+                  "type": "item",
+                  "name": "minecraft:short_grass",
+                  "weight": 1,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": 2
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "match_tool",
+                      "item": "#minecraft:hoes"
+                    }
+                  ]
+                }
+              ],
+              "weight": 1
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "block_state_property",
+          "block": "minecraft:tall_grass",
+          "properties": {
+            "half": "upper"
+          }
+        },
+        {
+          "condition": "random_chance",
+          "chance": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:oak_leaves",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "alternative",
+                  "terms": [
+                    {
+                      "condition": "match_tool",
+                      "item": "minecraft:shears"
+                    },
+                    {
+                      "condition": "match_tool",
+                      "enchantments": [
+                        {
+                          "enchantment": "silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:loot_item_b6d0741578",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "survives_explosion"
+            },
+            {
+              "condition": "random_chance",
+              "chance": 0.005
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0
+        }
+      ]
+    }
+  ]
+}

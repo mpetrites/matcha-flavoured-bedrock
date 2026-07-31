@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_lure_luck_of_the_sea"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " b ",
+      "FBF",
+      " F "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:enchanted_book"
+      },
+      "F": {
+        "item": "minecraft:nautilus_shell"
+      },
+      "b": {
+        "item": "minecraft:azure_bluet"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_lure_luck_of_the_sea"
+    }
+  }
+}

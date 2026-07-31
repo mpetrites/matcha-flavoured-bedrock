@@ -1658,13 +1658,7 @@ export const FOOD_EFFECTS = {
         {
           "id": "instant_health",
           "duration": 1,
-          "amplifier": 0,
-          "showParticles": false
-        },
-        {
-          "id": "speed",
-          "duration": 40,
-          "amplifier": 2,
+          "amplifier": 1,
           "showParticles": false
         }
       ]

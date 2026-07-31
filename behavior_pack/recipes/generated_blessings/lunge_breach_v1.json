@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_lunge_breach_v1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " b ",
+      "aBc",
+      " F "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:enchanted_book"
+      },
+      "F": {
+        "item": "minecraft:iron_helmet"
+      },
+      "b": {
+        "item": "minecraft:red_dye"
+      },
+      "a": {
+        "item": "matcha:iron_sword"
+      },
+      "c": {
+        "item": "matcha:warding_shield"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_lunge_breach"
+    }
+  }
+}

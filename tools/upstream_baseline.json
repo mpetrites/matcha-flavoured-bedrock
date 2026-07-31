@@ -1,0 +1,20 @@
+{
+  "project": "matcha-flavoured",
+  "version": "1.03",
+  "version_id": "2OaIqKKy",
+  "published": "2026-07-27T23:31:38.298082Z",
+  "filename": "Matcha_Flavoured_1_03.zip",
+  "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+  "size": 11865005,
+  "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+  "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+  "inventory": {
+    "recipes": 1060,
+    "custom_enchantments": 23,
+    "blessings": 23,
+    "villager_trades": 235,
+    "trade_sets": 68,
+    "loot_tables": 282,
+    "worldgen_files": 75
+  }
+}

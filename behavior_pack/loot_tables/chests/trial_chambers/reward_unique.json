@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "loot_tables/food/golden_apple.json",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bolt_armor_trim_smithing_template",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:guster_banner_pattern",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:music_disc_precipice",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/chests/equipment/trident.json",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

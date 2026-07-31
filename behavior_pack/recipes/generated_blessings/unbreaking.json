@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_unbreaking"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ESE",
+      "DBD",
+      "EDE"
+    ],
+    "key": {
+      "S": {
+        "item": "matcha:divine_fragment"
+      },
+      "B": {
+        "item": "minecraft:enchanted_book"
+      },
+      "E": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_unbreaking"
+    }
+  }
+}
