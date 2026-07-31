@@ -37,6 +37,8 @@ smithing/repair materials.
   maximum-health progression
 
 See [PORTING_STATUS.md](PORTING_STATUS.md) for exact coverage and known gaps.
+The ordered remaining-work ledger is in
+[REMAINING_PARITY.md](REMAINING_PARITY.md).
 The machine-readable conversion audit is in
 [`docs/recipe-conversion-report.json`](docs/recipe-conversion-report.json).
 Food-specific coverage is in

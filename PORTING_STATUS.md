@@ -57,3 +57,6 @@ vanilla recipe/equipment rebalancing.
 Generate Steel, Shakudo, Electrum, and Adamant definitions from the reusable
 equipment tier generator, then extend the framework for any tier-specific
 abilities.
+
+See [REMAINING_PARITY.md](REMAINING_PARITY.md) for the quantified, ordered
+parity backlog.
