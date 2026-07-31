@@ -49,7 +49,7 @@ With cheats enabled, use `/function matcha_equipment_test`,
   and the first-dragon Nether Star reward
 - All 235 official villager and Wandering Trader entries assembled through
   all 68 trade sets, including stable per-villager offers, five profession
-  tiers, stock limits, daily restocks, and 119 component-specific trade items
+  tiers, unlimited uses, and 119 component-specific trade items
 - All 282 official loot tables converted, with nested-table resolution and
   98 additional component-specific loot items
 - All 16 eerie beta-village templates converted to native `.mcstructure`

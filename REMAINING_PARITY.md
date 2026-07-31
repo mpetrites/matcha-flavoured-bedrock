@@ -17,7 +17,7 @@ that still differs from the pinned Java source.
 | High | Loot semantics | All 282 tables are converted and identifiers/references are valid. | Refine or replace the unsupported Java conditions and functions listed below; verify progression through an in-game survival playthrough. |
 | Medium | Food interactions | 90 custom consumables cover 120 source recipes and scripted effects. | Replace drinkable splash-potion approximations where possible and refine cake, mead, milk-bottle, and non-effect interactions. |
 | Medium | World generation | Sixteen beta-village templates are assembled deterministically in eight source biomes. | Evaluate 65 biome presentation overrides and the remaining dimension/world-generation changes; validate terrain fit and village frequency in game. |
-| Medium | Villager economy | All 235 trades and 68 sets are routed through custom UI with stable offers, tiers, stock, and daily restock. | Validate balance in game; reputation/demand pricing and workstation-timed restocking have no direct Script API equivalent. |
+| Medium | Villager economy | All 235 trades and 68 sets are routed through custom UI with stable offers, tiers, and unlimited uses. | Validate balance in game; reputation and demand pricing have no direct Script API equivalent. |
 | Medium | Enchantments and blessings | All 23 custom effects and 23 blessings have scripted equivalents. | Perform combat/movement balance verification and confirm every off-hand blessing path in game. |
 | Low | Presentation | Assets required by the implemented food, equipment, blessing, loot, and trade items are present. | Port remaining models, blockstates, trims, particles, GUIs, environment textures, paintings, colormaps, two sounds, jukebox definitions, and localization as their systems land. |
 
@@ -43,9 +43,9 @@ that still differs from the pinned Java source.
 - Frozen-biome checks use an explicit biome list because Script API does not
   expose Java biome tags. Warding Stones use an invisible armor-stand marker
   attached to a lodestone.
-- Villager offers restock daily rather than at workstation visits. Java
-  reputation and demand metadata remain in the generated catalog, but custom
-  UI prices use source base counts. Exploration-map destinations and some
+- Villager offers intentionally have unlimited uses and never require
+  restocking. Java reputation and demand metadata remain in the generated
+  catalog, but custom UI prices use source base counts. Exploration-map destinations and some
   Java-only trade-stack presentation components are not reproduced.
 - Converted loot conservatively disables Java conditions without stable
   equivalents instead of broadening drops. Current totals are 24

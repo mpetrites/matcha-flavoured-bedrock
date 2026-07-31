@@ -4,7 +4,7 @@ import { MATCHA_TRADES, MATCHA_TRADE_SETS } from "./villager_trade_data.js";
 
 const PROFESSION_BY_VARIANT={1:"farmer",2:"fisherman",3:"shepherd",4:"fletcher",5:"librarian",6:"cartographer",7:"cleric",8:"armorer",9:"weaponsmith",10:"toolsmith",11:"butcher",12:"leatherworker",13:"mason"};
 const LEVEL_THRESHOLDS=[0,10,70,150,250];
-const USES_PROPERTY="matcha:trade_uses", XP_PROPERTY="matcha:trade_xp", LEVEL_PROPERTY="matcha:trade_level", RESTOCK_PROPERTY="matcha:trade_restock_day";
+const XP_PROPERTY="matcha:trade_xp", LEVEL_PROPERTY="matcha:trade_level";
 
 function profession(entity) {
   if (entity.typeId==="minecraft:wandering_trader") return "wandering_trader";
@@ -34,12 +34,6 @@ function availableTrades(entity,professionName,level) {
   }
   return [...new Set(ids)].map(id=>MATCHA_TRADES[id]).filter(trade=>trade && !trade.discard);
 }
-function uses(entity) {
-  const day=Math.floor(world.getAbsoluteTime()/24000), previous=entity.getDynamicProperty(RESTOCK_PROPERTY);
-  if (previous!==day) { entity.setDynamicProperty(RESTOCK_PROPERTY,day); entity.setDynamicProperty(USES_PROPERTY,"{}"); return {}; }
-  try { return JSON.parse(entity.getDynamicProperty(USES_PROPERTY) || "{}"); } catch { return {}; }
-}
-function saveUses(entity,value) { entity.setDynamicProperty(USES_PROPERTY,JSON.stringify(value)); }
 function itemCount(player,typeId) {
   const inventory=player.getComponent(EntityComponentTypes.Inventory)?.container; if (!inventory) return 0;
   let total=0; for (let slot=0;slot<inventory.size;slot++) { const stack=inventory.getItem(slot); if (stack?.typeId===typeId) total+=stack.amount; } return total;
@@ -63,9 +57,8 @@ function giveItems(player,typeId,count) {
     if (!stack) return; remaining-=amount; const overflow=inventory.addItem(stack); if (overflow) player.dimension.spawnItem(overflow,player.location);
   }
 }
-function tradeLabel(trade,currentUses) {
-  const stock=Math.max(0,trade.maxUses-currentUses);
-  return `${trade.wants.count}× ${trade.wants.name}  →  ${trade.gives.count}× ${trade.gives.name}\n§8Stock ${stock}/${trade.maxUses}`;
+function tradeLabel(trade) {
+  return `${trade.wants.count}× ${trade.wants.name}  →  ${trade.gives.count}× ${trade.gives.name}\n§8Unlimited`;
 }
 function advanceVillager(entity,trade) {
   if (entity.typeId==="minecraft:wandering_trader") return;
@@ -75,22 +68,19 @@ function advanceVillager(entity,trade) {
 }
 async function confirmTrade(player,entity,trade) {
   if (!entity.isValid || !player.isValid) return;
-  const currentUses=uses(entity), used=currentUses[trade.id] || 0;
-  if (used>=trade.maxUses) { player.sendMessage("§cThat trade is out of stock."); return; }
   if (itemCount(player,trade.wants.item)<trade.wants.count) { player.sendMessage(`§cYou need ${trade.wants.count}× ${trade.wants.name}.`); return; }
-  const result=await new MessageFormData().title("Confirm Trade").body(tradeLabel(trade,used)).button1("Trade").button2("Cancel").show(player);
+  const result=await new MessageFormData().title("Confirm Trade").body(tradeLabel(trade)).button1("Trade").button2("Cancel").show(player);
   if (result.canceled || result.selection!==0 || !entity.isValid) return;
-  const refreshed=uses(entity), refreshedUses=refreshed[trade.id] || 0;
-  if (refreshedUses>=trade.maxUses || !removeItems(player,trade.wants.item,trade.wants.count)) { player.sendMessage("§cThe trade could not be completed."); return; }
-  giveItems(player,trade.gives.item,trade.gives.count); refreshed[trade.id]=refreshedUses+1; saveUses(entity,refreshed); advanceVillager(entity,trade);
+  if (!removeItems(player,trade.wants.item,trade.wants.count)) { player.sendMessage("§cThe trade could not be completed."); return; }
+  giveItems(player,trade.gives.item,trade.gives.count); advanceVillager(entity,trade);
   player.playSound("mob.villager.yes",{volume:0.7,pitch:1}); player.sendMessage(`§aReceived ${trade.gives.count}× ${trade.gives.name}.`);
 }
 async function openTrades(player,entity) {
   if (!entity.isValid || !player.isValid) return;
   const professionName=profession(entity); if (!professionName) { player.sendMessage("§7This villager has no Matcha profession trades."); return; }
-  const level=professionName==="wandering_trader"?1:nativeLevel(entity), offers=availableTrades(entity,professionName,level), currentUses=uses(entity);
+  const level=professionName==="wandering_trader"?1:nativeLevel(entity), offers=availableTrades(entity,professionName,level);
   const form=new ActionFormData().title(`${professionName.replaceAll("_"," ")} — Level ${level}`).body("Matcha Flavoured trades");
-  for (const trade of offers) form.button(tradeLabel(trade,currentUses[trade.id] || 0));
+  for (const trade of offers) form.button(tradeLabel(trade));
   const response=await form.show(player); if (response.canceled || response.selection===undefined) return;
   await confirmTrade(player,entity,offers[response.selection]);
 }
