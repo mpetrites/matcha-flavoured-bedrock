@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:food_component_cake"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "sAs",
+      "BEB",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:beetroot_soup"
+      },
+      "B": {
+        "item": "minecraft:sugar"
+      },
+      "C": {
+        "item": "matcha:flour"
+      },
+      "E": {
+        "item": "#minecraft:eggs"
+      },
+      "s": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "result": {
+      "item": "matcha:cake"
+    }
+  }
+}

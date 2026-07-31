@@ -1,6 +1,10 @@
 # Remaining parity backlog
 
-Baseline: Matcha Flavoured Java 1.04 compared with Bedrock Alpha 0.5.0.
+Baseline: Matcha Flavoured Java 1.04 compared with Bedrock Alpha 0.6.0.
+
+Milestones 1–4 were completed as a playable conversion scope in Alpha 0.6.0.
+Embedded enchantments remain owned by milestone 5 and the Bronze-shears trade
+remains owned by milestone 7.
 
 This is the working backlog for gameplay parity. Counts describe the Java
 source inventory, not an estimate of Bedrock files: one Java definition can
@@ -11,8 +15,8 @@ require several Bedrock items, scripts, entities, or recipes.
 | Source area | Java inventory | Current Bedrock state | Remaining work |
 | --- | ---: | --- | --- |
 | Ordinary recipes | 1,061 recipes total | 751 source recipes converted into 944 Bedrock variants | Resolve the 310 component-bearing results |
-| Food recipes/effects | 118 food recipes in the food audit | 88 scripted custom foods; 5 existing items reused | Reconcile the remaining outputs, aliases, intermediate ingredients, and intrinsic behaviors |
-| Equipment | Bronze core set generated | 12 Bronze pieces; 66/66 static checks pass | Bronze special behavior plus four later alloy tiers and utility equipment |
+| Food recipes/effects | 120 consumable/potion recipes | 90 scripted custom consumables; no conflicts | Thrown-potion and cake refinements |
+| Equipment | Five generated tiers | 62 pieces; 365/365 static checks pass | Embedded enchantments are milestone 5 |
 | Enchantments | 23 custom definitions | Not ported | Bedrock equivalents, application rules, effects, books, and tests |
 | Blessings | 23 recipes | Not ported | Blessing conversion and combined-enchantment behavior |
 | Villager economy | 237 profession trade entries and 68 trade sets | Not ported | All professions, wandering trader, tier unlocks, pricing, and custom outputs |
@@ -23,7 +27,7 @@ require several Bedrock items, scripts, entities, or recipes.
 
 ## Recommended implementation order
 
-### 1. Finish the reusable equipment tiers
+### 1. Finish the reusable equipment tiers — completed in Alpha 0.6.0
 
 - Generate Steel, Shakudo, Electrum, and Adamant from the tier framework.
 - Include each tier's axe, pickaxe, shovel, hoe, spear, mattock, dolabra,
@@ -42,7 +46,7 @@ require several Bedrock items, scripts, entities, or recipes.
 - Add upgrade-path checks so every recipe input exists in the target Bedrock
   version or has a custom substitute.
 
-### 2. Close Bronze behavior gaps
+### 2. Close Bronze behavior gaps — completed within stable Bedrock scope
 
 - Implement the spear's kinetic/lunge behavior rather than treating it only
   as a melee weapon.
@@ -55,7 +59,7 @@ require several Bedrock items, scripts, entities, or recipes.
 - Add in-game smoke tests for durability loss, repair, mining targets, damage,
   armor protection, and smithing—not only static JSON checks.
 
-### 3. Complete component-bearing crafting outputs
+### 3. Complete component-bearing crafting outputs — completed in Alpha 0.6.0
 
 The recipe converter intentionally skipped 310 Java recipes because silently
 discarding result components would change their behavior. After subtracting
@@ -76,7 +80,7 @@ component-rich outputs, including:
 Each output needs a custom item definition or a scripted vanilla-item
 substitute before its recipe can be enabled.
 
-### 4. Finish food and consumable parity
+### 4. Finish food and consumable parity — playable scope completed
 
 - Reconcile all 118 audited food recipes against the 88 generated custom food
   identifiers and five reused hand-authored items.

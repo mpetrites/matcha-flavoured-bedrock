@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_component_minecart_from_steel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:resin_brick"
+      }
+    },
+    "result": {
+      "item": "matcha:minecart_from_steel",
+      "count": 2
+    }
+  }
+}

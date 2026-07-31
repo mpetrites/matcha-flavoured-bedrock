@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "matcha_port:smithing_table_component_gilded_leather_boots"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "template": "minecraft:rabbit_hide",
+    "base": "minecraft:leather_boots",
+    "addition": "minecraft:gold_ingot",
+    "result": "matcha:gilded_leather_boots"
+  }
+}

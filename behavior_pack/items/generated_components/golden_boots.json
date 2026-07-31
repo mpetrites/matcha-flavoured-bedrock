@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:golden_boots",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:golden_boots.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_component_golden_boots"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 200
+      },
+      "minecraft:glint": false
+    }
+  }
+}

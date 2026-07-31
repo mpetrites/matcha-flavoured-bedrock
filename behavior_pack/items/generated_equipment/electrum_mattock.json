@@ -1,0 +1,62 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:electrum_mattock",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.mattock"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:electrum_mattock.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_electrum_mattock"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 3000
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 3,
+      "minecraft:enchantable": {
+        "slot": "hoe",
+        "value": 12
+      },
+      "minecraft:cooldown": {
+        "category": "matcha_electrum_mattock",
+        "duration": 0.3333,
+        "type": "attack"
+      },
+      "minecraft:swing_duration": {
+        "value": 0.3333
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 10,
+            "block": {
+              "tags": "query.any_tag( 'plant', 'leaves', 'dirt', 'sand', 'gravel', 'snow' )"
+            }
+          }
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:diamond",
+              "minecraft:gold_ingot"
+            ],
+            "repair_amount": 750
+          }
+        ]
+      }
+    }
+  }
+}

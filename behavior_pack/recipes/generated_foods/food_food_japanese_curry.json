@@ -7,7 +7,7 @@
     "tags": [
       "furnace"
     ],
-    "input": "minecraft:strider_spawn_egg",
+    "input": "matcha:uncooked_curry",
     "output": "matcha:japanese_curry"
   }
 }

@@ -4,27 +4,27 @@
     "name": "Matcha Flavoured Alpha BP",
     "description": "Playable Bedrock alpha: healing foods, bronze progression, and survival rules.",
     "uuid": "4eaf8053-e926-471c-9498-444db7d85deb",
-    "version": [0, 5, 0],
-    "min_engine_version": [1, 21, 100]
+    "version": [0, 6, 0],
+    "min_engine_version": [1, 21, 130]
   },
   "modules": [
     {
       "type": "data",
       "uuid": "2ea68a7c-0d35-44ab-8f02-7952fc67ef95",
-      "version": [0, 5, 0]
+      "version": [0, 6, 0]
     },
     {
       "type": "script",
       "language": "javascript",
       "entry": "scripts/main.js",
       "uuid": "216adda6-7339-49e3-8346-289f0384db97",
-      "version": [0, 5, 0]
+      "version": [0, 6, 0]
     }
   ],
   "dependencies": [
     {
       "uuid": "92101b1b-07c8-475c-99ee-576b1f338c59",
-      "version": [0, 5, 0]
+      "version": [0, 6, 0]
     },
     {
       "module_name": "@minecraft/server",

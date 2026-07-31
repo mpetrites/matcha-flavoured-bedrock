@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:food_component_uncooked_curry_v3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "matcha:flour"
+      },
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:rabbit"
+      },
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "result": {
+      "item": "matcha:uncooked_curry"
+    }
+  }
+}

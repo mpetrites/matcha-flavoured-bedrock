@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "matcha_port:smithing_table_component_warding_shield"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "template": "minecraft:prismarine_crystals",
+    "base": "minecraft:shield",
+    "addition": "minecraft:glistering_melon_slice",
+    "result": "matcha:warding_shield"
+  }
+}

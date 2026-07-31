@@ -1,0 +1,353 @@
+{
+  "tier": "steel",
+  "format_version": "1.21.130",
+  "repair": {
+    "items": [
+      "minecraft:iron_ingot"
+    ],
+    "amount": 750
+  },
+  "items": [
+    {
+      "name": "axe",
+      "display": "Steel Axe",
+      "durability": 3000,
+      "group": "axe",
+      "texture": "steel_axe",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_axe",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 10,
+      "enchant": "axe",
+      "attack_cooldown": 1.4286,
+      "mining": [
+        {
+          "speed": 8,
+          "block": {
+            "tags": "query.any_tag( 'wood' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "boots",
+      "display": "Steel Boots",
+      "durability": 1000,
+      "group": "boots",
+      "texture": "steel_boots",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_boots",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {
+        "minecraft:blast_protection": 2
+      },
+      "armor": {
+        "slot": "slot.armor.feet",
+        "protection": 2
+      }
+    },
+    {
+      "name": "chestplate",
+      "display": "Steel Chestplate",
+      "durability": 1000,
+      "group": "chestplate",
+      "texture": "steel_chestplate",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_chestplate",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {
+        "minecraft:blast_protection": 4
+      },
+      "armor": {
+        "slot": "slot.armor.chest",
+        "protection": 6
+      }
+    },
+    {
+      "name": "dolabra",
+      "display": "Steel Dolabra",
+      "durability": 3000,
+      "group": "dolabra",
+      "texture": "steel_dolabra",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:iron_axe",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 6,
+      "enchant": "axe",
+      "attack_cooldown": 1.1111,
+      "mining": [
+        {
+          "speed": 7,
+          "block": {
+            "tags": "query.any_tag( 'wood', 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "helmet",
+      "display": "Steel Helmet",
+      "durability": 1000,
+      "group": "helmet",
+      "texture": "steel_helmet",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_helmet",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {
+        "minecraft:blast_protection": 2
+      },
+      "armor": {
+        "slot": "slot.armor.head",
+        "protection": 2
+      }
+    },
+    {
+      "name": "hoe",
+      "display": "Steel Hoe",
+      "durability": 3000,
+      "group": "hoe",
+      "texture": "steel_hoe",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_hoe",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 1,
+      "enchant": "hoe",
+      "mining": [
+        {
+          "speed": 8,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "leggings",
+      "display": "Steel Leggings",
+      "durability": 1000,
+      "group": "leggings",
+      "texture": "steel_leggings",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_leggings",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {
+        "minecraft:blast_protection": 3
+      },
+      "armor": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      }
+    },
+    {
+      "name": "mattock",
+      "display": "Steel Mattock",
+      "durability": 3000,
+      "group": "mattock",
+      "texture": "steel_mattock",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:iron_hoe",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 1,
+      "enchant": "hoe",
+      "mining": [
+        {
+          "speed": 7,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves', 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pickaxe",
+      "display": "Steel Pickaxe",
+      "durability": 3000,
+      "group": "pickaxe",
+      "texture": "steel_pickaxe",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_pickaxe",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 1,
+      "enchant": "pickaxe",
+      "mining": [
+        {
+          "speed": 8,
+          "block": {
+            "tags": "query.any_tag( 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shears",
+      "display": "Steel Shears",
+      "durability": 3000,
+      "group": "shears",
+      "texture": "steel_shears",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:shears",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 1,
+      "enchant": "shears"
+    },
+    {
+      "name": "shovel",
+      "display": "Steel Shovel",
+      "durability": 3000,
+      "group": "shovel",
+      "texture": "steel_shovel",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_shovel",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 1,
+      "enchant": "shovel",
+      "mining": [
+        {
+          "speed": 8,
+          "block": {
+            "tags": "query.any_tag( 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "spear",
+      "display": "Steel Spear",
+      "durability": 3000,
+      "group": "sword",
+      "texture": "steel_spear",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_spear",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 4,
+      "enchant": "spear",
+      "attack_cooldown": 1.1111
+    },
+    {
+      "name": "sword",
+      "display": "Steel Sword",
+      "durability": 3000,
+      "group": "sword",
+      "texture": "steel_sword",
+      "repair": {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:iron_ingot",
+        "base": "minecraft:iron_sword",
+        "addition": "minecraft:resin_brick"
+      },
+      "source_enchantments": {},
+      "damage": 6,
+      "enchant": "sword",
+      "attack_cooldown": 1.1111
+    }
+  ]
+}

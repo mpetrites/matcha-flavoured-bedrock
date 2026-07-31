@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "matcha:shakudo_shovel"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "template": "minecraft:copper_ingot",
+    "base": "minecraft:copper_shovel",
+    "addition": "minecraft:shulker_shell",
+    "result": "matcha:shakudo_shovel"
+  }
+}

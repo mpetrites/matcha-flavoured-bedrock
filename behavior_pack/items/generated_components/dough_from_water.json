@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:dough_from_water",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:dough_from_water.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_component_dough_from_water"
+        }
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

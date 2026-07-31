@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.100",
+  "format_version": "1.21.130",
   "minecraft:item": {
     "description": {
       "identifier": "matcha:bronze_shovel",
@@ -26,6 +26,14 @@
       "minecraft:enchantable": {
         "slot": "shovel",
         "value": 12
+      },
+      "minecraft:cooldown": {
+        "category": "matcha_bronze_shovel",
+        "duration": 1.0,
+        "type": "attack"
+      },
+      "minecraft:swing_duration": {
+        "value": 1.0
       },
       "minecraft:digger": {
         "use_efficiency": true,

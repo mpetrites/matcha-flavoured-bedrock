@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_component_carbon_rich_iron"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:coal_block"
+      }
+    ],
+    "result": {
+      "item": "matcha:carbon_rich_iron",
+      "count": 4
+    }
+  }
+}

@@ -1278,6 +1278,19 @@ export const FOOD_EFFECTS = {
       ]
     }
   ],
+  "matcha:pickled_crimson_fungus": [
+    {
+      "type": "apply_effects",
+      "effects": [
+        {
+          "id": "weakness",
+          "duration": 1200,
+          "amplifier": 1,
+          "showParticles": true
+        }
+      ]
+    }
+  ],
   "matcha:pickled_mushrooms": [
     {
       "type": "apply_effects",
@@ -1306,6 +1319,19 @@ export const FOOD_EFFECTS = {
           "duration": 120,
           "amplifier": 2,
           "showParticles": false
+        }
+      ]
+    }
+  ],
+  "matcha:pickled_red_mushrooms": [
+    {
+      "type": "apply_effects",
+      "effects": [
+        {
+          "id": "poison",
+          "duration": 1200,
+          "amplifier": 1,
+          "showParticles": true
         }
       ]
     }
@@ -1625,5 +1651,23 @@ export const FOOD_EFFECTS = {
       ]
     }
   ],
-  "matcha:potions_estus_flask": []
+  "matcha:potions_estus_flask": [
+    {
+      "type": "apply_effects",
+      "effects": [
+        {
+          "id": "instant_health",
+          "duration": 1,
+          "amplifier": 0,
+          "showParticles": false
+        },
+        {
+          "id": "speed",
+          "duration": 40,
+          "amplifier": 2,
+          "showParticles": false
+        }
+      ]
+    }
+  ]
 };

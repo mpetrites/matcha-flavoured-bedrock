@@ -1,0 +1,409 @@
+{
+  "tier": "adamant",
+  "format_version": "1.21.130",
+  "repair": {
+    "items": [
+      "minecraft:diamond_block",
+      "minecraft:gold_block",
+      "minecraft:netherite_scrap"
+    ],
+    "amount": 1250
+  },
+  "items": [
+    {
+      "name": "axe",
+      "display": "Adamant Axe",
+      "durability": 5000,
+      "group": "axe",
+      "texture": "netherite_axe",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_axe",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "axe",
+      "mining": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'wood' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "boots",
+      "display": "Adamant Boots",
+      "durability": 1500,
+      "group": "boots",
+      "texture": "netherite_boots",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block"
+        ],
+        "amount": 375
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_boots",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2,
+        "minecraft:protection": 1
+      },
+      "armor": {
+        "slot": "slot.armor.feet",
+        "protection": 3
+      }
+    },
+    {
+      "name": "chestplate",
+      "display": "Adamant Chestplate",
+      "durability": 1500,
+      "group": "chestplate",
+      "texture": "netherite_chestplate",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block"
+        ],
+        "amount": 375
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_chestplate",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2,
+        "minecraft:protection": 1
+      },
+      "armor": {
+        "slot": "slot.armor.chest",
+        "protection": 8
+      }
+    },
+    {
+      "name": "claymore",
+      "display": "Adamant Claymore",
+      "durability": 5000,
+      "group": "sword",
+      "texture": "adamant_claymore",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:diamond_sword",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 9,
+      "enchant": "sword",
+      "attack_cooldown": 2.0
+    },
+    {
+      "name": "dolabra",
+      "display": "Adamant Dolabra",
+      "durability": 5000,
+      "group": "dolabra",
+      "texture": "adamant_dolabra",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:diamond_axe",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "axe",
+      "mining": [
+        {
+          "speed": 13,
+          "block": {
+            "tags": "query.any_tag( 'wood', 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "helmet",
+      "display": "Adamant Helmet",
+      "durability": 1500,
+      "group": "helmet",
+      "texture": "netherite_helmet",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block"
+        ],
+        "amount": 375
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_helmet",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2,
+        "minecraft:protection": 1
+      },
+      "armor": {
+        "slot": "slot.armor.head",
+        "protection": 3
+      }
+    },
+    {
+      "name": "hoe",
+      "display": "Adamant Hoe",
+      "durability": 5000,
+      "group": "hoe",
+      "texture": "netherite_hoe",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_hoe",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "hoe",
+      "mining": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "leggings",
+      "display": "Adamant Leggings",
+      "durability": 1500,
+      "group": "leggings",
+      "texture": "netherite_leggings",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block"
+        ],
+        "amount": 375
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_leggings",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2,
+        "minecraft:protection": 1
+      },
+      "armor": {
+        "slot": "slot.armor.legs",
+        "protection": 6
+      }
+    },
+    {
+      "name": "mattock",
+      "display": "Adamant Mattock",
+      "durability": 5000,
+      "group": "mattock",
+      "texture": "adamant_mattock",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:diamond_hoe",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "hoe",
+      "mining": [
+        {
+          "speed": 13,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves', 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pickaxe",
+      "display": "Adamant Pickaxe",
+      "durability": 5000,
+      "group": "pickaxe",
+      "texture": "netherite_pickaxe",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_pickaxe",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "pickaxe",
+      "mining": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shovel",
+      "display": "Adamant Shovel",
+      "durability": 5000,
+      "group": "shovel",
+      "texture": "netherite_shovel",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_shovel",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "shovel",
+      "mining": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "spear",
+      "display": "Adamant Spear",
+      "durability": 5000,
+      "group": "sword",
+      "texture": "netherite_spear",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_spear",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "spear"
+    },
+    {
+      "name": "sword",
+      "display": "Adamant Sword",
+      "durability": 5000,
+      "group": "sword",
+      "texture": "netherite_sword",
+      "repair": {
+        "items": [
+          "minecraft:diamond_block",
+          "minecraft:gold_block",
+          "minecraft:netherite_scrap"
+        ],
+        "amount": 1250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_sword",
+        "addition": "minecraft:netherite_ingot"
+      },
+      "source_enchantments": {
+        "main:divinity": 1,
+        "minecraft:unbreaking": 2
+      },
+      "damage": 1,
+      "enchant": "sword"
+    }
+  ]
+}

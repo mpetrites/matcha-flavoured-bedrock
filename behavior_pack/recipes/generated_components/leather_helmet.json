@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_component_leather_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XXX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:rabbit_hide"
+      }
+    },
+    "result": {
+      "item": "matcha:leather_helmet"
+    }
+  }
+}

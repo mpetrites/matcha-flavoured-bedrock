@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:bronze_elytra",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:bronze_elytra.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_component_bronze_elytra"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 800
+      },
+      "minecraft:glint": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 1
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:honeycomb",
+              "minecraft:feather"
+            ],
+            "repair_amount": 200
+          }
+        ]
+      }
+    }
+  }
+}

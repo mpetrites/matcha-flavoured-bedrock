@@ -6,12 +6,14 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
 
 | Area | Bedrock coverage |
 | --- | --- |
-| Food | 88 custom foods generated from 118 upstream recipes |
+| Food | 90 custom consumables generated from 120 upstream recipes |
 | Food effects | Apply, remove, and clear actions; probabilities and layered effects |
 | Survival | Managed hunger, no natural regeneration, keep inventory, manual sleep |
 | Health progression | Crystal Hearts, 20–60 health tracking, one-heart death penalty |
-| Progression | Bronze tools, hybrid tools, spear, shears, armor, and repairs |
-| Recipes | 751 ordinary recipes plus 118 food recipes translated |
+| Progression | Five alloy tiers, equipment exceptions, ingredients, and utilities |
+| Equipment | 62 generated items; 365/365 static checks; 20 armor attachables |
+| Component outputs | 105 custom items and 112 recipe variants |
+| Recipes | 751 ordinary recipes plus component and consumable recipes |
 | Packaging | Linked behavior/resource packs in one `.mcaddon` |
 
 ## Bedrock approximations
@@ -34,29 +36,25 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
   value. The HUD may briefly show one unavailable extra heart at odd tiers.
 - The Java bronze sword is a component-rich vanilla-item override. The
   Bedrock alpha uses a custom sword with equivalent broad progression stats.
-- Java attack-speed and tiny held/equipped movement-speed modifiers do not
-  have faithful stable Bedrock item-component equivalents, so Bronze preserves
-  damage, durability, mining speed, armor protection, repairs, and recipes
-  without those modifiers.
+- Java attack speed is approximated with Bedrock 1.21.130 attack cooldowns.
+  Tiny movement-speed modifiers have no suitably precise stable equivalent.
 - Bronze shears remain trade-only, as in the Java source. Their 3,000
-  durability and iron repair ingredients are preserved.
+  durability and iron repair ingredients are preserved; the trade belongs to
+  the villager milestone.
+- Java splash-potion foods are currently drinkable custom consumables.
+- Embedded source enchantments are recorded for the enchantment milestone.
 
 ## Not yet ported
 
 The upstream pack is large (over 2,000 data files and 1,061 actual recipe
-definitions). The food subset of the component-bearing recipes is now ported.
-The remaining component recipes primarily produce equipment, enchantments,
-blessings, and utility items. Major
-unported systems include the remaining foods and intrinsic effects,
-later alloy equipment sets, enchantment and blessing systems, villagers, loot and
-treasures, fishing, structures, advancements, world generation, and most
-vanilla recipe/equipment rebalancing.
+definitions). Food, equipment, and ordinary component-item outputs are now
+ported. The remaining component recipes are the 23 blessings. Major unported
+systems include enchantments and blessings, villagers, loot and treasures,
+fishing, structures, advancements, world generation, and global mechanics.
 
 ## Next suggested milestone
 
-Generate Steel, Shakudo, Electrum, and Adamant definitions from the reusable
-equipment tier generator, then extend the framework for any tier-specific
-abilities.
+Port the 23 custom enchantments and 23 blessing recipes.
 
 See [REMAINING_PARITY.md](REMAINING_PARITY.md) for the quantified, ordered
 parity backlog.

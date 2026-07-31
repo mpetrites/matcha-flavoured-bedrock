@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:nazar",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:nazar.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_component_nazar"
+        }
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

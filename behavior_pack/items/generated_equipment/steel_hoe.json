@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:steel_hoe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.hoe"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:steel_hoe.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_steel_hoe"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 3000
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 1,
+      "minecraft:enchantable": {
+        "slot": "hoe",
+        "value": 12
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 8,
+            "block": {
+              "tags": "query.any_tag( 'plant', 'leaves' )"
+            }
+          }
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ],
+            "repair_amount": 750
+          }
+        ]
+      }
+    }
+  }
+}

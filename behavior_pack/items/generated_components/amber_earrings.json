@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:amber_earrings",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:amber_earrings.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_component_amber_earrings"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 250
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 1
+      }
+    }
+  }
+}

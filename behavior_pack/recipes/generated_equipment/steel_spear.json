@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "matcha:steel_spear"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "template": "minecraft:iron_ingot",
+    "base": "minecraft:iron_spear",
+    "addition": "minecraft:resin_brick",
+    "result": "matcha:steel_spear"
+  }
+}

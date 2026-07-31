@@ -1,0 +1,72 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:wooden_pickaxe",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:wooden_pickaxe.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_component_wooden_pickaxe"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 600
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag( '#minecraft:copper_ores' )"
+            }
+          },
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag( '#minecraft:coal_ores' )"
+            }
+          },
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag( 'minecraft:stone' )"
+            }
+          },
+          {
+            "speed": 4,
+            "block": {
+              "tags": "query.any_tag( 'minecraft:smoker' )"
+            }
+          },
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag( 'minecraft:mud_bricks' )"
+            }
+          },
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag( 'minecraft:packed_mud' )"
+            }
+          },
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag( 'pickaxe' )"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

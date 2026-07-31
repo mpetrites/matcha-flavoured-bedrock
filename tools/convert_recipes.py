@@ -21,6 +21,15 @@ TYPE_MAP = {
     "minecraft:smoking": "smoker",
     "minecraft:campfire_cooking": "campfire",
 }
+PROXY_ITEM_MAP = {
+    "minecraft:enderman_spawn_egg": "matcha:flour",
+    "minecraft:magma_cube_spawn_egg": "matcha:flour_bag",
+    "minecraft:shulker_spawn_egg": "matcha:dough",
+    "minecraft:strider_spawn_egg": "matcha:uncooked_curry",
+    "minecraft:zombified_piglin_spawn_egg": "matcha:uncooked_green_curry",
+    "minecraft:zoglin_spawn_egg": "matcha:uncooked_paneer_makhani",
+    "minecraft:wither_skeleton_spawn_egg": "matcha:uncooked_ramen",
+}
 
 
 def namespaced(value: str) -> str:
@@ -29,7 +38,7 @@ def namespaced(value: str) -> str:
 
 def options(value: str | list[str]) -> list[str]:
     values = value if isinstance(value, list) else [value]
-    return [namespaced(value) for value in values]
+    return [PROXY_ITEM_MAP.get(namespaced(value), namespaced(value)) for value in values]
 
 
 def safe_name(value: str) -> str:

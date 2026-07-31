@@ -5,33 +5,34 @@ An independent, work-in-progress Bedrock Edition port of Klei Wright's
 datapack.
 
 The current alpha is a playable vertical slice, not a complete port. It
-implements the first health-food recipes, the Bronze equipment tier, and the
-core no-hunger approximation.
+implements the health-food system, five equipment tiers, component-bearing
+items, and the core no-hunger approximation.
 
 ## Install
 
 Download the `.mcaddon` from `dist/` and open it with Minecraft. Activate both
 the behavior pack and resource pack on a world. This alpha targets Bedrock
-1.21.100 or newer.
+1.21.130 or newer.
 
-With cheats enabled, run `/function matcha_alpha_test` for the original test
-kit or `/function matcha_bronze_equipment_test` for every Bronze item and its
-smithing/repair materials.
+With cheats enabled, use `/function matcha_equipment_test`,
+`/function matcha_component_items_test`, or
+`/function matcha_consumables_test`.
 
-## Included in alpha 0.5.0
+## Included in alpha 0.6.0
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
 - Original textures for those foods
-- Bronze axe, pickaxe, shovel, hoe, spear, mattock, dolabra, shears, armor,
-  repair rules, source textures, and smithing recipes
+- Bronze, Steel, Shakudo, Electrum, and Adamant equipment: 62 generated items
+  with recipes, repairs, worn armor, attack cooldowns, and kinetic spears
+- 105 additional component-bearing custom items and 112 recipe variants
 - Scripted regeneration effects matching the Java recipes
 - Managed-hunger approximation using Bedrock's saturation effect
 - 944 generated Bedrock recipe definitions translated from 751
   component-free upstream recipes
-- 88 scripted custom foods from 118 upstream food recipes, including effect
+- 90 scripted custom consumables from 120 upstream recipes, including effect
   probabilities, cleansing actions, layered effects, use times, and container
-  remainders
+  remainders; Estus potion effects are included
 - Matcha survival rules: managed hunger, disabled natural regeneration,
   keep-inventory deaths, manual sleep time, Crystal Hearts, and persistent
   maximum-health progression
@@ -45,6 +46,8 @@ Food-specific coverage is in
 [`docs/food-conversion-report.json`](docs/food-conversion-report.json).
 Equipment parity checks are in
 [`docs/equipment-check-report.json`](docs/equipment-check-report.json).
+The combined milestone audit is in
+[`docs/parity-1-4-check-report.json`](docs/parity-1-4-check-report.json).
 
 ## Build
 
@@ -53,6 +56,8 @@ Run:
 ```sh
 python3 tools/generate_equipment.py
 python3 tools/check_equipment.py
+python3 tools/convert_component_items.py
+python3 tools/check_parity_1_4.py
 ./scripts/package.sh
 ```
 

@@ -26,6 +26,192 @@
     "matcha_heart_container": {
       "textures": "textures/items/heart_container"
     },
+    "matcha_bronze_axe": {
+      "textures": "textures/items/generated_equipment/bronze_axe"
+    },
+    "matcha_bronze_pickaxe": {
+      "textures": "textures/items/generated_equipment/bronze_pickaxe"
+    },
+    "matcha_bronze_shovel": {
+      "textures": "textures/items/generated_equipment/bronze_shovel"
+    },
+    "matcha_bronze_hoe": {
+      "textures": "textures/items/generated_equipment/bronze_hoe"
+    },
+    "matcha_bronze_spear": {
+      "textures": "textures/items/generated_equipment/bronze_spear"
+    },
+    "matcha_bronze_mattock": {
+      "textures": "textures/items/generated_equipment/bronze_mattock"
+    },
+    "matcha_bronze_dolabra": {
+      "textures": "textures/items/generated_equipment/bronze_dolabra"
+    },
+    "matcha_bronze_shears": {
+      "textures": "textures/items/generated_equipment/bronze_shears"
+    },
+    "matcha_bronze_helmet": {
+      "textures": "textures/items/generated_equipment/bronze_helmet"
+    },
+    "matcha_bronze_chestplate": {
+      "textures": "textures/items/generated_equipment/bronze_chestplate"
+    },
+    "matcha_bronze_leggings": {
+      "textures": "textures/items/generated_equipment/bronze_leggings"
+    },
+    "matcha_bronze_boots": {
+      "textures": "textures/items/generated_equipment/bronze_boots"
+    },
+    "matcha_adamant_axe": {
+      "textures": "textures/items/generated_equipment/adamant_axe"
+    },
+    "matcha_adamant_boots": {
+      "textures": "textures/items/generated_equipment/adamant_boots"
+    },
+    "matcha_adamant_chestplate": {
+      "textures": "textures/items/generated_equipment/adamant_chestplate"
+    },
+    "matcha_adamant_claymore": {
+      "textures": "textures/items/generated_equipment/adamant_claymore"
+    },
+    "matcha_adamant_dolabra": {
+      "textures": "textures/items/generated_equipment/adamant_dolabra"
+    },
+    "matcha_adamant_helmet": {
+      "textures": "textures/items/generated_equipment/adamant_helmet"
+    },
+    "matcha_adamant_hoe": {
+      "textures": "textures/items/generated_equipment/adamant_hoe"
+    },
+    "matcha_adamant_leggings": {
+      "textures": "textures/items/generated_equipment/adamant_leggings"
+    },
+    "matcha_adamant_mattock": {
+      "textures": "textures/items/generated_equipment/adamant_mattock"
+    },
+    "matcha_adamant_pickaxe": {
+      "textures": "textures/items/generated_equipment/adamant_pickaxe"
+    },
+    "matcha_adamant_shovel": {
+      "textures": "textures/items/generated_equipment/adamant_shovel"
+    },
+    "matcha_adamant_spear": {
+      "textures": "textures/items/generated_equipment/adamant_spear"
+    },
+    "matcha_adamant_sword": {
+      "textures": "textures/items/generated_equipment/adamant_sword"
+    },
+    "matcha_electrum_axe": {
+      "textures": "textures/items/generated_equipment/electrum_axe"
+    },
+    "matcha_electrum_boots": {
+      "textures": "textures/items/generated_equipment/electrum_boots"
+    },
+    "matcha_electrum_chestplate": {
+      "textures": "textures/items/generated_equipment/electrum_chestplate"
+    },
+    "matcha_electrum_dolabra": {
+      "textures": "textures/items/generated_equipment/electrum_dolabra"
+    },
+    "matcha_electrum_helmet": {
+      "textures": "textures/items/generated_equipment/electrum_helmet"
+    },
+    "matcha_electrum_hoe": {
+      "textures": "textures/items/generated_equipment/electrum_hoe"
+    },
+    "matcha_electrum_leggings": {
+      "textures": "textures/items/generated_equipment/electrum_leggings"
+    },
+    "matcha_electrum_mattock": {
+      "textures": "textures/items/generated_equipment/electrum_mattock"
+    },
+    "matcha_electrum_pickaxe": {
+      "textures": "textures/items/generated_equipment/electrum_pickaxe"
+    },
+    "matcha_electrum_shovel": {
+      "textures": "textures/items/generated_equipment/electrum_shovel"
+    },
+    "matcha_electrum_spear": {
+      "textures": "textures/items/generated_equipment/electrum_spear"
+    },
+    "matcha_electrum_sword": {
+      "textures": "textures/items/generated_equipment/electrum_sword"
+    },
+    "matcha_shakudo_axe": {
+      "textures": "textures/items/generated_equipment/shakudo_axe"
+    },
+    "matcha_shakudo_boots": {
+      "textures": "textures/items/generated_equipment/shakudo_boots"
+    },
+    "matcha_shakudo_chestplate": {
+      "textures": "textures/items/generated_equipment/shakudo_chestplate"
+    },
+    "matcha_shakudo_dolabra": {
+      "textures": "textures/items/generated_equipment/shakudo_dolabra"
+    },
+    "matcha_shakudo_helmet": {
+      "textures": "textures/items/generated_equipment/shakudo_helmet"
+    },
+    "matcha_shakudo_hoe": {
+      "textures": "textures/items/generated_equipment/shakudo_hoe"
+    },
+    "matcha_shakudo_leggings": {
+      "textures": "textures/items/generated_equipment/shakudo_leggings"
+    },
+    "matcha_shakudo_mattock": {
+      "textures": "textures/items/generated_equipment/shakudo_mattock"
+    },
+    "matcha_shakudo_pickaxe": {
+      "textures": "textures/items/generated_equipment/shakudo_pickaxe"
+    },
+    "matcha_shakudo_shovel": {
+      "textures": "textures/items/generated_equipment/shakudo_shovel"
+    },
+    "matcha_shakudo_spear": {
+      "textures": "textures/items/generated_equipment/shakudo_spear"
+    },
+    "matcha_shakudo_sword": {
+      "textures": "textures/items/generated_equipment/shakudo_sword"
+    },
+    "matcha_steel_axe": {
+      "textures": "textures/items/generated_equipment/steel_axe"
+    },
+    "matcha_steel_boots": {
+      "textures": "textures/items/generated_equipment/steel_boots"
+    },
+    "matcha_steel_chestplate": {
+      "textures": "textures/items/generated_equipment/steel_chestplate"
+    },
+    "matcha_steel_dolabra": {
+      "textures": "textures/items/generated_equipment/steel_dolabra"
+    },
+    "matcha_steel_helmet": {
+      "textures": "textures/items/generated_equipment/steel_helmet"
+    },
+    "matcha_steel_hoe": {
+      "textures": "textures/items/generated_equipment/steel_hoe"
+    },
+    "matcha_steel_leggings": {
+      "textures": "textures/items/generated_equipment/steel_leggings"
+    },
+    "matcha_steel_mattock": {
+      "textures": "textures/items/generated_equipment/steel_mattock"
+    },
+    "matcha_steel_pickaxe": {
+      "textures": "textures/items/generated_equipment/steel_pickaxe"
+    },
+    "matcha_steel_shears": {
+      "textures": "textures/items/generated_equipment/steel_shears"
+    },
+    "matcha_steel_shovel": {
+      "textures": "textures/items/generated_equipment/steel_shovel"
+    },
+    "matcha_steel_spear": {
+      "textures": "textures/items/generated_equipment/steel_spear"
+    },
+    "matcha_steel_sword": {
+      "textures": "textures/items/generated_equipment/steel_sword"
+    },
     "matcha_food_apple_empanada": {
       "textures": "textures/items/generated_foods/apple_empanada"
     },
@@ -224,11 +410,17 @@
     "matcha_food_pickled_carrots": {
       "textures": "textures/items/generated_foods/pickled_carrots"
     },
+    "matcha_food_pickled_crimson_fungus": {
+      "textures": "textures/items/generated_foods/pickled_crimson_fungus"
+    },
     "matcha_food_pickled_mushrooms": {
       "textures": "textures/items/generated_foods/pickled_mushrooms"
     },
     "matcha_food_pickled_potatoes": {
       "textures": "textures/items/generated_foods/pickled_potatoes"
+    },
+    "matcha_food_pickled_red_mushrooms": {
+      "textures": "textures/items/generated_foods/pickled_red_mushrooms"
     },
     "matcha_food_pickled_tomatoes": {
       "textures": "textures/items/generated_foods/pickled_tomatoes"
@@ -281,41 +473,317 @@
     "matcha_food_warped_stroganoff": {
       "textures": "textures/items/generated_foods/warped_stroganoff"
     },
-    "matcha_bronze_axe": {
-      "textures": "textures/items/generated_equipment/bronze_axe"
+    "matcha_component_amnestic": {
+      "textures": "textures/items/generated_components/amnestic"
     },
-    "matcha_bronze_pickaxe": {
-      "textures": "textures/items/generated_equipment/bronze_pickaxe"
+    "matcha_component_bedrock_buster": {
+      "textures": "chicken_spawn_egg"
     },
-    "matcha_bronze_shovel": {
-      "textures": "textures/items/generated_equipment/bronze_shovel"
+    "matcha_component_benzene": {
+      "textures": "endermite_spawn_egg"
     },
-    "matcha_bronze_hoe": {
-      "textures": "textures/items/generated_equipment/bronze_hoe"
+    "matcha_component_campfire": {
+      "textures": "textures/items/generated_components/campfire"
     },
-    "matcha_bronze_spear": {
-      "textures": "textures/items/generated_equipment/bronze_spear"
+    "matcha_component_carbon_rich_iron": {
+      "textures": "piglin_brute_spawn_egg"
     },
-    "matcha_bronze_mattock": {
-      "textures": "textures/items/generated_equipment/bronze_mattock"
+    "matcha_component_chainmail_boots": {
+      "textures": "textures/items/generated_components/chainmail_boots"
     },
-    "matcha_bronze_dolabra": {
-      "textures": "textures/items/generated_equipment/bronze_dolabra"
+    "matcha_component_chainmail_chestplate": {
+      "textures": "textures/items/generated_components/chainmail_chestplate"
     },
-    "matcha_bronze_shears": {
-      "textures": "textures/items/generated_equipment/bronze_shears"
+    "matcha_component_chainmail_helmet": {
+      "textures": "textures/items/generated_components/chainmail_helmet"
     },
-    "matcha_bronze_helmet": {
-      "textures": "textures/items/generated_equipment/bronze_helmet"
+    "matcha_component_chainmail_leggings": {
+      "textures": "textures/items/generated_components/chainmail_leggings"
     },
-    "matcha_bronze_chestplate": {
-      "textures": "textures/items/generated_equipment/bronze_chestplate"
+    "matcha_component_copper_axe": {
+      "textures": "textures/items/generated_components/copper_axe"
     },
-    "matcha_bronze_leggings": {
-      "textures": "textures/items/generated_equipment/bronze_leggings"
+    "matcha_component_copper_boots": {
+      "textures": "textures/items/generated_components/copper_boots"
     },
-    "matcha_bronze_boots": {
-      "textures": "textures/items/generated_equipment/bronze_boots"
+    "matcha_component_copper_chestplate": {
+      "textures": "textures/items/generated_components/copper_chestplate"
+    },
+    "matcha_component_copper_compass": {
+      "textures": "compass"
+    },
+    "matcha_component_copper_dolabra": {
+      "textures": "textures/items/generated_components/copper_dolabra"
+    },
+    "matcha_component_copper_helmet": {
+      "textures": "textures/items/generated_components/copper_helmet"
+    },
+    "matcha_component_copper_hoe": {
+      "textures": "textures/items/generated_components/copper_hoe"
+    },
+    "matcha_component_copper_leggings": {
+      "textures": "textures/items/generated_components/copper_leggings"
+    },
+    "matcha_component_copper_mattock": {
+      "textures": "textures/items/generated_components/copper_mattock"
+    },
+    "matcha_component_copper_pickaxe": {
+      "textures": "textures/items/generated_components/copper_pickaxe"
+    },
+    "matcha_component_copper_shears": {
+      "textures": "textures/items/generated_components/copper_shears"
+    },
+    "matcha_component_copper_shovel": {
+      "textures": "textures/items/generated_components/copper_shovel"
+    },
+    "matcha_component_copper_spear": {
+      "textures": "textures/items/generated_components/copper_spear"
+    },
+    "matcha_component_copper_sword": {
+      "textures": "textures/items/generated_components/copper_sword"
+    },
+    "matcha_component_diamond_axe": {
+      "textures": "textures/items/generated_components/diamond_axe"
+    },
+    "matcha_component_diamond_boots": {
+      "textures": "textures/items/generated_components/diamond_boots"
+    },
+    "matcha_component_diamond_chestplate": {
+      "textures": "textures/items/generated_components/diamond_chestplate"
+    },
+    "matcha_component_diamond_dolabra": {
+      "textures": "textures/items/generated_components/diamond_dolabra"
+    },
+    "matcha_component_diamond_helmet": {
+      "textures": "textures/items/generated_components/diamond_helmet"
+    },
+    "matcha_component_diamond_hoe": {
+      "textures": "textures/items/generated_components/diamond_hoe"
+    },
+    "matcha_component_diamond_leggings": {
+      "textures": "textures/items/generated_components/diamond_leggings"
+    },
+    "matcha_component_diamond_mattock": {
+      "textures": "textures/items/generated_components/diamond_mattock"
+    },
+    "matcha_component_diamond_pickaxe": {
+      "textures": "textures/items/generated_components/diamond_pickaxe"
+    },
+    "matcha_component_diamond_shovel": {
+      "textures": "textures/items/generated_components/diamond_shovel"
+    },
+    "matcha_component_diamond_spear": {
+      "textures": "textures/items/generated_components/diamond_spear"
+    },
+    "matcha_component_diamond_sword": {
+      "textures": "textures/items/generated_components/diamond_sword"
+    },
+    "matcha_component_divine_fragment": {
+      "textures": "textures/items/generated_components/divine_fragment"
+    },
+    "matcha_component_golden_axe": {
+      "textures": "textures/items/generated_components/golden_axe"
+    },
+    "matcha_component_golden_boots": {
+      "textures": "textures/items/generated_components/golden_boots"
+    },
+    "matcha_component_golden_chestplate": {
+      "textures": "textures/items/generated_components/golden_chestplate"
+    },
+    "matcha_component_golden_compass": {
+      "textures": "compass"
+    },
+    "matcha_component_golden_helmet": {
+      "textures": "textures/items/generated_components/golden_helmet"
+    },
+    "matcha_component_golden_hoe": {
+      "textures": "textures/items/generated_components/golden_hoe"
+    },
+    "matcha_component_golden_leggings": {
+      "textures": "textures/items/generated_components/golden_leggings"
+    },
+    "matcha_component_golden_pickaxe": {
+      "textures": "textures/items/generated_components/golden_pickaxe"
+    },
+    "matcha_component_golden_shovel": {
+      "textures": "textures/items/generated_components/golden_shovel"
+    },
+    "matcha_component_golden_spear": {
+      "textures": "textures/items/generated_components/golden_spear"
+    },
+    "matcha_component_golden_sword": {
+      "textures": "textures/items/generated_components/golden_sword"
+    },
+    "matcha_component_invisible_item_frame": {
+      "textures": "textures/items/generated_components/invisible_item_frame"
+    },
+    "matcha_component_iron_axe": {
+      "textures": "textures/items/generated_components/iron_axe"
+    },
+    "matcha_component_iron_boots": {
+      "textures": "textures/items/generated_components/iron_boots"
+    },
+    "matcha_component_iron_chestplate": {
+      "textures": "textures/items/generated_components/iron_chestplate"
+    },
+    "matcha_component_iron_dolabra": {
+      "textures": "textures/items/generated_components/iron_dolabra"
+    },
+    "matcha_component_iron_helmet": {
+      "textures": "textures/items/generated_components/iron_helmet"
+    },
+    "matcha_component_iron_hoe": {
+      "textures": "textures/items/generated_components/iron_hoe"
+    },
+    "matcha_component_iron_leggings": {
+      "textures": "textures/items/generated_components/iron_leggings"
+    },
+    "matcha_component_iron_mattock": {
+      "textures": "textures/items/generated_components/iron_mattock"
+    },
+    "matcha_component_iron_pickaxe": {
+      "textures": "textures/items/generated_components/iron_pickaxe"
+    },
+    "matcha_component_iron_shears": {
+      "textures": "textures/items/generated_components/iron_shears"
+    },
+    "matcha_component_iron_shovel": {
+      "textures": "textures/items/generated_components/iron_shovel"
+    },
+    "matcha_component_iron_spear": {
+      "textures": "textures/items/generated_components/iron_spear"
+    },
+    "matcha_component_iron_sword": {
+      "textures": "textures/items/generated_components/iron_sword"
+    },
+    "matcha_component_leather_boots": {
+      "textures": "textures/items/generated_components/leather_boots"
+    },
+    "matcha_component_leather_chestplate": {
+      "textures": "textures/items/generated_components/leather_chestplate"
+    },
+    "matcha_component_leather_helmet": {
+      "textures": "textures/items/generated_components/leather_helmet"
+    },
+    "matcha_component_leather_pants": {
+      "textures": "textures/items/generated_components/leather_pants"
+    },
+    "matcha_component_mace": {
+      "textures": "textures/items/generated_components/mace"
+    },
+    "matcha_component_minecart_from_steel": {
+      "textures": "textures/items/generated_components/minecart_from_steel"
+    },
+    "matcha_component_music_disc_golden": {
+      "textures": "textures/items/generated_components/music_disc_golden"
+    },
+    "matcha_component_nazar": {
+      "textures": "textures/items/generated_components/nazar"
+    },
+    "matcha_component_snow_shovel": {
+      "textures": "textures/items/generated_components/snow_shovel"
+    },
+    "matcha_component_soul_campfire": {
+      "textures": "textures/items/generated_components/soul_campfire"
+    },
+    "matcha_component_stabilised_estus": {
+      "textures": "textures/items/generated_components/stabilised_estus"
+    },
+    "matcha_component_sturdy_leather_boots": {
+      "textures": "textures/items/generated_components/sturdy_leather_boots"
+    },
+    "matcha_component_sturdy_leather_chestplate": {
+      "textures": "textures/items/generated_components/sturdy_leather_chestplate"
+    },
+    "matcha_component_sturdy_leather_helmet": {
+      "textures": "textures/items/generated_components/sturdy_leather_helmet"
+    },
+    "matcha_component_sturdy_leather_pants": {
+      "textures": "textures/items/generated_components/sturdy_leather_pants"
+    },
+    "matcha_component_tinder": {
+      "textures": "textures/items/generated_components/tinder"
+    },
+    "matcha_component_warding_stone": {
+      "textures": "textures/items/generated_components/warding_stone"
+    },
+    "matcha_component_wooden_axe": {
+      "textures": "wooden_axe"
+    },
+    "matcha_component_wooden_cross": {
+      "textures": "textures/items/generated_components/wooden_cross"
+    },
+    "matcha_component_wooden_hoe": {
+      "textures": "wooden_hoe"
+    },
+    "matcha_component_wooden_pickaxe": {
+      "textures": "wooden_pickaxe"
+    },
+    "matcha_component_wooden_shovel": {
+      "textures": "wooden_shovel"
+    },
+    "matcha_component_wooden_spear": {
+      "textures": "textures/items/generated_components/wooden_spear"
+    },
+    "matcha_component_wooden_sword": {
+      "textures": "wooden_sword"
+    },
+    "matcha_component_music_disc_labyrinthine": {
+      "textures": "textures/items/generated_components/music_disc_labyrinthine"
+    },
+    "matcha_component_cake": {
+      "textures": "cake"
+    },
+    "matcha_component_dough": {
+      "textures": "shulker_spawn_egg"
+    },
+    "matcha_component_dough_from_water": {
+      "textures": "shulker_spawn_egg"
+    },
+    "matcha_component_flour": {
+      "textures": "enderman_spawn_egg"
+    },
+    "matcha_component_flour_bag": {
+      "textures": "magma_cube_spawn_egg"
+    },
+    "matcha_component_flour_from_flour_bag": {
+      "textures": "enderman_spawn_egg"
+    },
+    "matcha_component_uncooked_curry": {
+      "textures": "strider_spawn_egg"
+    },
+    "matcha_component_uncooked_green_curry": {
+      "textures": "zombified_piglin_spawn_egg"
+    },
+    "matcha_component_uncooked_paneer_makhani": {
+      "textures": "zoglin_spawn_egg"
+    },
+    "matcha_component_uncooked_ramen": {
+      "textures": "wither_skeleton_spawn_egg"
+    },
+    "matcha_component_amber_earrings": {
+      "textures": "textures/items/generated_components/amber_earrings"
+    },
+    "matcha_component_bronze_elytra": {
+      "textures": "textures/items/generated_components/bronze_elytra"
+    },
+    "matcha_component_butcher_knife": {
+      "textures": "textures/items/generated_components/butcher_knife"
+    },
+    "matcha_component_gilded_leather_boots": {
+      "textures": "textures/items/generated_components/gilded_leather_boots"
+    },
+    "matcha_component_lesser_warding_shield": {
+      "textures": "shield"
+    },
+    "matcha_component_silver_sword": {
+      "textures": "textures/items/generated_components/silver_sword"
+    },
+    "matcha_component_warding_shield": {
+      "textures": "shield"
+    },
+    "matcha_component_warding_sword": {
+      "textures": "textures/items/generated_components/warding_sword"
     }
   }
 }

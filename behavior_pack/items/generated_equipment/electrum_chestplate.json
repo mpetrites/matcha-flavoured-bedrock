@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:electrum_chestplate",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:electrum_chestplate.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_electrum_chestplate"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1000
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 8
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 12
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:diamond",
+              "minecraft:gold_ingot"
+            ],
+            "repair_amount": 250
+          }
+        ]
+      }
+    }
+  }
+}

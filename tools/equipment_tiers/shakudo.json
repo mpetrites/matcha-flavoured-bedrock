@@ -1,0 +1,351 @@
+{
+  "tier": "shakudo",
+  "format_version": "1.21.130",
+  "repair": {
+    "items": [
+      "minecraft:copper_ingot"
+    ],
+    "amount": 250
+  },
+  "items": [
+    {
+      "name": "axe",
+      "display": "Palatinate Axe",
+      "durability": 1000,
+      "group": "axe",
+      "texture": "shakudo_axe",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_axe",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "minecraft:silk_touch": 1
+      },
+      "damage": 9,
+      "enchant": "axe",
+      "attack_cooldown": 1.0,
+      "mining": [
+        {
+          "speed": 9,
+          "block": {
+            "tags": "query.any_tag( 'wood' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "boots",
+      "display": "Palatinate Boots",
+      "durability": 500,
+      "group": "boots",
+      "texture": "shakudo_boots",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 125
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_boots",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "main:cleanse_armor_feet": 1
+      },
+      "armor": {
+        "slot": "slot.armor.feet",
+        "protection": 2
+      }
+    },
+    {
+      "name": "chestplate",
+      "display": "Palatinate Chestplate",
+      "durability": 500,
+      "group": "chestplate",
+      "texture": "shakudo_chestplate",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 125
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_chestplate",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "main:cleanse_armor_chest": 1
+      },
+      "armor": {
+        "slot": "slot.armor.chest",
+        "protection": 6
+      }
+    },
+    {
+      "name": "dolabra",
+      "display": "Palatinate Dolabra",
+      "durability": 1000,
+      "group": "dolabra",
+      "texture": "shakudo_dolabra",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:copper_axe",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "minecraft:silk_touch": 1
+      },
+      "damage": 7,
+      "enchant": "axe",
+      "attack_cooldown": 1.0,
+      "mining": [
+        {
+          "speed": 7,
+          "block": {
+            "tags": "query.any_tag( 'wood', 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "helmet",
+      "display": "Palatinate Helmet",
+      "durability": 500,
+      "group": "helmet",
+      "texture": "shakudo_helmet",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 125
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_helmet",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "main:cleanse_armor_head": 1
+      },
+      "armor": {
+        "slot": "slot.armor.head",
+        "protection": 2
+      }
+    },
+    {
+      "name": "hoe",
+      "display": "Palatinate Hoe",
+      "durability": 1000,
+      "group": "hoe",
+      "texture": "shakudo_hoe",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_hoe",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "minecraft:silk_touch": 1
+      },
+      "damage": 1,
+      "enchant": "hoe",
+      "attack_cooldown": 0.1429,
+      "mining": [
+        {
+          "speed": 9,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "leggings",
+      "display": "Palatinate Leggings",
+      "durability": 500,
+      "group": "leggings",
+      "texture": "shakudo_leggings",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 125
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_leggings",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "main:cleanse_armor_legs": 1
+      },
+      "armor": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      }
+    },
+    {
+      "name": "mattock",
+      "display": "Palatinate Mattock",
+      "durability": 1000,
+      "group": "mattock",
+      "texture": "shakudo_mattock",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:copper_hoe",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "minecraft:silk_touch": 1
+      },
+      "damage": 4,
+      "enchant": "hoe",
+      "attack_cooldown": 0.25,
+      "mining": [
+        {
+          "speed": 8,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves', 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pickaxe",
+      "display": "Palatinate Pickaxe",
+      "durability": 1000,
+      "group": "pickaxe",
+      "texture": "shakudo_pickaxe",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_pickaxe",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "minecraft:silk_touch": 1
+      },
+      "damage": 4,
+      "enchant": "pickaxe",
+      "mining": [
+        {
+          "speed": 9,
+          "block": {
+            "tags": "query.any_tag( 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shovel",
+      "display": "Palatinate Shovel",
+      "durability": 1000,
+      "group": "shovel",
+      "texture": "shakudo_shovel",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_shovel",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "minecraft:silk_touch": 1
+      },
+      "damage": 4,
+      "enchant": "shovel",
+      "attack_cooldown": 1.0,
+      "mining": [
+        {
+          "speed": 9,
+          "block": {
+            "tags": "query.any_tag( 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "spear",
+      "display": "Palatinate Spear",
+      "durability": 1000,
+      "group": "sword",
+      "texture": "shakudo_spear",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_spear",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "main:sanguine": 1
+      },
+      "damage": 3,
+      "enchant": "spear"
+    },
+    {
+      "name": "sword",
+      "display": "Palatinate Sword",
+      "durability": 1000,
+      "group": "sword",
+      "texture": "palatinate_sword",
+      "repair": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:copper_ingot",
+        "base": "minecraft:copper_sword",
+        "addition": "minecraft:shulker_shell"
+      },
+      "source_enchantments": {
+        "minecraft:sweeping_edge": 1,
+        "main:sanguine": 1
+      },
+      "damage": 6,
+      "enchant": "sword",
+      "attack_cooldown": 0.625
+    }
+  ]
+}

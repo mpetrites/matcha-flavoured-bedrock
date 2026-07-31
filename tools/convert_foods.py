@@ -54,7 +54,8 @@ def custom_item_id(recipe: dict, path: Path) -> str:
 
 
 def display_name(recipe: dict, path: Path, lang: dict[str, str]) -> str:
-    item_name = recipe["result"]["components"].get("minecraft:item_name")
+    components = recipe["result"]["components"]
+    item_name = components.get("minecraft:item_name") or components.get("minecraft:custom_name")
     if isinstance(item_name, str):
         return item_name
     if isinstance(item_name, dict):
@@ -93,6 +94,8 @@ def item_definition(item_id: str, recipe: dict, texture_key: str) -> dict:
         "saturation_modifier": saturation_modifier(food),
     }
     use_remainder = remainder(components)
+    if not use_remainder and recipe["result"]["id"] in {"minecraft:potion", "minecraft:honey_bottle"}:
+        use_remainder = "minecraft:glass_bottle"
     if use_remainder:
         food_component["using_converts_to"] = use_remainder
 
@@ -102,6 +105,7 @@ def item_definition(item_id: str, recipe: dict, texture_key: str) -> dict:
         use_animation = (
             "drink"
             if "drink" in sound or use_remainder == "minecraft:glass_bottle"
+            or recipe["result"]["id"] in {"minecraft:potion","minecraft:splash_potion"}
             else "eat"
         )
     return {
@@ -154,6 +158,17 @@ def effect_actions(recipe: dict) -> list[dict]:
                 strip_namespace(effect) for effect in action.get("effects", [])
             ]
         actions.append(converted)
+    potion_effects = recipe["result"]["components"].get("minecraft:potion_contents", {}).get("custom_effects", [])
+    if potion_effects:
+        actions.append({
+            "type": "apply_effects",
+            "effects": [{
+                "id": strip_namespace(effect["id"]),
+                "duration": effect.get("duration", 1),
+                "amplifier": effect.get("amplifier", 0),
+                "showParticles": effect.get("show_particles", True),
+            } for effect in potion_effects],
+        })
     return actions
 
 
@@ -223,7 +238,7 @@ def main() -> None:
     for path in sorted(java_data.glob("*/recipe/*.json")):
         recipe = json.loads(path.read_text(encoding="utf-8"))
         components = recipe.get("result", {}).get("components", {})
-        if "minecraft:consumable" not in components:
+        if "minecraft:consumable" not in components and "minecraft:potion_contents" not in components:
             continue
         recipes.append((path, recipe))
 
@@ -314,6 +329,12 @@ def main() -> None:
         [f"item.{item_id}.name={name}" for item_id, name in sorted(names.items())],
     )
     write_effect_module(args.behavior_pack / "scripts/food_effects.js", effects)
+    (args.behavior_pack / "functions/matcha_consumables_test.mcfunction").write_text(
+        "# Generated consumables test kit\n"
+        + "\n".join(f"give @s {item_id} 1" for item_id in sorted(effects))
+        + "\n",
+        encoding="utf-8",
+    )
 
     report = {
         "source_food_recipes": len(recipes),

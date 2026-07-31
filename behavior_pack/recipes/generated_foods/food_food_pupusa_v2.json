@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:shulker_spawn_egg"
+        "item": "matcha:dough"
       },
       {
         "item": "minecraft:cookie"

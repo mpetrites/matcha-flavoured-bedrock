@@ -1,0 +1,61 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:steel_axe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.axe"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:steel_axe.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_steel_axe"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 3000
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 10,
+      "minecraft:enchantable": {
+        "slot": "axe",
+        "value": 12
+      },
+      "minecraft:cooldown": {
+        "category": "matcha_steel_axe",
+        "duration": 1.4286,
+        "type": "attack"
+      },
+      "minecraft:swing_duration": {
+        "value": 1.0
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 8,
+            "block": {
+              "tags": "query.any_tag( 'wood' )"
+            }
+          }
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ],
+            "repair_amount": 750
+          }
+        ]
+      }
+    }
+  }
+}

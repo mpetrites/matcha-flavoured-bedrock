@@ -7,7 +7,7 @@
     "tags": [
       "furnace"
     ],
-    "input": "minecraft:zoglin_spawn_egg",
+    "input": "matcha:uncooked_paneer_makhani",
     "output": "matcha:paneer_makhani"
   }
 }

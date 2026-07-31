@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_component_stabilised_estus"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "EBE",
+      "EPE",
+      "EEE"
+    ],
+    "key": {
+      "E": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "B": {
+        "item": "minecraft:endermite_spawn_egg"
+      },
+      "P": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "result": {
+      "item": "matcha:stabilised_estus"
+    }
+  }
+}

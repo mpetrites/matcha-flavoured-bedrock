@@ -7,7 +7,7 @@
     "tags": [
       "furnace"
     ],
-    "input": "minecraft:zombified_piglin_spawn_egg",
+    "input": "matcha:uncooked_green_curry",
     "output": "matcha:green_curry"
   }
 }

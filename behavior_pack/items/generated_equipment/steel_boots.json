@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:steel_boots",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.boots"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:steel_boots.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_steel_boots"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1000
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.feet",
+        "protection": 2
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_feet",
+        "value": 12
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ],
+            "repair_amount": 250
+          }
+        ]
+      }
+    }
+  }
+}

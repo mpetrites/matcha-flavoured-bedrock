@@ -6,9 +6,9 @@ world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn || player.hasTag("matcha_alpha_welcomed")) return;
 
   player.addTag("matcha_alpha_welcomed");
-  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.4.0");
+  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.6.0");
   player.sendMessage("§7Food restores health instead of hunger. Try cooking an egg, apple, or raw meat.");
-  player.sendMessage("§7With cheats enabled, run §f/function matcha_alpha_test§7 for a test kit.");
+  player.sendMessage("§7Test kits: §f/function matcha_equipment_test§7, §fmatcha_component_items_test§7, or §fmatcha_consumables_test§7.");
 });
 
 function applyEffectTimeline(source, effectId, effects, elapsed = 0) {

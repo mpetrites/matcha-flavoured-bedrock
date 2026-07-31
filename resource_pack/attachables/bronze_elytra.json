@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "matcha:bronze_elytra",
+      "materials": {
+        "default": "elytra",
+        "enchanted": "elytra_glint"
+      },
+      "textures": {
+        "default": "textures/models/armor/bronze_elytra",
+        "enchanted": "textures/misc/enchanted_actor_glint"
+      },
+      "geometry": {
+        "default": "geometry.elytra"
+      },
+      "animations": {
+        "default_controller": "controller.animation.elytra.default",
+        "gliding": "animation.elytra.gliding"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": ["default_controller"]
+      },
+      "render_controllers": ["controller.render.armor"]
+    }
+  }
+}

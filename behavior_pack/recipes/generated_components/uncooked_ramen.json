@@ -1,0 +1,34 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:food_component_uncooked_ramen_v1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:dried_kelp"
+      },
+      {
+        "item": "#minecraft:eggs"
+      },
+      {
+        "item": "matcha:dough"
+      },
+      {
+        "item": "minecraft:porkchop"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "result": {
+      "item": "matcha:uncooked_ramen"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:adamant_dolabra",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.dolabra"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:adamant_dolabra.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_adamant_dolabra"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 5000
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 1,
+      "minecraft:enchantable": {
+        "slot": "axe",
+        "value": 12
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 13,
+            "block": {
+              "tags": "query.any_tag( 'wood', 'stone', 'metal' )"
+            }
+          }
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:diamond_block",
+              "minecraft:gold_block",
+              "minecraft:netherite_scrap"
+            ],
+            "repair_amount": 1250
+          }
+        ]
+      }
+    }
+  }
+}

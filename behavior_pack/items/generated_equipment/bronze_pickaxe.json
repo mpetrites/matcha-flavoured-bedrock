@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.100",
+  "format_version": "1.21.130",
   "minecraft:item": {
     "description": {
       "identifier": "matcha:bronze_pickaxe",
@@ -26,6 +26,14 @@
       "minecraft:enchantable": {
         "slot": "pickaxe",
         "value": 12
+      },
+      "minecraft:cooldown": {
+        "category": "matcha_bronze_pickaxe",
+        "duration": 0.8333,
+        "type": "attack"
+      },
+      "minecraft:swing_duration": {
+        "value": 0.8333
       },
       "minecraft:digger": {
         "use_efficiency": true,

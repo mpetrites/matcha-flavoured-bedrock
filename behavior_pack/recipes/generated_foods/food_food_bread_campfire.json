@@ -7,7 +7,7 @@
     "tags": [
       "campfire"
     ],
-    "input": "minecraft:shulker_spawn_egg",
+    "input": "matcha:dough",
     "output": "matcha:bread"
   }
 }

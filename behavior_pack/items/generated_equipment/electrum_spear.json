@@ -1,0 +1,62 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:electrum_spear",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:electrum_spear.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_electrum_spear"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 3000
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 4,
+      "minecraft:enchantable": {
+        "slot": "spear",
+        "value": 12
+      },
+      "minecraft:kinetic_weapon": {
+        "damage_conditions": {
+          "min_speed": 0.1,
+          "min_relative_speed": 0.1
+        },
+        "damage_multiplier": 4.0,
+        "damage_modifier": 4,
+        "delay": 2,
+        "hitbox_margin": 0.35,
+        "reach": {
+          "min": 0,
+          "max": 4.5
+        }
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 72000,
+        "movement_modifier": 1.0
+      },
+      "minecraft:use_animation": "spear",
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:gold_ingot",
+              "minecraft:diamond"
+            ],
+            "repair_amount": 750
+          }
+        ]
+      }
+    }
+  }
+}

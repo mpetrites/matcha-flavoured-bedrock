@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_component_amnestic"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:azure_bluet"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:paper"
+      }
+    ],
+    "result": {
+      "item": "matcha:amnestic"
+    }
+  }
+}

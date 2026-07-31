@@ -1,0 +1,377 @@
+{
+  "tier": "electrum",
+  "format_version": "1.21.130",
+  "repair": {
+    "items": [
+      "minecraft:diamond",
+      "minecraft:gold_ingot"
+    ],
+    "amount": 750
+  },
+  "items": [
+    {
+      "name": "axe",
+      "display": "Electrum Axe",
+      "durability": 3000,
+      "group": "axe",
+      "texture": "electrum_axe",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_axe",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:fortune": 2,
+        "minecraft:looting": 2,
+        "minecraft:smite": 2,
+        "main:warding2": 1
+      },
+      "damage": 9,
+      "enchant": "axe",
+      "attack_cooldown": 0.8333,
+      "mining": [
+        {
+          "speed": 12,
+          "block": {
+            "tags": "query.any_tag( 'wood' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "boots",
+      "display": "Electrum Boots",
+      "durability": 1000,
+      "group": "boots",
+      "texture": "electrum_boots",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_boots",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "main:warding_armour": 1
+      },
+      "armor": {
+        "slot": "slot.armor.feet",
+        "protection": 3
+      }
+    },
+    {
+      "name": "chestplate",
+      "display": "Electrum Chestplate",
+      "durability": 1000,
+      "group": "chestplate",
+      "texture": "electrum_chestplate",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_chestplate",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "main:warding_armour": 1
+      },
+      "armor": {
+        "slot": "slot.armor.chest",
+        "protection": 8
+      }
+    },
+    {
+      "name": "dolabra",
+      "display": "Electrum Dolabra",
+      "durability": 3000,
+      "group": "dolabra",
+      "texture": "electrum_dolabra",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:diamond_axe",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:fortune": 2,
+        "main:warding1": 1,
+        "minecraft:looting": 1
+      },
+      "damage": 6,
+      "enchant": "axe",
+      "attack_cooldown": 0.8333,
+      "mining": [
+        {
+          "speed": 10,
+          "block": {
+            "tags": "query.any_tag( 'wood', 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "helmet",
+      "display": "Electrum Helmet",
+      "durability": 1000,
+      "group": "helmet",
+      "texture": "electrum_helmet",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_helmet",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "main:warding_armour": 1
+      },
+      "armor": {
+        "slot": "slot.armor.head",
+        "protection": 3
+      }
+    },
+    {
+      "name": "hoe",
+      "display": "Electrum Hoe",
+      "durability": 3000,
+      "group": "hoe",
+      "texture": "electrum_hoe",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_hoe",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:fortune": 3,
+        "main:warding1": 1
+      },
+      "damage": 1,
+      "enchant": "hoe",
+      "attack_cooldown": 0.25,
+      "mining": [
+        {
+          "speed": 12,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "leggings",
+      "display": "Electrum Leggings",
+      "durability": 1000,
+      "group": "leggings",
+      "texture": "electrum_leggings",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 250
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_leggings",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "main:warding_armour": 1
+      },
+      "armor": {
+        "slot": "slot.armor.legs",
+        "protection": 6
+      }
+    },
+    {
+      "name": "mattock",
+      "display": "Electrum Mattock",
+      "durability": 3000,
+      "group": "mattock",
+      "texture": "electrum_mattock",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:netherite_upgrade_smithing_template",
+        "base": "minecraft:diamond_hoe",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:fortune": 2,
+        "main:warding1": 1
+      },
+      "damage": 3,
+      "enchant": "hoe",
+      "attack_cooldown": 0.3333,
+      "mining": [
+        {
+          "speed": 10,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves', 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pickaxe",
+      "display": "Electrum Pickaxe",
+      "durability": 3000,
+      "group": "pickaxe",
+      "texture": "electrum_pickaxe",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_pickaxe",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:fortune": 3,
+        "main:warding1": 1
+      },
+      "damage": 5,
+      "enchant": "pickaxe",
+      "attack_cooldown": 0.8333,
+      "mining": [
+        {
+          "speed": 12,
+          "block": {
+            "tags": "query.any_tag( 'stone', 'metal' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shovel",
+      "display": "Electrum Shovel",
+      "durability": 3000,
+      "group": "shovel",
+      "texture": "electrum_shovel",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_shovel",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:fortune": 3,
+        "main:warding1": 1
+      },
+      "damage": 6,
+      "enchant": "shovel",
+      "attack_cooldown": 1.0,
+      "mining": [
+        {
+          "speed": 12,
+          "block": {
+            "tags": "query.any_tag( 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ]
+    },
+    {
+      "name": "spear",
+      "display": "Electrum Spear",
+      "durability": 3000,
+      "group": "sword",
+      "texture": "electrum_spear",
+      "repair": {
+        "items": [
+          "minecraft:gold_ingot",
+          "minecraft:diamond"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_spear",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:smite": 2,
+        "minecraft:looting": 2,
+        "main:warding2": 1
+      },
+      "damage": 4,
+      "enchant": "spear"
+    },
+    {
+      "name": "sword",
+      "display": "Electrum Sword",
+      "durability": 3000,
+      "group": "sword",
+      "texture": "electrum_sword",
+      "repair": {
+        "items": [
+          "minecraft:diamond",
+          "minecraft:gold_ingot"
+        ],
+        "amount": 750
+      },
+      "recipe": {
+        "template": "minecraft:diamond",
+        "base": "minecraft:diamond_sword",
+        "addition": "minecraft:heart_of_the_sea"
+      },
+      "source_enchantments": {
+        "minecraft:looting": 2,
+        "minecraft:smite": 2,
+        "main:warding2": 1
+      },
+      "damage": 7,
+      "enchant": "sword",
+      "attack_cooldown": 0.5263
+    }
+  ]
+}

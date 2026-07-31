@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:shakudo_pickaxe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.pickaxe"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:shakudo_pickaxe.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_shakudo_pickaxe"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1000
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 4,
+      "minecraft:enchantable": {
+        "slot": "pickaxe",
+        "value": 12
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 9,
+            "block": {
+              "tags": "query.any_tag( 'stone', 'metal' )"
+            }
+          }
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ],
+            "repair_amount": 250
+          }
+        ]
+      }
+    }
+  }
+}
