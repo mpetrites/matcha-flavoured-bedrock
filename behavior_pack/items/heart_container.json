@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:heart_container",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:heart_container.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_heart_container"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:rarity": "rare",
+      "minecraft:glint": true
+    }
+  }
+}

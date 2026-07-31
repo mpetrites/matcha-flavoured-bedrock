@@ -7,6 +7,7 @@ item.matcha:fried_egg.name=Fried Egg
 item.matcha:baked_apple.name=Baked Apple
 item.matcha:bronze_alloy.name=Bronze Alloy
 item.matcha:bronze_sword.name=Bronze Sword
+item.matcha:heart_container.name=Crystal Heart
 
 ## BEGIN GENERATED MATCHA FOODS
 item.matcha:apple_empanada.name=Apple Empanada

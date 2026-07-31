@@ -23,6 +23,9 @@
     "matcha_bronze_sword": {
       "textures": "textures/items/bronze_sword"
     },
+    "matcha_heart_container": {
+      "textures": "textures/items/heart_container"
+    },
     "matcha_food_apple_empanada": {
       "textures": "textures/items/generated_foods/apple_empanada"
     },

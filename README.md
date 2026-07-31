@@ -16,7 +16,7 @@ the behavior pack and resource pack on a world. This alpha targets Bedrock
 
 With cheats enabled, run `/function matcha_alpha_test` for a small test kit.
 
-## Included in alpha 0.3.0
+## Included in alpha 0.4.0
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
@@ -29,6 +29,9 @@ With cheats enabled, run `/function matcha_alpha_test` for a small test kit.
 - 88 scripted custom foods from 118 upstream food recipes, including effect
   probabilities, cleansing actions, layered effects, use times, and container
   remainders
+- Matcha survival rules: managed hunger, disabled natural regeneration,
+  keep-inventory deaths, manual sleep time, Crystal Hearts, and persistent
+  maximum-health progression
 
 See [PORTING_STATUS.md](PORTING_STATUS.md) for exact coverage and known gaps.
 The machine-readable conversion audit is in

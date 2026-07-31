@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha:heart_container"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "#s#",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:diamond_block"
+      },
+      "s": {
+        "item": "minecraft:turtle_scute"
+      }
+    },
+    "result": {
+      "item": "matcha:heart_container",
+      "count": 1
+    }
+  }
+}

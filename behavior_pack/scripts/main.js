@@ -1,11 +1,12 @@
 import { system, world } from "@minecraft/server";
 import { FOOD_EFFECTS } from "./food_effects.js";
+import "./survival.js";
 
 world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn || player.hasTag("matcha_alpha_welcomed")) return;
 
   player.addTag("matcha_alpha_welcomed");
-  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.3.0");
+  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.4.0");
   player.sendMessage("§7Food restores health instead of hunger. Try cooking an egg, apple, or raw meat.");
   player.sendMessage("§7With cheats enabled, run §f/function matcha_alpha_test§7 for a test kit.");
 });
@@ -89,14 +90,3 @@ world.afterEvents.itemCompleteUse.subscribe(({ itemStack, source }) => {
   const actions = FOOD_EFFECTS[itemStack.typeId];
   if (actions) consumeFood(source, actions);
 });
-
-// Alpha approximation of Matcha's managed-hunger system. Keeping saturation
-// topped up makes the test foods usable as health consumables at any time.
-system.runInterval(() => {
-  for (const player of world.getAllPlayers()) {
-    player.addEffect("saturation", 100, {
-      amplifier: 0,
-      showParticles: false
-    });
-  }
-}, 80);

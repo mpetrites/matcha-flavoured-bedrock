@@ -8,7 +8,8 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
 | --- | --- |
 | Food | 88 custom foods generated from 118 upstream recipes |
 | Food effects | Apply, remove, and clear actions; probabilities and layered effects |
-| Survival | Hunger is kept full so health foods remain usable |
+| Survival | Managed hunger, no natural regeneration, keep inventory, manual sleep |
+| Health progression | Crystal Hearts, 20–60 health tracking, one-heart death penalty |
 | Progression | Bronze alloy and bronze sword |
 | Recipes | 751 ordinary recipes plus 118 food recipes translated |
 | Packaging | Linked behavior/resource packs in one `.mcaddon` |
@@ -27,8 +28,10 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
 - Recipes that modify ordinary Java foods now output namespaced Bedrock
   versions. Bedrock add-ons cannot globally replace every naturally acquired
   vanilla food stack with custom item components.
-- The full Java hunger and natural-regeneration overhaul is currently
-  approximated by periodically applying saturation.
+- Bedrock Health Boost changes maximum health in four-point steps, while
+  Matcha progresses in two-point steps. The script applies the smallest
+  containing Health Boost tier and caps usable health to the exact tracked
+  value. The HUD may briefly show one unavailable extra heart at odd tiers.
 - The Java bronze sword is a component-rich vanilla-item override. The
   Bedrock alpha uses a custom sword with equivalent broad progression stats.
 
