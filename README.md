@@ -21,7 +21,7 @@ With cheats enabled, use `/function matcha_equipment_test`,
 `/function matcha_advancement_test`. Use `/function matcha_global_mechanics_test`
 for environment and interaction systems.
 
-## Included in alpha 0.11.7
+## Included in alpha 0.11.10
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
@@ -105,6 +105,7 @@ python3 tools/generate_advancements.py --source /path/to/unpacked/Matcha_Flavour
 python3 tools/check_advancements.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_global_mechanics.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_food_interactions.py
+python3 tools/check_item_names.py
 python3 tools/convert_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/convert_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03

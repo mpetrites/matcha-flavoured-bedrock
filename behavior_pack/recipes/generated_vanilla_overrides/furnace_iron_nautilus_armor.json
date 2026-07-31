@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_iron_nautilus_armor"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:iron_nautilus_armor",
+    "output": "minecraft:iron_ingot"
+  }
+}

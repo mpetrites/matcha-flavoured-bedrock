@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_rabbit"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:rabbit",
+    "output": "matcha:cooked_rabbit"
+  }
+}

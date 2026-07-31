@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_copper_leggings"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:copper_leggings",
+    "output": "minecraft:copper_ingot"
+  }
+}

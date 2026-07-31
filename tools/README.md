@@ -36,6 +36,7 @@ custom recipe ingredient and result:
 ```sh
 python3 tools/import_recipe_icons.py --source /path/to/bedrock-samples/resource_pack
 python3 tools/check_recipe_icons.py
+python3 tools/check_item_names.py
 ```
 
 `convert_foods.py` handles the food subset of those component-bearing results:

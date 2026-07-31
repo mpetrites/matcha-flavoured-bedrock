@@ -8,11 +8,11 @@
       "crafting_table"
     ],
     "pattern": [
-      "\u00a3\u00a3",
-      "\u00a3\u00a3"
+      "SS",
+      "SS"
     ],
     "key": {
-      "\u00a3": {
+      "S": {
         "item": "minecraft:snow"
       }
     },

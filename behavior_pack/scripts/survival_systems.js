@@ -27,9 +27,11 @@ function targetLocation(event) {
   return {x:event.block.location.x+offset.x,y:event.block.location.y+offset.y,z:event.block.location.z+offset.z};
 }
 
-world.afterEvents.itemUseOn.subscribe((event) => {
-  const {itemStack,source}=event; if (source.typeId!=="minecraft:player") return;
+world.beforeEvents.playerInteractWithBlock.subscribe((event) => {
+  const {itemStack,player:source}=event;
+  if (!itemStack || (itemStack.typeId!==WARDING_STONE && itemStack.typeId!==BEDROCK_BUSTER)) return;
   const location=targetLocation(event);
+  system.run(() => {
   if (itemStack.typeId===WARDING_STONE) {
     if (trialChamberNearby(source,location)) { source.sendMessage("§cThe Trial Chamber violently rejects the Warding Stone."); source.dimension.createExplosion(location,1,{breaksBlocks:false,source}); return; }
     const block=source.dimension.getBlock(location); if (!block || block.typeId!=="minecraft:air") { source.sendMessage("§7The Warding Stone needs an empty block."); return; }
@@ -48,6 +50,7 @@ world.afterEvents.itemUseOn.subscribe((event) => {
       try { source.dimension.spawnParticle("minecraft:endrod",{x:location.x+0.5,y:location.y+0.5,z:location.z+0.5}); } catch {}
     },79);
   }
+  });
 });
 
 world.afterEvents.playerInteractWithBlock.subscribe(({player,block}) => {

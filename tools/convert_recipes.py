@@ -46,7 +46,6 @@ PROXY_ITEM_MAP = {
     "minecraft:red_nether_bricks": "minecraft:red_nether_brick",
     "minecraft:snow_block": "minecraft:snow",
     "minecraft:terracotta": "minecraft:hardened_clay",
-    "minecraft:flowering_azalea_leaves": "minecraft:azalea_leaves",
     "minecraft:slime_block": "minecraft:slime",
     "minecraft:spectral_arrow": "minecraft:arrow",
     "minecraft:waxed_copper_block": "minecraft:waxed_copper",
@@ -124,12 +123,17 @@ def description(recipe_id: str) -> dict:
 
 def convert_shaped(recipe: dict, namespace: str, stem: str) -> list[dict]:
     symbols = list(recipe["key"])
+    # Bedrock counts UTF-8 bytes rather than Unicode code points when it
+    # validates pattern width. Normalize Java's arbitrary key symbols to
+    # single-byte ASCII so a 2x2 recipe cannot be misread as 4x2.
+    ascii_symbols = iter("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789")
+    symbol_map = {symbol: next(ascii_symbols) for symbol in symbols}
     choices = [options(recipe["key"][symbol]) for symbol in symbols]
     variants = list(itertools.product(*choices))
     converted = []
     for number, selected in enumerate(variants):
         key = {
-            symbol: {"item": item}
+            symbol_map[symbol]: {"item": item}
             for symbol, item in zip(symbols, selected)
         }
         recipe_id = identifier(namespace, stem, number, len(variants))
@@ -140,7 +144,10 @@ def convert_shaped(recipe: dict, namespace: str, stem: str) -> list[dict]:
                     "description": description(recipe_id),
                     "tags": ["crafting_table"],
                     "unlock": {"context": "AlwaysUnlocked"},
-                    "pattern": recipe["pattern"],
+                    "pattern": [
+                        "".join(symbol_map.get(symbol, symbol) for symbol in row)
+                        for row in recipe["pattern"]
+                    ],
                     "key": key,
                     "result": result_for(recipe),
                 },
@@ -261,6 +268,12 @@ def main() -> None:
         namespace = source_file.parent.parent.name
         recipe = json.loads(source_file.read_text(encoding="utf-8"))
         recipe_type = recipe.get("type")
+        if namespace == "crafting" and source_file.stem == "bronze_alloy":
+            skipped.append(
+                {"source": str(source_file.relative_to(args.java_data.parent)), "reason": "replaced by native matcha:bronze_alloy recipe"}
+            )
+            counts["skipped_native_replacements"] += 1
+            continue
         if recipe_type not in TYPE_MAP:
             skipped.append(
                 {"source": str(source_file.relative_to(args.java_data.parent)), "reason": f"unsupported type {recipe_type}"}

@@ -33,9 +33,9 @@ add("minecraft:copper_ingot", "matcha:copper_sword", "matcha:bronze_alloy", "mat
 add("minecraft:copper_ingot", "minecraft:copper_helmet", "minecraft:resin_clump", "matcha:amber_earrings");
 add("minecraft:netherite_upgrade_smithing_template", "matcha:iron_sword", "minecraft:resin_brick", "matcha:butcher_knife");
 add("minecraft:rabbit_hide", "minecraft:leather_boots", "minecraft:gold_ingot", "matcha:gilded_leather_boots");
-add("minecraft:oak_planks", "matcha:warding_shield", "matcha:nazar", "matcha:warding_shield");
+add("minecraft:oak_planks", "minecraft:shield", "matcha:nazar", "matcha:warding_shield");
 add("minecraft:prismarine_crystals", "matcha:iron_sword", "matcha:nazar", "matcha:silver_sword");
-add("minecraft:prismarine_crystals", "matcha:warding_shield", "matcha:nazar", "matcha:warding_shield");
+add("minecraft:prismarine_crystals", "minecraft:shield", "matcha:nazar", "matcha:warding_shield");
 add("minecraft:iron_ingot", "matcha:iron_sword", "matcha:nazar", "matcha:warding_sword");
 add("minecraft:honeycomb", "matcha:bronze_elytra", "minecraft:phantom_membrane", "matcha:bronze_elytra");
 

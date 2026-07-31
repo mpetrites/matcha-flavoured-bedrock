@@ -11,9 +11,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RECIPES = ROOT / "behavior_pack/recipes"
 OUTPUT = RECIPES / "generated_vanilla_overrides"
-REPLACEMENTS = json.loads(
+CONFIG = json.loads(
     (ROOT / "tools/vanilla_replacements.json").read_text(encoding="utf-8")
-)["replacements"]
+)
+# Singleton replacements also need recipe shadows. Recipe-only overrides cover
+# ambiguous proxy items whose vanilla forms must remain valid smithing inputs.
+REPLACEMENTS = CONFIG["replacements"] | CONFIG.get("recipe_overrides", {})
+SOURCE_OVERRIDES = CONFIG.get("recipe_override_sources", {})
 
 
 def recipe_body(data: dict) -> dict | None:
@@ -57,6 +61,20 @@ def main() -> None:
         # A deterministic representative shadows the built-in recipe. Other
         # ways to craft the same Matcha item remain available under matcha IDs.
         source = choices[0]
+        data = json.loads(source.read_text(encoding="utf-8"))
+        body = recipe_body(data)
+        body["description"]["identifier"] = vanilla_id
+        output = OUTPUT / f"{vanilla_id.split(':', 1)[1]}.json"
+        output.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+        generated.append(
+            {"vanilla_identifier": vanilla_id, "matcha_recipe": str(source.relative_to(ROOT))}
+        )
+
+    for vanilla_id, relative_source in sorted(SOURCE_OVERRIDES.items()):
+        source = RECIPES / relative_source
+        if not source.is_file():
+            missing.append(vanilla_id)
+            continue
         data = json.loads(source.read_text(encoding="utf-8"))
         body = recipe_body(data)
         body["description"]["identifier"] = vanilla_id

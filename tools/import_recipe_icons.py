@@ -31,11 +31,9 @@ SOURCES = {
     "matcha:crafting_morsel_stew": "textures/items/rabbit_stew.png",
     "matcha:crafting_squid_ink_pasta": "textures/items/rabbit_stew.png",
     "matcha:crafting_stuffed_mushrooms": "textures/items/potato_baked.png",
-    "matcha:dough": "textures/items/spawn_eggs/spawn_egg_shulker.png",
     "matcha:dried_kelp": "textures/items/dried_kelp.png",
     "matcha:dried_kelp_from_dried_kelp_block": "textures/items/dried_kelp.png",
     "matcha:estus_ash": "textures/items/glowstone_dust.png",
-    "matcha:flour": "textures/items/spawn_eggs/spawn_egg_enderman.png",
     "matcha:flour_bag": "textures/items/spawn_eggs/spawn_egg_magma_cube.png",
     "matcha:golden_compass": "textures/items/compass_item.png",
     "matcha:milk_bottle": "textures/items/beetroot_soup.png",
@@ -45,7 +43,6 @@ SOURCES = {
     "matcha:uncooked_green_curry": "textures/items/spawn_eggs/spawn_egg_zombified_piglin.png",
     "matcha:uncooked_paneer_makhani": "textures/items/spawn_eggs/spawn_egg_zoglin.png",
     "matcha:uncooked_ramen": "textures/items/spawn_eggs/spawn_egg_wither_skeleton.png",
-    "matcha:warding_shield": "textures/entity/shield.png",
     "matcha:wooden_axe": "textures/items/wood_axe.png",
     "matcha:wooden_hoe": "textures/items/wood_hoe.png",
     "matcha:wooden_pickaxe": "textures/items/wood_pickaxe.png",
@@ -72,6 +69,15 @@ def main() -> None:
     args = parser.parse_args()
     atlas = json.loads(ATLAS.read_text(encoding="utf-8"))
     texture_data = atlas["texture_data"]
+    texture_data["matcha_component_flour"] = {
+        "textures": "textures/items/generated_components/flour"
+    }
+    texture_data["matcha_component_dough"] = {
+        "textures": "textures/items/generated_components/dough"
+    }
+    texture_data["matcha_component_warding_shield"] = {
+        "textures": "textures/items/generated_components/warding_shield"
+    }
     icons = item_icons()
     DESTINATION.mkdir(parents=True, exist_ok=True)
 

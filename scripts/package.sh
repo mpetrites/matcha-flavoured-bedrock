@@ -5,9 +5,9 @@ project_dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
 build_dir=$(mktemp -d)
 trap 'rm -rf "$build_dir"' EXIT HUP INT TERM
 
-bp_name="Matcha_Flavoured_Alpha_BP_0.11.7.mcpack"
-rp_name="Matcha_Flavoured_Alpha_RP_0.11.7.mcpack"
-addon_name="Matcha_Flavoured_Bedrock_Alpha_0.11.7.mcaddon"
+bp_name="Matcha_Flavoured_Alpha_BP_0.11.10.mcpack"
+rp_name="Matcha_Flavoured_Alpha_RP_0.11.10.mcpack"
+addon_name="Matcha_Flavoured_Bedrock_Alpha_0.11.10.mcaddon"
 
 (
   cd "$project_dir/behavior_pack"

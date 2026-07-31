@@ -19,8 +19,9 @@ LANG=ROOT/"resource_pack/texts/en_US.lang"
 REPORT=ROOT/"docs/component-item-conversion-report.json"
 BEGIN,END="## BEGIN GENERATED MATCHA COMPONENT ITEMS","## END GENERATED MATCHA COMPONENT ITEMS"
 EXISTING={"crystal_heart":"matcha:heart_container","bronze_sword":"matcha:bronze_sword"}
+CUSTOM_TEXTURE_STEMS={"dough","flour","warding_shield"}
 ARMOR_SLOTS={"head":"slot.armor.head","chest":"slot.armor.chest","legs":"slot.armor.legs","feet":"slot.armor.feet"}
-BEDROCK_RECORD_EVENTS={"golden":"11","labyrinthine":"cat"}
+BEDROCK_RECORD_EVENTS={"golden":"record.11","labyrinthine":"record.cat"}
 JUKEBOX_SONGS={}
 for song_path in (JAVA/"data/main/jukebox_song").glob("*.json"):
     song=json.loads(song_path.read_text())
@@ -31,9 +32,10 @@ for song_path in (JAVA/"data/main/jukebox_song").glob("*.json"):
         "sound_event":event,
     } if event else None
 
-def reset(path,suffix):
+def reset(path,suffix,preserve=frozenset()):
     path.mkdir(parents=True,exist_ok=True)
-    for p in path.glob("*"+suffix): p.unlink()
+    for p in path.glob("*"+suffix):
+        if p.stem not in preserve: p.unlink()
 def number_from_lore(c,symbol):
     for line in c.get("minecraft:lore",[]):
         text=line.get("text","") if isinstance(line,dict) else str(line)
@@ -45,7 +47,10 @@ def attr(c,kind):
 def display(c,stem,lang):
     n=c.get("minecraft:item_name")
     if isinstance(n,str): return n
-    if isinstance(n,dict): return n.get("text") or lang.get(n.get("translate"),n.get("translate"))
+    if isinstance(n,dict):
+        if n.get("text"): return n["text"]
+        translated=lang.get(n.get("translate"),"")
+        if translated and not translated.startswith(("item.","tile.","entity.","%")): return translated
     return stem.replace("_"," ").title()
 def replace_block(path,begin,end,entries):
     text=path.read_text()
@@ -54,7 +59,7 @@ def replace_block(path,begin,end,entries):
         text=before+("\n"+after if after else "")
     path.write_text(text.rstrip()+"\n\n"+begin+"\n"+"\n".join(entries)+"\n"+end+"\n")
 
-reset(ITEMS,".json"); reset(RECIPES,".json"); reset(TEXTURES,".png")
+reset(ITEMS,".json"); reset(RECIPES,".json"); reset(TEXTURES,".png",CUSTOM_TEXTURE_STEMS)
 lang=json.loads((JAVA/"assets/minecraft/lang/en_us.json").read_text())
 atlas=json.loads(ATLAS.read_text())
 atlas["texture_data"]={k:v for k,v in atlas["texture_data"].items() if not k.startswith("matcha_component_")}
@@ -90,7 +95,10 @@ for p,d,c in sources:
         audit.append({"source":source_name,"item":ident,"status":"existing_item_reused"}); continue
     texture_key=f"matcha_component_{stem}"
     source_texture=JAVA/f"assets/minecraft/textures/item/{model}.png"
-    if source_texture.exists():
+    custom_texture=TEXTURES/f"{stem}.png"
+    if custom_texture.exists():
+        texture=f"textures/items/generated_components/{stem}"
+    elif source_texture.exists():
         shutil.copy2(source_texture,TEXTURES/f"{stem}.png"); texture=f"textures/items/generated_components/{stem}"
     else: texture=d["result"]["id"].split(":",1)[-1]
     atlas["texture_data"][texture_key]={"textures":texture}
@@ -138,6 +146,8 @@ for p,d,c in sources:
     audit.append({"source":source_name,"item":ident,"status":"generated","untranslated_components":sorted(set(c)-supported)})
 for p,d,c in sources:
     ident=generated_ids[p]; recipe=copy.deepcopy(d); recipe["result"]={"id":ident,"count":d["result"].get("count",1)}
+    if p.stem in {"lesser_warding_shield","warding_shield"}:
+        recipe["base"] = "minecraft:shield"
     if p.stem == "stabilised_estus":
         recipe["key"]["E"] = "matcha:estus_ash"
     if ident in EXISTING.values() and (ROOT/f"behavior_pack/recipes/{p.stem}.json").exists():

@@ -62,7 +62,9 @@ def display_name(recipe: dict, path: Path, lang: dict[str, str]) -> str:
         if "text" in item_name:
             return item_name["text"]
         if "translate" in item_name:
-            return lang.get(item_name["translate"], item_name["translate"])
+            translated = lang.get(item_name["translate"], "")
+            if translated and not translated.startswith(("item.", "tile.", "entity.", "%")):
+                return translated
     return source_stem(path).replace("_", " ").title()
 
 
