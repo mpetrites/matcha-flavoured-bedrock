@@ -4,9 +4,9 @@ An independent, work-in-progress Bedrock Edition port of Klei Wright's
 [Matcha Flavoured](https://modrinth.com/datapack/matcha-flavoured) Java
 datapack.
 
-The current alpha is a playable vertical slice, not a complete port. It
-implements the health-food system, five equipment tiers, component-bearing
-items, and the core no-hunger approximation.
+The current alpha ports the major progression and survival systems, but it is
+not yet parity-complete. Engine-limited behavior and the remaining validation
+work are tracked separately from shipped coverage.
 
 ## Install
 
@@ -17,7 +17,9 @@ the behavior pack and resource pack on a world. This alpha targets Bedrock
 With cheats enabled, use `/function matcha_equipment_test`,
 `/function matcha_component_items_test`, `/function matcha_consumables_test`,
 `/function matcha_enchantment_test`, `/function matcha_survival_test`,
-`/function matcha_villager_test`, or `/function matcha_structure_test`.
+`/function matcha_villager_test`, `/function matcha_structure_test`, or
+`/function matcha_advancement_test`. Use `/function matcha_global_mechanics_test`
+for the remaining environment and interaction systems.
 
 ## Included in alpha 0.11.0
 
@@ -33,7 +35,9 @@ With cheats enabled, use `/function matcha_equipment_test`,
   component-free recipes in the pinned 1.03 upstream release
 - 90 scripted custom consumables from 120 upstream recipes, including effect
   probabilities, cleansing actions, layered effects, use times, and container
-  remainders; Estus potion effects are included
+  remainders; Estus potion effects are included. The poison and weakness
+  preserves are aimed area splashes, mead and milk are completion-gated drinks,
+  and placed cake supplies a health pulse per bite.
 - Entity-driven Estus progression: source-faithful Raw Estus drops from
   player-killed Blazes, Zombies, Husks, Drowned, and Zombie Villagers; pickup
   healing; Estus Ash conversion; Benzene stabilization; and Flask recipes
@@ -55,9 +59,22 @@ With cheats enabled, use `/function matcha_equipment_test`,
 - All 16 eerie beta-village templates converted to native `.mcstructure`
   assets and assembled in the eight official village biomes using the source
   spacing, separation, salt, pools, and placement inventory
+- Persistent behavior for all 223 source advancement definitions and 507
+  criteria, with source requirement grouping, silent internal completions, and
+  toast/chat feedback for displayed advancements
+- Extended day timing, sky/safe-surface spawn restrictions, hostile-mob
+  rebalance, clay-statue weather, eerie village ambience, Happy Ghast horns,
+  stackable water bottles, asylum applications, and boat/sulfur particles
+- Native presentation overrides for all 65 source biomes, including sky,
+  water, vegetation, and fog colors, plus persistent Nether water placement
+- Source block texture layers, armor trims, four splash particles, sun/rain/moon
+  environment art, painting atlas, colormaps, bell audio, both custom tracks,
+  jukebox records, 40 active biome music routes, and scripted particles/ambience
 
 See [REMAINING_PARITY.md](REMAINING_PARITY.md) for the audited discrepancy
 ledger. Machine-readable conversion and parity reports are under `docs/`.
+Passing static checks establish source inventory and pack-surface coverage;
+they do not replace the in-game validation listed in that ledger.
 
 ## Build
 
@@ -77,6 +94,14 @@ python3 tools/check_villager_trades.py --source /path/to/unpacked/Matcha_Flavour
 python3 tools/convert_loot.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 PYTHONPATH=/tmp/matcha_pydeps python3 tools/convert_structures.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_loot_structures.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/generate_advancements.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_advancements.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_global_mechanics.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_food_interactions.py
+python3 tools/convert_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/convert_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 ./scripts/package.sh
 ```
 

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "matcha:basalt_deltas"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.8,
+        "fog_end": 1.0,
+        "fog_color": "#685f70",
+        "render_distance_type": "render"
+      }
+    }
+  }
+}

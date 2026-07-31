@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:sparse_jungle"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#77a8ff"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#7ebee5"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "music.game.sparse_jungle",
+        "volume_multiplier": 1.0
+      }
+    }
+  }
+}

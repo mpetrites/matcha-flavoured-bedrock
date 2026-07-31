@@ -1,6 +1,7 @@
 import { EntityComponentTypes, ItemStack, system, world } from "@minecraft/server";
 import { ActionFormData, MessageFormData } from "@minecraft/server-ui";
 import { MATCHA_TRADES, MATCHA_TRADE_SETS } from "./villager_trade_data.js";
+import { recordVillagerTrade } from "./advancements.js";
 
 const PROFESSION_BY_VARIANT={1:"farmer",2:"fisherman",3:"shepherd",4:"fletcher",5:"librarian",6:"cartographer",7:"cleric",8:"armorer",9:"weaponsmith",10:"toolsmith",11:"butcher",12:"leatherworker",13:"mason"};
 const LEVEL_THRESHOLDS=[0,10,70,150,250];
@@ -73,6 +74,7 @@ async function confirmTrade(player,entity,trade) {
   if (result.canceled || result.selection!==0 || !entity.isValid) return;
   if (!removeItems(player,trade.wants.item,trade.wants.count)) { player.sendMessage("§cThe trade could not be completed."); return; }
   giveItems(player,trade.gives.item,trade.gives.count); advanceVillager(entity,trade);
+  recordVillagerTrade(player,profession(entity),trade.wants.item,trade.gives.item);
   player.playSound("mob.villager.yes",{volume:0.7,pitch:1}); player.sendMessage(`§aReceived ${trade.gives.count}× ${trade.gives.name}.`);
 }
 async function openTrades(player,entity) {

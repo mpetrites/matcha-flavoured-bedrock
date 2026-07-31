@@ -1,0 +1,154 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "copied": {
+    "block_textures": 491,
+    "trim_textures": 7,
+    "colormaps": 6,
+    "environment_files": 11,
+    "bedrock_environment_mappings": 3,
+    "painting_textures": 2,
+    "painting_atlas_merged": 1,
+    "particle_textures": 4,
+    "particle_definitions": 4,
+    "custom_sounds": 2,
+    "bell_sounds": 2
+  },
+  "java_models": {
+    "total": 699,
+    "item": 477,
+    "block": 222,
+    "parents": {
+      "<root>": 52,
+      "block/block": 7,
+      "block/crop": 3,
+      "block/cross": 20,
+      "block/cross_leaves": 11,
+      "block/cube": 4,
+      "block/cube_all": 9,
+      "block/flower_pot_cross": 1,
+      "block/orientable_dirt": 5,
+      "block/orientable_furnace": 2,
+      "block/tinted_cross": 6,
+      "item/generated": 15,
+      "minecraft:block/block": 1,
+      "minecraft:block/crop": 9,
+      "minecraft:block/cube": 1,
+      "minecraft:block/cube_all": 8,
+      "minecraft:block/cube_bottom_top": 2,
+      "minecraft:block/cube_column": 4,
+      "minecraft:block/fence_post": 11,
+      "minecraft:block/flower_pot_cross": 2,
+      "minecraft:block/flower_pot_cross_brown_mushroom": 1,
+      "minecraft:block/flower_pot_cross_red_mushroom": 1,
+      "minecraft:block/inner_stairs": 2,
+      "minecraft:block/orientable_vertical_with_bottom": 2,
+      "minecraft:block/orientable_with_all_sides": 2,
+      "minecraft:block/outer_stairs": 2,
+      "minecraft:block/slab": 7,
+      "minecraft:block/slab_top": 7,
+      "minecraft:block/stairs": 2,
+      "minecraft:block/template_anvil": 3,
+      "minecraft:block/template_bars_cap": 5,
+      "minecraft:block/template_bars_cap_alt": 5,
+      "minecraft:block/template_bars_post": 5,
+      "minecraft:block/template_bars_post_ends": 5,
+      "minecraft:block/template_bars_side": 5,
+      "minecraft:block/template_bars_side_alt": 5,
+      "minecraft:block/template_item_frame": 2,
+      "minecraft:block/template_orientable_trapdoor_bottom": 1,
+      "minecraft:block/template_orientable_trapdoor_open": 1,
+      "minecraft:block/template_orientable_trapdoor_top": 1,
+      "minecraft:item/bow": 6,
+      "minecraft:item/generated": 365,
+      "minecraft:item/handheld": 81,
+      "minecraft:item/spear_in_hand": 5,
+      "minecraft:item/template_bundle_open_back": 1,
+      "minecraft:item/template_bundle_open_front": 4
+    },
+    "texture_references": 734,
+    "bedrock_handling": "item outputs use generated icons/attachables; block texture layers are copied, while Java parent/override geometry is not a Bedrock model format"
+  },
+  "java_blockstates": {
+    "total": 30,
+    "files": [
+      "allium.json",
+      "bedrock_buster.json",
+      "brick_slab.json",
+      "carrots.json",
+      "coarse_dirt.json",
+      "dandelion.json",
+      "dark_oak_slab.json",
+      "dead_bush.json",
+      "dirt.json",
+      "glow_lichen.json",
+      "golden_dandelion.json",
+      "granite_slab.json",
+      "gravel.json",
+      "lily_of_the_valley.json",
+      "lily_pad.json",
+      "oak_trapdoor.json",
+      "oxeye_daisy.json",
+      "petrified_oak_slab.json",
+      "podzol.json",
+      "polished_diorite_slab.json",
+      "polished_granite_slab.json",
+      "potatoes.json",
+      "potted_allium.json",
+      "potted_dandelion.json",
+      "rooted_dirt.json",
+      "short_grass.json",
+      "smooth_red_sandstone_slab.json",
+      "spruce_slab.json",
+      "warding_stone.json",
+      "wheat.json"
+    ],
+    "bedrock_handling": "all referenced block texture assets are installed; Java variants/multipart JSON cannot override vanilla Bedrock block permutations"
+  },
+  "jukebox_songs": {
+    "main:dry_hands": {
+      "comparator_output": 1,
+      "description": "C418 - Dry Hands",
+      "length_in_seconds": 69,
+      "sound_event": {
+        "sound_id": "minecraft:music_disc.dry_hands"
+      }
+    },
+    "main:golden": {
+      "comparator_output": 1,
+      "description": "Ciren - Golden",
+      "length_in_seconds": 188,
+      "sound_event": {
+        "sound_id": "minecraft:custom.golden"
+      }
+    },
+    "main:labyrinthine": {
+      "comparator_output": 1,
+      "description": "Lena Raine - Labyrinthine",
+      "length_in_seconds": 324,
+      "sound_event": {
+        "sound_id": "minecraft:music_disc.labyrinthine"
+      }
+    }
+  },
+  "painting_handling": "match.png and back.png are installed; Match is an atlas entry on legacy Bedrock clients and requires in-game target-version verification",
+  "environment_handling": "source rain, sun, and individual lunar phases are installed; Bedrock clients that require moon_phases.png retain their engine atlas"
+}

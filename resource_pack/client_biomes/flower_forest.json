@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:flower_forest"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#78a7ff"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#a2b5dd"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "music.game.flower_forest",
+        "volume_multiplier": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "matcha:flower_forest"
+      }
+    }
+  }
+}

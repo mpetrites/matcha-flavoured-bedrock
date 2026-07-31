@@ -20,6 +20,14 @@ REPORT=ROOT/"docs/component-item-conversion-report.json"
 BEGIN,END="## BEGIN GENERATED MATCHA COMPONENT ITEMS","## END GENERATED MATCHA COMPONENT ITEMS"
 EXISTING={"crystal_heart":"matcha:heart_container","bronze_sword":"matcha:bronze_sword"}
 ARMOR_SLOTS={"head":"slot.armor.head","chest":"slot.armor.chest","legs":"slot.armor.legs","feet":"slot.armor.feet"}
+JUKEBOX_SONGS={}
+for song_path in (JAVA/"data/main/jukebox_song").glob("*.json"):
+    song=json.loads(song_path.read_text())
+    JUKEBOX_SONGS[f"main:{song_path.stem}"]={
+        "comparator_signal":song.get("comparator_output",1),
+        "duration":song.get("length_in_seconds",0),
+        "sound_event":f"matcha.{song_path.stem}",
+    }
 
 def reset(path,suffix):
     path.mkdir(parents=True,exist_ok=True)
@@ -99,6 +107,9 @@ for p,d,c in sources:
         components["minecraft:glint"]=bool(c["minecraft:enchantment_glint_override"])
     if c.get("minecraft:fire_resistant"):
         components["minecraft:fire_resistant"]=True
+    jukebox=c.get("minecraft:jukebox_playable")
+    if jukebox in JUKEBOX_SONGS:
+        components["minecraft:record"]=JUKEBOX_SONGS[jukebox]
     damage=attr(c,"minecraft:attack_damage")
     if damage is None: damage=number_from_lore(c,"🗡")
     if damage is not None:
@@ -120,7 +131,7 @@ for p,d,c in sources:
     item={"format_version":"1.21.100","minecraft:item":{"description":{"identifier":ident,"menu_category":{"category":"equipment" if c.get("minecraft:max_damage") else "items"}},"components":components}}
     (ITEMS/f"{stem}.json").write_text(json.dumps(item,indent=2)+"\n")
     names.append(f"item.{ident}.name={display(c,p.stem,lang)}")
-    supported={"minecraft:item_name","minecraft:custom_name","minecraft:item_model","minecraft:max_stack_size","minecraft:max_damage","minecraft:attribute_modifiers","minecraft:tool","minecraft:equippable","minecraft:repairable","minecraft:lore","minecraft:tooltip_display","minecraft:enchantment_glint_override","minecraft:fire_resistant","minecraft:unbreakable","minecraft:rarity"}
+    supported={"minecraft:item_name","minecraft:custom_name","minecraft:item_model","minecraft:max_stack_size","minecraft:max_damage","minecraft:attribute_modifiers","minecraft:tool","minecraft:equippable","minecraft:repairable","minecraft:lore","minecraft:tooltip_display","minecraft:enchantment_glint_override","minecraft:fire_resistant","minecraft:unbreakable","minecraft:rarity","minecraft:jukebox_playable"}
     audit.append({"source":source_name,"item":ident,"status":"generated","untranslated_components":sorted(set(c)-supported)})
 for p,d,c in sources:
     ident=generated_ids[p]; recipe=copy.deepcopy(d); recipe["result"]={"id":ident,"count":d["result"].get("count",1)}

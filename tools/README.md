@@ -1,4 +1,4 @@
-# Recipe conversion tool
+# Parity and conversion tools
 
 All source-aware tools use the official Java 1.03 baseline pinned in
 `upstream_baseline.json`. Verify the downloaded archive and unpack it, then
@@ -39,7 +39,34 @@ python3 tools/convert_foods.py \
 ```
 
 It generates custom items, recipe variants, texture-atlas entries, names, and
-the Script API effect table used by `scripts/main.js`.
+the Script API effect table used by `scripts/main.js`. Splash-potion results
+are emitted as throw interactions and routed through the generated
+`food_interaction_data.js` table instead of becoming drinkable foods.
+
+Audit the checked-in special carriers and cake/drink behavior with:
+
+```sh
+python3 tools/check_food_interactions.py
+```
+
+`convert_worldgen.py` converts all source biome presentation fields supported
+by Bedrock's client-biome and fog schemas and records the remaining dimension,
+feature, spawn, particle, and audio classifications:
+
+```sh
+python3 tools/convert_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+```
+
+`convert_presentation_assets.py` installs the directly portable block texture
+layers, trims, particle definitions, environment and painting mappings,
+colormaps, sounds, and record audio. It also inventories Java-only model and
+blockstate semantics rather than loading incompatible JSON into Bedrock:
+
+```sh
+python3 tools/convert_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+```
 
 `generate_equipment.py` builds a complete equipment tier from a declarative
 file. Bronze is the reference tier:
@@ -95,6 +122,23 @@ python3 tools/convert_loot.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 -m pip install --target /tmp/matcha_pydeps nbtlib
 PYTHONPATH=/tmp/matcha_pydeps python3 tools/convert_structures.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_loot_structures.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+```
+
+Advancement definitions are normalized into a persistent Script API registry:
+
+```sh
+python3 tools/generate_advancements.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_advancements.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+```
+
+Displayed advancements use source toast/chat flags. Hidden definitions complete
+silently. Crafting and fishing criteria currently use result acquisition as a
+Bedrock approximation; exact fidelity is recorded in the generated report.
+
+Remaining global mechanics are checked with:
+
+```sh
+python3 tools/check_global_mechanics.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 ```
 
 Singleton vanilla carriers are generated and checked separately. Vanilla

@@ -449,9 +449,7 @@
       "source": "data/crafting/recipe/music_disc_golden.json",
       "item": "matcha:music_disc_golden",
       "status": "generated",
-      "untranslated_components": [
-        "minecraft:jukebox_playable"
-      ]
+      "untranslated_components": []
     },
     {
       "source": "data/crafting/recipe/nazar.json",
@@ -576,9 +574,7 @@
       "source": "data/custom_music/recipe/music_disc_labyrinthine.json",
       "item": "matcha:music_disc_labyrinthine",
       "status": "generated",
-      "untranslated_components": [
-        "minecraft:jukebox_playable"
-      ]
+      "untranslated_components": []
     },
     {
       "source": "data/food/recipe/dough.json",

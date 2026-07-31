@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:stony_peaks"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#9ebbf8"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#aebfe2"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "music.game.stony_peaks",
+        "volume_multiplier": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "matcha:stony_peaks"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:lush_caves"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#7ba4ff"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#7ebee5"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "music.game.lush_caves",
+        "volume_multiplier": 1.0
+      }
+    }
+  }
+}

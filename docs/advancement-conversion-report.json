@@ -1,0 +1,167 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "advancements": 223,
+  "criteria": 507,
+  "displayed": 67,
+  "hidden": 156,
+  "triggers": {
+    "changed_dimension": 3,
+    "consume_item": 3,
+    "fishing_rod_hooked": 51,
+    "inventory_changed": 192,
+    "item_used_on_block": 3,
+    "location": 4,
+    "player_killed_entity": 3,
+    "recipe_crafted": 205,
+    "recipe_unlocked": 34,
+    "started_riding": 1,
+    "tick": 2,
+    "using_item": 4,
+    "villager_trade": 2
+  },
+  "status": "pass",
+  "checks": [
+    {
+      "name": "advancement inventory",
+      "expected": 223,
+      "actual": 223,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "criterion inventory",
+      "expected": 507,
+      "actual": 507,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "display inventory",
+      "expected": 67,
+      "actual": 67,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "persistent criteria",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "matcha:advancement_criteria_v1",
+        "setDynamicProperty"
+      ]
+    },
+    {
+      "name": "persistent completion",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "matcha:advancements_v1",
+        "requirementsMet"
+      ]
+    },
+    {
+      "name": "toast and chat",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "onScreenDisplay.setTitle",
+        "Advancement Made!",
+        "display.toast",
+        "display.chat"
+      ]
+    },
+    {
+      "name": "inventory reconciliation",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "inventoryIds(player)",
+        "inventory_changed",
+        "recipe_crafted"
+      ]
+    },
+    {
+      "name": "stable event adapters",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "playerDimensionChange",
+        "itemCompleteUse",
+        "itemUseOn",
+        "entityDie",
+        "minecraft:riding"
+      ]
+    },
+    {
+      "name": "villager trade adapter",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "recordVillagerTrade",
+        "villager_trade"
+      ]
+    },
+    {
+      "name": "runtime loaded",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "import \"./advancements.js\""
+      ]
+    }
+  ],
+  "summary": {
+    "checks": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "trigger_fidelity": {
+    "exact": [
+      "inventory_changed",
+      "consume_item",
+      "using_item",
+      "item_used_on_block",
+      "player_killed_entity",
+      "changed_dimension",
+      "villager_trade",
+      "tick",
+      "started_riding",
+      "location:stepping_on"
+    ],
+    "approximated": {
+      "recipe_crafted": "completed when its result is acquired because Bedrock 2.0 has no stable recipe-crafted event",
+      "recipe_unlocked": "treated as available because Bedrock pack recipes are globally discoverable",
+      "fishing_rod_hooked": "completed when the matching catch enters inventory because Bedrock has no stable fishing-hook event"
+    },
+    "pending": [
+      "location:structures"
+    ]
+  }
+}

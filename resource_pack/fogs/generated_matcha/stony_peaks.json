@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "matcha:stony_peaks"
+    },
+    "distance": {
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 60.0,
+        "fog_color": "#2e304c",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

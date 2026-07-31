@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:jagged_peaks"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#c1cef0"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#bbcae8"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "music.game.jagged_peaks",
+        "volume_multiplier": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "matcha:jagged_peaks"
+      }
+    }
+  }
+}
