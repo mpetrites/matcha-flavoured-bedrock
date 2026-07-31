@@ -99,3 +99,18 @@ item.matcha:sweet_berry_mash.name=Sweet Berry Mash
 item.matcha:sweet_berry_toast.name=Sweet Berry Toast
 item.matcha:warped_stroganoff.name=Warped Stroganoff
 ## END GENERATED MATCHA FOODS
+
+## BEGIN GENERATED MATCHA EQUIPMENT
+item.matcha:bronze_axe.name=Bronze Axe
+item.matcha:bronze_pickaxe.name=Bronze Pickaxe
+item.matcha:bronze_shovel.name=Bronze Shovel
+item.matcha:bronze_hoe.name=Bronze Hoe
+item.matcha:bronze_spear.name=Bronze Spear
+item.matcha:bronze_mattock.name=Bronze Mattock
+item.matcha:bronze_dolabra.name=Bronze Dolabra
+item.matcha:bronze_shears.name=Bronze Shears
+item.matcha:bronze_helmet.name=Bronze Helmet
+item.matcha:bronze_chestplate.name=Bronze Chestplate
+item.matcha:bronze_leggings.name=Bronze Leggings
+item.matcha:bronze_boots.name=Bronze Boots
+## END GENERATED MATCHA EQUIPMENT

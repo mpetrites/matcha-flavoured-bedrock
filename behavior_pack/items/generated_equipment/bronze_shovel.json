@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:bronze_shovel",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.shovel"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:bronze_shovel.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_bronze_shovel"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1000
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 5,
+      "minecraft:enchantable": {
+        "slot": "shovel",
+        "value": 12
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 15,
+            "block": {
+              "tags": "query.any_tag( 'dirt', 'sand', 'gravel', 'snow' )"
+            }
+          }
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ],
+            "repair_amount": 250
+          }
+        ]
+      }
+    }
+  }
+}

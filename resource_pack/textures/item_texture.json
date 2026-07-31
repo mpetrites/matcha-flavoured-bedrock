@@ -280,6 +280,42 @@
     },
     "matcha_food_warped_stroganoff": {
       "textures": "textures/items/generated_foods/warped_stroganoff"
+    },
+    "matcha_bronze_axe": {
+      "textures": "textures/items/generated_equipment/bronze_axe"
+    },
+    "matcha_bronze_pickaxe": {
+      "textures": "textures/items/generated_equipment/bronze_pickaxe"
+    },
+    "matcha_bronze_shovel": {
+      "textures": "textures/items/generated_equipment/bronze_shovel"
+    },
+    "matcha_bronze_hoe": {
+      "textures": "textures/items/generated_equipment/bronze_hoe"
+    },
+    "matcha_bronze_spear": {
+      "textures": "textures/items/generated_equipment/bronze_spear"
+    },
+    "matcha_bronze_mattock": {
+      "textures": "textures/items/generated_equipment/bronze_mattock"
+    },
+    "matcha_bronze_dolabra": {
+      "textures": "textures/items/generated_equipment/bronze_dolabra"
+    },
+    "matcha_bronze_shears": {
+      "textures": "textures/items/generated_equipment/bronze_shears"
+    },
+    "matcha_bronze_helmet": {
+      "textures": "textures/items/generated_equipment/bronze_helmet"
+    },
+    "matcha_bronze_chestplate": {
+      "textures": "textures/items/generated_equipment/bronze_chestplate"
+    },
+    "matcha_bronze_leggings": {
+      "textures": "textures/items/generated_equipment/bronze_leggings"
+    },
+    "matcha_bronze_boots": {
+      "textures": "textures/items/generated_equipment/bronze_boots"
     }
   }
 }

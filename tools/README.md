@@ -27,3 +27,16 @@ python3 tools/convert_foods.py \
 
 It generates custom items, recipe variants, texture-atlas entries, names, and
 the Script API effect table used by `scripts/main.js`.
+
+`generate_equipment.py` builds a complete equipment tier from a declarative
+file. Bronze is the reference tier:
+
+```sh
+python3 tools/generate_equipment.py tools/equipment_tiers/bronze.json
+python3 tools/check_equipment.py tools/equipment_tiers/bronze.json
+```
+
+The checker audits durability, attack damage, mining rules, armor protection,
+repairs, recipes, and textures and writes
+`docs/equipment-check-report.json`. Add future tier JSON files beside Bronze
+to reuse the same framework.

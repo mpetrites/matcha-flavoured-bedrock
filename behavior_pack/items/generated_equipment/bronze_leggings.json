@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:bronze_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:bronze_leggings.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_bronze_leggings"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 12
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ],
+            "repair_amount": 250
+          }
+        ]
+      }
+    }
+  }
+}

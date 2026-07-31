@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "matcha:bronze_mattock"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:copper_hoe",
+    "addition": "minecraft:phantom_membrane",
+    "result": "matcha:bronze_mattock"
+  }
+}

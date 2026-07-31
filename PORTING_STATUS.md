@@ -10,7 +10,7 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
 | Food effects | Apply, remove, and clear actions; probabilities and layered effects |
 | Survival | Managed hunger, no natural regeneration, keep inventory, manual sleep |
 | Health progression | Crystal Hearts, 20–60 health tracking, one-heart death penalty |
-| Progression | Bronze alloy and bronze sword |
+| Progression | Bronze tools, hybrid tools, spear, shears, armor, and repairs |
 | Recipes | 751 ordinary recipes plus 118 food recipes translated |
 | Packaging | Linked behavior/resource packs in one `.mcaddon` |
 
@@ -34,6 +34,12 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
   value. The HUD may briefly show one unavailable extra heart at odd tiers.
 - The Java bronze sword is a component-rich vanilla-item override. The
   Bedrock alpha uses a custom sword with equivalent broad progression stats.
+- Java attack-speed and tiny held/equipped movement-speed modifiers do not
+  have faithful stable Bedrock item-component equivalents, so Bronze preserves
+  damage, durability, mining speed, armor protection, repairs, and recipes
+  without those modifiers.
+- Bronze shears remain trade-only, as in the Java source. Their 3,000
+  durability and iron repair ingredients are preserved.
 
 ## Not yet ported
 
@@ -42,12 +48,12 @@ definitions). The food subset of the component-bearing recipes is now ported.
 The remaining component recipes primarily produce equipment, enchantments,
 blessings, and utility items. Major
 unported systems include the remaining foods and intrinsic effects,
-alloy equipment sets, enchantment and blessing systems, villagers, loot and
+later alloy equipment sets, enchantment and blessing systems, villagers, loot and
 treasures, fishing, structures, advancements, world generation, and most
 vanilla recipe/equipment rebalancing.
 
 ## Next suggested milestone
 
-Port the remaining component-bearing outputs as custom Bedrock items, grouped
-by equipment, blessings, and utility items. Each group needs its item behavior
-implemented before its recipes can safely be enabled.
+Generate Steel, Shakudo, Electrum, and Adamant definitions from the reusable
+equipment tier generator, then extend the framework for any tier-specific
+abilities.

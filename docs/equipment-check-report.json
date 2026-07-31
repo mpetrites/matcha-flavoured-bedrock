@@ -1,0 +1,744 @@
+{
+  "tier": "bronze",
+  "summary": {
+    "checks": 66,
+    "passed": 66,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "item": "bronze_axe",
+      "field": "durability",
+      "status": "pass",
+      "expected": 1000,
+      "actual": {
+        "max_durability": 1000
+      }
+    },
+    {
+      "item": "bronze_axe",
+      "field": "damage",
+      "status": "pass",
+      "expected": 9,
+      "actual": 9
+    },
+    {
+      "item": "bronze_axe",
+      "field": "mining",
+      "status": "pass",
+      "expected": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'wood' )"
+          }
+        }
+      ],
+      "actual": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 15,
+            "block": {
+              "tags": "query.any_tag( 'wood' )"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "item": "bronze_axe",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_axe",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_axe",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_pickaxe",
+      "field": "durability",
+      "status": "pass",
+      "expected": 1000,
+      "actual": {
+        "max_durability": 1000
+      }
+    },
+    {
+      "item": "bronze_pickaxe",
+      "field": "damage",
+      "status": "pass",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "item": "bronze_pickaxe",
+      "field": "mining",
+      "status": "pass",
+      "expected": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'stone', 'metal' )"
+          }
+        }
+      ],
+      "actual": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 15,
+            "block": {
+              "tags": "query.any_tag( 'stone', 'metal' )"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "item": "bronze_pickaxe",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_pickaxe",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_pickaxe",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_shovel",
+      "field": "durability",
+      "status": "pass",
+      "expected": 1000,
+      "actual": {
+        "max_durability": 1000
+      }
+    },
+    {
+      "item": "bronze_shovel",
+      "field": "damage",
+      "status": "pass",
+      "expected": 5,
+      "actual": 5
+    },
+    {
+      "item": "bronze_shovel",
+      "field": "mining",
+      "status": "pass",
+      "expected": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ],
+      "actual": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 15,
+            "block": {
+              "tags": "query.any_tag( 'dirt', 'sand', 'gravel', 'snow' )"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "item": "bronze_shovel",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_shovel",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_shovel",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_hoe",
+      "field": "durability",
+      "status": "pass",
+      "expected": 1000,
+      "actual": {
+        "max_durability": 1000
+      }
+    },
+    {
+      "item": "bronze_hoe",
+      "field": "damage",
+      "status": "pass",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "item": "bronze_hoe",
+      "field": "mining",
+      "status": "pass",
+      "expected": [
+        {
+          "speed": 15,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves' )"
+          }
+        }
+      ],
+      "actual": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 15,
+            "block": {
+              "tags": "query.any_tag( 'plant', 'leaves' )"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "item": "bronze_hoe",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_hoe",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_hoe",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_spear",
+      "field": "durability",
+      "status": "pass",
+      "expected": 1000,
+      "actual": {
+        "max_durability": 1000
+      }
+    },
+    {
+      "item": "bronze_spear",
+      "field": "damage",
+      "status": "pass",
+      "expected": 3,
+      "actual": 3
+    },
+    {
+      "item": "bronze_spear",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_spear",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_spear",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_mattock",
+      "field": "durability",
+      "status": "pass",
+      "expected": 1000,
+      "actual": {
+        "max_durability": 1000
+      }
+    },
+    {
+      "item": "bronze_mattock",
+      "field": "damage",
+      "status": "pass",
+      "expected": 3,
+      "actual": 3
+    },
+    {
+      "item": "bronze_mattock",
+      "field": "mining",
+      "status": "pass",
+      "expected": [
+        {
+          "speed": 10,
+          "block": {
+            "tags": "query.any_tag( 'plant', 'leaves', 'dirt', 'sand', 'gravel', 'snow' )"
+          }
+        }
+      ],
+      "actual": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 10,
+            "block": {
+              "tags": "query.any_tag( 'plant', 'leaves', 'dirt', 'sand', 'gravel', 'snow' )"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "item": "bronze_mattock",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_mattock",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_mattock",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_dolabra",
+      "field": "durability",
+      "status": "pass",
+      "expected": 1000,
+      "actual": {
+        "max_durability": 1000
+      }
+    },
+    {
+      "item": "bronze_dolabra",
+      "field": "damage",
+      "status": "pass",
+      "expected": 7,
+      "actual": 7
+    },
+    {
+      "item": "bronze_dolabra",
+      "field": "mining",
+      "status": "pass",
+      "expected": [
+        {
+          "speed": 10,
+          "block": {
+            "tags": "query.any_tag( 'wood', 'stone', 'metal' )"
+          }
+        }
+      ],
+      "actual": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 10,
+            "block": {
+              "tags": "query.any_tag( 'wood', 'stone', 'metal' )"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "item": "bronze_dolabra",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_dolabra",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_dolabra",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_shears",
+      "field": "durability",
+      "status": "pass",
+      "expected": 3000,
+      "actual": {
+        "max_durability": 3000
+      }
+    },
+    {
+      "item": "bronze_shears",
+      "field": "damage",
+      "status": "pass",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "item": "bronze_shears",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:iron_nugget",
+          "minecraft:iron_ingot"
+        ],
+        "amount": 750
+      },
+      "actual": {
+        "items": [
+          "minecraft:iron_nugget",
+          "minecraft:iron_ingot"
+        ],
+        "repair_amount": 750
+      }
+    },
+    {
+      "item": "bronze_shears",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "Trade-only in the Java source",
+      "actual": "absent"
+    },
+    {
+      "item": "bronze_shears",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_helmet",
+      "field": "durability",
+      "status": "pass",
+      "expected": 500,
+      "actual": {
+        "max_durability": 500
+      }
+    },
+    {
+      "item": "bronze_helmet",
+      "field": "armor",
+      "status": "pass",
+      "expected": {
+        "slot": "slot.armor.head",
+        "protection": 2
+      },
+      "actual": {
+        "slot": "slot.armor.head",
+        "protection": 2
+      }
+    },
+    {
+      "item": "bronze_helmet",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_helmet",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_helmet",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_chestplate",
+      "field": "durability",
+      "status": "pass",
+      "expected": 500,
+      "actual": {
+        "max_durability": 500
+      }
+    },
+    {
+      "item": "bronze_chestplate",
+      "field": "armor",
+      "status": "pass",
+      "expected": {
+        "slot": "slot.armor.chest",
+        "protection": 6
+      },
+      "actual": {
+        "slot": "slot.armor.chest",
+        "protection": 6
+      }
+    },
+    {
+      "item": "bronze_chestplate",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_chestplate",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_chestplate",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_leggings",
+      "field": "durability",
+      "status": "pass",
+      "expected": 500,
+      "actual": {
+        "max_durability": 500
+      }
+    },
+    {
+      "item": "bronze_leggings",
+      "field": "armor",
+      "status": "pass",
+      "expected": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      },
+      "actual": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      }
+    },
+    {
+      "item": "bronze_leggings",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_leggings",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_leggings",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_boots",
+      "field": "durability",
+      "status": "pass",
+      "expected": 500,
+      "actual": {
+        "max_durability": 500
+      }
+    },
+    {
+      "item": "bronze_boots",
+      "field": "armor",
+      "status": "pass",
+      "expected": {
+        "slot": "slot.armor.feet",
+        "protection": 2
+      },
+      "actual": {
+        "slot": "slot.armor.feet",
+        "protection": 2
+      }
+    },
+    {
+      "item": "bronze_boots",
+      "field": "repair",
+      "status": "pass",
+      "expected": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "amount": 250
+      },
+      "actual": {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "repair_amount": 250
+      }
+    },
+    {
+      "item": "bronze_boots",
+      "field": "recipe",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "item": "bronze_boots",
+      "field": "texture",
+      "status": "pass",
+      "expected": "present",
+      "actual": "present"
+    }
+  ]
+}
