@@ -14,10 +14,10 @@
     ],
     "key": {
       "E": {
-        "item": "minecraft:glowstone_dust"
+        "item": "matcha:estus_ash"
       },
       "B": {
-        "item": "minecraft:endermite_spawn_egg"
+        "item": "matcha:benzene"
       },
       "P": {
         "item": "minecraft:ender_pearl"

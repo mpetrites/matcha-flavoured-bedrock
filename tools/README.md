@@ -40,3 +40,12 @@ The checker audits durability, attack damage, mining rules, armor protection,
 repairs, recipes, and textures and writes
 `docs/equipment-check-report.json`. Add future tier JSON files beside Bronze
 to reuse the same framework.
+
+The remaining generated component items and the Estus entity loop can be
+audited with:
+
+```sh
+python3 tools/convert_component_items.py
+python3 tools/check_parity_1_4.py
+python3 tools/check_estus.py
+```

@@ -18,7 +18,7 @@ With cheats enabled, use `/function matcha_equipment_test`,
 `/function matcha_component_items_test`, or
 `/function matcha_consumables_test`.
 
-## Included in alpha 0.6.0
+## Included in alpha 0.7.0
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
@@ -33,6 +33,9 @@ With cheats enabled, use `/function matcha_equipment_test`,
 - 90 scripted custom consumables from 120 upstream recipes, including effect
   probabilities, cleansing actions, layered effects, use times, and container
   remainders; Estus potion effects are included
+- Entity-driven Estus progression: source-faithful Raw Estus drops from
+  player-killed Blazes, Zombies, Husks, Drowned, and Zombie Villagers; pickup
+  healing; Estus Ash conversion; Benzene stabilization; and Flask recipes
 - Matcha survival rules: managed hunger, disabled natural regeneration,
   keep-inventory deaths, manual sleep time, Crystal Hearts, and persistent
   maximum-health progression
@@ -58,6 +61,7 @@ python3 tools/generate_equipment.py
 python3 tools/check_equipment.py
 python3 tools/convert_component_items.py
 python3 tools/check_parity_1_4.py
+python3 tools/check_estus.py
 ./scripts/package.sh
 ```
 

@@ -306,6 +306,12 @@ def main() -> None:
         recipe_copy = copy.deepcopy(recipe)
         count = recipe_copy["result"].get("count", 1)
         recipe_copy["result"] = {"id": item_id, "count": count}
+        if path.stem == "estus_flask":
+            recipe_copy["ingredients"] = [
+                "minecraft:glass_bottle",
+                "matcha:estus_ash",
+                "matcha:estus_ash",
+            ]
         converted = convert(
             recipe_copy, path.parent.parent.name, f"food_{path.stem}"
         )

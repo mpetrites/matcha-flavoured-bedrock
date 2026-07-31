@@ -29,6 +29,7 @@ PROXY_ITEM_MAP = {
     "minecraft:zombified_piglin_spawn_egg": "matcha:uncooked_green_curry",
     "minecraft:zoglin_spawn_egg": "matcha:uncooked_paneer_makhani",
     "minecraft:wither_skeleton_spawn_egg": "matcha:uncooked_ramen",
+    "minecraft:endermite_spawn_egg": "matcha:benzene",
 }
 
 

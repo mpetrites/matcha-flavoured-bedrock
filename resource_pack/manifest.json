@@ -4,14 +4,14 @@
     "name": "Matcha Flavoured Alpha RP",
     "description": "Original Matcha Flavoured textures for the playable Bedrock alpha.",
     "uuid": "92101b1b-07c8-475c-99ee-576b1f338c59",
-    "version": [0, 6, 0],
+    "version": [0, 7, 0],
     "min_engine_version": [1, 21, 130]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "84544bc7-67c8-460b-a679-e172fa00493b",
-      "version": [0, 6, 0]
+      "version": [0, 7, 0]
     }
   ]
 }

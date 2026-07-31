@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "checks": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "raw_estus item",
+      "status": "pass",
+      "detail": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/matcha-flavoured-bedrock/behavior_pack/items/raw_estus.json"
+    },
+    {
+      "name": "estus_ash item",
+      "status": "pass",
+      "detail": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/matcha-flavoured-bedrock/behavior_pack/items/estus_ash.json"
+    },
+    {
+      "name": "blaze drop hook",
+      "status": "pass",
+      "detail": "blaze"
+    },
+    {
+      "name": "zombie drop hook",
+      "status": "pass",
+      "detail": "zombie"
+    },
+    {
+      "name": "husk drop hook",
+      "status": "pass",
+      "detail": "husk"
+    },
+    {
+      "name": "drowned drop hook",
+      "status": "pass",
+      "detail": "drowned"
+    },
+    {
+      "name": "zombie_villager drop hook",
+      "status": "pass",
+      "detail": "zombie_villager"
+    },
+    {
+      "name": "effect \"regeneration\", 40",
+      "status": "pass",
+      "detail": "\"regeneration\", 40"
+    },
+    {
+      "name": "effect \"resistance\", 100",
+      "status": "pass",
+      "detail": "\"resistance\", 100"
+    },
+    {
+      "name": "stabilised Estus uses ash",
+      "status": "pass",
+      "detail": {
+        "item": "matcha:estus_ash"
+      }
+    },
+    {
+      "name": "stabilised Estus uses benzene",
+      "status": "pass",
+      "detail": {
+        "item": "matcha:benzene"
+      }
+    },
+    {
+      "name": "Estus Flask uses two ash",
+      "status": "pass",
+      "detail": 2
+    }
+  ]
+}

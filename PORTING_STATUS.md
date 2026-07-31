@@ -13,6 +13,7 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
 | Progression | Five alloy tiers, equipment exceptions, ingredients, and utilities |
 | Equipment | 62 generated items; 365/365 static checks; 20 armor attachables |
 | Component outputs | 105 custom items and 112 recipe variants |
+| Estus | Entity death drops, pickup conversion, buffs, Ash, Stabilised Estus, and Flasks |
 | Recipes | 751 ordinary recipes plus component and consumable recipes |
 | Packaging | Linked behavior/resource packs in one `.mcaddon` |
 
@@ -43,6 +44,8 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
   the villager milestone.
 - Java splash-potion foods are currently drinkable custom consumables.
 - Embedded source enchantments are recorded for the enchantment milestone.
+- Looting does not yet increase Raw Estus quantity; the base Java drop odds
+  are preserved by the entity-death script.
 
 ## Not yet ported
 

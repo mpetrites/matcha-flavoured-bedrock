@@ -101,6 +101,8 @@ for p,d,c in sources:
     audit.append({"source":str(p),"item":ident,"status":"generated","untranslated_components":sorted(set(c)-supported)})
 for p,d,c in sources:
     ident=generated_ids[p]; recipe=copy.deepcopy(d); recipe["result"]={"id":ident,"count":d["result"].get("count",1)}
+    if p.stem == "stabilised_estus":
+        recipe["key"]["E"] = "matcha:estus_ash"
     if ident in EXISTING.values() and (ROOT/f"behavior_pack/recipes/{p.stem}.json").exists():
         continue
     namespace=p.parent.parent.name
