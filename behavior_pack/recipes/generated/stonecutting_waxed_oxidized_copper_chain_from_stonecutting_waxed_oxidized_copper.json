@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_waxed_oxidized_copper_chain_from_stonecutting_waxed_oxidized_copper"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:waxed_oxidized_copper"
+      }
+    ],
+    "result": {
+      "item": "minecraft:waxed_oxidized_copper_chain",
+      "count": 54
+    }
+  }
+}

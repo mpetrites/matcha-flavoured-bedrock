@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:smoking_gold_ingot_from_smoking_raw_gold"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": "minecraft:raw_gold",
+    "output": "minecraft:gold_ingot"
+  }
+}

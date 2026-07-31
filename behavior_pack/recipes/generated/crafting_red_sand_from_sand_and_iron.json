@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_red_sand_from_sand_and_iron"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:iron_nugget"
+      }
+    ],
+    "result": {
+      "item": "minecraft:red_sand",
+      "count": 8
+    }
+  }
+}

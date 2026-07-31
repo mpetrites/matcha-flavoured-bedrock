@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_amethyst_shard_from_amethyst_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_block"
+      }
+    ],
+    "result": {
+      "item": "minecraft:amethyst_shard",
+      "count": 4
+    }
+  }
+}

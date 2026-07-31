@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_tomato_seeds_from_tomato"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:beetroot_seeds",
+      "count": 3
+    }
+  }
+}

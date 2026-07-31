@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_tuff_from_blasting_polished_tuff"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:polished_tuff",
+    "output": "minecraft:tuff"
+  }
+}

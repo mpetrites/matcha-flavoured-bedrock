@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_iron_trapdoor_from_stonecutting_iron_ingot"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_trapdoor"
+    }
+  }
+}

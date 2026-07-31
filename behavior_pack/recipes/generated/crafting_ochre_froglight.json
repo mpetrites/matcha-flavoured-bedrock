@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_ochre_froglight"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GRG",
+      "RPR",
+      "GRG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glow_ink_sac"
+      },
+      "R": {
+        "item": "minecraft:glass"
+      },
+      "P": {
+        "item": "minecraft:yellow_dye"
+      }
+    },
+    "result": {
+      "item": "minecraft:ochre_froglight",
+      "count": 4
+    }
+  }
+}

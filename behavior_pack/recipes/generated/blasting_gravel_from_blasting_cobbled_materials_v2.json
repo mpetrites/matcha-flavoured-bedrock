@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_gravel_from_blasting_cobbled_materials_v2"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:cobblestone",
+    "output": "minecraft:gravel"
+  }
+}

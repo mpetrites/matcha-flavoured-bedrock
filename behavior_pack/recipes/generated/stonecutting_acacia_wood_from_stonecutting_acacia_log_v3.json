@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_acacia_wood_from_stonecutting_acacia_log_v3"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:stripped_acacia_wood"
+      }
+    ],
+    "result": {
+      "item": "minecraft:acacia_wood"
+    }
+  }
+}

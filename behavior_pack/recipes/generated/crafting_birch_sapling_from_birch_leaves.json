@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_birch_sapling_from_birch_leaves"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:birch_leaves"
+      }
+    ],
+    "result": {
+      "item": "minecraft:birch_sapling"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_chemistry_stand"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " B ",
+      " C ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "#minecraft:stone_crafting_materials"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "minecraft:brewing_stand"
+    }
+  }
+}

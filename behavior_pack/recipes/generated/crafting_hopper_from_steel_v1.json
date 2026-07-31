@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_hopper_from_steel_v1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "I I",
+      "ICI",
+      " I "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:chest"
+      },
+      "I": {
+        "item": "minecraft:resin_brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:hopper",
+      "count": 8
+    }
+  }
+}

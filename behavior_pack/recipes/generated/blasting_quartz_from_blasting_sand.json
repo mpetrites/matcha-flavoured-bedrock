@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_quartz_from_blasting_sand"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:sand",
+    "output": "minecraft:quartz"
+  }
+}

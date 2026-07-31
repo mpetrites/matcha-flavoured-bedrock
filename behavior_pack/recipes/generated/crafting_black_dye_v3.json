@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_black_dye_v3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "result": {
+      "item": "minecraft:black_dye",
+      "count": 2
+    }
+  }
+}

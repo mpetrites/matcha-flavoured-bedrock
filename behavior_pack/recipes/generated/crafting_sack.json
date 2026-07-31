@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_sack"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LLL",
+      "LCL",
+      "LLL"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "C": {
+        "item": "minecraft:chest"
+      }
+    },
+    "result": {
+      "item": "minecraft:shulker_box"
+    }
+  }
+}

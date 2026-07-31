@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_smithing_template_v1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#S#",
+      "#C#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "minecraft:deepslate"
+      },
+      "S": {
+        "item": "minecraft:resin_brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  }
+}

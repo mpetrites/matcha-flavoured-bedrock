@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_copper_bulb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " C ",
+      "CBC",
+      " R "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:redstone_torch"
+      },
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:copper_bulb",
+      "count": 4
+    }
+  }
+}

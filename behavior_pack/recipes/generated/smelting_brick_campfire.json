@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:smelting_brick_campfire"
+    },
+    "tags": [
+      "campfire"
+    ],
+    "input": "minecraft:clay_ball",
+    "output": "minecraft:brick"
+  }
+}

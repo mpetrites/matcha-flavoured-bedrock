@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_prismarine"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#D",
+      "D#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:calcite"
+      },
+      "D": {
+        "item": "minecraft:raw_copper"
+      }
+    },
+    "result": {
+      "item": "minecraft:prismarine",
+      "count": 2
+    }
+  }
+}

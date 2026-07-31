@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_weathered_copper_chain_from_patina"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:exposed_copper_chain"
+      },
+      {
+        "item": "minecraft:potion"
+      }
+    ],
+    "result": {
+      "item": "minecraft:weathered_copper_chain"
+    }
+  }
+}

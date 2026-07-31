@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_mangrove_planks_from_stonecutting_mangrove_stairs"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:mangrove_stairs"
+      }
+    ],
+    "result": {
+      "item": "minecraft:mangrove_planks"
+    }
+  }
+}

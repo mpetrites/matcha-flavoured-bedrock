@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_warped_planks_from_warped_slabs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:warped_slab"
+      },
+      {
+        "item": "minecraft:warped_slab"
+      }
+    ],
+    "result": {
+      "item": "minecraft:warped_planks"
+    }
+  }
+}

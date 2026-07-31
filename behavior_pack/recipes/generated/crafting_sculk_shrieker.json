@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_sculk_shrieker"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "b b",
+      "# #",
+      "#E#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:sculk_vein"
+      },
+      "E": {
+        "item": "minecraft:echo_shard"
+      },
+      "b": {
+        "item": "minecraft:bone"
+      }
+    },
+    "result": {
+      "item": "minecraft:sculk_shrieker"
+    }
+  }
+}

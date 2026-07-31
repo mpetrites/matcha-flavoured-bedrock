@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_copper_chain"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "N",
+      "N",
+      "N"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:copper_nugget"
+      }
+    },
+    "result": {
+      "item": "minecraft:copper_chain",
+      "count": 2
+    }
+  }
+}

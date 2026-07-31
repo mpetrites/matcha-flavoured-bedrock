@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_snow_block_from_ice"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:ice"
+      }
+    ],
+    "result": {
+      "item": "minecraft:snow_block",
+      "count": 9
+    }
+  }
+}

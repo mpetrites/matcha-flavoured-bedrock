@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_lightning_rod_from_stonecutting_copper_block"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:copper_block"
+      }
+    ],
+    "result": {
+      "item": "minecraft:lightning_rod",
+      "count": 4
+    }
+  }
+}

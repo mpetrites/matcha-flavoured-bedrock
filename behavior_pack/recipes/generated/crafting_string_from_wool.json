@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_string_from_wool"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "#minecraft:wool"
+      }
+    ],
+    "result": {
+      "item": "minecraft:string",
+      "count": 4
+    }
+  }
+}

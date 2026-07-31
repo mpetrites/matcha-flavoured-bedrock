@@ -16,7 +16,7 @@ the behavior pack and resource pack on a world. This alpha targets Bedrock
 
 With cheats enabled, run `/function matcha_alpha_test` for a small test kit.
 
-## Included in alpha 0.1.1
+## Included in alpha 0.2.0
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
@@ -24,8 +24,12 @@ With cheats enabled, run `/function matcha_alpha_test` for a small test kit.
 - Bronze alloy and bronze sword recipes
 - Scripted regeneration effects matching the Java recipes
 - Managed-hunger approximation using Bedrock's saturation effect
+- 944 generated Bedrock recipe definitions translated from 751
+  component-free upstream recipes
 
 See [PORTING_STATUS.md](PORTING_STATUS.md) for exact coverage and known gaps.
+The machine-readable conversion audit is in
+[`docs/recipe-conversion-report.json`](docs/recipe-conversion-report.json).
 
 ## Build
 

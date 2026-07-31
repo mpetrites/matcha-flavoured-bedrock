@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_cobblestone_from_blasting_stone"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:stone",
+    "output": "minecraft:cobblestone"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_potent_sulfur_v2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GGG",
+      "GGG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:sulfur"
+      }
+    },
+    "result": {
+      "item": "minecraft:potent_sulfur"
+    }
+  }
+}

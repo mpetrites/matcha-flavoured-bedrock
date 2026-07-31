@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_mossy_stone_bricks_from_mossy_stone_brick_slabs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:mossy_stone_brick_slab"
+      },
+      {
+        "item": "minecraft:mossy_stone_brick_slab"
+      }
+    ],
+    "result": {
+      "item": "minecraft:mossy_stone_bricks"
+    }
+  }
+}

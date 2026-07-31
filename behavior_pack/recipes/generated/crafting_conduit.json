@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_conduit"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:nautilus_shell"
+      },
+      "X": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "result": {
+      "item": "minecraft:conduit"
+    }
+  }
+}

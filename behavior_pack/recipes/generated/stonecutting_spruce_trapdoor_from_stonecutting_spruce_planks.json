@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_spruce_trapdoor_from_stonecutting_spruce_planks"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:spruce_planks"
+      }
+    ],
+    "result": {
+      "item": "minecraft:spruce_trapdoor"
+    }
+  }
+}

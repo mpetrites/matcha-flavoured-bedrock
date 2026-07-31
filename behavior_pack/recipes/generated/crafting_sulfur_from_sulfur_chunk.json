@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_sulfur_from_sulfur_chunk"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GG",
+      "GG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "result": {
+      "item": "minecraft:sulfur",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_soul_lantern"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      "X#X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:soul_torch"
+      },
+      "X": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "result": {
+      "item": "minecraft:soul_lantern"
+    }
+  }
+}

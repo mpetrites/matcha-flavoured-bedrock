@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_soul_torch"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "TTT",
+      "TST",
+      "TTT"
+    ],
+    "key": {
+      "T": {
+        "item": "minecraft:torch"
+      },
+      "S": {
+        "item": "#minecraft:soul_fire_base_blocks"
+      }
+    },
+    "result": {
+      "item": "minecraft:soul_torch",
+      "count": 8
+    }
+  }
+}

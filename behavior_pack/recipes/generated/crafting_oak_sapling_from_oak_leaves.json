@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_oak_sapling_from_oak_leaves"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:oak_leaves"
+      }
+    ],
+    "result": {
+      "item": "minecraft:oak_sapling"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_brown_wool"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:brown_carpet"
+      }
+    },
+    "result": {
+      "item": "minecraft:brown_wool"
+    }
+  }
+}

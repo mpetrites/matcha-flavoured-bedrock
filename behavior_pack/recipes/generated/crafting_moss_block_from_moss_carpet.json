@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_moss_block_from_moss_carpet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:moss_carpet"
+      }
+    },
+    "result": {
+      "item": "minecraft:moss_block"
+    }
+  }
+}

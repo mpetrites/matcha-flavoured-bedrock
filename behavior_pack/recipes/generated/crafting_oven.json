@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_oven"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "III",
+      "# #",
+      "#C#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:bricks"
+      },
+      "C": {
+        "item": "minecraft:campfire"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "minecraft:furnace"
+    }
+  }
+}

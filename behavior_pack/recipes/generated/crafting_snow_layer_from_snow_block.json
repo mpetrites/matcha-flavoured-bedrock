@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_snow_layer_from_snow_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:snow",
+      "count": 8
+    }
+  }
+}

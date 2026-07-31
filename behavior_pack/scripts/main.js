@@ -11,7 +11,7 @@ world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn || player.hasTag("matcha_alpha_welcomed")) return;
 
   player.addTag("matcha_alpha_welcomed");
-  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.1.1");
+  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.2.0");
   player.sendMessage("§7Food restores health instead of hunger. Try cooking an egg, apple, or raw meat.");
   player.sendMessage("§7With cheats enabled, run §f/function matcha_alpha_test§7 for a test kit.");
 });

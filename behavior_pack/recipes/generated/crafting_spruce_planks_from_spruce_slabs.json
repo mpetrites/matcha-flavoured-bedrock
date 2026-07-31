@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_spruce_planks_from_spruce_slabs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:spruce_slab"
+      },
+      {
+        "item": "minecraft:spruce_slab"
+      }
+    ],
+    "result": {
+      "item": "minecraft:spruce_planks"
+    }
+  }
+}

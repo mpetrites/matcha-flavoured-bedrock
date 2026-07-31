@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_red_dye_from_crimson_fungus"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:crimson_fungus"
+      }
+    ],
+    "result": {
+      "item": "minecraft:red_dye",
+      "count": 2
+    }
+  }
+}

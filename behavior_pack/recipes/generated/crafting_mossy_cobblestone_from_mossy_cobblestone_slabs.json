@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_mossy_cobblestone_from_mossy_cobblestone_slabs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:mossy_cobblestone_slab"
+      },
+      {
+        "item": "minecraft:mossy_cobblestone_slab"
+      }
+    ],
+    "result": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  }
+}

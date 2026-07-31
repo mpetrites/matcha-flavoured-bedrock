@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_netherite_ingot_from_blasting_netherite_materials_v3"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:netherite_axe",
+    "output": "minecraft:netherite_ingot"
+  }
+}

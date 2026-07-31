@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:smoking_lime_glazed_terracotta"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": "minecraft:lime_terracotta",
+    "output": "minecraft:lime_glazed_terracotta"
+  }
+}

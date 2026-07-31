@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_oak_button_from_stonecutting_oak_logs"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "#minecraft:oak_logs"
+      }
+    ],
+    "result": {
+      "item": "minecraft:oak_button",
+      "count": 8
+    }
+  }
+}

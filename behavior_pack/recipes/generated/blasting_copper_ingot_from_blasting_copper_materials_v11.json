@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_copper_ingot_from_blasting_copper_materials_v11"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:raw_copper",
+    "output": "minecraft:copper_ingot"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_bamboo_planks_from_bamboo_blocks"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:bamboo_block"
+      },
+      {
+        "item": "minecraft:bamboo_block"
+      },
+      {
+        "item": "minecraft:bamboo_block"
+      },
+      {
+        "item": "minecraft:bamboo_block"
+      }
+    ],
+    "result": {
+      "item": "minecraft:bamboo_planks",
+      "count": 8
+    }
+  }
+}

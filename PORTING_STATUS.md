@@ -10,6 +10,7 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
 | Food effects | Scripted regeneration; baked apple's layered effect is sequenced |
 | Survival | Hunger is kept full so health foods remain usable |
 | Progression | Bronze alloy and bronze sword |
+| Recipes | 751 upstream recipes translated into 944 Bedrock variants |
 | Packaging | Linked behavior/resource packs in one `.mcaddon` |
 
 ## Bedrock approximations
@@ -26,14 +27,16 @@ Source baseline: Matcha Flavoured Java 1.04, published 2026-07-30.
 
 ## Not yet ported
 
-The upstream pack is large (over 2,000 data files and over 1,000 recipes).
-Major unported systems include the remaining foods and intrinsic effects,
+The upstream pack is large (over 2,000 data files and 1,061 actual recipe
+definitions). Of those recipes, 310 produce items with Java-only component
+data and remain blocked on their corresponding custom Bedrock items. Major
+unported systems include the remaining foods and intrinsic effects,
 alloy equipment sets, enchantment and blessing systems, villagers, loot and
 treasures, fishing, structures, advancements, world generation, and most
 vanilla recipe/equipment rebalancing.
 
 ## Next suggested milestone
 
-Port the remaining simple food recipes and textures as custom items, then add
-automated schema checks for every item and recipe before moving into
-equipment and progression systems.
+Port the 310 component-bearing recipe outputs as custom Bedrock items, grouped
+by food, equipment, blessings, and utility items. Each group needs its item
+behavior implemented before its recipes can safely be enabled.

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:smelting_gold_nugget_from_smelting_gold_materials_v9"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:golden_boots",
+    "output": "minecraft:gold_nugget"
+  }
+}

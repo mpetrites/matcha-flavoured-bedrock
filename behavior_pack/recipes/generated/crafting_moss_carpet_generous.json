@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_moss_carpet_generous"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:moss_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:moss_carpet",
+      "count": 8
+    }
+  }
+}

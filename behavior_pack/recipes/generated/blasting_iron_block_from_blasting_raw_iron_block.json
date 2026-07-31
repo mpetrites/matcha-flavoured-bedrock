@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_iron_block_from_blasting_raw_iron_block"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:raw_iron_block",
+    "output": "minecraft:iron_block"
+  }
+}

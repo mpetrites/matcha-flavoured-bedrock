@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:smoking_smooth_red_sandstone_from_smoking_red_sandstone"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": "minecraft:red_sandstone",
+    "output": "minecraft:smooth_red_sandstone"
+  }
+}

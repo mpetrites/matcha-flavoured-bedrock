@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_deepslate_tiles_from_deepslate_tile_slabs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:deepslate_tile_slab"
+      },
+      {
+        "item": "minecraft:deepslate_tile_slab"
+      }
+    ],
+    "result": {
+      "item": "minecraft:deepslate_tiles"
+    }
+  }
+}

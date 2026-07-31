@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_blackstone_from_blackstone_slabs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:blackstone_slab"
+      },
+      {
+        "item": "minecraft:blackstone_slab"
+      }
+    ],
+    "result": {
+      "item": "minecraft:blackstone"
+    }
+  }
+}

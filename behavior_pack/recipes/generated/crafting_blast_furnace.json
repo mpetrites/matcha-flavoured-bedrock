@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_blast_furnace"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "I I",
+      "I I",
+      "#C#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:smooth_stone"
+      },
+      "I": {
+        "item": "minecraft:stone_bricks"
+      },
+      "C": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "result": {
+      "item": "minecraft:blast_furnace"
+    }
+  }
+}

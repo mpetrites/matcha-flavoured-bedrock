@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_copper_block_from_blasting_raw_copper_block"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:raw_copper_block",
+    "output": "minecraft:copper_block"
+  }
+}

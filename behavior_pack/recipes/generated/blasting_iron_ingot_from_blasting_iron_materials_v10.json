@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_iron_ingot_from_blasting_iron_materials_v10"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:iron_horse_armor",
+    "output": "minecraft:iron_ingot"
+  }
+}

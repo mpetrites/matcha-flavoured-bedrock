@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_activator_rail_from_steel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XSX",
+      "X#X",
+      "XSX"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:redstone_torch"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:resin_brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:activator_rail",
+      "count": 32
+    }
+  }
+}

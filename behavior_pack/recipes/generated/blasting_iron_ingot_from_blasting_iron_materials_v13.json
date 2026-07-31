@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:blasting_iron_ingot_from_blasting_iron_materials_v13"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:chainmail_leggings",
+    "output": "minecraft:iron_ingot"
+  }
+}

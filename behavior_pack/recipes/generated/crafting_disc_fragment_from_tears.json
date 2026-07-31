@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_disc_fragment_from_tears"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:music_disc_tears"
+      }
+    ],
+    "result": {
+      "item": "minecraft:disc_fragment_5"
+    }
+  }
+}

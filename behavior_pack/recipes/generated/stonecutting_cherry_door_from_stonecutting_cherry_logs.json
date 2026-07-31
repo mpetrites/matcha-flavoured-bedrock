@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_cherry_door_from_stonecutting_cherry_logs"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "#minecraft:cherry_logs"
+      }
+    ],
+    "result": {
+      "item": "minecraft:cherry_door",
+      "count": 2
+    }
+  }
+}

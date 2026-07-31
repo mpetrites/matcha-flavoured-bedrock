@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_clone_poppy"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:poppy"
+      },
+      {
+        "item": "minecraft:potion"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      }
+    ],
+    "result": {
+      "item": "minecraft:poppy",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_copper_lantern"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      "X#X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:copper_torch"
+      },
+      "X": {
+        "item": "minecraft:copper_nugget"
+      }
+    },
+    "result": {
+      "item": "minecraft:copper_lantern"
+    }
+  }
+}

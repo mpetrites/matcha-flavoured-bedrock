@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_powered_rail_from_copper"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X X",
+      "X#X",
+      "XRX"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "X": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "minecraft:powered_rail",
+      "count": 8
+    }
+  }
+}

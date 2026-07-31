@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_pale_oak_planks_from_pale_oak_slabs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:pale_oak_slab"
+      },
+      {
+        "item": "minecraft:pale_oak_slab"
+      }
+    ],
+    "result": {
+      "item": "minecraft:pale_oak_planks"
+    }
+  }
+}

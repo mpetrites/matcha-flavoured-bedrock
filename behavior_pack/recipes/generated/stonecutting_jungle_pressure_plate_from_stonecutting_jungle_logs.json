@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:stonecutting_jungle_pressure_plate_from_stonecutting_jungle_logs"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "#minecraft:jungle_logs"
+      }
+    ],
+    "result": {
+      "item": "minecraft:jungle_pressure_plate",
+      "count": 4
+    }
+  }
+}

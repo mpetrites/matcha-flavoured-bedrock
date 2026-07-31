@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_bucket_from_steel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:resin_brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:bucket",
+      "count": 4
+    }
+  }
+}

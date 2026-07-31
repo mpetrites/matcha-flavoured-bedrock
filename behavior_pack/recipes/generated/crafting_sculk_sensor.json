@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_sculk_sensor"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      "#E#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:sculk_vein"
+      },
+      "E": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "result": {
+      "item": "minecraft:sculk_sensor"
+    }
+  }
+}

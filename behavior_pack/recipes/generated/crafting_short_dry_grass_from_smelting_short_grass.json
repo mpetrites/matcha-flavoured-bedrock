@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:crafting_short_dry_grass_from_smelting_short_grass"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:short_grass",
+    "output": "minecraft:short_dry_grass"
+  }
+}

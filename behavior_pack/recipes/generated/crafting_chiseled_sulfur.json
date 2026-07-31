@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_chiseled_sulfur"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "SS",
+      "SS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:sulfur_bricks"
+      }
+    },
+    "result": {
+      "item": "minecraft:chiseled_sulfur",
+      "count": 4
+    }
+  }
+}

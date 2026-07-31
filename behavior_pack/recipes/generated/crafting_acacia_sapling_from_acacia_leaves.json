@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_acacia_sapling_from_acacia_leaves"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:acacia_leaves"
+      }
+    ],
+    "result": {
+      "item": "minecraft:acacia_sapling"
+    }
+  }
+}

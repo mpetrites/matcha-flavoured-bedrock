@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_iron_trapdoor_from_steel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:resin_brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:iron_trapdoor",
+      "count": 8
+    }
+  }
+}

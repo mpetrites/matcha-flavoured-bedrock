@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "matcha_port:crafting_phosphor"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:potion"
+      },
+      {
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "item": "minecraft:glow_lichen"
+      },
+      {
+        "item": "minecraft:glow_lichen"
+      },
+      {
+        "item": "minecraft:glow_lichen"
+      },
+      {
+        "item": "minecraft:glow_lichen"
+      }
+    ],
+    "result": {
+      "item": "minecraft:glow_ink_sac",
+      "count": 8
+    }
+  }
+}

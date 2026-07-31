@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:crafting_tinted_glass"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " G ",
+      "GSG",
+      " G "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "S": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "minecraft:tinted_glass",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "matcha_port:smelting_dirt_from_smelting_grass_block"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:grass_block",
+    "output": "minecraft:dirt"
+  }
+}
