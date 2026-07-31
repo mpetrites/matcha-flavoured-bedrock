@@ -24,7 +24,7 @@ manifests = [
     json.loads((ROOT / "behavior_pack/manifest.json").read_text()),
     json.loads((ROOT / "resource_pack/manifest.json").read_text()),
 ]
-assert all(manifest["header"]["version"] == [0, 11, 5] for manifest in manifests)
+assert all(manifest["header"]["version"] == [0, 11, 6] for manifest in manifests)
 assert 'import "./smithing.js";' in (ROOT / "behavior_pack/scripts/main.js").read_text()
 
 print(json.dumps({"scripted_upgrades": 57, "status": "pass"}))

@@ -17,7 +17,7 @@
         "item": "minecraft:stick"
       },
       "X": {
-        "item": "#minecraft:diamond_tool_materials"
+        "item": "minecraft:diamond"
       }
     },
     "result": {

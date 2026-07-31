@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:jungle_logs"
+        "item": "minecraft:jungle_log"
       }
     ],
     "result": {

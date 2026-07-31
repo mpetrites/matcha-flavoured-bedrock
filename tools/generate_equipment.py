@@ -57,7 +57,7 @@ def main():
                     components["minecraft:swing_duration"] = {"value": min(item["attack_cooldown"], 1.0)}
             if name == "spear":
                 components["minecraft:kinetic_weapon"] = {
-                    "damage_conditions": {"min_speed": 0.1, "min_relative_speed": 0.1},
+                    "damage_conditions": {"min_speed": 0.1},
                     "damage_multiplier": 4.0, "damage_modifier": item["damage"],
                     "delay": 2, "hitbox_margin": 0.35, "reach": {"min": 0, "max": 4.5}
                 }

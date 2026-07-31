@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:crimson_stems"
+        "item": "minecraft:crimson_stem"
       }
     ],
     "result": {

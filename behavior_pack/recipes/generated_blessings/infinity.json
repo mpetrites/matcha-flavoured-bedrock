@@ -20,7 +20,7 @@
         "item": "minecraft:enchanted_book"
       },
       "A": {
-        "item": "minecraft:spectral_arrow"
+        "item": "minecraft:arrow"
       }
     },
     "result": {

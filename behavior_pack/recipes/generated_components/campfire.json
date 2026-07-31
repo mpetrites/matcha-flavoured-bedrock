@@ -13,7 +13,7 @@
     ],
     "key": {
       "L": {
-        "item": "#minecraft:logs"
+        "item": "minecraft:oak_log"
       },
       "S": {
         "item": "minecraft:stick"

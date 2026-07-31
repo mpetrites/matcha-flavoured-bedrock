@@ -131,9 +131,16 @@ def main() -> None:
                     "render_distance_type": "render",
                 }
             if water_fog:
+                water_fog_end = attributes.get(
+                    "minecraft:visual/water_fog_end_distance", 60.0
+                )
+                # Some Java biome sources encode a density modifier object here,
+                # while Bedrock fog_settings requires a literal float distance.
+                if not isinstance(water_fog_end, (int, float)):
+                    water_fog_end = 60.0
                 distance["water"] = {
                     "fog_start": 0.0,
-                    "fog_end": attributes.get("minecraft:visual/water_fog_end_distance", 60.0),
+                    "fog_end": water_fog_end,
                     "fog_color": water_fog,
                     "render_distance_type": "fixed",
                 }

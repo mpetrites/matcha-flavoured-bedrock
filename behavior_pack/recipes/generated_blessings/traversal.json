@@ -20,7 +20,7 @@
         "item": "minecraft:emerald"
       },
       "W": {
-        "item": "#minecraft:wool"
+        "item": "minecraft:white_wool"
       },
       "L": {
         "item": "minecraft:leather_boots"

@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:oak_logs"
+        "item": "minecraft:oak_log"
       }
     ],
     "result": {

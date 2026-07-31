@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:cherry_logs"
+        "item": "minecraft:cherry_log"
       }
     ],
     "result": {

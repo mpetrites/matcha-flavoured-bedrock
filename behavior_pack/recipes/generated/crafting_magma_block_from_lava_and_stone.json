@@ -12,7 +12,7 @@
         "item": "minecraft:lava_bucket"
       },
       {
-        "item": "#minecraft:stone_crafting_materials"
+        "item": "minecraft:cobblestone"
       }
     ],
     "result": {

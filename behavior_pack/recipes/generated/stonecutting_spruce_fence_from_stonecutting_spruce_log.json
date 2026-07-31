@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:spruce_logs"
+        "item": "minecraft:spruce_log"
       }
     ],
     "result": {

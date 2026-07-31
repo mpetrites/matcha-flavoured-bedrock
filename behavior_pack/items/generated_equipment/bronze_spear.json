@@ -29,8 +29,7 @@
       },
       "minecraft:kinetic_weapon": {
         "damage_conditions": {
-          "min_speed": 0.1,
-          "min_relative_speed": 0.1
+          "min_speed": 0.1
         },
         "damage_multiplier": 4.0,
         "damage_modifier": 3,

@@ -17,7 +17,7 @@
         "item": "minecraft:torch"
       },
       "S": {
-        "item": "#minecraft:soul_fire_base_blocks"
+        "item": "minecraft:soul_sand"
       }
     },
     "result": {

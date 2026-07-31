@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:oak_trapdoor"
+        "item": "minecraft:trapdoor"
       }
     ],
     "result": {

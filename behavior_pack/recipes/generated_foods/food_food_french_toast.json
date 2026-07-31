@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:eggs"
+        "item": "minecraft:egg"
       },
       {
         "item": "minecraft:sugar"

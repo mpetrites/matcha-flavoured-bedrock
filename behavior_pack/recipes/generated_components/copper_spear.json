@@ -17,7 +17,7 @@
         "item": "minecraft:stick"
       },
       "X": {
-        "item": "#minecraft:copper_tool_materials"
+        "item": "minecraft:copper_ingot"
       }
     },
     "result": {

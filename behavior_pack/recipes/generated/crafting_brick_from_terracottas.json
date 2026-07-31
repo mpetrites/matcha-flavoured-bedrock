@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:terracotta"
+        "item": "minecraft:hardened_clay"
       }
     ],
     "result": {

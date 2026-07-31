@@ -14,7 +14,7 @@
     ],
     "key": {
       "#": {
-        "item": "#minecraft:planks"
+        "item": "minecraft:oak_planks"
       },
       "X": {
         "item": "minecraft:phantom_membrane"

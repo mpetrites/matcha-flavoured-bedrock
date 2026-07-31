@@ -14,7 +14,7 @@
     ],
     "key": {
       "#": {
-        "item": "#minecraft:stone_crafting_materials"
+        "item": "minecraft:cobblestone"
       },
       "B": {
         "item": "minecraft:iron_ingot"

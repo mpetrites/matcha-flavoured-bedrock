@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:warped_stems"
+        "item": "minecraft:warped_stem"
       }
     ],
     "result": {

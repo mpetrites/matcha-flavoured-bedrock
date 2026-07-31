@@ -17,7 +17,7 @@
         "item": "minecraft:stick"
       },
       "X": {
-        "item": "#minecraft:gold_tool_materials"
+        "item": "minecraft:gold_ingot"
       }
     },
     "result": {

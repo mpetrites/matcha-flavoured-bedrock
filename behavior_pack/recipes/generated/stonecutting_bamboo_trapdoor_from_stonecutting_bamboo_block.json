@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:bamboo_blocks"
+        "item": "minecraft:bamboo_block"
       }
     ],
     "result": {

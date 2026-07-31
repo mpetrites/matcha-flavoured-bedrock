@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:acacia_logs"
+        "item": "minecraft:acacia_log"
       }
     ],
     "result": {

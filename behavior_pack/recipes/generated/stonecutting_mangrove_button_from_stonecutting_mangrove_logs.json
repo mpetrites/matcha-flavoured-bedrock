@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "#minecraft:mangrove_logs"
+        "item": "minecraft:mangrove_log"
       }
     ],
     "result": {
