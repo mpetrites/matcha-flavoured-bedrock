@@ -49,3 +49,12 @@ python3 tools/convert_component_items.py
 python3 tools/check_parity_1_4.py
 python3 tools/check_estus.py
 ```
+
+Singleton vanilla carriers are generated and checked separately. Vanilla
+bases with multiple Matcha forms are deliberately excluded:
+
+```sh
+python3 tools/generate_vanilla_replacements.py /path/to/Matcha_Flavoured
+python3 tools/sync_vanilla_recipe_inputs.py
+python3 tools/check_vanilla_replacements.py
+```

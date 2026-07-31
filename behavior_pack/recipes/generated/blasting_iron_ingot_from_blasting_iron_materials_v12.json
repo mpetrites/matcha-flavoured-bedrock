@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:chainmail_chestplate",
+    "input": "matcha:chainmail_chestplate",
     "output": "minecraft:iron_ingot"
   }
 }

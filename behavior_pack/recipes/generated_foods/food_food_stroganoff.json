@@ -9,16 +9,16 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:rabbit_foot"
+        "item": "matcha:braised_brown_mushroom"
       },
       {
-        "item": "minecraft:cooked_beef"
+        "item": "matcha:cooked_beef"
       },
       {
         "item": "matcha:dough"
       },
       {
-        "item": "minecraft:beetroot_soup"
+        "item": "matcha:milk_bottle"
       },
       {
         "item": "minecraft:bowl"

@@ -20,7 +20,7 @@
         "item": "minecraft:stone_bricks"
       },
       "C": {
-        "item": "minecraft:campfire"
+        "item": "matcha:campfire"
       }
     },
     "result": {

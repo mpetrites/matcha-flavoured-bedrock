@@ -21,7 +21,7 @@
       }
     },
     "result": {
-      "item": "minecraft:item_frame"
+      "item": "matcha:invisible_item_frame"
     }
   }
 }

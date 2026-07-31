@@ -17,7 +17,7 @@
         "item": "minecraft:bricks"
       },
       "C": {
-        "item": "minecraft:campfire"
+        "item": "matcha:campfire"
       },
       "I": {
         "item": "minecraft:iron_ingot"

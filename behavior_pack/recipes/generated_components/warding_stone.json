@@ -14,13 +14,13 @@
     ],
     "key": {
       "#": {
-        "item": "minecraft:glistering_melon_slice"
+        "item": "matcha:nazar"
       },
       "S": {
         "item": "minecraft:chiseled_stone_bricks"
       },
       "E": {
-        "item": "minecraft:blaze_rod"
+        "item": "matcha:stabilised_estus"
       }
     },
     "result": {

@@ -8,8 +8,8 @@
       "smithing_table"
     ],
     "template": "minecraft:prismarine_crystals",
-    "base": "minecraft:shield",
-    "addition": "minecraft:glistering_melon_slice",
+    "base": "matcha:warding_shield",
+    "addition": "matcha:nazar",
     "result": "matcha:warding_shield"
   }
 }

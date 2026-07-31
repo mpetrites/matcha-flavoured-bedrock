@@ -7,7 +7,7 @@
     "tags": [
       "furnace"
     ],
-    "input": "minecraft:golden_leggings",
+    "input": "matcha:golden_leggings",
     "output": "minecraft:gold_nugget"
   }
 }

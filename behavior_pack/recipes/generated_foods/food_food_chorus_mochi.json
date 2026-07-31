@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:popped_chorus_fruit"
+        "item": "matcha:popped_chorus_fruit"
       },
       {
         "item": "minecraft:snowball"
@@ -18,7 +18,7 @@
         "item": "minecraft:sugar"
       },
       {
-        "item": "minecraft:beetroot_soup"
+        "item": "matcha:milk_bottle"
       },
       {
         "item": "matcha:dough"

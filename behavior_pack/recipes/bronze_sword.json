@@ -4,9 +4,11 @@
     "description": {
       "identifier": "matcha:bronze_sword"
     },
-    "tags": ["smithing_table"],
+    "tags": [
+      "smithing_table"
+    ],
     "template": "minecraft:copper_ingot",
-    "base": "minecraft:copper_sword",
+    "base": "matcha:copper_sword",
     "addition": "matcha:bronze_alloy",
     "result": "matcha:bronze_sword"
   }

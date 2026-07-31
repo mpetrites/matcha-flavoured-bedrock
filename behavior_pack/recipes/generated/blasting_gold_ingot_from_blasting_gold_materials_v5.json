@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:golden_sword",
+    "input": "matcha:golden_sword",
     "output": "minecraft:gold_ingot"
   }
 }

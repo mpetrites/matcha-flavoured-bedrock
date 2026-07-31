@@ -8,7 +8,7 @@
       "smithing_table"
     ],
     "template": "minecraft:iron_ingot",
-    "base": "minecraft:iron_sword",
+    "base": "matcha:iron_sword",
     "addition": "minecraft:resin_brick",
     "result": "matcha:steel_sword"
   }

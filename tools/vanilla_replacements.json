@@ -1,0 +1,928 @@
+{
+  "description": "Survival-only canonical replacements. Ambiguous vanilla bases remain available as upgrade inputs.",
+  "replacements": {
+    "minecraft:beetroot_soup": "matcha:milk_bottle",
+    "minecraft:blaze_rod": "matcha:stabilised_estus",
+    "minecraft:breeze_rod": "matcha:baked_pumpkin",
+    "minecraft:cake": "matcha:cake",
+    "minecraft:campfire": "matcha:campfire",
+    "minecraft:chainmail_boots": "matcha:chainmail_boots",
+    "minecraft:chainmail_chestplate": "matcha:chainmail_chestplate",
+    "minecraft:chainmail_helmet": "matcha:chainmail_helmet",
+    "minecraft:chainmail_leggings": "matcha:chainmail_leggings",
+    "minecraft:cooked_beef": "matcha:cooked_beef",
+    "minecraft:cooked_chicken": "matcha:cooked_chicken",
+    "minecraft:cooked_mutton": "matcha:cooked_mutton",
+    "minecraft:cooked_porkchop": "matcha:cooked_porkchop",
+    "minecraft:cooked_rabbit": "matcha:cooked_rabbit",
+    "minecraft:cooked_salmon": "matcha:cooked_salmon",
+    "minecraft:cookie": "matcha:cheese",
+    "minecraft:copper_pickaxe": "matcha:copper_pickaxe",
+    "minecraft:copper_shovel": "matcha:copper_shovel",
+    "minecraft:copper_spear": "matcha:copper_spear",
+    "minecraft:copper_sword": "matcha:copper_sword",
+    "minecraft:diamond_pickaxe": "matcha:diamond_pickaxe",
+    "minecraft:diamond_shovel": "matcha:diamond_shovel",
+    "minecraft:diamond_spear": "matcha:diamond_spear",
+    "minecraft:diamond_sword": "matcha:diamond_sword",
+    "minecraft:elytra": "matcha:bronze_elytra",
+    "minecraft:enderman_spawn_egg": "matcha:flour",
+    "minecraft:endermite_spawn_egg": "matcha:benzene",
+    "minecraft:fermented_spider_eye": "matcha:baked_apple",
+    "minecraft:flint_and_steel": "matcha:tinder",
+    "minecraft:glistering_melon_slice": "matcha:nazar",
+    "minecraft:golden_apple": "matcha:golden_apple",
+    "minecraft:golden_axe": "matcha:golden_axe",
+    "minecraft:golden_boots": "matcha:golden_boots",
+    "minecraft:golden_carrot": "matcha:golden_carrot",
+    "minecraft:golden_chestplate": "matcha:golden_chestplate",
+    "minecraft:golden_helmet": "matcha:golden_helmet",
+    "minecraft:golden_hoe": "matcha:golden_hoe",
+    "minecraft:golden_leggings": "matcha:golden_leggings",
+    "minecraft:golden_pickaxe": "matcha:golden_pickaxe",
+    "minecraft:golden_shovel": "matcha:golden_shovel",
+    "minecraft:golden_spear": "matcha:golden_spear",
+    "minecraft:golden_sword": "matcha:golden_sword",
+    "minecraft:iron_pickaxe": "matcha:iron_pickaxe",
+    "minecraft:iron_spear": "matcha:iron_spear",
+    "minecraft:iron_sword": "matcha:iron_sword",
+    "minecraft:item_frame": "matcha:invisible_item_frame",
+    "minecraft:mace": "matcha:mace",
+    "minecraft:magma_cream": "matcha:sweet_berry_mash",
+    "minecraft:magma_cube_spawn_egg": "matcha:flour_bag",
+    "minecraft:minecart": "matcha:minecart_from_steel",
+    "minecraft:mushroom_stew": "matcha:chocolate",
+    "minecraft:music_disc_11": "matcha:music_disc_golden",
+    "minecraft:music_disc_cat": "matcha:music_disc_labyrinthine",
+    "minecraft:netherite_boots": "matcha:adamant_boots",
+    "minecraft:netherite_chestplate": "matcha:adamant_chestplate",
+    "minecraft:netherite_helmet": "matcha:adamant_helmet",
+    "minecraft:netherite_leggings": "matcha:adamant_leggings",
+    "minecraft:netherite_pickaxe": "matcha:adamant_pickaxe",
+    "minecraft:netherite_shovel": "matcha:adamant_shovel",
+    "minecraft:netherite_spear": "matcha:adamant_spear",
+    "minecraft:piglin_brute_spawn_egg": "matcha:carbon_rich_iron",
+    "minecraft:popped_chorus_fruit": "matcha:popped_chorus_fruit",
+    "minecraft:potion": "matcha:potions_estus_flask",
+    "minecraft:pumpkin_pie": "matcha:crafting_golden_pie",
+    "minecraft:rabbit_foot": "matcha:braised_brown_mushroom",
+    "minecraft:rotten_flesh": "matcha:glow_mash",
+    "minecraft:shield": "matcha:warding_shield",
+    "minecraft:shulker_spawn_egg": "matcha:dough",
+    "minecraft:soul_campfire": "matcha:soul_campfire",
+    "minecraft:strider_spawn_egg": "matcha:uncooked_curry",
+    "minecraft:turtle_scute": "matcha:divine_fragment",
+    "minecraft:wither_skeleton_spawn_egg": "matcha:uncooked_ramen",
+    "minecraft:wooden_axe": "matcha:wooden_axe",
+    "minecraft:wooden_hoe": "matcha:wooden_hoe",
+    "minecraft:wooden_pickaxe": "matcha:wooden_pickaxe",
+    "minecraft:wooden_shovel": "matcha:wooden_shovel",
+    "minecraft:wooden_spear": "matcha:wooden_spear",
+    "minecraft:wooden_sword": "matcha:wooden_sword",
+    "minecraft:zoglin_spawn_egg": "matcha:uncooked_paneer_makhani",
+    "minecraft:zombified_piglin_spawn_egg": "matcha:uncooked_green_curry"
+  },
+  "ambiguous": {
+    "minecraft:baked_potato": [
+      "matcha:baked_potato",
+      "matcha:crafting_stuffed_mushrooms"
+    ],
+    "minecraft:bread": [
+      "matcha:bread",
+      "matcha:naan"
+    ],
+    "minecraft:chicken_spawn_egg": [
+      "matcha:amnestic",
+      "matcha:bedrock_buster",
+      "matcha:warding_stone"
+    ],
+    "minecraft:compass": [
+      "matcha:copper_compass",
+      "matcha:golden_compass"
+    ],
+    "minecraft:cooked_cod": [
+      "matcha:cooked_cod",
+      "matcha:cooked_pufferfish"
+    ],
+    "minecraft:copper_axe": [
+      "matcha:copper_axe",
+      "matcha:copper_dolabra"
+    ],
+    "minecraft:copper_boots": [
+      "matcha:bronze_boots",
+      "matcha:copper_boots",
+      "matcha:shakudo_boots"
+    ],
+    "minecraft:copper_chestplate": [
+      "matcha:bronze_chestplate",
+      "matcha:copper_chestplate",
+      "matcha:shakudo_chestplate"
+    ],
+    "minecraft:copper_helmet": [
+      "matcha:amber_earrings",
+      "matcha:bronze_helmet",
+      "matcha:copper_helmet",
+      "matcha:shakudo_helmet"
+    ],
+    "minecraft:copper_hoe": [
+      "matcha:copper_hoe",
+      "matcha:copper_mattock"
+    ],
+    "minecraft:copper_leggings": [
+      "matcha:bronze_leggings",
+      "matcha:copper_leggings",
+      "matcha:shakudo_leggings"
+    ],
+    "minecraft:diamond_axe": [
+      "matcha:diamond_axe",
+      "matcha:diamond_dolabra",
+      "matcha:electrum_axe"
+    ],
+    "minecraft:diamond_boots": [
+      "matcha:diamond_boots",
+      "matcha:electrum_boots"
+    ],
+    "minecraft:diamond_chestplate": [
+      "matcha:diamond_chestplate",
+      "matcha:electrum_chestplate"
+    ],
+    "minecraft:diamond_helmet": [
+      "matcha:diamond_helmet",
+      "matcha:electrum_helmet"
+    ],
+    "minecraft:diamond_hoe": [
+      "matcha:diamond_hoe",
+      "matcha:diamond_mattock"
+    ],
+    "minecraft:diamond_leggings": [
+      "matcha:diamond_leggings",
+      "matcha:electrum_leggings"
+    ],
+    "minecraft:dried_kelp": [
+      "matcha:dried_kelp",
+      "matcha:dried_kelp_from_dried_kelp_block"
+    ],
+    "minecraft:enchanted_book": [
+      "matcha:bane_of_arthopods",
+      "matcha:channeling_smite",
+      "matcha:density_knockback_punch",
+      "matcha:depth_strider_riptide_aqua_affinity_respiration",
+      "matcha:efficiency_unbreaking",
+      "matcha:feather_falling",
+      "matcha:flame_fire_aspect_fire_protection",
+      "matcha:frost_walker_frost_protection",
+      "matcha:hell_bound_book",
+      "matcha:infinity",
+      "matcha:lunge_breach",
+      "matcha:lure_luck_of_the_sea",
+      "matcha:mending",
+      "matcha:piercing_impaling",
+      "matcha:power_multishot",
+      "matcha:reach",
+      "matcha:silk_touch",
+      "matcha:swift_sneak_soul_speed",
+      "matcha:traversal",
+      "matcha:unbreaking",
+      "matcha:warding",
+      "matcha:wind_burst_anemos",
+      "matcha:zephyr"
+    ],
+    "minecraft:iron_axe": [
+      "matcha:iron_axe",
+      "matcha:iron_dolabra"
+    ],
+    "minecraft:iron_boots": [
+      "matcha:iron_boots",
+      "matcha:steel_boots"
+    ],
+    "minecraft:iron_chestplate": [
+      "matcha:iron_chestplate",
+      "matcha:steel_chestplate"
+    ],
+    "minecraft:iron_helmet": [
+      "matcha:iron_helmet",
+      "matcha:steel_helmet"
+    ],
+    "minecraft:iron_hoe": [
+      "matcha:iron_hoe",
+      "matcha:iron_mattock"
+    ],
+    "minecraft:iron_leggings": [
+      "matcha:iron_leggings",
+      "matcha:steel_leggings"
+    ],
+    "minecraft:iron_shovel": [
+      "matcha:iron_shovel",
+      "matcha:snow_shovel"
+    ],
+    "minecraft:leather_boots": [
+      "matcha:gilded_leather_boots",
+      "matcha:leather_boots",
+      "matcha:sturdy_leather_boots"
+    ],
+    "minecraft:leather_chestplate": [
+      "matcha:leather_chestplate",
+      "matcha:sturdy_leather_chestplate"
+    ],
+    "minecraft:leather_helmet": [
+      "matcha:leather_helmet",
+      "matcha:sturdy_leather_helmet"
+    ],
+    "minecraft:leather_leggings": [
+      "matcha:leather_pants",
+      "matcha:sturdy_leather_pants"
+    ],
+    "minecraft:netherite_axe": [
+      "matcha:adamant_axe",
+      "matcha:adamant_dolabra"
+    ],
+    "minecraft:netherite_hoe": [
+      "matcha:adamant_hoe",
+      "matcha:adamant_mattock"
+    ],
+    "minecraft:netherite_sword": [
+      "matcha:adamant_claymore",
+      "matcha:adamant_sword"
+    ],
+    "minecraft:poisonous_potato": [
+      "matcha:apple_empanada",
+      "matcha:baked_golden_apple",
+      "matcha:bokguk",
+      "matcha:braised_crimson_fungus",
+      "matcha:braised_red_mushroom",
+      "matcha:braised_warped_fungus",
+      "matcha:brownie",
+      "matcha:bruschetta",
+      "matcha:canned_apples",
+      "matcha:canned_golden_apples",
+      "matcha:carrot_cupcake",
+      "matcha:charred_fish",
+      "matcha:charred_meat",
+      "matcha:charred_potato",
+      "matcha:chocolate_chip_cookie",
+      "matcha:chorus_mochi",
+      "matcha:crimson_stroganoff",
+      "matcha:french_toast",
+      "matcha:fried_egg",
+      "matcha:gimmari",
+      "matcha:glow_berry_crumble",
+      "matcha:glow_jam",
+      "matcha:gnocchi",
+      "matcha:golden_apple_empanada",
+      "matcha:golden_carrot_cupcake",
+      "matcha:golden_pickled_carrots",
+      "matcha:golden_steamed_carrots",
+      "matcha:green_curry",
+      "matcha:grilled_melon",
+      "matcha:grilled_tomatoes",
+      "matcha:heart_container",
+      "matcha:honey_ginger_tea",
+      "matcha:honied_french_toast",
+      "matcha:japanese_curry",
+      "matcha:latke",
+      "matcha:mead",
+      "matcha:melon_sorbet",
+      "matcha:paneer_makhani",
+      "matcha:pickled_carrots",
+      "matcha:pickled_mushrooms",
+      "matcha:pickled_potatoes",
+      "matcha:pickled_tomatoes",
+      "matcha:pickled_warped_fungus",
+      "matcha:puerquito",
+      "matcha:pumpkin_empanada",
+      "matcha:pumpkin_jam",
+      "matcha:pupusa",
+      "matcha:ramen",
+      "matcha:red_mushroom_stroganoff",
+      "matcha:rind_jam",
+      "matcha:steamed_carrots",
+      "matcha:stroganoff",
+      "matcha:sweet_berry_danish",
+      "matcha:sweet_berry_jam",
+      "matcha:sweet_berry_toast",
+      "matcha:warped_stroganoff",
+      "matcha:wooden_cross"
+    ],
+    "minecraft:rabbit_stew": [
+      "matcha:crafting_chicken_noodle_soup",
+      "matcha:crafting_green_curry",
+      "matcha:crafting_morsel_stew",
+      "matcha:crafting_paneer_makhani",
+      "matcha:crafting_ramen",
+      "matcha:crafting_squid_ink_pasta"
+    ],
+    "minecraft:shears": [
+      "matcha:copper_shears",
+      "matcha:iron_shears",
+      "matcha:steel_shears"
+    ],
+    "minecraft:splash_potion": [
+      "matcha:pickled_crimson_fungus",
+      "matcha:pickled_red_mushrooms"
+    ],
+    "minecraft:stone_axe": [
+      "matcha:bronze_axe",
+      "matcha:bronze_dolabra",
+      "matcha:electrum_dolabra",
+      "matcha:shakudo_axe",
+      "matcha:shakudo_dolabra",
+      "matcha:steel_axe",
+      "matcha:steel_dolabra"
+    ],
+    "minecraft:stone_hoe": [
+      "matcha:bronze_hoe",
+      "matcha:bronze_mattock",
+      "matcha:electrum_hoe",
+      "matcha:electrum_mattock",
+      "matcha:shakudo_hoe",
+      "matcha:shakudo_mattock",
+      "matcha:steel_hoe",
+      "matcha:steel_mattock"
+    ],
+    "minecraft:stone_pickaxe": [
+      "matcha:bronze_pickaxe",
+      "matcha:electrum_pickaxe",
+      "matcha:shakudo_pickaxe",
+      "matcha:steel_pickaxe"
+    ],
+    "minecraft:stone_shovel": [
+      "matcha:bronze_shovel",
+      "matcha:electrum_shovel",
+      "matcha:shakudo_shovel",
+      "matcha:steel_shovel"
+    ],
+    "minecraft:stone_spear": [
+      "matcha:bronze_spear",
+      "matcha:electrum_spear",
+      "matcha:shakudo_spear",
+      "matcha:steel_spear"
+    ],
+    "minecraft:stone_sword": [
+      "matcha:bronze_sword",
+      "matcha:butcher_knife",
+      "matcha:electrum_sword",
+      "matcha:shakudo_sword",
+      "matcha:silver_sword",
+      "matcha:steel_sword",
+      "matcha:warding_sword"
+    ]
+  },
+  "evidence": {
+    "minecraft:baked_potato": [
+      "data/crafting/recipe/stuffed_mushrooms.json",
+      "data/food/recipe/baked_potato.json",
+      "data/food/recipe/baked_potato_campfire.json"
+    ],
+    "minecraft:beetroot_soup": [
+      "data/food/recipe/milk_bottle.json"
+    ],
+    "minecraft:blaze_rod": [
+      "data/crafting/recipe/stabilised_estus.json"
+    ],
+    "minecraft:bread": [
+      "data/food/recipe/bread.json",
+      "data/food/recipe/bread_campfire.json",
+      "data/food/recipe/naan.json"
+    ],
+    "minecraft:breeze_rod": [
+      "data/food/recipe/baked_pumpkin.json",
+      "data/food/recipe/baked_pumpkin_campfire.json"
+    ],
+    "minecraft:cake": [
+      "data/food/recipe/cake.json"
+    ],
+    "minecraft:campfire": [
+      "data/crafting/recipe/campfire.json"
+    ],
+    "minecraft:chainmail_boots": [
+      "data/crafting/recipe/chainmail_boots.json"
+    ],
+    "minecraft:chainmail_chestplate": [
+      "data/crafting/recipe/chainmail_chestplate.json"
+    ],
+    "minecraft:chainmail_helmet": [
+      "data/crafting/recipe/chainmail_helmet.json"
+    ],
+    "minecraft:chainmail_leggings": [
+      "data/crafting/recipe/chainmail_leggings.json"
+    ],
+    "minecraft:chicken_spawn_egg": [
+      "data/crafting/recipe/amnestic.json",
+      "data/crafting/recipe/bedrock_buster.json",
+      "data/crafting/recipe/warding_stone.json"
+    ],
+    "minecraft:compass": [
+      "data/crafting/recipe/copper_compass.json",
+      "data/crafting/recipe/golden_compass.json"
+    ],
+    "minecraft:cooked_beef": [
+      "data/food/recipe/cooked_beef.json",
+      "data/food/recipe/cooked_beef_campfire.json"
+    ],
+    "minecraft:cooked_chicken": [
+      "data/food/recipe/cooked_chicken.json",
+      "data/food/recipe/cooked_chicken_campfire.json"
+    ],
+    "minecraft:cooked_cod": [
+      "data/food/recipe/cooked_cod.json",
+      "data/food/recipe/cooked_cod_campfire.json",
+      "data/food/recipe/cooked_pufferfish.json",
+      "data/food/recipe/cooked_pufferfish_campfire.json",
+      "data/food/recipe/cooked_tropical_fish.json",
+      "data/food/recipe/cooked_tropical_fish_campfire.json"
+    ],
+    "minecraft:cooked_mutton": [
+      "data/food/recipe/cooked_mutton.json",
+      "data/food/recipe/cooked_mutton_campfire.json"
+    ],
+    "minecraft:cooked_porkchop": [
+      "data/food/recipe/cooked_pork.json",
+      "data/food/recipe/cooked_pork_campfire.json"
+    ],
+    "minecraft:cooked_rabbit": [
+      "data/food/recipe/cooked_rabbit.json",
+      "data/food/recipe/cooked_rabbit_campfire.json"
+    ],
+    "minecraft:cooked_salmon": [
+      "data/food/recipe/cooked_salmon.json",
+      "data/food/recipe/cooked_salmon_campfire.json"
+    ],
+    "minecraft:cookie": [
+      "data/food/recipe/cheese.json"
+    ],
+    "minecraft:copper_axe": [
+      "data/crafting/recipe/copper_axe.json",
+      "data/crafting/recipe/copper_dolabra.json"
+    ],
+    "minecraft:copper_boots": [
+      "data/crafting/recipe/copper_boots.json",
+      "data/smithing_table/recipe/bronze_boots.json",
+      "data/smithing_table/recipe/shakudo_boots.json"
+    ],
+    "minecraft:copper_chestplate": [
+      "data/crafting/recipe/copper_chestplate.json",
+      "data/smithing_table/recipe/bronze_chestplate.json",
+      "data/smithing_table/recipe/shakudo_chestplate.json"
+    ],
+    "minecraft:copper_helmet": [
+      "data/crafting/recipe/copper_helmet.json",
+      "data/smithing_table/recipe/amber_earrings.json",
+      "data/smithing_table/recipe/bronze_helmet.json",
+      "data/smithing_table/recipe/shakudo_helmet.json"
+    ],
+    "minecraft:copper_hoe": [
+      "data/crafting/recipe/copper_hoe.json",
+      "data/crafting/recipe/copper_mattock.json"
+    ],
+    "minecraft:copper_leggings": [
+      "data/crafting/recipe/copper_leggings.json",
+      "data/smithing_table/recipe/bronze_leggings.json",
+      "data/smithing_table/recipe/shakudo_leggings.json"
+    ],
+    "minecraft:copper_pickaxe": [
+      "data/crafting/recipe/copper_pickaxe.json"
+    ],
+    "minecraft:copper_shovel": [
+      "data/crafting/recipe/copper_shovel.json"
+    ],
+    "minecraft:copper_spear": [
+      "data/crafting/recipe/copper_spear.json"
+    ],
+    "minecraft:copper_sword": [
+      "data/crafting/recipe/copper_sword.json"
+    ],
+    "minecraft:diamond_axe": [
+      "data/crafting/recipe/diamond_axe.json",
+      "data/crafting/recipe/diamond_dolabra.json",
+      "data/smithing_table/recipe/electrum_axe.json"
+    ],
+    "minecraft:diamond_boots": [
+      "data/crafting/recipe/diamond_boots.json",
+      "data/smithing_table/recipe/electrum_boots.json"
+    ],
+    "minecraft:diamond_chestplate": [
+      "data/crafting/recipe/diamond_chestplate.json",
+      "data/smithing_table/recipe/electrum_chestplate.json"
+    ],
+    "minecraft:diamond_helmet": [
+      "data/crafting/recipe/diamond_helmet.json",
+      "data/smithing_table/recipe/electrum_helmet.json"
+    ],
+    "minecraft:diamond_hoe": [
+      "data/crafting/recipe/diamond_hoe.json",
+      "data/crafting/recipe/diamond_mattock.json"
+    ],
+    "minecraft:diamond_leggings": [
+      "data/crafting/recipe/diamond_leggings.json",
+      "data/smithing_table/recipe/electrum_leggings.json"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "data/crafting/recipe/diamond_pickaxe.json"
+    ],
+    "minecraft:diamond_shovel": [
+      "data/crafting/recipe/diamond_shovel.json"
+    ],
+    "minecraft:diamond_spear": [
+      "data/crafting/recipe/diamond_spear.json"
+    ],
+    "minecraft:diamond_sword": [
+      "data/crafting/recipe/diamond_sword.json"
+    ],
+    "minecraft:dried_kelp": [
+      "data/food/recipe/dried_kelp.json",
+      "data/food/recipe/dried_kelp_campfire.json",
+      "data/food/recipe/dried_kelp_from_dried_kelp_block.json"
+    ],
+    "minecraft:elytra": [
+      "data/smithing_table/recipe/bronze_elytra.json"
+    ],
+    "minecraft:enchanted_book": [
+      "data/blessings/recipe/bane_of_arthopods.json",
+      "data/blessings/recipe/channeling_smite.json",
+      "data/blessings/recipe/density_knockback_punch.json",
+      "data/blessings/recipe/depth_strider_riptide_aqua_affinity_respiration.json",
+      "data/blessings/recipe/efficiency_unbreaking.json",
+      "data/blessings/recipe/feather_falling.json",
+      "data/blessings/recipe/flame_fire_aspect_fire_protection.json",
+      "data/blessings/recipe/frost_walker_frost_protection.json",
+      "data/blessings/recipe/hell_bound_book.json",
+      "data/blessings/recipe/infinity.json",
+      "data/blessings/recipe/lunge_breach.json",
+      "data/blessings/recipe/lure_luck_of_the_sea.json",
+      "data/blessings/recipe/mending.json",
+      "data/blessings/recipe/piercing_impaling.json",
+      "data/blessings/recipe/power_multishot.json",
+      "data/blessings/recipe/reach.json",
+      "data/blessings/recipe/silk_touch.json",
+      "data/blessings/recipe/swift_sneak_soul_speed.json",
+      "data/blessings/recipe/traversal.json",
+      "data/blessings/recipe/unbreaking.json",
+      "data/blessings/recipe/warding.json",
+      "data/blessings/recipe/wind_burst_anemos.json",
+      "data/blessings/recipe/zephyr.json"
+    ],
+    "minecraft:enderman_spawn_egg": [
+      "data/food/recipe/flour.json",
+      "data/food/recipe/flour_from_flour_bag.json"
+    ],
+    "minecraft:endermite_spawn_egg": [
+      "data/crafting/recipe/benzene.json"
+    ],
+    "minecraft:fermented_spider_eye": [
+      "data/food/recipe/baked_apple.json",
+      "data/food/recipe/baked_apple_campfire.json"
+    ],
+    "minecraft:flint_and_steel": [
+      "data/crafting/recipe/tinder.json"
+    ],
+    "minecraft:glistering_melon_slice": [
+      "data/crafting/recipe/nazar.json"
+    ],
+    "minecraft:golden_apple": [
+      "data/food/recipe/golden_apple.json"
+    ],
+    "minecraft:golden_axe": [
+      "data/crafting/recipe/golden_axe.json"
+    ],
+    "minecraft:golden_boots": [
+      "data/crafting/recipe/golden_boots.json"
+    ],
+    "minecraft:golden_carrot": [
+      "data/food/recipe/golden_carrot.json"
+    ],
+    "minecraft:golden_chestplate": [
+      "data/crafting/recipe/golden_chestplate.json"
+    ],
+    "minecraft:golden_helmet": [
+      "data/crafting/recipe/golden_helmet.json"
+    ],
+    "minecraft:golden_hoe": [
+      "data/crafting/recipe/golden_hoe.json"
+    ],
+    "minecraft:golden_leggings": [
+      "data/crafting/recipe/golden_leggings.json"
+    ],
+    "minecraft:golden_pickaxe": [
+      "data/crafting/recipe/golden_pickaxe.json"
+    ],
+    "minecraft:golden_shovel": [
+      "data/crafting/recipe/golden_shovel.json"
+    ],
+    "minecraft:golden_spear": [
+      "data/crafting/recipe/golden_spear.json"
+    ],
+    "minecraft:golden_sword": [
+      "data/crafting/recipe/golden_sword.json"
+    ],
+    "minecraft:iron_axe": [
+      "data/crafting/recipe/iron_axe.json",
+      "data/crafting/recipe/iron_dolabra.json"
+    ],
+    "minecraft:iron_boots": [
+      "data/crafting/recipe/iron_boots.json",
+      "data/smithing_table/recipe/steel_boots.json"
+    ],
+    "minecraft:iron_chestplate": [
+      "data/crafting/recipe/iron_chestplate.json",
+      "data/smithing_table/recipe/steel_chestplate.json"
+    ],
+    "minecraft:iron_helmet": [
+      "data/crafting/recipe/iron_helmet.json",
+      "data/smithing_table/recipe/steel_helmet.json"
+    ],
+    "minecraft:iron_hoe": [
+      "data/crafting/recipe/iron_hoe.json",
+      "data/crafting/recipe/iron_mattock.json"
+    ],
+    "minecraft:iron_leggings": [
+      "data/crafting/recipe/iron_leggings.json",
+      "data/smithing_table/recipe/steel_leggings.json"
+    ],
+    "minecraft:iron_pickaxe": [
+      "data/crafting/recipe/iron_pickaxe.json"
+    ],
+    "minecraft:iron_shovel": [
+      "data/crafting/recipe/iron_shovel.json",
+      "data/crafting/recipe/snow_shovel.json"
+    ],
+    "minecraft:iron_spear": [
+      "data/crafting/recipe/iron_spear.json"
+    ],
+    "minecraft:iron_sword": [
+      "data/crafting/recipe/iron_sword.json"
+    ],
+    "minecraft:item_frame": [
+      "data/crafting/recipe/invisible_item_frame.json"
+    ],
+    "minecraft:leather_boots": [
+      "data/crafting/recipe/leather_boots.json",
+      "data/crafting/recipe/sturdy_leather_boots.json",
+      "data/smithing_table/recipe/gilded_leather_boots.json"
+    ],
+    "minecraft:leather_chestplate": [
+      "data/crafting/recipe/leather_chestplate.json",
+      "data/crafting/recipe/sturdy_leather_chestplate.json"
+    ],
+    "minecraft:leather_helmet": [
+      "data/crafting/recipe/leather_helmet.json",
+      "data/crafting/recipe/sturdy_leather_helmet.json"
+    ],
+    "minecraft:leather_leggings": [
+      "data/crafting/recipe/leather_pants.json",
+      "data/crafting/recipe/sturdy_leather_pants.json"
+    ],
+    "minecraft:mace": [
+      "data/crafting/recipe/mace.json"
+    ],
+    "minecraft:magma_cream": [
+      "data/food/recipe/sweet_berry_mash.json",
+      "data/food/recipe/sweet_berry_mash_campfire.json"
+    ],
+    "minecraft:magma_cube_spawn_egg": [
+      "data/food/recipe/flour_bag.json"
+    ],
+    "minecraft:minecart": [
+      "data/crafting/recipe/minecart_from_steel.json"
+    ],
+    "minecraft:mushroom_stew": [
+      "data/food/recipe/chocolate.json",
+      "data/food/recipe/chocolate_campfire.json"
+    ],
+    "minecraft:music_disc_11": [
+      "data/crafting/recipe/music_disc_golden.json"
+    ],
+    "minecraft:music_disc_cat": [
+      "data/custom_music/recipe/music_disc_labyrinthine.json"
+    ],
+    "minecraft:netherite_axe": [
+      "data/smithing_table/recipe/adamant_axe.json",
+      "data/smithing_table/recipe/adamant_dolabra.json"
+    ],
+    "minecraft:netherite_boots": [
+      "data/smithing_table/recipe/adamant_boots.json"
+    ],
+    "minecraft:netherite_chestplate": [
+      "data/smithing_table/recipe/adamant_chestplate.json"
+    ],
+    "minecraft:netherite_helmet": [
+      "data/smithing_table/recipe/adamant_helmet.json"
+    ],
+    "minecraft:netherite_hoe": [
+      "data/smithing_table/recipe/adamant_hoe.json",
+      "data/smithing_table/recipe/adamant_mattock.json"
+    ],
+    "minecraft:netherite_leggings": [
+      "data/smithing_table/recipe/adamant_leggings.json"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "data/smithing_table/recipe/adamant_pickaxe.json"
+    ],
+    "minecraft:netherite_shovel": [
+      "data/smithing_table/recipe/adamant_shovel.json"
+    ],
+    "minecraft:netherite_spear": [
+      "data/smithing_table/recipe/adamant_spear.json"
+    ],
+    "minecraft:netherite_sword": [
+      "data/smithing_table/recipe/adamant_claymore.json",
+      "data/smithing_table/recipe/adamant_sword.json"
+    ],
+    "minecraft:piglin_brute_spawn_egg": [
+      "data/crafting/recipe/carbon_rich_iron.json"
+    ],
+    "minecraft:poisonous_potato": [
+      "data/crafting/recipe/crystal_heart.json",
+      "data/crafting/recipe/wooden_cross.json",
+      "data/food/recipe/apple_empanada.json",
+      "data/food/recipe/baked_golden_apple.json",
+      "data/food/recipe/baked_golden_apple_campfire.json",
+      "data/food/recipe/bokguk.json",
+      "data/food/recipe/braised_crimson_fungus.json",
+      "data/food/recipe/braised_crimson_fungus_campfire.json",
+      "data/food/recipe/braised_red_mushroom.json",
+      "data/food/recipe/braised_red_mushroom_campfire.json",
+      "data/food/recipe/brasied_warped_fungus.json",
+      "data/food/recipe/brasied_warped_fungus_campfire.json",
+      "data/food/recipe/brownie.json",
+      "data/food/recipe/bruschetta.json",
+      "data/food/recipe/canned_apples.json",
+      "data/food/recipe/canned_golden_apples.json",
+      "data/food/recipe/carrot_cupcake.json",
+      "data/food/recipe/charred_fish.json",
+      "data/food/recipe/charred_meat.json",
+      "data/food/recipe/charred_potato.json",
+      "data/food/recipe/chocolate_chip_cookie.json",
+      "data/food/recipe/chorus_mochi.json",
+      "data/food/recipe/crimson_stroganoff.json",
+      "data/food/recipe/french_toast.json",
+      "data/food/recipe/fried_egg.json",
+      "data/food/recipe/fried_egg_campfire.json",
+      "data/food/recipe/gimmari.json",
+      "data/food/recipe/glow_berry_crumble.json",
+      "data/food/recipe/glow_jam.json",
+      "data/food/recipe/gnocchi.json",
+      "data/food/recipe/golden_apple_empanada.json",
+      "data/food/recipe/golden_carrot_cupcake.json",
+      "data/food/recipe/golden_pickled_carrots.json",
+      "data/food/recipe/golden_steamed_carrots.json",
+      "data/food/recipe/golden_steamed_carrots_campfire.json",
+      "data/food/recipe/green_curry.json",
+      "data/food/recipe/grilled_melon.json",
+      "data/food/recipe/grilled_melon_campfire.json",
+      "data/food/recipe/grilled_tomatoes.json",
+      "data/food/recipe/grilled_tomatoes_campfire.json",
+      "data/food/recipe/honey_ginger_tea.json",
+      "data/food/recipe/honey_ginger_tea_campfire.json",
+      "data/food/recipe/honied_french_toast.json",
+      "data/food/recipe/japanese_curry.json",
+      "data/food/recipe/latke.json",
+      "data/food/recipe/mead.json",
+      "data/food/recipe/melon_sorbet.json",
+      "data/food/recipe/paneer_makhani.json",
+      "data/food/recipe/pickled_carrots.json",
+      "data/food/recipe/pickled_mushrooms.json",
+      "data/food/recipe/pickled_potatoes.json",
+      "data/food/recipe/pickled_tomatoes.json",
+      "data/food/recipe/pickled_warped_fungus.json",
+      "data/food/recipe/puerquito.json",
+      "data/food/recipe/pumpkin_empanada.json",
+      "data/food/recipe/pumpkin_jam.json",
+      "data/food/recipe/pupusa.json",
+      "data/food/recipe/ramen.json",
+      "data/food/recipe/red_mushroom_stroganoff.json",
+      "data/food/recipe/rind_jam.json",
+      "data/food/recipe/steamed_carrots.json",
+      "data/food/recipe/steamed_carrots_campfire.json",
+      "data/food/recipe/stroganoff.json",
+      "data/food/recipe/sweet_berry_danish.json",
+      "data/food/recipe/sweet_berry_jam.json",
+      "data/food/recipe/sweet_berry_toast.json",
+      "data/food/recipe/warped_stroganoff.json"
+    ],
+    "minecraft:popped_chorus_fruit": [
+      "data/food/recipe/popped_chorus_fruit.json",
+      "data/food/recipe/popped_chorus_fruit_campfire.json"
+    ],
+    "minecraft:potion": [
+      "data/potions/recipe/estus_flask.json"
+    ],
+    "minecraft:pumpkin_pie": [
+      "data/crafting/recipe/golden_pie.json"
+    ],
+    "minecraft:rabbit_foot": [
+      "data/food/recipe/braised_brown_mushroom.json",
+      "data/food/recipe/braised_brown_mushroom_campfire.json"
+    ],
+    "minecraft:rabbit_stew": [
+      "data/crafting/recipe/chicken_noodle_soup.json",
+      "data/crafting/recipe/green_curry.json",
+      "data/crafting/recipe/morsel_stew.json",
+      "data/crafting/recipe/paneer_makhani.json",
+      "data/crafting/recipe/ramen.json",
+      "data/crafting/recipe/squid_ink_pasta.json"
+    ],
+    "minecraft:rotten_flesh": [
+      "data/food/recipe/glow_mash.json",
+      "data/food/recipe/glow_mash_campfire.json"
+    ],
+    "minecraft:shears": [
+      "data/crafting/recipe/copper_shears.json",
+      "data/crafting/recipe/iron_shears.json",
+      "data/smithing_table/recipe/steel_shears.json"
+    ],
+    "minecraft:shield": [
+      "data/smithing_table/recipe/lesser_warding_shield.json",
+      "data/smithing_table/recipe/warding_shield.json"
+    ],
+    "minecraft:shulker_spawn_egg": [
+      "data/food/recipe/dough.json",
+      "data/food/recipe/dough_from_water.json"
+    ],
+    "minecraft:soul_campfire": [
+      "data/crafting/recipe/soul_campfire.json"
+    ],
+    "minecraft:splash_potion": [
+      "data/food/recipe/pickled_crimson_fungus.json",
+      "data/food/recipe/pickled_red_mushrooms.json"
+    ],
+    "minecraft:stone_axe": [
+      "data/smithing_table/recipe/bronze_axe.json",
+      "data/smithing_table/recipe/bronze_dolabra.json",
+      "data/smithing_table/recipe/electrum_dolabra.json",
+      "data/smithing_table/recipe/shakudo_axe.json",
+      "data/smithing_table/recipe/shakudo_dolabra.json",
+      "data/smithing_table/recipe/steel_axe.json",
+      "data/smithing_table/recipe/steel_dolabra.json"
+    ],
+    "minecraft:stone_hoe": [
+      "data/smithing_table/recipe/bronze_hoe.json",
+      "data/smithing_table/recipe/bronze_mattock.json",
+      "data/smithing_table/recipe/electrum_hoe.json",
+      "data/smithing_table/recipe/electrum_mattock.json",
+      "data/smithing_table/recipe/shakudo_hoe.json",
+      "data/smithing_table/recipe/shakudo_mattock.json",
+      "data/smithing_table/recipe/steel_hoe.json",
+      "data/smithing_table/recipe/steel_mattock.json"
+    ],
+    "minecraft:stone_pickaxe": [
+      "data/smithing_table/recipe/bronze_pickaxe.json",
+      "data/smithing_table/recipe/electrum_pickaxe.json",
+      "data/smithing_table/recipe/shakudo_pickaxe.json",
+      "data/smithing_table/recipe/steel_pickaxe.json"
+    ],
+    "minecraft:stone_shovel": [
+      "data/smithing_table/recipe/bronze_shovel.json",
+      "data/smithing_table/recipe/electrum_shovel.json",
+      "data/smithing_table/recipe/shakudo_shovel.json",
+      "data/smithing_table/recipe/steel_shovel.json"
+    ],
+    "minecraft:stone_spear": [
+      "data/smithing_table/recipe/bronze_spear.json",
+      "data/smithing_table/recipe/electrum_spear.json",
+      "data/smithing_table/recipe/shakudo_spear.json",
+      "data/smithing_table/recipe/steel_spear.json"
+    ],
+    "minecraft:stone_sword": [
+      "data/smithing_table/recipe/bronze_sword.json",
+      "data/smithing_table/recipe/butcher_knife.json",
+      "data/smithing_table/recipe/electrum_sword.json",
+      "data/smithing_table/recipe/shakudo_sword.json",
+      "data/smithing_table/recipe/silver_sword.json",
+      "data/smithing_table/recipe/steel_sword.json",
+      "data/smithing_table/recipe/warding_sword.json"
+    ],
+    "minecraft:strider_spawn_egg": [
+      "data/food/recipe/uncooked_curry.json"
+    ],
+    "minecraft:turtle_scute": [
+      "data/crafting/recipe/divine_fragment.json"
+    ],
+    "minecraft:wither_skeleton_spawn_egg": [
+      "data/food/recipe/uncooked_ramen.json"
+    ],
+    "minecraft:wooden_axe": [
+      "data/crafting/recipe/wooden_axe.json"
+    ],
+    "minecraft:wooden_hoe": [
+      "data/crafting/recipe/wooden_hoe.json"
+    ],
+    "minecraft:wooden_pickaxe": [
+      "data/crafting/recipe/wooden_pickaxe.json"
+    ],
+    "minecraft:wooden_shovel": [
+      "data/crafting/recipe/wooden_shovel.json"
+    ],
+    "minecraft:wooden_spear": [
+      "data/crafting/recipe/wooden_spear.json"
+    ],
+    "minecraft:wooden_sword": [
+      "data/crafting/recipe/wooden_sword.json"
+    ],
+    "minecraft:zoglin_spawn_egg": [
+      "data/food/recipe/uncooked_paneer_makhani.json"
+    ],
+    "minecraft:zombified_piglin_spawn_egg": [
+      "data/food/recipe/uncooked_green_curry.json"
+    ]
+  }
+}

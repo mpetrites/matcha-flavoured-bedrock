@@ -14,10 +14,10 @@
     ],
     "key": {
       "P": {
-        "item": "minecraft:cooked_chicken"
+        "item": "matcha:cooked_chicken"
       },
       "T": {
-        "item": "minecraft:rotten_flesh"
+        "item": "matcha:glow_mash"
       },
       "S": {
         "item": "minecraft:bone"

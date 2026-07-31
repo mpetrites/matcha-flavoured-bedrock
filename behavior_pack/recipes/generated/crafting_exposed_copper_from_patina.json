@@ -12,7 +12,7 @@
         "item": "minecraft:copper_block"
       },
       {
-        "item": "minecraft:potion"
+        "item": "matcha:potions_estus_flask"
       }
     ],
     "result": {

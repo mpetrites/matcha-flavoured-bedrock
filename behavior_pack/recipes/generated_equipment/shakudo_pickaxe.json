@@ -8,7 +8,7 @@
       "smithing_table"
     ],
     "template": "minecraft:copper_ingot",
-    "base": "minecraft:copper_pickaxe",
+    "base": "matcha:copper_pickaxe",
     "addition": "minecraft:shulker_shell",
     "result": "matcha:shakudo_pickaxe"
   }

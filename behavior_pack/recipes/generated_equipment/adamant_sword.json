@@ -8,7 +8,7 @@
       "smithing_table"
     ],
     "template": "minecraft:diamond",
-    "base": "minecraft:diamond_sword",
+    "base": "matcha:diamond_sword",
     "addition": "minecraft:netherite_ingot",
     "result": "matcha:adamant_sword"
   }

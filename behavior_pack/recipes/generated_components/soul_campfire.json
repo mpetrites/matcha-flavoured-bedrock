@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:campfire"
+        "item": "matcha:campfire"
       },
       {
         "item": "#minecraft:soul_fire_base_blocks"

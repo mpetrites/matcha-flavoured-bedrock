@@ -14,15 +14,15 @@
     {
       "name": "component smithing recipe coverage",
       "status": "pass",
-      "expected": 70,
-      "actual": 70,
+      "expected": 0,
+      "actual": 0,
       "detail": ""
     },
     {
       "name": "component crafting recipe coverage",
       "status": "pass",
-      "expected": 94,
-      "actual": 94,
+      "expected": 0,
+      "actual": 0,
       "detail": ""
     },
     {

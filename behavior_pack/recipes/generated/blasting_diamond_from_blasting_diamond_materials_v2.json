@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:diamond_shovel",
+    "input": "matcha:diamond_shovel",
     "output": "minecraft:diamond"
   }
 }

@@ -32,6 +32,17 @@ PROXY_ITEM_MAP = {
     "minecraft:endermite_spawn_egg": "matcha:benzene",
 }
 
+# Generated singleton replacements extend the hand-maintained proxy list.  This
+# file is deliberately optional so the converter can still bootstrap a clean
+# checkout before the replacement audit has run.
+_replacement_file = Path(__file__).with_name("vanilla_replacements.json")
+if _replacement_file.exists():
+    PROXY_ITEM_MAP.update(
+        json.loads(_replacement_file.read_text(encoding="utf-8")).get(
+            "replacements", {}
+        )
+    )
+
 
 def namespaced(value: str) -> str:
     return value if ":" in value else f"minecraft:{value}"

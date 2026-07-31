@@ -7,7 +7,7 @@
     "tags": [
       "furnace"
     ],
-    "input": "minecraft:golden_helmet",
+    "input": "matcha:golden_helmet",
     "output": "minecraft:gold_nugget"
   }
 }

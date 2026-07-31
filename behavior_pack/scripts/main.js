@@ -2,6 +2,7 @@ import { system, world } from "@minecraft/server";
 import { FOOD_EFFECTS } from "./food_effects.js";
 import "./survival.js";
 import "./estus.js";
+import "./item_replacements.js";
 
 world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn || player.hasTag("matcha_alpha_welcomed")) return;

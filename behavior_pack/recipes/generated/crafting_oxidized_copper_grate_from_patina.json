@@ -12,7 +12,7 @@
         "item": "minecraft:weathered_copper_grate"
       },
       {
-        "item": "minecraft:potion"
+        "item": "matcha:potions_estus_flask"
       }
     ],
     "result": {

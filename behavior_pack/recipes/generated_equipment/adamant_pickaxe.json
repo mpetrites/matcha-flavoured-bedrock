@@ -8,7 +8,7 @@
       "smithing_table"
     ],
     "template": "minecraft:diamond",
-    "base": "minecraft:diamond_pickaxe",
+    "base": "matcha:diamond_pickaxe",
     "addition": "minecraft:netherite_ingot",
     "result": "matcha:adamant_pickaxe"
   }

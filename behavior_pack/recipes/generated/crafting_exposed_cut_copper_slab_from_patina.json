@@ -12,7 +12,7 @@
         "item": "minecraft:cut_copper_slab"
       },
       {
-        "item": "minecraft:potion"
+        "item": "matcha:potions_estus_flask"
       }
     ],
     "result": {

@@ -1,7 +1,7 @@
 {
   "source_component_item_recipes": 106,
-  "custom_items_generated": 104,
-  "existing_items_reused": 2,
+  "custom_items_generated": 101,
+  "existing_items_reused": 5,
   "recipe_files_generated": 111,
   "items": [
     {
@@ -604,11 +604,8 @@
     },
     {
       "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/dough_from_water.json",
-      "item": "matcha:dough_from_water",
-      "status": "generated",
-      "untranslated_components": [
-        "!minecraft:entity_data"
-      ]
+      "item": "matcha:dough",
+      "status": "canonical_alias"
     },
     {
       "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour.json",
@@ -628,11 +625,8 @@
     },
     {
       "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/flour_from_flour_bag.json",
-      "item": "matcha:flour_from_flour_bag",
-      "status": "generated",
-      "untranslated_components": [
-        "!minecraft:entity_data"
-      ]
+      "item": "matcha:flour",
+      "status": "canonical_alias"
     },
     {
       "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/food/recipe/uncooked_curry.json",
@@ -706,7 +700,7 @@
     },
     {
       "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/lesser_warding_shield.json",
-      "item": "matcha:lesser_warding_shield",
+      "item": "matcha:warding_shield",
       "status": "generated",
       "untranslated_components": [
         "minecraft:banner_patterns",
@@ -724,11 +718,7 @@
     {
       "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/warding_shield.json",
       "item": "matcha:warding_shield",
-      "status": "generated",
-      "untranslated_components": [
-        "minecraft:banner_patterns",
-        "minecraft:enchantments"
-      ]
+      "status": "canonical_alias"
     },
     {
       "source": "/Users/mpetrites/Documents/Codex/2026-07-30/le-2/work/java-source-104/data/smithing_table/recipe/warding_sword.json",

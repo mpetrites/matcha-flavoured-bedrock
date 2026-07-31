@@ -14,7 +14,7 @@
     ],
     "key": {
       "P": {
-        "item": "minecraft:cooked_salmon"
+        "item": "matcha:cooked_salmon"
       },
       "E": {
         "item": "minecraft:glowstone_dust"
@@ -29,7 +29,7 @@
         "item": "minecraft:bowl"
       },
       "M": {
-        "item": "minecraft:beetroot_soup"
+        "item": "matcha:milk_bottle"
       }
     },
     "result": {

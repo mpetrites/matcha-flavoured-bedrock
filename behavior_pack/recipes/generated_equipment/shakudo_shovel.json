@@ -8,7 +8,7 @@
       "smithing_table"
     ],
     "template": "minecraft:copper_ingot",
-    "base": "minecraft:copper_shovel",
+    "base": "matcha:copper_shovel",
     "addition": "minecraft:shulker_shell",
     "result": "matcha:shakudo_shovel"
   }

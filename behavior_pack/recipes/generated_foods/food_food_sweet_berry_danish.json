@@ -9,13 +9,13 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:magma_cream"
+        "item": "matcha:sweet_berry_mash"
       },
       {
         "item": "minecraft:sugar"
       },
       {
-        "item": "minecraft:cookie"
+        "item": "matcha:cheese"
       },
       {
         "item": "matcha:dough"

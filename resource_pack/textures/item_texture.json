@@ -482,17 +482,11 @@
     "matcha_component_dough": {
       "textures": "shulker_spawn_egg"
     },
-    "matcha_component_dough_from_water": {
-      "textures": "shulker_spawn_egg"
-    },
     "matcha_component_flour": {
       "textures": "enderman_spawn_egg"
     },
     "matcha_component_flour_bag": {
       "textures": "magma_cube_spawn_egg"
-    },
-    "matcha_component_flour_from_flour_bag": {
-      "textures": "enderman_spawn_egg"
     },
     "matcha_component_uncooked_curry": {
       "textures": "strider_spawn_egg"
@@ -518,14 +512,11 @@
     "matcha_component_gilded_leather_boots": {
       "textures": "textures/items/generated_components/gilded_leather_boots"
     },
-    "matcha_component_lesser_warding_shield": {
+    "matcha_component_warding_shield": {
       "textures": "shield"
     },
     "matcha_component_silver_sword": {
       "textures": "textures/items/generated_components/silver_sword"
-    },
-    "matcha_component_warding_shield": {
-      "textures": "shield"
     },
     "matcha_component_warding_sword": {
       "textures": "textures/items/generated_components/warding_sword"

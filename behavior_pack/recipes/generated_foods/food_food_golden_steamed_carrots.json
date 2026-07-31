@@ -7,7 +7,7 @@
     "tags": [
       "furnace"
     ],
-    "input": "minecraft:golden_carrot",
+    "input": "matcha:golden_carrot",
     "output": "matcha:golden_steamed_carrots"
   }
 }

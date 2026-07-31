@@ -8,8 +8,8 @@
       "smithing_table"
     ],
     "template": "minecraft:prismarine_crystals",
-    "base": "minecraft:iron_sword",
-    "addition": "minecraft:glistering_melon_slice",
+    "base": "matcha:iron_sword",
+    "addition": "matcha:nazar",
     "result": "matcha:silver_sword"
   }
 }

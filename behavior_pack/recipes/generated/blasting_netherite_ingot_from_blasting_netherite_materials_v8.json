@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:netherite_leggings",
+    "input": "matcha:adamant_leggings",
     "output": "minecraft:netherite_ingot"
   }
 }

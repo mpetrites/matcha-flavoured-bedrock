@@ -9,14 +9,14 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:potion"
+        "item": "matcha:potions_estus_flask"
       },
       {
         "item": "matcha:flour"
       }
     ],
     "result": {
-      "item": "matcha:dough_from_water"
+      "item": "matcha:dough"
     }
   }
 }

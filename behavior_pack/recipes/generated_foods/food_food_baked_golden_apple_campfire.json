@@ -7,7 +7,7 @@
     "tags": [
       "campfire"
     ],
-    "input": "minecraft:golden_apple",
+    "input": "matcha:golden_apple",
     "output": "matcha:baked_golden_apple"
   }
 }

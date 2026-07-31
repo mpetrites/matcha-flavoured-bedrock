@@ -7,7 +7,7 @@
     "tags": [
       "furnace"
     ],
-    "input": "minecraft:golden_pickaxe",
+    "input": "matcha:golden_pickaxe",
     "output": "minecraft:gold_nugget"
   }
 }

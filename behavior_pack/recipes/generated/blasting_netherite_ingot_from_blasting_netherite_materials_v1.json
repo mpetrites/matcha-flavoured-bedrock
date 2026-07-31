@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:netherite_pickaxe",
+    "input": "matcha:adamant_pickaxe",
     "output": "minecraft:netherite_ingot"
   }
 }

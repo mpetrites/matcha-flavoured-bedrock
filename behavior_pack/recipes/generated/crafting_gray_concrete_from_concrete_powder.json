@@ -9,7 +9,7 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:potion"
+        "item": "matcha:potions_estus_flask"
       },
       {
         "item": "minecraft:gray_concrete_powder"

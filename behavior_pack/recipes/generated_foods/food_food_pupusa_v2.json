@@ -12,10 +12,10 @@
         "item": "matcha:dough"
       },
       {
-        "item": "minecraft:cookie"
+        "item": "matcha:cheese"
       },
       {
-        "item": "minecraft:cooked_chicken"
+        "item": "matcha:cooked_chicken"
       }
     ],
     "result": {

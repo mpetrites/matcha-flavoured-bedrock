@@ -9,13 +9,13 @@
     ],
     "ingredients": [
       {
-        "item": "minecraft:golden_apple"
+        "item": "matcha:golden_apple"
       },
       {
         "item": "minecraft:brown_egg"
       },
       {
-        "item": "minecraft:rotten_flesh"
+        "item": "matcha:glow_mash"
       },
       {
         "item": "minecraft:sugar"

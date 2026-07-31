@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:netherite_shovel",
+    "input": "matcha:adamant_shovel",
     "output": "minecraft:netherite_ingot"
   }
 }

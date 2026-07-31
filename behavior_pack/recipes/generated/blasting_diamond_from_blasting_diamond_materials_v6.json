@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:diamond_spear",
+    "input": "matcha:diamond_spear",
     "output": "minecraft:diamond"
   }
 }

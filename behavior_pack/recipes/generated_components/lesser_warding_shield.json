@@ -8,8 +8,8 @@
       "smithing_table"
     ],
     "template": "#minecraft:wooden_tool_materials",
-    "base": "minecraft:shield",
-    "addition": "minecraft:glistering_melon_slice",
-    "result": "matcha:lesser_warding_shield"
+    "base": "matcha:warding_shield",
+    "addition": "matcha:nazar",
+    "result": "matcha:warding_shield"
   }
 }

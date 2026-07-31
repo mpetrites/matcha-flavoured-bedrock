@@ -4,7 +4,9 @@
     "description": {
       "identifier": "matcha:heart_container"
     },
-    "tags": ["crafting_table"],
+    "tags": [
+      "crafting_table"
+    ],
     "pattern": [
       "#s#",
       " # "
@@ -14,7 +16,7 @@
         "item": "minecraft:diamond_block"
       },
       "s": {
-        "item": "minecraft:turtle_scute"
+        "item": "matcha:divine_fragment"
       }
     },
     "result": {

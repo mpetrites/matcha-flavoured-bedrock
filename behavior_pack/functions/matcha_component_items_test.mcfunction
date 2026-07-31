@@ -87,10 +87,8 @@ give @s matcha:wooden_sword 1
 give @s matcha:music_disc_labyrinthine 1
 give @s matcha:cake 1
 give @s matcha:dough 1
-give @s matcha:dough_from_water 1
 give @s matcha:flour 1
 give @s matcha:flour_bag 1
-give @s matcha:flour_from_flour_bag 1
 give @s matcha:uncooked_curry 1
 give @s matcha:uncooked_green_curry 1
 give @s matcha:uncooked_paneer_makhani 1
@@ -99,7 +97,6 @@ give @s matcha:amber_earrings 1
 give @s matcha:bronze_elytra 1
 give @s matcha:butcher_knife 1
 give @s matcha:gilded_leather_boots 1
-give @s matcha:lesser_warding_shield 1
-give @s matcha:silver_sword 1
 give @s matcha:warding_shield 1
+give @s matcha:silver_sword 1
 give @s matcha:warding_sword 1

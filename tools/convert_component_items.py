@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Convert component-bearing crafting outputs into auditable Bedrock items."""
-import copy, json, re, shutil
+import argparse, copy, json, re, shutil
 from pathlib import Path
 from convert_recipes import convert, safe_name
 
 ROOT=Path(__file__).resolve().parents[1]
-JAVA=ROOT.parent/"work/java-source-104"
+parser=argparse.ArgumentParser()
+parser.add_argument("java_root",nargs="?",type=Path,default=ROOT.parent/"work/java-source-104")
+args=parser.parse_args()
+JAVA=args.java_root.resolve()
 SOURCE_DIRS=[JAVA/"data/crafting/recipe",JAVA/"data/food/recipe",JAVA/"data/custom_music/recipe",JAVA/"data/smithing_table/recipe"]
 ITEMS=ROOT/"behavior_pack/items/generated_components"
 RECIPES=ROOT/"behavior_pack/recipes/generated_components"
@@ -52,11 +55,25 @@ for p in sorted(x for directory in SOURCE_DIRS for x in directory.glob("*.json")
     if p.parent.parent.name=="smithing_table" and (ROOT/f"behavior_pack/items/generated_equipment/{p.stem}.json").exists():
         continue
     sources.append((p,d,c))
+
+# Several Java recipes are alternate ways to obtain one component-defined
+# item.  Give identical vanilla-id/component pairs one canonical Bedrock id.
+def component_signature(d,c):
+    return d["result"]["id"],json.dumps(c,sort_keys=True,separators=(",",":"))
+def canonical_source(group):
+    return min(group,key=lambda x:("_from_" in x[0].stem,len(x[0].stem),x[0].stem))
+canonical_by_signature={}
+groups={}
+for entry in sources: groups.setdefault(component_signature(entry[1],entry[2]),[]).append(entry)
+for signature,group in groups.items(): canonical_by_signature[signature]=canonical_source(group)[0].stem
 for p,d,c in sources:
     model=(c.get("minecraft:item_model") or d["result"]["id"]).split(":",1)[-1]
-    stem=safe_name(p.stem)
-    ident=EXISTING.get(p.stem,f"matcha:{stem}")
+    canonical=canonical_by_signature[component_signature(d,c)]
+    stem=safe_name(canonical)
+    ident=EXISTING.get(canonical,f"matcha:{stem}")
     generated_ids[p]=ident
+    if any(x["item"]==ident and x["status"]=="generated" for x in audit):
+        audit.append({"source":str(p),"item":ident,"status":"canonical_alias"}); continue
     if ident in EXISTING.values():
         audit.append({"source":str(p),"item":ident,"status":"existing_item_reused"}); continue
     texture_key=f"matcha_component_{stem}"

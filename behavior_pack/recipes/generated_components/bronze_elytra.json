@@ -8,7 +8,7 @@
       "smithing_table"
     ],
     "template": "minecraft:honeycomb",
-    "base": "minecraft:elytra",
+    "base": "matcha:bronze_elytra",
     "addition": "minecraft:phantom_membrane",
     "result": "matcha:bronze_elytra"
   }
