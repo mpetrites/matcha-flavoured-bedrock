@@ -6,22 +6,46 @@
         {
           "type": "item",
           "name": "matcha:sturdy_leather_helmet",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:sturdy_leather_chestplate",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:sturdy_leather_pants",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "matcha:sturdy_leather_boots",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         }
       ]
     }

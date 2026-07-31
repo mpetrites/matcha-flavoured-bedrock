@@ -18,6 +18,10 @@
                 "min": 0.1
               },
               "function": "set_damage"
+            },
+            {
+              "function": "enchant_randomly",
+              "treasure": true
             }
           ]
         },
@@ -98,7 +102,15 @@
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 10
+          "weight": 10,
+          "functions": [
+            {
+              "function": "specific_enchants",
+              "enchants": [
+                "soul_speed"
+              ]
+            }
+          ]
         },
         {
           "type": "loot_table",

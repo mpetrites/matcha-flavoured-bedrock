@@ -23,7 +23,7 @@ for name,needles in {
   add(name,True,all(x in script+data+json.dumps(report) for x in needles),needles)
 add("script loaded",True,'import "./villagers.js"' in main)
 report["checks"]=checks; report["summary"]={"checks":len(checks),"passed":sum(x["status"]=="pass" for x in checks),"failed":sum(x["status"]=="fail" for x in checks)}
-report["approximations"]=["Offers have unlimited uses and never require restocking.","Java reputation discounts and demand curves are recorded but not exposed by Bedrock Script API.","Exploration-map destinations and several Java-only stack components remain presentation-only until their owning structure/loot systems are ported."]
+report["approximations"]=["Offers have unlimited uses and never require restocking.","Java reputation discounts and demand curves are recorded but not exposed by Bedrock Script API.","Java-only trade-stack presentation components without Bedrock item equivalents remain presentation-only; loot-table exploration maps are handled separately by the loot converter."]
 (ROOT/"docs/villager-trade-report.json").write_text(json.dumps(report,indent=2,default=lambda x:sorted(x))+"\n")
 for row in checks: print(row["status"].upper(),row["name"])
 if report["summary"]["failed"]: raise SystemExit(1)

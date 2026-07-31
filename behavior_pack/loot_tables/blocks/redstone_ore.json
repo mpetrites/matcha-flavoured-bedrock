@@ -28,23 +28,14 @@
               "type": "group",
               "children": [
                 {
-                  "type": "item",
-                  "name": "minecraft:gunpowder",
+                  "type": "loot_table",
+                  "name": "loot_tables/generated/fortune/eea3c8869841.json",
                   "weight": 1
                 },
                 {
-                  "type": "item",
-                  "name": "minecraft:quartz",
-                  "weight": 1,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 2,
-                        "max": 3
-                      }
-                    }
-                  ]
+                  "type": "loot_table",
+                  "name": "loot_tables/generated/fortune/ae8b60f5ae64.json",
+                  "weight": 1
                 }
               ],
               "weight": 1

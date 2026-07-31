@@ -25,18 +25,9 @@
               ]
             },
             {
-              "type": "item",
-              "name": "minecraft:gunpowder",
-              "weight": 1,
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": {
-                    "min": 1,
-                    "max": 2
-                  }
-                }
-              ]
+              "type": "loot_table",
+              "name": "loot_tables/generated/fortune/a60e7d109d42.json",
+              "weight": 1
             }
           ],
           "weight": 1

@@ -19,7 +19,7 @@ With cheats enabled, use `/function matcha_equipment_test`,
 `/function matcha_enchantment_test`, `/function matcha_survival_test`,
 `/function matcha_villager_test`, `/function matcha_structure_test`, or
 `/function matcha_advancement_test`. Use `/function matcha_global_mechanics_test`
-for the remaining environment and interaction systems.
+for environment and interaction systems.
 
 ## Included in alpha 0.11.0
 
@@ -54,8 +54,9 @@ for the remaining environment and interaction systems.
 - All 235 official villager and Wandering Trader entries assembled through
   all 68 trade sets, including stable per-villager offers, five profession
   tiers, unlimited uses, and 119 component-specific trade items
-- All 282 official loot tables converted, with nested-table resolution and
-  98 additional component-specific loot items
+- All 282 official loot tables converted, with nested-table resolution,
+  native Bedrock loot functions, restricted-enchantment routing, Fortune
+  distributions, the nine-slice melon cap, and 98 component-specific items
 - All 16 eerie beta-village templates converted to native `.mcstructure`
   assets and assembled in the eight official village biomes using the source
   spacing, separation, salt, pools, and placement inventory
@@ -81,6 +82,8 @@ they do not replace the in-game validation listed in that ledger.
 Run:
 
 ```sh
+python3 tools/check_upstream.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_parity_1_03.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/generate_equipment.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_equipment.py
 python3 tools/convert_component_items.py --source /path/to/unpacked/Matcha_Flavoured_1_03
@@ -102,6 +105,7 @@ python3 tools/convert_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_
 python3 tools/check_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/convert_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_vanilla_replacements.py
 ./scripts/package.sh
 ```
 

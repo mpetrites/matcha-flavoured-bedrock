@@ -8,7 +8,7 @@ def check(name,ok,detail):
     checks.append({"name":name,"status":"pass" if ok else "fail","detail":detail})
 for item in ("raw_estus","estus_ash"):
     path=ROOT/f"behavior_pack/items/{item}.json"
-    check(f"{item} item",path.exists(),str(path))
+    check(f"{item} item",path.exists(),str(path.relative_to(ROOT)))
 script=(ROOT/"behavior_pack/scripts/estus.js").read_text()
 for mob in ("blaze","zombie","husk","drowned","zombie_villager"):
     check(f"{mob} drop hook",f'"minecraft:{mob}"' in script,mob)

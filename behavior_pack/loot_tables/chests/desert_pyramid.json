@@ -99,7 +99,13 @@
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 20
+          "weight": 20,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "loot_table",

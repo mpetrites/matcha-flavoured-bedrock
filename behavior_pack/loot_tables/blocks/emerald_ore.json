@@ -25,8 +25,8 @@
               ]
             },
             {
-              "type": "item",
-              "name": "minecraft:prismarine_shard",
+              "type": "loot_table",
+              "name": "loot_tables/generated/fortune/aa0ed0c00c40.json",
               "weight": 1
             }
           ],

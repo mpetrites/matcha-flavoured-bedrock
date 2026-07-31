@@ -71,7 +71,13 @@
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
@@ -86,13 +92,23 @@
         {
           "type": "item",
           "name": "minecraft:fishing_rod",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
           "name": "minecraft:map",
           "weight": 10,
           "functions": [
+            {
+              "function": "exploration_map",
+              "destination": "buriedtreasure"
+            },
             {
               "function": "set_name",
               "name": {

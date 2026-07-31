@@ -16,13 +16,25 @@
                 "min": 0
               },
               "function": "set_damage"
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": true
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 3
+          "weight": 3,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
         },
         {
           "type": "item",
@@ -46,7 +58,13 @@
         {
           "type": "item",
           "name": "minecraft:chest",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "fill_container",
+              "loot_table": "loot_tables/chests/buried_treasure.json"
+            }
+          ]
         },
         {
           "type": "loot_table",

@@ -99,6 +99,13 @@
             {
               "function": "set_count",
               "count": 1
+            },
+            {
+              "function": "set_ominous_bottle_amplifier",
+              "amplifier": {
+                "min": 0,
+                "max": 1
+              }
             }
           ]
         },

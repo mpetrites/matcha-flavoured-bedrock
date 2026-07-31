@@ -14,7 +14,7 @@ that still differs from the pinned Java source.
 | --- | --- | --- | --- |
 | Medium | Advancements | All 223 definitions and 507 criteria have persistent completion and requirement handling; 67 displayed definitions use toast/chat feedback. | Add exact structure-location adapters; replace result-acquisition approximations if Bedrock adds stable crafting and fishing events. |
 | Medium | Global survival mechanics | Health, hunger, death, sleep, freezing water, XP, Warding Stone, Bedrock Buster, anvil, dragon reward, extended days, spawn/safe-surface rules, weather statues, eerie villages, particles, Happy Ghast horns, applications, and stacked water bottles are present. | Refine the documented spawn attributes, village membership, divine-item gravity, and other engine-limited approximations through in-game testing. |
-| High | Loot semantics | All 282 tables are converted and identifiers/references are valid. | Refine or replace the unsupported Java conditions and functions listed below; verify progression through an in-game survival playthrough. |
+| High | Loot semantics | All 282 tables are converted; native functions, restricted enchantment routing, Fortune I–III distributions, and the melon cap are preserved or explicitly approximated. | Replace the remaining context-sensitive Java conditions listed below and verify progression through an in-game survival playthrough. |
 | Medium | Food interactions | 90 custom consumables cover 120 source recipes and scripted effects; both splash preserves are aimed area effects, cake heals per bite, and mead/milk preserve drink completion and bottle semantics. | Validate cake-bite timing and splash targeting in the target Bedrock release; Bedrock does not expose a native custom splash-potion projectile. |
 | Medium | World generation | All 65 biome presentation overrides, 40 active music routes (plus Pale Garden's empty/default entry), 16 particle routes, and five ambient-sound sets are wired; sixteen beta-village templates are assembled in eight source biomes; Nether water placement matches the non-evaporation rule. | Validate rendering, audio, terrain fit, and village frequency in game. Java feature, carver, spawn-table, and vanilla dimension-type replacement remain engine-limited. |
 | Medium | Villager economy | All 235 trades and 68 sets are routed through custom UI with stable offers, tiers, and unlimited uses. | Validate balance in game; reputation and demand pricing have no direct Script API equivalent. |
@@ -47,13 +47,14 @@ that still differs from the pinned Java source.
   attached to a lodestone.
 - Villager offers intentionally have unlimited uses and never require
   restocking. Java reputation and demand metadata remain in the generated
-  catalog, but custom UI prices use source base counts. Exploration-map destinations and some
-  Java-only trade-stack presentation components are not reproduced.
+  catalog, but custom UI prices use source base counts. Some Java-only
+  trade-stack presentation components are not reproduced.
 - Converted loot conservatively disables Java conditions without stable
   equivalents instead of broadening drops. Current totals are 24
   `location_check`, 6 `entity_properties`, 4 `inverted`, and 2
-  `damage_source_properties` conditions. Approximated or omitted functions
-  are itemized in `docs/loot-conversion-report.json`.
+  `damage_source_properties` conditions. No source loot functions are silently
+  omitted; every native translation or approximation is itemized by source
+  table and strategy in `docs/loot-conversion-report.json`.
 - Structure conversion removes Java jigsaw and command blocks. Script API
   assembles the converted well and weighted road/building pools using the
   source 80/50-chunk placement parameters and salt.
@@ -77,12 +78,10 @@ that still differs from the pinned Java source.
 
 ## Release-completion checks
 
-- Add pack-wide checks for identifiers, texture references, recipe/loot/trade
-  results, and localization.
 - Run the in-game function suite for equipment, components, consumables,
-  enchantments, survival, villagers, and structures on the target Bedrock
-  release.
+  enchantments, survival, villagers, structures, advancements, and global
+  mechanics on the target Bedrock release.
 - Complete a survival playthrough from a new world through Adamant, including
   death/health rules, villagers, structures, loot, and the End reward.
-- Classify every remaining feature as faithful, approximated, or unsupported
-  before declaring the port complete.
+- Re-run the full static parity suite after each source or target-engine update;
+  the current pinned 1.03 audit passes every checker listed in `tools/README.md`.

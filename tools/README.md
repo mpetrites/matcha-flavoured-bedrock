@@ -7,6 +7,7 @@ pass that same root explicitly to every generator or audit:
 ```sh
 python3 tools/upstream.py /path/to/Matcha_Flavoured_1_03.zip
 python3 tools/check_upstream.py --source /path/to/unpacked/Matcha_Flavoured_1_03
+python3 tools/check_parity_1_03.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_parity_1_4.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 ```
 
@@ -81,8 +82,7 @@ repairs, recipes, and textures and writes
 `docs/equipment-check-report.json`. Add future tier JSON files beside Bronze
 to reuse the same framework.
 
-The remaining generated component items and the Estus entity loop can be
-audited with:
+Generated component items and the Estus entity loop are audited with:
 
 ```sh
 python3 tools/convert_component_items.py --source /path/to/unpacked/Matcha_Flavoured_1_03
@@ -102,7 +102,7 @@ used from the main hand while its target is held in the off hand. Supported
 vanilla enchantments are written to that item; custom Matcha effects are
 persisted and executed by the Script API.
 
-The remaining core survival systems are audited with:
+Core survival systems are audited with:
 
 ```sh
 python3 tools/check_survival_milestone.py --source /path/to/unpacked/Matcha_Flavoured_1_03
@@ -124,6 +124,12 @@ PYTHONPATH=/tmp/matcha_pydeps python3 tools/convert_structures.py --source /path
 python3 tools/check_loot_structures.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 ```
 
+Loot conversion uses native Bedrock functions for enchanting, explosion
+decay, suspicious stew, ominous bottles, maps, and filled containers. Java
+Fortune formulas and restricted enchantment option lists are emitted as
+generated helper tables. `docs/loot-conversion-report.json` records every
+approximated source table and the strategy used.
+
 Advancement definitions are normalized into a persistent Script API registry:
 
 ```sh
@@ -135,7 +141,7 @@ Displayed advancements use source toast/chat flags. Hidden definitions complete
 silently. Crafting and fishing criteria currently use result acquisition as a
 Bedrock approximation; exact fidelity is recorded in the generated report.
 
-Remaining global mechanics are checked with:
+Global mechanics are checked with:
 
 ```sh
 python3 tools/check_global_mechanics.py --source /path/to/unpacked/Matcha_Flavoured_1_03

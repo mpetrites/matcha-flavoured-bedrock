@@ -25,18 +25,9 @@
               ]
             },
             {
-              "type": "item",
-              "name": "minecraft:quartz",
-              "weight": 1,
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": {
-                    "min": 2,
-                    "max": 5
-                  }
-                }
-              ]
+              "type": "loot_table",
+              "name": "loot_tables/generated/fortune/8ae8bc2c05a1.json",
+              "weight": 1
             }
           ],
           "weight": 1
