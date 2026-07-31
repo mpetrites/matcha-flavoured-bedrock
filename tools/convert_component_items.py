@@ -3,12 +3,13 @@
 import argparse, copy, json, re, shutil
 from pathlib import Path
 from convert_recipes import convert, safe_name
+from upstream import add_source_argument, validate_source
 
 ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
-parser.add_argument("java_root",nargs="?",type=Path,default=ROOT.parent/"work/java-source-104")
+add_source_argument(parser)
 args=parser.parse_args()
-JAVA=args.java_root.resolve()
+JAVA=validate_source(args.source)
 SOURCE_DIRS=[JAVA/"data/crafting/recipe",JAVA/"data/food/recipe",JAVA/"data/custom_music/recipe",JAVA/"data/smithing_table/recipe"]
 ITEMS=ROOT/"behavior_pack/items/generated_components"
 RECIPES=ROOT/"behavior_pack/recipes/generated_components"
@@ -67,15 +68,16 @@ groups={}
 for entry in sources: groups.setdefault(component_signature(entry[1],entry[2]),[]).append(entry)
 for signature,group in groups.items(): canonical_by_signature[signature]=canonical_source(group)[0].stem
 for p,d,c in sources:
+    source_name=str(p.relative_to(JAVA))
     model=(c.get("minecraft:item_model") or d["result"]["id"]).split(":",1)[-1]
     canonical=canonical_by_signature[component_signature(d,c)]
     stem=safe_name(canonical)
     ident=EXISTING.get(canonical,f"matcha:{stem}")
     generated_ids[p]=ident
     if any(x["item"]==ident and x["status"]=="generated" for x in audit):
-        audit.append({"source":str(p),"item":ident,"status":"canonical_alias"}); continue
+        audit.append({"source":source_name,"item":ident,"status":"canonical_alias"}); continue
     if ident in EXISTING.values():
-        audit.append({"source":str(p),"item":ident,"status":"existing_item_reused"}); continue
+        audit.append({"source":source_name,"item":ident,"status":"existing_item_reused"}); continue
     texture_key=f"matcha_component_{stem}"
     source_texture=JAVA/f"assets/minecraft/textures/item/{model}.png"
     if source_texture.exists():
@@ -85,6 +87,10 @@ for p,d,c in sources:
     components={"minecraft:display_name":{"value":f"item.{ident}.name"},
                 "minecraft:icon":{"textures":{"default":texture_key}},
                 "minecraft:max_stack_size":c.get("minecraft:max_stack_size",1 if c.get("minecraft:max_damage") else d["result"].get("count",64))}
+    if stem in {"warding_stone","bedrock_buster"}:
+        components["minecraft:interact_button"]="Place" if stem=="warding_stone" else "Prime"
+        components["minecraft:use_animation"]="bow"
+        components["minecraft:use_modifiers"]={"use_duration":0.1,"movement_modifier":1.0}
     if c.get("minecraft:max_damage"):
         components["minecraft:durability"]={"max_durability":c["minecraft:max_damage"]}
         if c.get("minecraft:unbreakable"):
@@ -115,7 +121,7 @@ for p,d,c in sources:
     (ITEMS/f"{stem}.json").write_text(json.dumps(item,indent=2)+"\n")
     names.append(f"item.{ident}.name={display(c,p.stem,lang)}")
     supported={"minecraft:item_name","minecraft:custom_name","minecraft:item_model","minecraft:max_stack_size","minecraft:max_damage","minecraft:attribute_modifiers","minecraft:tool","minecraft:equippable","minecraft:repairable","minecraft:lore","minecraft:tooltip_display","minecraft:enchantment_glint_override","minecraft:fire_resistant","minecraft:unbreakable","minecraft:rarity"}
-    audit.append({"source":str(p),"item":ident,"status":"generated","untranslated_components":sorted(set(c)-supported)})
+    audit.append({"source":source_name,"item":ident,"status":"generated","untranslated_components":sorted(set(c)-supported)})
 for p,d,c in sources:
     ident=generated_ids[p]; recipe=copy.deepcopy(d); recipe["result"]={"id":ident,"count":d["result"].get("count",1)}
     if p.stem == "stabilised_estus":

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:trade_item_c98ebdd7c4",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:trade_item_c98ebdd7c4.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_trade_c98ebdd7c4"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 600
+      },
+      "minecraft:glint": true
+    }
+  }
+}

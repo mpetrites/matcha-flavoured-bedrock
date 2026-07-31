@@ -209,13 +209,13 @@ def main() -> None:
         recipe_type = recipe.get("type")
         if recipe_type not in TYPE_MAP:
             skipped.append(
-                {"source": str(source_file), "reason": f"unsupported type {recipe_type}"}
+                {"source": str(source_file.relative_to(args.java_data.parent)), "reason": f"unsupported type {recipe_type}"}
             )
             continue
         if recipe.get("result", {}).get("components"):
             skipped.append(
                 {
-                    "source": str(source_file),
+                    "source": str(source_file.relative_to(args.java_data.parent)),
                     "reason": "Java-only result components require a custom Bedrock item",
                 }
             )

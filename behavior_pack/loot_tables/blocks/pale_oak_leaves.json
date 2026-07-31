@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:pale_oak_leaves",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "alternative",
+                  "terms": [
+                    {
+                      "condition": "match_tool",
+                      "item": "minecraft:shears"
+                    },
+                    {
+                      "condition": "match_tool",
+                      "enchantments": [
+                        {
+                          "enchantment": "silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

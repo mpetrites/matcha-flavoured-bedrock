@@ -1,0 +1,158 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "summary": {
+    "checks": 15,
+    "passed": 15,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Carbon-Rich Iron intermediary",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": {
+        "item": "matcha:carbon_rich_iron",
+        "count": 4
+      }
+    },
+    {
+      "name": "Electrum consumes Divine Fragment",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": [
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "matcha:divine_fragment"
+        },
+        {
+          "item": "minecraft:prismarine_crystals"
+        },
+        {
+          "item": "minecraft:prismarine_crystals"
+        },
+        {
+          "item": "minecraft:prismarine_crystals"
+        },
+        {
+          "item": "minecraft:prismarine_crystals"
+        }
+      ]
+    },
+    {
+      "name": "Electrum enchanted presentation",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": true
+    },
+    {
+      "name": "Warding Stone Trial Chamber rejection",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": "scripted proximity rejection"
+    },
+    {
+      "name": "nerfed Blaze Estus chance",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": "50% base chance"
+    },
+    {
+      "name": "silver_sword 1.03 source regeneration",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/generated_components/silver_sword.json"
+    },
+    {
+      "name": "warding_sword 1.03 source regeneration",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/generated_components/warding_sword.json"
+    },
+    {
+      "name": "warding_shield 1.03 source regeneration",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": "/Users/mpetrites/Documents/Matcha datapack/behavior_pack/items/generated_components/warding_shield.json"
+    },
+    {
+      "name": "food_bruschetta recipe",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": [
+        "food_food_bruschetta.json"
+      ]
+    },
+    {
+      "name": "food_baked_apple recipe",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": [
+        "baked_apple.json"
+      ]
+    },
+    {
+      "name": "smoking_charcoal recipe",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": [
+        "smoking_charcoal.json"
+      ]
+    },
+    {
+      "name": "smoking_terracotta_from_smoking_clay recipe",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": [
+        "smoking_terracotta_from_smoking_clay.json"
+      ]
+    },
+    {
+      "name": "Trial Chamber reward table conversion",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": 282
+    },
+    {
+      "name": "Spawner loot conversion",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": "blocks/spawner.json"
+    },
+    {
+      "name": "frozen-water effect nerf",
+      "status": "pass",
+      "ownership": "implemented",
+      "detail": "scripted frozen-water effects"
+    }
+  ]
+}

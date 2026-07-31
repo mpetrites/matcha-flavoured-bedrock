@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/pale_fish.json",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pale_hanging_moss",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "minecraft:resin_clump",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

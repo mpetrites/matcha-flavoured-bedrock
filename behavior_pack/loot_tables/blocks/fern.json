@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "group",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:fern",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "item": "minecraft:shears"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:fern",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "item": "#minecraft:hoes"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_mending"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ESE",
+      "EBE",
+      "EDE"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "B": {
+        "item": "minecraft:enchanted_book"
+      },
+      "E": {
+        "item": "minecraft:diamond"
+      },
+      "D": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_mending"
+    }
+  }
+}

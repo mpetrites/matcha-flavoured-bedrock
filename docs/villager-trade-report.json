@@ -1,0 +1,1734 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "source_trades": 235,
+  "source_trade_sets": 68,
+  "generated_trade_items": 119,
+  "discard_entries": 20,
+  "component_audit": [
+    {
+      "identifier": "matcha:trade_item_e620c6856f",
+      "contexts": [
+        "armorer/5/lava_kit:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:bundle_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_3f784bfe4d",
+      "contexts": [
+        "butcher/1/sweet_berry_toast_recipe:gives"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_546d6e60aa",
+      "contexts": [
+        "butcher/2/warped_stroganoff_recipe:gives"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_ec2531be03",
+      "contexts": [
+        "butcher/3/chorus_mochi_recipe:gives"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_daab46bfad",
+      "contexts": [
+        "cartographer/2/brush:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:unbreakable"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_1a8f51e84c",
+      "contexts": [
+        "cleric/1/splash_infested:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_76ac31fa03",
+      "contexts": [
+        "cleric/1/splash_invisibility:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_caf558a84c",
+      "contexts": [
+        "cleric/1/splash_oozing:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_f76bb0de4f",
+      "contexts": [
+        "cleric/1/splash_pitch:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_2c77844bfe",
+      "contexts": [
+        "cleric/1/splash_poison:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_2a9c804f94",
+      "contexts": [
+        "cleric/1/splash_slowness:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_28d2d3d8c7",
+      "contexts": [
+        "cleric/1/splash_weakness:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_0e1ba7fb00",
+      "contexts": [
+        "cleric/1/splash_weaving:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_2d75349fc8",
+      "contexts": [
+        "cleric/1/splash_wind_charged:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_fb4fc95df5",
+      "contexts": [
+        "cleric/1/splash_wither:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_cf5f5bf233",
+      "contexts": [
+        "farmer/1/exotic_seed_bundle:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:bundle_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_b2746e68f1",
+      "contexts": [
+        "farmer/1/floral_bundle:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:bundle_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_56dd42b062",
+      "contexts": [
+        "farmer/1/mushy_bundle:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:bundle_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_2b347a7d40",
+      "contexts": [
+        "farmer/1/seed_bundle:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:bundle_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_7812b4961b",
+      "contexts": [
+        "farmer/2/blue_egg:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_2e52b6fcbe",
+      "contexts": [
+        "farmer/2/brown_egg:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_9c9e84200e",
+      "contexts": [
+        "farmer/2/white_egg:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_068c6aaf86",
+      "contexts": [
+        "farmer/3/baby_cold_cow:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_6e860d2268",
+      "contexts": [
+        "farmer/3/baby_cold_pig:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_867192532d",
+      "contexts": [
+        "farmer/3/baby_temperate_cow:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_542064baa3",
+      "contexts": [
+        "farmer/3/baby_temperate_pig:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_c5268313e5",
+      "contexts": [
+        "farmer/3/baby_warm_cow:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_52b576b551",
+      "contexts": [
+        "farmer/3/baby_warm_pig:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_d561f51a6b",
+      "contexts": [
+        "fisherman/1/alaska_blackfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_9f18c07bdc",
+      "contexts": [
+        "fisherman/1/anchovy:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_3079b5704c",
+      "contexts": [
+        "fisherman/1/bluegill:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_0b534c88b1",
+      "contexts": [
+        "fisherman/1/bujurqui:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_0f7f5a4c51",
+      "contexts": [
+        "fisherman/1/cod:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_3c460a85ac",
+      "contexts": [
+        "fisherman/1/crappie:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_233198bcb9",
+      "contexts": [
+        "fisherman/1/freshwater_pufferfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_c9bb8db007",
+      "contexts": [
+        "fisherman/1/guppy:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_5fc0b1dd87",
+      "contexts": [
+        "fisherman/1/humpback_whitefish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_5672211d4d",
+      "contexts": [
+        "fisherman/1/mediterranean_killifish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_a12a7d2f57",
+      "contexts": [
+        "fisherman/1/pufferfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_e6499dbe68",
+      "contexts": [
+        "fisherman/1/rainbow_wrasse:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_be8c8e93b2",
+      "contexts": [
+        "fisherman/1/salmon:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_233789c421",
+      "contexts": [
+        "fisherman/1/shad:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_8f4772d92c",
+      "contexts": [
+        "fisherman/1/striped_perch:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_e34800fb88",
+      "contexts": [
+        "fisherman/1/tropical_fish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_0a3fc42565",
+      "contexts": [
+        "fisherman/2/black_seabass:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_f7d837b191",
+      "contexts": [
+        "fisherman/2/carp:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_f82dbc7693",
+      "contexts": [
+        "fisherman/2/flying_fish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_cb3abe8be0",
+      "contexts": [
+        "fisherman/2/gurnard:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_a07e4226db",
+      "contexts": [
+        "fisherman/2/herring:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_e10c2c9d18",
+      "contexts": [
+        "fisherman/2/lamprey:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_d81b7feacd",
+      "contexts": [
+        "fisherman/2/mahi_mahi:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_caa97e9ea6",
+      "contexts": [
+        "fisherman/2/piranha:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_9be82a05c2",
+      "contexts": [
+        "fisherman/2/spoonhead_sculpin:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_a43e35222d",
+      "contexts": [
+        "fisherman/2/walleye:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_93ba7d710e",
+      "contexts": [
+        "fisherman/3/armoured_catfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_4e7d4722a6",
+      "contexts": [
+        "fisherman/3/catfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_7c46e005e1",
+      "contexts": [
+        "fisherman/3/flounder:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_ece2067d85",
+      "contexts": [
+        "fisherman/3/gar:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_ed10489ea0",
+      "contexts": [
+        "fisherman/3/monkfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_c92112781c",
+      "contexts": [
+        "fisherman/3/northern_pike:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_f5f2026ca7",
+      "contexts": [
+        "fisherman/3/painted_moray:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_1c9df8ecdb",
+      "contexts": [
+        "fisherman/3/sturgeon:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_c913e4c357",
+      "contexts": [
+        "fisherman/3/tunisian_barb:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_dba86caa45",
+      "contexts": [
+        "fisherman/3/wolffish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_355d416866",
+      "contexts": [
+        "fisherman/4/arapaima:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_dd5c10898e",
+      "contexts": [
+        "fisherman/4/bass:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_e0e76025db",
+      "contexts": [
+        "fisherman/4/echo_fish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_fbe209e7c3",
+      "contexts": [
+        "fisherman/4/european_eel:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_56b17b0573",
+      "contexts": [
+        "fisherman/4/muskellunge:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_19bf54dd86",
+      "contexts": [
+        "fisherman/4/oarfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_aea8564e52",
+      "contexts": [
+        "fisherman/4/opah:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_d6004d69af",
+      "contexts": [
+        "fisherman/4/pale_fish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_f13991f9f7",
+      "contexts": [
+        "fisherman/4/siberian_sturgeon:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_294bb2ff1e",
+      "contexts": [
+        "fisherman/4/skate:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_989248390c",
+      "contexts": [
+        "fisherman/4/swordfish:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_2b12ea03f1",
+      "contexts": [
+        "fletcher/1/apotropaic_arrow:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_27ad55ee14",
+      "contexts": [
+        "fletcher/1/nightshade_arrow:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:potion_contents"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_c98ebdd7c4",
+      "contexts": [
+        "fletcher/3/compound_bow:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:enchantments",
+        "minecraft:repairable"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_e15aad1da6",
+      "contexts": [
+        "leatherworker/4/hatchet:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:enchantments",
+        "minecraft:tool"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_651ce908a3",
+      "contexts": [
+        "librarian/1/divine_comedy:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_3fc6e6d22b",
+      "contexts": [
+        "librarian/1/ender_pearl:gives"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_3ff70043ae",
+      "contexts": [
+        "librarian/1/paradise_lost:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_19d5ae577b",
+      "contexts": [
+        "librarian/2/avesta_1:wants",
+        "librarian/2/avesta_2:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_f82bb0d661",
+      "contexts": [
+        "librarian/2/avesta_1:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:stored_enchantments"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_991843b62a",
+      "contexts": [
+        "librarian/2/avesta_2:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:stored_enchantments"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_2233865428",
+      "contexts": [
+        "librarian/3/enoch:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_2331f4c478",
+      "contexts": [
+        "librarian/3/enoch:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:stored_enchantments"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_80e42fbf13",
+      "contexts": [
+        "librarian/4/solomon:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_d62f670da1",
+      "contexts": [
+        "librarian/4/solomon:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:stored_enchantments"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_d126e94c1a",
+      "contexts": [
+        "mason/1/andesite:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_c7eb8e9a1b",
+      "contexts": [
+        "mason/1/diorite:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_89d9cfe191",
+      "contexts": [
+        "mason/1/granite:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_90b0bcad6d",
+      "contexts": [
+        "mason/1/stone:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_648eaf6a61",
+      "contexts": [
+        "mason/2/deepslate:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_4ac45ccc91",
+      "contexts": [
+        "mason/2/glass:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_d8dc24ca7c",
+      "contexts": [
+        "mason/2/smooth_red_sandstone:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_c56bf026de",
+      "contexts": [
+        "mason/2/smooth_sandstone:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_f351641b8c",
+      "contexts": [
+        "mason/2/tuff:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_c871d75d17",
+      "contexts": [
+        "mason/3/calcite:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_b007da104b",
+      "contexts": [
+        "mason/3/flowstone:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_d962cf5bf6",
+      "contexts": [
+        "shepherd/2/baby_cold_sheep:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_909f457607",
+      "contexts": [
+        "shepherd/2/baby_temperate_sheep:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_1e8a692067",
+      "contexts": [
+        "shepherd/2/baby_warm_sheep:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_dd2316e4e6",
+      "contexts": [
+        "shepherd/3/crook:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:repairable"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_40f4f55c95",
+      "contexts": [
+        "toolsmith/1/opal_earrings:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:enchantments",
+        "minecraft:equippable",
+        "minecraft:unbreakable"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_248fca2ae5",
+      "contexts": [
+        "toolsmith/2/ruby_circlet:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:enchantments",
+        "minecraft:equippable",
+        "minecraft:unbreakable"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_1c641bf8cd",
+      "contexts": [
+        "toolsmith/4/bronze_laurel:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:equippable",
+        "minecraft:unbreakable"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_652b497df6",
+      "contexts": [
+        "toolsmith/4/topaz_earrings:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:enchantments",
+        "minecraft:equippable",
+        "minecraft:unbreakable"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_0c02d6140a",
+      "contexts": [
+        "toolsmith/5/sell_amber:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_0e34c5b2a9",
+      "contexts": [
+        "toolsmith/5/sell_opal:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_83c6e33e8c",
+      "contexts": [
+        "toolsmith/5/sell_ruby:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_2a925bbc29",
+      "contexts": [
+        "toolsmith/5/sell_topaz:wants"
+      ],
+      "untranslated_components": []
+    },
+    {
+      "identifier": "matcha:trade_item_c5485ba67e",
+      "contexts": [
+        "wandering_trader/adult_asylum_seeker_1:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_ce1f4fbf1f",
+      "contexts": [
+        "wandering_trader/adult_asylum_seeker_2:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_6bdf6aa045",
+      "contexts": [
+        "wandering_trader/adult_asylum_seeker_3:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_c929729753",
+      "contexts": [
+        "wandering_trader/adult_asylum_seeker_4:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_16f823408e",
+      "contexts": [
+        "wandering_trader/adult_asylum_seeker_5:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_7a9b8dc5dd",
+      "contexts": [
+        "wandering_trader/child_asylum_seeker:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:entity_data"
+      ]
+    },
+    {
+      "identifier": "matcha:trade_item_518c4c508b",
+      "contexts": [
+        "weaponsmith/1/iou:gives"
+      ],
+      "untranslated_components": [
+        "minecraft:writable_book_content"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "trade inventory",
+      "expected": 235,
+      "actual": 235,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "trade set inventory",
+      "expected": 68,
+      "actual": 68,
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "generated trade coverage",
+      "expected": [
+        "armorer/1/comparator",
+        "armorer/1/composter",
+        "armorer/1/noteblock",
+        "armorer/1/redstone_block",
+        "armorer/1/repeater",
+        "armorer/2/redstone_lamp",
+        "armorer/2/target",
+        "armorer/2/waxed_copper_bulb",
+        "armorer/3/dispenser",
+        "armorer/3/dropper",
+        "armorer/3/hopper",
+        "armorer/3/observer",
+        "armorer/4/crafter",
+        "armorer/4/piston",
+        "armorer/4/sticky_piston",
+        "armorer/5/lava_kit",
+        "butcher/1/sweet_berry_toast",
+        "butcher/1/sweet_berry_toast_recipe",
+        "butcher/2/warped_stroganoff",
+        "butcher/2/warped_stroganoff_recipe",
+        "butcher/3/chorus_mochi",
+        "butcher/3/chorus_mochi_recipe",
+        "butcher/4/butcher_knife",
+        "butcher/5/filler",
+        "cartographer/1/mineshaft",
+        "cartographer/1/sheaf_pottery_sherd",
+        "cartographer/1/witch_hut",
+        "cartographer/2/brush",
+        "cartographer/2/desert_temple",
+        "cartographer/2/howl_pottery_sherd",
+        "cartographer/2/jungle_ruin",
+        "cartographer/2/trail_ruin",
+        "cartographer/3/ocean_monument",
+        "cartographer/3/snort_pottery_sherd",
+        "cartographer/3/trial_chamber",
+        "cartographer/3/warm_ocean_ruin",
+        "cartographer/4/ancient_city",
+        "cartographer/4/mourner_pottery_sherd",
+        "cartographer/5/arms_up_pottery_sherd",
+        "cartographer/5/woodland_mansion",
+        "cleric/1/splash_infested",
+        "cleric/1/splash_invisibility",
+        "cleric/1/splash_oozing",
+        "cleric/1/splash_pitch",
+        "cleric/1/splash_poison",
+        "cleric/1/splash_slowness",
+        "cleric/1/splash_weakness",
+        "cleric/1/splash_weaving",
+        "cleric/1/splash_wind_charged",
+        "cleric/1/splash_wither",
+        "cleric/2/filler",
+        "cleric/3/filler",
+        "cleric/4/filler",
+        "cleric/5/filler",
+        "farmer/1/bonemeal",
+        "farmer/1/exotic_seed_bundle",
+        "farmer/1/floral_bundle",
+        "farmer/1/mushy_bundle",
+        "farmer/1/seed_bundle",
+        "farmer/2/blue_egg",
+        "farmer/2/brown_egg",
+        "farmer/2/white_egg",
+        "farmer/3/baby_cold_cow",
+        "farmer/3/baby_cold_pig",
+        "farmer/3/baby_temperate_cow",
+        "farmer/3/baby_temperate_pig",
+        "farmer/3/baby_warm_cow",
+        "farmer/3/baby_warm_pig",
+        "farmer/4/filler",
+        "farmer/5/filler",
+        "fisherman/1/alaska_blackfish",
+        "fisherman/1/anchovy",
+        "fisherman/1/bluegill",
+        "fisherman/1/bujurqui",
+        "fisherman/1/cod",
+        "fisherman/1/crappie",
+        "fisherman/1/freshwater_pufferfish",
+        "fisherman/1/guppy",
+        "fisherman/1/humpback_whitefish",
+        "fisherman/1/mediterranean_killifish",
+        "fisherman/1/pufferfish",
+        "fisherman/1/rainbow_wrasse",
+        "fisherman/1/salmon",
+        "fisherman/1/shad",
+        "fisherman/1/striped_perch",
+        "fisherman/1/tropical_fish",
+        "fisherman/2/black_seabass",
+        "fisherman/2/carp",
+        "fisherman/2/flying_fish",
+        "fisherman/2/gurnard",
+        "fisherman/2/herring",
+        "fisherman/2/lamprey",
+        "fisherman/2/mahi_mahi",
+        "fisherman/2/piranha",
+        "fisherman/2/spoonhead_sculpin",
+        "fisherman/2/walleye",
+        "fisherman/3/armoured_catfish",
+        "fisherman/3/catfish",
+        "fisherman/3/flounder",
+        "fisherman/3/gar",
+        "fisherman/3/monkfish",
+        "fisherman/3/northern_pike",
+        "fisherman/3/painted_moray",
+        "fisherman/3/sturgeon",
+        "fisherman/3/tunisian_barb",
+        "fisherman/3/wolffish",
+        "fisherman/4/arapaima",
+        "fisherman/4/bass",
+        "fisherman/4/echo_fish",
+        "fisherman/4/european_eel",
+        "fisherman/4/muskellunge",
+        "fisherman/4/oarfish",
+        "fisherman/4/opah",
+        "fisherman/4/pale_fish",
+        "fisherman/4/siberian_sturgeon",
+        "fisherman/4/skate",
+        "fisherman/4/swordfish",
+        "fisherman/5/filler",
+        "fletcher/1/apotropaic_arrow",
+        "fletcher/1/arrow",
+        "fletcher/1/nightshade_arrow",
+        "fletcher/2/spectral_arrow",
+        "fletcher/3/compound_bow",
+        "fletcher/4/filler",
+        "fletcher/5/filler",
+        "leatherworker/1/birch_log",
+        "leatherworker/1/oak_log",
+        "leatherworker/1/spruce_log",
+        "leatherworker/2/acacia_log",
+        "leatherworker/2/cherry_log",
+        "leatherworker/2/dark_oak_log",
+        "leatherworker/2/jungle_log",
+        "leatherworker/2/mangrove_log",
+        "leatherworker/3/crimson_log",
+        "leatherworker/3/mushroom_stem",
+        "leatherworker/3/pale_oak_log",
+        "leatherworker/3/warped_log",
+        "leatherworker/4/hatchet",
+        "leatherworker/5/filler",
+        "librarian/1/divine_comedy",
+        "librarian/1/ender_pearl",
+        "librarian/1/paradise_lost",
+        "librarian/2/avesta_1",
+        "librarian/2/avesta_2",
+        "librarian/3/enoch",
+        "librarian/4/solomon",
+        "librarian/5/filler",
+        "mason/1/andesite",
+        "mason/1/diorite",
+        "mason/1/granite",
+        "mason/1/stone",
+        "mason/2/deepslate",
+        "mason/2/glass",
+        "mason/2/smooth_red_sandstone",
+        "mason/2/smooth_sandstone",
+        "mason/2/terracotta",
+        "mason/2/tuff",
+        "mason/3/calcite",
+        "mason/3/flowstone",
+        "mason/3/malachite",
+        "mason/4/blackstone",
+        "mason/4/quartz_emerald",
+        "mason/4/smooth_basalt",
+        "mason/4/smooth_quartz",
+        "mason/5/filler",
+        "shepherd/1/black_wool",
+        "shepherd/1/blue_wool",
+        "shepherd/1/brown_wool",
+        "shepherd/1/cyan_wool",
+        "shepherd/1/gray_wool",
+        "shepherd/1/green_wool",
+        "shepherd/1/light_blue_wool",
+        "shepherd/1/light_gray_wool",
+        "shepherd/1/lime_wool",
+        "shepherd/1/magenta_wool",
+        "shepherd/1/orange_wool",
+        "shepherd/1/pink_wool",
+        "shepherd/1/purple_wool",
+        "shepherd/1/red_wool",
+        "shepherd/1/white_wool",
+        "shepherd/1/yellow_wool",
+        "shepherd/2/baby_cold_sheep",
+        "shepherd/2/baby_temperate_sheep",
+        "shepherd/2/baby_warm_sheep",
+        "shepherd/2/shepherds_shears",
+        "shepherd/3/crook",
+        "shepherd/4/filler",
+        "shepherd/5/filler",
+        "toolsmith/1/opal_earrings",
+        "toolsmith/2/ruby_circlet",
+        "toolsmith/3/amber_earrings",
+        "toolsmith/4/bronze_laurel",
+        "toolsmith/4/topaz_earrings",
+        "toolsmith/5/sell_amber",
+        "toolsmith/5/sell_opal",
+        "toolsmith/5/sell_ruby",
+        "toolsmith/5/sell_topaz",
+        "wandering_trader/adult_asylum_seeker_1",
+        "wandering_trader/adult_asylum_seeker_2",
+        "wandering_trader/adult_asylum_seeker_3",
+        "wandering_trader/adult_asylum_seeker_4",
+        "wandering_trader/adult_asylum_seeker_5",
+        "wandering_trader/child_asylum_seeker",
+        "wandering_trader/music_disc_11",
+        "wandering_trader/music_disc_13",
+        "wandering_trader/music_disc_5",
+        "wandering_trader/music_disc_blocks",
+        "wandering_trader/music_disc_cat",
+        "wandering_trader/music_disc_chirp",
+        "wandering_trader/music_disc_creator",
+        "wandering_trader/music_disc_creator_music_box",
+        "wandering_trader/music_disc_far",
+        "wandering_trader/music_disc_lava_chicken",
+        "wandering_trader/music_disc_mall",
+        "wandering_trader/music_disc_mellohi",
+        "wandering_trader/music_disc_otherside",
+        "wandering_trader/music_disc_pigstep",
+        "wandering_trader/music_disc_precipice",
+        "wandering_trader/music_disc_relic",
+        "wandering_trader/music_disc_stal",
+        "wandering_trader/music_disc_strad",
+        "wandering_trader/music_disc_tears",
+        "wandering_trader/music_disc_wait",
+        "wandering_trader/music_disc_ward",
+        "wandering_trader/village_desert",
+        "wandering_trader/village_plains",
+        "wandering_trader/village_savanna",
+        "wandering_trader/village_snowy",
+        "wandering_trader/village_taiga",
+        "wandering_trader/witch_hut",
+        "weaponsmith/1/iou",
+        "weaponsmith/2/filler",
+        "weaponsmith/3/filler",
+        "weaponsmith/4/filler",
+        "weaponsmith/5/filler"
+      ],
+      "actual": [
+        "armorer/1/comparator",
+        "armorer/1/composter",
+        "armorer/1/noteblock",
+        "armorer/1/redstone_block",
+        "armorer/1/repeater",
+        "armorer/2/redstone_lamp",
+        "armorer/2/target",
+        "armorer/2/waxed_copper_bulb",
+        "armorer/3/dispenser",
+        "armorer/3/dropper",
+        "armorer/3/hopper",
+        "armorer/3/observer",
+        "armorer/4/crafter",
+        "armorer/4/piston",
+        "armorer/4/sticky_piston",
+        "armorer/5/lava_kit",
+        "butcher/1/sweet_berry_toast",
+        "butcher/1/sweet_berry_toast_recipe",
+        "butcher/2/warped_stroganoff",
+        "butcher/2/warped_stroganoff_recipe",
+        "butcher/3/chorus_mochi",
+        "butcher/3/chorus_mochi_recipe",
+        "butcher/4/butcher_knife",
+        "butcher/5/filler",
+        "cartographer/1/mineshaft",
+        "cartographer/1/sheaf_pottery_sherd",
+        "cartographer/1/witch_hut",
+        "cartographer/2/brush",
+        "cartographer/2/desert_temple",
+        "cartographer/2/howl_pottery_sherd",
+        "cartographer/2/jungle_ruin",
+        "cartographer/2/trail_ruin",
+        "cartographer/3/ocean_monument",
+        "cartographer/3/snort_pottery_sherd",
+        "cartographer/3/trial_chamber",
+        "cartographer/3/warm_ocean_ruin",
+        "cartographer/4/ancient_city",
+        "cartographer/4/mourner_pottery_sherd",
+        "cartographer/5/arms_up_pottery_sherd",
+        "cartographer/5/woodland_mansion",
+        "cleric/1/splash_infested",
+        "cleric/1/splash_invisibility",
+        "cleric/1/splash_oozing",
+        "cleric/1/splash_pitch",
+        "cleric/1/splash_poison",
+        "cleric/1/splash_slowness",
+        "cleric/1/splash_weakness",
+        "cleric/1/splash_weaving",
+        "cleric/1/splash_wind_charged",
+        "cleric/1/splash_wither",
+        "cleric/2/filler",
+        "cleric/3/filler",
+        "cleric/4/filler",
+        "cleric/5/filler",
+        "farmer/1/bonemeal",
+        "farmer/1/exotic_seed_bundle",
+        "farmer/1/floral_bundle",
+        "farmer/1/mushy_bundle",
+        "farmer/1/seed_bundle",
+        "farmer/2/blue_egg",
+        "farmer/2/brown_egg",
+        "farmer/2/white_egg",
+        "farmer/3/baby_cold_cow",
+        "farmer/3/baby_cold_pig",
+        "farmer/3/baby_temperate_cow",
+        "farmer/3/baby_temperate_pig",
+        "farmer/3/baby_warm_cow",
+        "farmer/3/baby_warm_pig",
+        "farmer/4/filler",
+        "farmer/5/filler",
+        "fisherman/1/alaska_blackfish",
+        "fisherman/1/anchovy",
+        "fisherman/1/bluegill",
+        "fisherman/1/bujurqui",
+        "fisherman/1/cod",
+        "fisherman/1/crappie",
+        "fisherman/1/freshwater_pufferfish",
+        "fisherman/1/guppy",
+        "fisherman/1/humpback_whitefish",
+        "fisherman/1/mediterranean_killifish",
+        "fisherman/1/pufferfish",
+        "fisherman/1/rainbow_wrasse",
+        "fisherman/1/salmon",
+        "fisherman/1/shad",
+        "fisherman/1/striped_perch",
+        "fisherman/1/tropical_fish",
+        "fisherman/2/black_seabass",
+        "fisherman/2/carp",
+        "fisherman/2/flying_fish",
+        "fisherman/2/gurnard",
+        "fisherman/2/herring",
+        "fisherman/2/lamprey",
+        "fisherman/2/mahi_mahi",
+        "fisherman/2/piranha",
+        "fisherman/2/spoonhead_sculpin",
+        "fisherman/2/walleye",
+        "fisherman/3/armoured_catfish",
+        "fisherman/3/catfish",
+        "fisherman/3/flounder",
+        "fisherman/3/gar",
+        "fisherman/3/monkfish",
+        "fisherman/3/northern_pike",
+        "fisherman/3/painted_moray",
+        "fisherman/3/sturgeon",
+        "fisherman/3/tunisian_barb",
+        "fisherman/3/wolffish",
+        "fisherman/4/arapaima",
+        "fisherman/4/bass",
+        "fisherman/4/echo_fish",
+        "fisherman/4/european_eel",
+        "fisherman/4/muskellunge",
+        "fisherman/4/oarfish",
+        "fisherman/4/opah",
+        "fisherman/4/pale_fish",
+        "fisherman/4/siberian_sturgeon",
+        "fisherman/4/skate",
+        "fisherman/4/swordfish",
+        "fisherman/5/filler",
+        "fletcher/1/apotropaic_arrow",
+        "fletcher/1/arrow",
+        "fletcher/1/nightshade_arrow",
+        "fletcher/2/spectral_arrow",
+        "fletcher/3/compound_bow",
+        "fletcher/4/filler",
+        "fletcher/5/filler",
+        "leatherworker/1/birch_log",
+        "leatherworker/1/oak_log",
+        "leatherworker/1/spruce_log",
+        "leatherworker/2/acacia_log",
+        "leatherworker/2/cherry_log",
+        "leatherworker/2/dark_oak_log",
+        "leatherworker/2/jungle_log",
+        "leatherworker/2/mangrove_log",
+        "leatherworker/3/crimson_log",
+        "leatherworker/3/mushroom_stem",
+        "leatherworker/3/pale_oak_log",
+        "leatherworker/3/warped_log",
+        "leatherworker/4/hatchet",
+        "leatherworker/5/filler",
+        "librarian/1/divine_comedy",
+        "librarian/1/ender_pearl",
+        "librarian/1/paradise_lost",
+        "librarian/2/avesta_1",
+        "librarian/2/avesta_2",
+        "librarian/3/enoch",
+        "librarian/4/solomon",
+        "librarian/5/filler",
+        "mason/1/andesite",
+        "mason/1/diorite",
+        "mason/1/granite",
+        "mason/1/stone",
+        "mason/2/deepslate",
+        "mason/2/glass",
+        "mason/2/smooth_red_sandstone",
+        "mason/2/smooth_sandstone",
+        "mason/2/terracotta",
+        "mason/2/tuff",
+        "mason/3/calcite",
+        "mason/3/flowstone",
+        "mason/3/malachite",
+        "mason/4/blackstone",
+        "mason/4/quartz_emerald",
+        "mason/4/smooth_basalt",
+        "mason/4/smooth_quartz",
+        "mason/5/filler",
+        "shepherd/1/black_wool",
+        "shepherd/1/blue_wool",
+        "shepherd/1/brown_wool",
+        "shepherd/1/cyan_wool",
+        "shepherd/1/gray_wool",
+        "shepherd/1/green_wool",
+        "shepherd/1/light_blue_wool",
+        "shepherd/1/light_gray_wool",
+        "shepherd/1/lime_wool",
+        "shepherd/1/magenta_wool",
+        "shepherd/1/orange_wool",
+        "shepherd/1/pink_wool",
+        "shepherd/1/purple_wool",
+        "shepherd/1/red_wool",
+        "shepherd/1/white_wool",
+        "shepherd/1/yellow_wool",
+        "shepherd/2/baby_cold_sheep",
+        "shepherd/2/baby_temperate_sheep",
+        "shepherd/2/baby_warm_sheep",
+        "shepherd/2/shepherds_shears",
+        "shepherd/3/crook",
+        "shepherd/4/filler",
+        "shepherd/5/filler",
+        "toolsmith/1/opal_earrings",
+        "toolsmith/2/ruby_circlet",
+        "toolsmith/3/amber_earrings",
+        "toolsmith/4/bronze_laurel",
+        "toolsmith/4/topaz_earrings",
+        "toolsmith/5/sell_amber",
+        "toolsmith/5/sell_opal",
+        "toolsmith/5/sell_ruby",
+        "toolsmith/5/sell_topaz",
+        "wandering_trader/adult_asylum_seeker_1",
+        "wandering_trader/adult_asylum_seeker_2",
+        "wandering_trader/adult_asylum_seeker_3",
+        "wandering_trader/adult_asylum_seeker_4",
+        "wandering_trader/adult_asylum_seeker_5",
+        "wandering_trader/child_asylum_seeker",
+        "wandering_trader/music_disc_11",
+        "wandering_trader/music_disc_13",
+        "wandering_trader/music_disc_5",
+        "wandering_trader/music_disc_blocks",
+        "wandering_trader/music_disc_cat",
+        "wandering_trader/music_disc_chirp",
+        "wandering_trader/music_disc_creator",
+        "wandering_trader/music_disc_creator_music_box",
+        "wandering_trader/music_disc_far",
+        "wandering_trader/music_disc_lava_chicken",
+        "wandering_trader/music_disc_mall",
+        "wandering_trader/music_disc_mellohi",
+        "wandering_trader/music_disc_otherside",
+        "wandering_trader/music_disc_pigstep",
+        "wandering_trader/music_disc_precipice",
+        "wandering_trader/music_disc_relic",
+        "wandering_trader/music_disc_stal",
+        "wandering_trader/music_disc_strad",
+        "wandering_trader/music_disc_tears",
+        "wandering_trader/music_disc_wait",
+        "wandering_trader/music_disc_ward",
+        "wandering_trader/village_desert",
+        "wandering_trader/village_plains",
+        "wandering_trader/village_savanna",
+        "wandering_trader/village_snowy",
+        "wandering_trader/village_taiga",
+        "wandering_trader/witch_hut",
+        "weaponsmith/1/iou",
+        "weaponsmith/2/filler",
+        "weaponsmith/3/filler",
+        "weaponsmith/4/filler",
+        "weaponsmith/5/filler"
+      ],
+      "status": "pass",
+      "detail": []
+    },
+    {
+      "name": "generated set coverage",
+      "expected": [
+        "armorer/level_1",
+        "armorer/level_2",
+        "armorer/level_3",
+        "armorer/level_4",
+        "armorer/level_5",
+        "butcher/level_1",
+        "butcher/level_2",
+        "butcher/level_3",
+        "butcher/level_4",
+        "butcher/level_5",
+        "cartographer/level_1",
+        "cartographer/level_2",
+        "cartographer/level_3",
+        "cartographer/level_4",
+        "cartographer/level_5",
+        "cleric/level_1",
+        "cleric/level_2",
+        "cleric/level_3",
+        "cleric/level_4",
+        "cleric/level_5",
+        "farmer/level_1",
+        "farmer/level_2",
+        "farmer/level_3",
+        "farmer/level_4",
+        "farmer/level_5",
+        "fisherman/level_1",
+        "fisherman/level_2",
+        "fisherman/level_3",
+        "fisherman/level_4",
+        "fisherman/level_5",
+        "fletcher/level_1",
+        "fletcher/level_2",
+        "fletcher/level_3",
+        "fletcher/level_4",
+        "fletcher/level_5",
+        "leatherworker/level_1",
+        "leatherworker/level_2",
+        "leatherworker/level_3",
+        "leatherworker/level_4",
+        "leatherworker/level_5",
+        "librarian/level_1",
+        "librarian/level_2",
+        "librarian/level_3",
+        "librarian/level_4",
+        "librarian/level_5",
+        "mason/level_1",
+        "mason/level_2",
+        "mason/level_3",
+        "mason/level_4",
+        "mason/level_5",
+        "shepherd/level_1",
+        "shepherd/level_2",
+        "shepherd/level_3",
+        "shepherd/level_4",
+        "shepherd/level_5",
+        "toolsmith/level_1",
+        "toolsmith/level_2",
+        "toolsmith/level_3",
+        "toolsmith/level_4",
+        "toolsmith/level_5",
+        "wandering_trader/buying",
+        "wandering_trader/common",
+        "wandering_trader/uncommon",
+        "weaponsmith/level_1",
+        "weaponsmith/level_2",
+        "weaponsmith/level_3",
+        "weaponsmith/level_4",
+        "weaponsmith/level_5"
+      ],
+      "actual": [
+        "armorer/level_1",
+        "armorer/level_2",
+        "armorer/level_3",
+        "armorer/level_4",
+        "armorer/level_5",
+        "butcher/level_1",
+        "butcher/level_2",
+        "butcher/level_3",
+        "butcher/level_4",
+        "butcher/level_5",
+        "cartographer/level_1",
+        "cartographer/level_2",
+        "cartographer/level_3",
+        "cartographer/level_4",
+        "cartographer/level_5",
+        "cleric/level_1",
+        "cleric/level_2",
+        "cleric/level_3",
+        "cleric/level_4",
+        "cleric/level_5",
+        "farmer/level_1",
+        "farmer/level_2",
+        "farmer/level_3",
+        "farmer/level_4",
+        "farmer/level_5",
+        "fisherman/level_1",
+        "fisherman/level_2",
+        "fisherman/level_3",
+        "fisherman/level_4",
+        "fisherman/level_5",
+        "fletcher/level_1",
+        "fletcher/level_2",
+        "fletcher/level_3",
+        "fletcher/level_4",
+        "fletcher/level_5",
+        "leatherworker/level_1",
+        "leatherworker/level_2",
+        "leatherworker/level_3",
+        "leatherworker/level_4",
+        "leatherworker/level_5",
+        "librarian/level_1",
+        "librarian/level_2",
+        "librarian/level_3",
+        "librarian/level_4",
+        "librarian/level_5",
+        "mason/level_1",
+        "mason/level_2",
+        "mason/level_3",
+        "mason/level_4",
+        "mason/level_5",
+        "shepherd/level_1",
+        "shepherd/level_2",
+        "shepherd/level_3",
+        "shepherd/level_4",
+        "shepherd/level_5",
+        "toolsmith/level_1",
+        "toolsmith/level_2",
+        "toolsmith/level_3",
+        "toolsmith/level_4",
+        "toolsmith/level_5",
+        "wandering_trader/buying",
+        "wandering_trader/common",
+        "wandering_trader/uncommon",
+        "weaponsmith/level_1",
+        "weaponsmith/level_2",
+        "weaponsmith/level_3",
+        "weaponsmith/level_4",
+        "weaponsmith/level_5"
+      ],
+      "status": "pass",
+      "detail": []
+    },
+    {
+      "name": "profession routing",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "PROFESSION_BY_VARIANT",
+        "getComponent(\"minecraft:variant\")",
+        "wandering_trader"
+      ]
+    },
+    {
+      "name": "tier progression",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "LEVEL_THRESHOLDS",
+        "matcha:trade_level"
+      ]
+    },
+    {
+      "name": "deterministic offers",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "chosenMembers",
+        "entity.id"
+      ]
+    },
+    {
+      "name": "daily restock",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "getAbsoluteTime",
+        "matcha:trade_restock_day"
+      ]
+    },
+    {
+      "name": "stock enforcement",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "maxUses",
+        "out of stock"
+      ]
+    },
+    {
+      "name": "inventory-safe payment",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "itemCount(player",
+        "removeItems(player"
+      ]
+    },
+    {
+      "name": "component-specific outputs",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "generated_trade_items",
+        "villager_trade_data.js"
+      ]
+    },
+    {
+      "name": "interaction UI",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": [
+        "ActionFormData",
+        "MessageFormData",
+        "event.cancel=true"
+      ]
+    },
+    {
+      "name": "script loaded",
+      "expected": true,
+      "actual": true,
+      "status": "pass",
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "checks": 13,
+    "passed": 13,
+    "failed": 0
+  },
+  "approximations": [
+    "Offers restock once per Minecraft day rather than at workstation visits.",
+    "Java reputation discounts and demand curves are recorded but not exposed by Bedrock Script API.",
+    "Exploration-map destinations and several Java-only stack components remain presentation-only until their owning structure/loot systems are ported."
+  ]
+}

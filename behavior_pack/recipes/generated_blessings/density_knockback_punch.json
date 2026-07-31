@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_density_knockback_punch"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "FSF",
+      "FBF",
+      "FFF"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:resin_brick"
+      },
+      "B": {
+        "item": "minecraft:enchanted_book"
+      },
+      "F": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_density_knockback_punch"
+    }
+  }
+}

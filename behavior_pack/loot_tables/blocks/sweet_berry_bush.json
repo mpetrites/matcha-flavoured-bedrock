@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:loot_item_58fa09963e",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "block_state_property",
+          "block": "minecraft:sweet_berry_bush",
+          "properties": {
+            "age": "3"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:loot_item_58fa09963e",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "block_state_property",
+          "block": "minecraft:sweet_berry_bush",
+          "properties": {
+            "age": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

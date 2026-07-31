@@ -21,6 +21,7 @@
       "minecraft:durability": {
         "max_durability": 1000
       },
+      "minecraft:glint": true,
       "minecraft:wearable": {
         "slot": "slot.armor.chest",
         "protection": 8

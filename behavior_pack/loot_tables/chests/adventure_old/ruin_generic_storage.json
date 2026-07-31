@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "loot_tables/chests/adventure_old/ruin_grains.json",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/chests/adventure_old/ruin_armoury.json",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/chests/adventure_old/ruin_kitchen.json",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/chests/adventure_old/ruin_coal.json",
+          "weight": 85
+        }
+      ]
+    }
+  ]
+}

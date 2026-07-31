@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:loot_item_108c0dc960",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:loot_item_cdfc89dd82",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

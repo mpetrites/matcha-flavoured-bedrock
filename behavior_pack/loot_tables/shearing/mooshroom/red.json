@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:red_mushroom",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

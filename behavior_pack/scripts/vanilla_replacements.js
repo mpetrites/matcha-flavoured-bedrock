@@ -3,7 +3,6 @@ export const VANILLA_REPLACEMENTS = {
   "minecraft:beetroot_soup": "matcha:milk_bottle",
   "minecraft:blaze_rod": "matcha:stabilised_estus",
   "minecraft:breeze_rod": "matcha:baked_pumpkin",
-  "minecraft:cake": "matcha:cake",
   "minecraft:campfire": "matcha:campfire",
   "minecraft:chainmail_boots": "matcha:chainmail_boots",
   "minecraft:chainmail_chestplate": "matcha:chainmail_chestplate",

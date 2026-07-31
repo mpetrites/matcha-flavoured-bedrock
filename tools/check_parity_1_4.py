@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Coverage audit for parity milestones 1–4."""
-import json
+import argparse, json
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]; JAVA=ROOT.parent/"work/java-source-104"
+from upstream import add_source_argument, baseline, validate_source
+ROOT=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser(); add_source_argument(parser)
+JAVA=validate_source(parser.parse_args().source)
 checks=[]
 def add(name,expected,actual,detail=""):
     checks.append({"name":name,"status":"pass" if expected==actual else "fail","expected":expected,"actual":actual,"detail":detail})
@@ -26,7 +29,7 @@ equipment=json.loads((ROOT/"docs/equipment-check-report.json").read_text())
 add("equipment static checks",equipment["summary"]["checks"],equipment["summary"]["passed"])
 add("equipment tiers",5,len(equipment["tiers"]))
 add("armor attachables",20,len(list((ROOT/"resource_pack/attachables/generated_equipment").glob("*.json"))))
-report={"milestones":[1,2,3,4],"summary":{"checks":len(checks),"passed":sum(x["status"]=="pass" for x in checks),"failed":sum(x["status"]=="fail" for x in checks)},"checks":checks}
+report={"baseline":baseline(),"milestones":[1,2,3,4],"summary":{"checks":len(checks),"passed":sum(x["status"]=="pass" for x in checks),"failed":sum(x["status"]=="fail" for x in checks)},"checks":checks}
 (ROOT/"docs/parity-1-4-check-report.json").write_text(json.dumps(report,indent=2)+"\n")
 for row in checks:print(row["status"].upper(),row["name"],f"{row['actual']}/{row['expected']}")
 if report["summary"]["failed"]:raise SystemExit(1)

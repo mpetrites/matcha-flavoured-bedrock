@@ -1,0 +1,139 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "summary": {
+    "checks": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "freezing-water biome gate",
+      "status": "pass",
+      "evidence": [
+        "FROZEN_BIOMES",
+        "minecraft:water",
+        "slowness",
+        "darkness",
+        "applyDamage(2)"
+      ]
+    },
+    {
+      "name": "freezing protection bypass",
+      "status": "pass",
+      "evidence": [
+        "playerHasEnchantment(player,\"freezing_protection\")"
+      ]
+    },
+    {
+      "name": "Warding Stone placement",
+      "status": "pass",
+      "evidence": [
+        "matcha:warding_stone",
+        "minecraft:lodestone",
+        "matcha_warding_stone_marker"
+      ]
+    },
+    {
+      "name": "Warding Stone friend regeneration",
+      "status": "pass",
+      "evidence": [
+        "FRIENDS",
+        "regeneration"
+      ]
+    },
+    {
+      "name": "Warding Stone undead field",
+      "status": "pass",
+      "evidence": [
+        "UNDEAD",
+        "maxDistance:26",
+        "applyDamage"
+      ]
+    },
+    {
+      "name": "Warding Stone recovery",
+      "status": "pass",
+      "evidence": [
+        "matcha:raw_estus",
+        ",7)"
+      ]
+    },
+    {
+      "name": "Trial Chamber rejection",
+      "status": "pass",
+      "evidence": [
+        "trial_spawner",
+        "minecraft:vault",
+        "violently rejects"
+      ]
+    },
+    {
+      "name": "Bedrock Buster delay and volume",
+      "status": "pass",
+      "evidence": [
+        "matcha:bedrock_buster",
+        "},79)",
+        "minecraft:bedrock",
+        "y=-3",
+        "y<=3"
+      ]
+    },
+    {
+      "name": "anvil XP window",
+      "status": "pass",
+      "evidence": [
+        "matcha_anvil_session",
+        "addLevels(50)",
+        "},300)"
+      ]
+    },
+    {
+      "name": "global XP removal",
+      "status": "pass",
+      "evidence": [
+        "player.level>0",
+        "resetLevel()"
+      ]
+    },
+    {
+      "name": "first dragon Nether Star",
+      "status": "pass",
+      "evidence": [
+        "minecraft:ender_dragon",
+        "matcha:first_dragon_reward",
+        "minecraft:nether_star"
+      ]
+    },
+    {
+      "name": "script loaded",
+      "status": "pass",
+      "evidence": [
+        "main.js import"
+      ]
+    }
+  ],
+  "native_or_not_upstream": [
+    "Bedrock has no Java repair_cost component or Too Expensive escalation, so Endless Repairs is native behavior rather than a mutation.",
+    "Bedrock already evaporates placed water in the Nether.",
+    "Official 1.03 labels its Wither-fight experiment as not implemented; no invented boss behavior was added."
+  ]
+}

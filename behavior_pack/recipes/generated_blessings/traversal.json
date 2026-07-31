@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matcha_port:blessings_blessing_traversal"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CLC",
+      "WBW",
+      "   "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:enchanted_book"
+      },
+      "C": {
+        "item": "minecraft:emerald"
+      },
+      "W": {
+        "item": "#minecraft:wool"
+      },
+      "L": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "result": {
+      "item": "matcha:blessing_traversal"
+    }
+  }
+}

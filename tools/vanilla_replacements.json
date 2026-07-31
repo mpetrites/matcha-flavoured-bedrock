@@ -4,7 +4,6 @@
     "minecraft:beetroot_soup": "matcha:milk_bottle",
     "minecraft:blaze_rod": "matcha:stabilised_estus",
     "minecraft:breeze_rod": "matcha:baked_pumpkin",
-    "minecraft:cake": "matcha:cake",
     "minecraft:campfire": "matcha:campfire",
     "minecraft:chainmail_boots": "matcha:chainmail_boots",
     "minecraft:chainmail_chestplate": "matcha:chainmail_chestplate",
@@ -92,7 +91,6 @@
       "matcha:naan"
     ],
     "minecraft:chicken_spawn_egg": [
-      "matcha:amnestic",
       "matcha:bedrock_buster",
       "matcha:warding_stone"
     ],
@@ -388,9 +386,6 @@
       "data/food/recipe/baked_pumpkin.json",
       "data/food/recipe/baked_pumpkin_campfire.json"
     ],
-    "minecraft:cake": [
-      "data/food/recipe/cake.json"
-    ],
     "minecraft:campfire": [
       "data/crafting/recipe/campfire.json"
     ],
@@ -407,7 +402,6 @@
       "data/crafting/recipe/chainmail_leggings.json"
     ],
     "minecraft:chicken_spawn_egg": [
-      "data/crafting/recipe/amnestic.json",
       "data/crafting/recipe/bedrock_buster.json",
       "data/crafting/recipe/warding_stone.json"
     ],

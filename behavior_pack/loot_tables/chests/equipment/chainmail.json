@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": {},
+      "entries": [
+        {
+          "type": "item",
+          "name": "matcha:chainmail_helmet",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:chainmail_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:chainmail_leggings",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "matcha:chainmail_boots",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

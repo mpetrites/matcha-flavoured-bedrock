@@ -1,0 +1,268 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rusty Sword",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rusty Axe",
+                "color": "gray",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Broken Bow",
+                "color": "gray",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rusty Helmet",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.3
+              },
+              "add": false
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rusty Chestplate",
+                "color": "gray",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rusty Leggings",
+                "color": "gray",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rusty Boots",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Busted Shield",
+                "color": "gray",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:arrow",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "minecraft:healing"
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arrow of Fae-Slaying",
+                "color": "yellow",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "minecraft:strong_healing"
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arrow of Fae's Bane",
+                "color": "yellow",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cobweb",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/cod.json",
+          "weight": 15
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/salmon.json",
+          "weight": 15
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/herring.json",
+          "weight": 8
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/wolffish.json",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/gameplay/fishing/fish/skate.json",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

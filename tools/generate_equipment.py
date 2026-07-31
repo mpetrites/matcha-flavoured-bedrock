@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """Generate Bedrock equipment from a reusable tier definition."""
-import json, shutil, sys
+import argparse, json, shutil
 from pathlib import Path
+from upstream import add_source_argument, validate_source
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT.parent / "work" / "java-source-104" / "assets" / "minecraft" / "textures" / "item"
-ARMOR_SOURCE = ROOT.parent / "work" / "java-source-104" / "assets" / "minecraft" / "textures" / "entity/equipment"
 ITEMS = ROOT / "behavior_pack/items/generated_equipment"
 RECIPES = ROOT / "behavior_pack/recipes/generated_equipment"
 TEXTURES = ROOT / "resource_pack/textures/items/generated_equipment"
@@ -20,7 +19,12 @@ def dump(path, value):
     path.write_text(json.dumps(value, indent=2) + "\n")
 
 def main():
-    tier_paths = [Path(p) for p in sys.argv[1:]] or sorted((Path(__file__).parent / "equipment_tiers").glob("*.json"))
+    parser=argparse.ArgumentParser(); add_source_argument(parser)
+    parser.add_argument("tiers",nargs="*",type=Path)
+    args=parser.parse_args(); java=validate_source(args.source)
+    source_textures=java / "assets/minecraft/textures/item"
+    armor_source_textures=java / "assets/minecraft/textures/entity/equipment"
+    tier_paths = args.tiers or sorted((Path(__file__).parent / "equipment_tiers").glob("*.json"))
     ITEMS.mkdir(parents=True, exist_ok=True); RECIPES.mkdir(parents=True, exist_ok=True); TEXTURES.mkdir(parents=True, exist_ok=True)
     ATTACHABLES.mkdir(parents=True, exist_ok=True); ARMOR_TEXTURES.mkdir(parents=True, exist_ok=True)
     atlas = json.loads(ATLAS.read_text())
@@ -37,6 +41,11 @@ def main():
                 "minecraft:max_stack_size": 1,
                 "minecraft:durability": {"max_durability": item["durability"]}
             }
+            if item.get("source_enchantments"):
+                # Bedrock cannot store arbitrary Java enchantments. Preserve
+                # their enchanted presentation while the script layer applies
+                # the pinned source effects.
+                components["minecraft:glint"] = True
             if "damage" in item:
                 components.update({"minecraft:hand_equipped": True, "minecraft:damage": item["damage"],
                                    "minecraft:enchantable": {"slot": item["enchant"], "value": item.get("enchantability", 12)}})
@@ -70,7 +79,7 @@ def main():
                 layer = 2 if name == "leggings" else 1
                 source_tier = "netherite" if spec["tier"] == "adamant" else spec["tier"]
                 source_dir = "humanoid_leggings" if layer == 2 else "humanoid"
-                armor_source = ARMOR_SOURCE / source_dir / f"{source_tier}.png"
+                armor_source = armor_source_textures / source_dir / f"{source_tier}.png"
                 if armor_source.exists(): shutil.copy2(armor_source, ARMOR_TEXTURES / f"{spec['tier']}_{layer}.png")
                 geometry = {"helmet":"helmet","chestplate":"chestplate","leggings":"leggings","boots":"boots"}[name]
                 variable = {"helmet":"helmet","chestplate":"chest","leggings":"leg","boots":"boot"}[name]
@@ -87,7 +96,7 @@ def main():
                     "minecraft:recipe_smithing_transform": {"description": {"identifier": ident}, "tags": ["smithing_table"],
                     "template": rec["template"], "base": rec["base"], "addition": rec["addition"], "result": ident}})
             texture_name = item.get("texture", f"{spec['tier']}_{name}")
-            texture = SOURCE / f"{texture_name}.png"
+            texture = source_textures / f"{texture_name}.png"
             if texture.exists():
                 shutil.copy2(texture, TEXTURES / f"{spec['tier']}_{name}.png")
                 texture_ref = f"textures/items/generated_equipment/{spec['tier']}_{name}"

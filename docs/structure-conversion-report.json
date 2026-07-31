@@ -1,0 +1,241 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "templates": [
+    {
+      "source": "village_beta/buildings/extra_large_1.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/extra_large_1.mcstructure",
+      "size": [
+        15,
+        10,
+        14
+      ],
+      "blocks": 1980,
+      "palette": 13,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 8
+    },
+    {
+      "source": "village_beta/buildings/extra_large_2.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/extra_large_2.mcstructure",
+      "size": [
+        15,
+        10,
+        14
+      ],
+      "blocks": 1980,
+      "palette": 12,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 8
+    },
+    {
+      "source": "village_beta/buildings/extra_large_3.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/extra_large_3.mcstructure",
+      "size": [
+        15,
+        10,
+        14
+      ],
+      "blocks": 1981,
+      "palette": 12,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 8
+    },
+    {
+      "source": "village_beta/buildings/extra_large_4.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/extra_large_4.mcstructure",
+      "size": [
+        15,
+        11,
+        13
+      ],
+      "blocks": 2028,
+      "palette": 14,
+      "java_only_blocks_replaced": 2,
+      "block_entities": 0
+    },
+    {
+      "source": "village_beta/buildings/extra_large_5.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/extra_large_5.mcstructure",
+      "size": [
+        18,
+        10,
+        13
+      ],
+      "blocks": 2185,
+      "palette": 12,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 8
+    },
+    {
+      "source": "village_beta/buildings/indev_mossy.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/indev_mossy.mcstructure",
+      "size": [
+        9,
+        6,
+        9
+      ],
+      "blocks": 405,
+      "palette": 2,
+      "java_only_blocks_replaced": 4,
+      "block_entities": 0
+    },
+    {
+      "source": "village_beta/buildings/indev_normal.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/indev_normal.mcstructure",
+      "size": [
+        9,
+        6,
+        9
+      ],
+      "blocks": 405,
+      "palette": 3,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 0
+    },
+    {
+      "source": "village_beta/buildings/large_1.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/large_1.mcstructure",
+      "size": [
+        12,
+        9,
+        10
+      ],
+      "blocks": 1010,
+      "palette": 12,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 6
+    },
+    {
+      "source": "village_beta/buildings/medium_1.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/medium_1.mcstructure",
+      "size": [
+        14,
+        8,
+        10
+      ],
+      "blocks": 1013,
+      "palette": 12,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 4
+    },
+    {
+      "source": "village_beta/buildings/medium_2.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/medium_2.mcstructure",
+      "size": [
+        14,
+        8,
+        10
+      ],
+      "blocks": 1013,
+      "palette": 12,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 3
+    },
+    {
+      "source": "village_beta/buildings/small_1.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/buildings/small_1.mcstructure",
+      "size": [
+        12,
+        8,
+        8
+      ],
+      "blocks": 692,
+      "palette": 11,
+      "java_only_blocks_replaced": 1,
+      "block_entities": 3
+    },
+    {
+      "source": "village_beta/roads/end.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/roads/end.mcstructure",
+      "size": [
+        8,
+        1,
+        2
+      ],
+      "blocks": 2,
+      "palette": 1,
+      "java_only_blocks_replaced": 2,
+      "block_entities": 0
+    },
+    {
+      "source": "village_beta/roads/joint_l.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/roads/joint_l.mcstructure",
+      "size": [
+        9,
+        1,
+        9
+      ],
+      "blocks": 2,
+      "palette": 1,
+      "java_only_blocks_replaced": 2,
+      "block_entities": 0
+    },
+    {
+      "source": "village_beta/roads/joint_t.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/roads/joint_t.mcstructure",
+      "size": [
+        16,
+        1,
+        9
+      ],
+      "blocks": 3,
+      "palette": 1,
+      "java_only_blocks_replaced": 3,
+      "block_entities": 0
+    },
+    {
+      "source": "village_beta/roads/straight.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/roads/straight.mcstructure",
+      "size": [
+        16,
+        1,
+        2
+      ],
+      "blocks": 3,
+      "palette": 1,
+      "java_only_blocks_replaced": 3,
+      "block_entities": 0
+    },
+    {
+      "source": "village_beta/town_centers/well.nbt",
+      "output": "behavior_pack/structures/matcha/village_beta/town_centers/well.mcstructure",
+      "size": [
+        6,
+        9,
+        6
+      ],
+      "blocks": 133,
+      "palette": 5,
+      "java_only_blocks_replaced": 4,
+      "block_entities": 0
+    }
+  ],
+  "template_count": 16,
+  "template_pools": 4,
+  "structures": 5,
+  "structure_sets": 1,
+  "placement": {
+    "spacing_chunks": 80,
+    "separation_chunks": 50,
+    "salt": 10387312
+  }
+}

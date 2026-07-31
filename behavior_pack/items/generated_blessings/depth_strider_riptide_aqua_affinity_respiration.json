@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "matcha:blessing_depth_strider_riptide_aqua_affinity_respiration",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.matcha:blessing_depth_strider_riptide_aqua_affinity_respiration.name"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "matcha_blessing_depth_strider_riptide_aqua_affinity_respiration"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true,
+      "minecraft:interact_button": "Apply Blessing",
+      "minecraft:use_animation": "bow",
+      "minecraft:use_modifiers": {
+        "use_duration": 0.2,
+        "movement_modifier": 1.0
+      }
+    }
+  }
+}
