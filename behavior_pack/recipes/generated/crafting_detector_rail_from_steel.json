@@ -26,6 +26,9 @@
     "result": {
       "item": "minecraft:detector_rail",
       "count": 32
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

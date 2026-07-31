@@ -39,6 +39,9 @@
     "result": {
       "item": "minecraft:orange_concrete",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:sandstone"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

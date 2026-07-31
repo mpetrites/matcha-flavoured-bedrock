@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:iron_axe"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

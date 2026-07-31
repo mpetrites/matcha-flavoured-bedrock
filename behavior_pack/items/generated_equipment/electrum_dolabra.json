@@ -5,7 +5,7 @@
       "identifier": "matcha:electrum_dolabra",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.dolabra"
+        "group": "minecraft:itemGroup.name.dolabra"
       }
     },
     "components": {

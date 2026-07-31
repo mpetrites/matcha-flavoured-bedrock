@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:pink_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

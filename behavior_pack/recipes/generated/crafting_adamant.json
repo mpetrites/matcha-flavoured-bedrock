@@ -38,6 +38,9 @@
     ],
     "result": {
       "item": "minecraft:netherite_ingot"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

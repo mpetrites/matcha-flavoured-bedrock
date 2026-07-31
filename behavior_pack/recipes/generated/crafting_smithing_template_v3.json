@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

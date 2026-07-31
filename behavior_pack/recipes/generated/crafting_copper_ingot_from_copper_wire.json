@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:copper_ingot"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

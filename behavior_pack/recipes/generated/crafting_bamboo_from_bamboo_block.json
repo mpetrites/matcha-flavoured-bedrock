@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:bamboo",
       "count": 9
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

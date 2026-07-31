@@ -22,6 +22,9 @@
     "result": {
       "item": "minecraft:sea_lantern",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

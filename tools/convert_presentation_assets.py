@@ -217,8 +217,10 @@ def main() -> None:
         "format_version": "1.20.20",
         "sound_definitions": {
             "matcha.golden": {"category": "record", "sounds": [{"name": "sounds/matcha/custom/golden_demo", "stream": True}]},
+            "record.11": {"category": "record", "sounds": [{"name": "sounds/matcha/custom/golden_demo", "stream": True}]},
             "matcha.false_subwoofer_lullaby": {"category": "music", "sounds": [{"name": "sounds/matcha/custom/false_subwoofer_lullaby", "stream": True}]},
             "matcha.labyrinthine": {"category": "record", "sounds": [{"name": "sounds/music/game/swamp/labyrinthine", "stream": True}]},
+            "record.cat": {"category": "record", "sounds": [{"name": "sounds/music/game/swamp/labyrinthine", "stream": True}]},
             "matcha.dry_hands": {"category": "record", "sounds": [{"name": "sounds/music/game/dry_hands", "stream": True}]},
         },
     }

@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:weathered_cut_copper_slab"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

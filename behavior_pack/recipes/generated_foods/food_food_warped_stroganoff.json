@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:warped_stroganoff"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

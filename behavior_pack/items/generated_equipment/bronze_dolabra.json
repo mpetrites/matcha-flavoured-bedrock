@@ -5,7 +5,7 @@
       "identifier": "matcha:bronze_dolabra",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.axe"
+        "group": "minecraft:itemGroup.name.axe"
       }
     },
     "components": {

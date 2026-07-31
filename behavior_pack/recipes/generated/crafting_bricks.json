@@ -17,8 +17,11 @@
       }
     },
     "result": {
-      "item": "minecraft:bricks",
+      "item": "minecraft:brick_block",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -38,6 +38,9 @@
     ],
     "result": {
       "item": "minecraft:phantom_membrane"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

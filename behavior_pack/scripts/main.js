@@ -11,12 +11,13 @@ import "./food_interactions.js";
 import "./worldgen.js";
 import "./villagers.js";
 import "./structures.js";
+import "./smithing.js";
 
 world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn || player.hasTag("matcha_alpha_welcomed")) return;
 
   player.addTag("matcha_alpha_welcomed");
-  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.11.0");
+  player.sendMessage("§aMatcha Flavoured Bedrock Alpha 0.11.5");
   player.sendMessage("§7Food restores health instead of hunger. Try cooking an egg, apple, or raw meat.");
   player.sendMessage("§7Test kits: §f/function matcha_equipment_test§7, §fmatcha_component_items_test§7, or §fmatcha_consumables_test§7.");
 });

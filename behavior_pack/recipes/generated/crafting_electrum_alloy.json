@@ -38,6 +38,9 @@
     ],
     "result": {
       "item": "minecraft:heart_of_the_sea"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -23,7 +23,9 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": "minecraft:copper_ingot",
+            "items": [
+              "minecraft:copper_ingot"
+            ],
             "repair_amount": 75
           }
         ]

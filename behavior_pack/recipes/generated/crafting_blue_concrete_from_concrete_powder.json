@@ -39,6 +39,9 @@
     "result": {
       "item": "minecraft:blue_concrete",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

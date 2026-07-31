@@ -5,7 +5,7 @@
       "identifier": "matcha:adamant_pickaxe",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.pickaxe"
+        "group": "minecraft:itemGroup.name.pickaxe"
       }
     },
     "components": {

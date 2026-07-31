@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:acacia_planks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

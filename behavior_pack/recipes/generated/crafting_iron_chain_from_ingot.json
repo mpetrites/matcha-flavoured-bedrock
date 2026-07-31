@@ -20,6 +20,9 @@
     "result": {
       "item": "minecraft:iron_chain",
       "count": 18
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

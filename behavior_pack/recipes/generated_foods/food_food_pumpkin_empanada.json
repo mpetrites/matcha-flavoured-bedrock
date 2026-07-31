@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:pumpkin_empanada"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

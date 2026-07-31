@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:diamond_axe"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

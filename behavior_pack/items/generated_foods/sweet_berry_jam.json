@@ -5,7 +5,7 @@
       "identifier": "matcha:sweet_berry_jam",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     },
     "components": {

@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:soul_torch",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

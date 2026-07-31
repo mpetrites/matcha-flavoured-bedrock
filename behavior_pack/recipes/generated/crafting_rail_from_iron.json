@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:rail",
       "count": 32
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

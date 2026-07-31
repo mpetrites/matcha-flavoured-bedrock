@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "minecraft:music_disc_13"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:weathered_copper_grate"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

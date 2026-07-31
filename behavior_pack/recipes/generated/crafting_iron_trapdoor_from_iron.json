@@ -19,6 +19,9 @@
     "result": {
       "item": "minecraft:iron_trapdoor",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

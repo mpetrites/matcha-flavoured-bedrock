@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:mangrove_button",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

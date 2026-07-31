@@ -1,15 +1,28 @@
 {
   "format_version": "1.21.100",
-  "minecraft:recipe_smithing_transform": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha_port:smithing_table_component_gilded_leather_boots"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:rabbit_hide",
-    "base": "minecraft:leather_boots",
-    "addition": "minecraft:gold_ingot",
-    "result": "matcha:gilded_leather_boots"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:rabbit_hide"
+      },
+      {
+        "item": "minecraft:leather_boots"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "matcha:gilded_leather_boots"
+    }
   }
 }

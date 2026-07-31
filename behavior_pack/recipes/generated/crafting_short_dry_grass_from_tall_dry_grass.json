@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:short_dry_grass",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

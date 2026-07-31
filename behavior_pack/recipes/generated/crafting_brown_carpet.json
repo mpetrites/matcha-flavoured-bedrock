@@ -18,6 +18,9 @@
     "result": {
       "item": "minecraft:brown_carpet",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

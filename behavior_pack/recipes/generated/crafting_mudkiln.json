@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "minecraft:smoker"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -14,6 +14,9 @@
     ],
     "result": {
       "item": "minecraft:oak_stairs"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

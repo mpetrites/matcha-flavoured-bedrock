@@ -72,7 +72,7 @@ def main():
             repair = item.get("repair", spec["repair"])
             components["minecraft:repairable"] = {"repair_items": [{"items": repair["items"], "repair_amount": repair["amount"]}]}
             out = {"format_version": spec["format_version"], "minecraft:item": {"description": {
-                "identifier": ident, "menu_category": {"category": "equipment", "group": f"itemGroup.name.{item['group']}"}
+                "identifier": ident, "menu_category": {"category": "equipment", "group": f"minecraft:itemGroup.name.{item['group']}"}
             }, "components": components}}
             dump(ITEMS / f"{spec['tier']}_{name}.json", out)
             if "armor" in item:
@@ -93,8 +93,10 @@ def main():
             if item.get("recipe"):
                 rec = item["recipe"]
                 dump(RECIPES / f"{spec['tier']}_{name}.json", {"format_version": spec["format_version"],
-                    "minecraft:recipe_smithing_transform": {"description": {"identifier": ident}, "tags": ["smithing_table"],
-                    "template": rec["template"], "base": rec["base"], "addition": rec["addition"], "result": ident}})
+                    "minecraft:recipe_shapeless": {"description": {"identifier": ident}, "tags": ["crafting_table"],
+                    "unlock": {"context": "AlwaysUnlocked"},
+                    "ingredients": [{"item": rec[field]} for field in ("template", "base", "addition")],
+                    "result": {"item": ident}}})
             texture_name = item.get("texture", f"{spec['tier']}_{name}")
             texture = source_textures / f"{texture_name}.png"
             if texture.exists():

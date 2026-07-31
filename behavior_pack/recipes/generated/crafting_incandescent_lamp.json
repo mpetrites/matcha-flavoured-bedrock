@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:redstone_lamp",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

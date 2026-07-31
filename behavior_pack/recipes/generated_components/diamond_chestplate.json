@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:diamond_chestplate"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

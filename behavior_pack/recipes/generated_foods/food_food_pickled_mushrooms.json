@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:pickled_mushrooms"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

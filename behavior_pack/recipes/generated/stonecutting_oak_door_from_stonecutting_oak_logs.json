@@ -13,8 +13,11 @@
       }
     ],
     "result": {
-      "item": "minecraft:oak_door",
+      "item": "minecraft:wooden_door",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

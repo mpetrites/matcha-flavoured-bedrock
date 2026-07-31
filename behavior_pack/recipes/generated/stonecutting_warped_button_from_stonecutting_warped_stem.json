@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:warped_button",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

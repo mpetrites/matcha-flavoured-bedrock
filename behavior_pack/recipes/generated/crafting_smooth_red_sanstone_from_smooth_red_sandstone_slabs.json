@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:smooth_red_sandstone"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

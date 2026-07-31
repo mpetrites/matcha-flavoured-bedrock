@@ -19,6 +19,9 @@
     "result": {
       "item": "minecraft:bowl",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -13,8 +13,11 @@
       }
     ],
     "result": {
-      "item": "minecraft:oak_pressure_plate",
+      "item": "minecraft:wooden_pressure_plate",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:chainmail_leggings"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

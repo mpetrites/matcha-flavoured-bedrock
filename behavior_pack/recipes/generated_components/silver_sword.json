@@ -1,15 +1,28 @@
 {
   "format_version": "1.21.100",
-  "minecraft:recipe_smithing_transform": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha_port:smithing_table_component_silver_sword"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:prismarine_crystals",
-    "base": "matcha:iron_sword",
-    "addition": "matcha:nazar",
-    "result": "matcha:silver_sword"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine_crystals"
+      },
+      {
+        "item": "matcha:iron_sword"
+      },
+      {
+        "item": "matcha:nazar"
+      }
+    ],
+    "result": {
+      "item": "matcha:silver_sword"
+    }
   }
 }

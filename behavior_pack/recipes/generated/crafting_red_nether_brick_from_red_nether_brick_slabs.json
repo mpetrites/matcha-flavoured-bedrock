@@ -16,7 +16,10 @@
       }
     ],
     "result": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:red_nether_brick"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

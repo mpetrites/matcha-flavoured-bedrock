@@ -1,15 +1,28 @@
 {
-  "format_version": "1.21.130",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:steel_mattock"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:netherite_upgrade_smithing_template",
-    "base": "minecraft:iron_hoe",
-    "addition": "minecraft:resin_brick",
-    "result": "matcha:steel_mattock"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
+        "item": "minecraft:iron_hoe"
+      },
+      {
+        "item": "minecraft:resin_brick"
+      }
+    ],
+    "result": {
+      "item": "matcha:steel_mattock"
+    }
   }
 }

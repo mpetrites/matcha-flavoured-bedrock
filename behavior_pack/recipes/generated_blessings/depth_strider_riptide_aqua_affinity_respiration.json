@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:blessing_depth_strider_riptide_aqua_affinity_respiration"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -145,7 +145,7 @@ def item_definition(item_id: str, recipe: dict, texture_key: str) -> dict:
                 "identifier": item_id,
                 "menu_category": {
                     "category": "items",
-                    "group": "itemGroup.name.cookedFood",
+                    "group": "minecraft:itemGroup.name.cookedFood",
                 },
             },
             "components": item_components,

@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:pale_oak_planks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

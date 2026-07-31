@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:bruschetta"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

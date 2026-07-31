@@ -1,7 +1,7 @@
 # Remaining parity and known discrepancies
 
 Baseline: official Matcha Flavoured Java 1.03 compared with Bedrock Alpha
-0.11.0. The source release, hashes, and expected inventory are pinned in
+0.11.5. The source release, hashes, and expected inventory are pinned in
 `tools/upstream_baseline.json`; machine-readable audit reports live in `docs/`.
 
 Completed migration milestones are intentionally omitted from this file. The
@@ -19,7 +19,7 @@ that still differs from the pinned Java source.
 | Medium | World generation | All 65 biome presentation overrides, 40 active music routes (plus Pale Garden's empty/default entry), 16 particle routes, and five ambient-sound sets are wired; sixteen beta-village templates are assembled in eight source biomes; Nether water placement matches the non-evaporation rule. | Validate rendering, audio, terrain fit, and village frequency in game. Java feature, carver, spawn-table, and vanilla dimension-type replacement remain engine-limited. |
 | Medium | Villager economy | All 235 trades and 68 sets are routed through custom UI with stable offers, tiers, and unlimited uses. | Validate balance in game; reputation and demand pricing have no direct Script API equivalent. |
 | Medium | Enchantments and blessings | All 23 custom effects and 23 blessings have scripted equivalents. | Perform combat/movement balance verification and confirm every off-hand blessing path in game. |
-| Low | Presentation | Implemented items plus source block texture layers, trims, particles, environment art, paintings, colormaps, sounds, and jukebox records are present. Java's 699 model and 30 blockstate files are classified and their usable textures are ported. | Port remaining GUIs and localization; replace Java model/blockstate geometry only where a corresponding custom Bedrock block or entity is introduced. |
+| Low | Presentation | Implemented items plus source block texture layers, trims, particles, environment art, paintings, colormaps, sounds, and playable Golden and Labyrinthine discs are present. Java's 699 model and 30 blockstate files are classified and their usable textures are ported. | Port remaining GUIs and localization; replace Java model/blockstate geometry only where a corresponding custom Bedrock block or entity is introduced. |
 
 ## Deliberate Bedrock approximations
 
@@ -28,6 +28,11 @@ that still differs from the pinned Java source.
   form exists; ambiguous vanilla carriers remain distinct.
 - Java attack speed uses Bedrock attack cooldowns. Very small movement-speed
   modifiers do not have a suitably precise stable equivalent.
+- Matcha smithing is a sneak-use smithing-table UI because Bedrock's native
+  smithing transform only accepts its fixed upgrade slots. The scripted path
+  preserves the base item's name, lore, durability ratio, enchantments, and
+  dynamic properties. Ordinary generated shapeless recipes remain loadable
+  fallbacks but create a fresh result item.
 - Multiple instances of the same Java status effect are represented by a
   scripted strongest-first timeline because Bedrock stores one instance per
   effect type. Java's `show_icon` flag is not exposed by `Entity.addEffect`.
@@ -73,6 +78,11 @@ that still differs from the pinned Java source.
   and fog colors. Bedrock retains its terrain/carvers/features and weighted
   biome spawn tables; vanilla dimension geometry and lighting cannot be
   replaced safely. See `docs/WORLDGEN_PORT.md` for the field-level evaluation.
+- Sixteen colored-banner recipes are omitted because the Java result IDs are
+  not valid Bedrock item identifiers. Golden and Labyrinthine use native
+  Bedrock record events `11` and `cat`, with those two events overridden by the
+  resource pack. Consequently, vanilla Disc 11 and Cat also play the Matcha
+  tracks while this resource pack is active.
 - The official 1.03 Wither-fight experiment states that it is not implemented;
   this port does not invent replacement behavior.
 

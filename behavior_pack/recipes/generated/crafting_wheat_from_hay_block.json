@@ -18,6 +18,9 @@
     "result": {
       "item": "minecraft:wheat",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

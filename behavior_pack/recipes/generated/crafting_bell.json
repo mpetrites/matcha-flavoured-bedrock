@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "minecraft:bell"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

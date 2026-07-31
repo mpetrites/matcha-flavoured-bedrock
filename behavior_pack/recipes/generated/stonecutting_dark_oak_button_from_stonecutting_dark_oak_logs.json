@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:dark_oak_button",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

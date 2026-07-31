@@ -5,7 +5,7 @@
       "identifier": "matcha:dried_kelp_from_dried_kelp_block",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     },
     "components": {

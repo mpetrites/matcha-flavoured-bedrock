@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:glow_jam"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

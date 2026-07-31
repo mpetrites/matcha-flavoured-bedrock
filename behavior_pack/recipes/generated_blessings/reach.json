@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:blessing_reach"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

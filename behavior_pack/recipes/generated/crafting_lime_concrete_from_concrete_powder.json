@@ -39,6 +39,9 @@
     "result": {
       "item": "minecraft:lime_concrete",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

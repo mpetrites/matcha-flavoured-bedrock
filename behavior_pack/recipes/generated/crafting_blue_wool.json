@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:blue_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

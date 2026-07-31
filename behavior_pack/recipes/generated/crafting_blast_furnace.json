@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "minecraft:blast_furnace"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

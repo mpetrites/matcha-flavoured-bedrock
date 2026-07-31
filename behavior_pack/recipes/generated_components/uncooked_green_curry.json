@@ -29,6 +29,9 @@
     ],
     "result": {
       "item": "matcha:uncooked_green_curry"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

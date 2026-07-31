@@ -20,8 +20,11 @@
       }
     },
     "result": {
-      "item": "minecraft:end_stone_bricks",
+      "item": "minecraft:end_bricks",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "matcha:minecart_from_steel"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:waxed_copper_chain",
       "count": 54
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

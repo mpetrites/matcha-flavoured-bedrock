@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "minecraft:chest"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

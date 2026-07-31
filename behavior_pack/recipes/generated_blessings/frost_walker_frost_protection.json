@@ -28,6 +28,9 @@
     },
     "result": {
       "item": "matcha:blessing_frost_walker_frost_protection"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

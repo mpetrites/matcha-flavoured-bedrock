@@ -13,8 +13,11 @@
       }
     ],
     "result": {
-      "item": "minecraft:snow_block",
+      "item": "minecraft:snow",
       "count": 9
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

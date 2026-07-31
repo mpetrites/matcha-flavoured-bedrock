@@ -5,7 +5,7 @@
       "identifier": "matcha:bronze_sword",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.sword"
+        "group": "minecraft:itemGroup.name.sword"
       }
     },
     "components": {
@@ -30,7 +30,9 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["minecraft:copper_ingot"],
+            "items": [
+              "minecraft:copper_ingot"
+            ],
             "repair_amount": 250
           }
         ]

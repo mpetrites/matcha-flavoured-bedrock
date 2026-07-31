@@ -1,15 +1,28 @@
 {
   "format_version": "1.21.100",
-  "minecraft:recipe_smithing_transform": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha_port:smithing_table_component_warding_shield"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:prismarine_crystals",
-    "base": "matcha:warding_shield",
-    "addition": "matcha:nazar",
-    "result": "matcha:warding_shield"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine_crystals"
+      },
+      {
+        "item": "matcha:warding_shield"
+      },
+      {
+        "item": "matcha:nazar"
+      }
+    ],
+    "result": {
+      "item": "matcha:warding_shield"
+    }
   }
 }

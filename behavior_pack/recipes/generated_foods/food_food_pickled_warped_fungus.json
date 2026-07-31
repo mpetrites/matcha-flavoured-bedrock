@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:pickled_warped_fungus"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

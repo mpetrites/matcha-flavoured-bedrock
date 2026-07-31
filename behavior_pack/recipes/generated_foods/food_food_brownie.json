@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:brownie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

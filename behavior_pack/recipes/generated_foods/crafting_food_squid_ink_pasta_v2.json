@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:crafting_squid_ink_pasta"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

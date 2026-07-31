@@ -39,6 +39,9 @@
     "result": {
       "item": "minecraft:red_sand",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

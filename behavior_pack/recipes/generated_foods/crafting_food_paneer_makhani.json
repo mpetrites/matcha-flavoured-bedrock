@@ -34,6 +34,9 @@
     },
     "result": {
       "item": "matcha:crafting_paneer_makhani"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

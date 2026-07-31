@@ -26,6 +26,9 @@
     "result": {
       "item": "minecraft:waxed_copper_bulb",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

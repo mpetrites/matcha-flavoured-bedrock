@@ -28,6 +28,9 @@
     },
     "result": {
       "item": "matcha:blessing_feather_falling"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:red_sandstone"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

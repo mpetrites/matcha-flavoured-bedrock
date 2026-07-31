@@ -27,6 +27,9 @@
     "result": {
       "item": "matcha:chorus_mochi",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

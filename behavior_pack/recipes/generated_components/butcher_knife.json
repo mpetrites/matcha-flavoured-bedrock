@@ -1,15 +1,28 @@
 {
   "format_version": "1.21.100",
-  "minecraft:recipe_smithing_transform": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha_port:smithing_table_component_butcher_knife"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:netherite_upgrade_smithing_template",
-    "base": "matcha:iron_sword",
-    "addition": "minecraft:resin_brick",
-    "result": "matcha:butcher_knife"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
+        "item": "matcha:iron_sword"
+      },
+      {
+        "item": "minecraft:resin_brick"
+      }
+    ],
+    "result": {
+      "item": "matcha:butcher_knife"
+    }
   }
 }

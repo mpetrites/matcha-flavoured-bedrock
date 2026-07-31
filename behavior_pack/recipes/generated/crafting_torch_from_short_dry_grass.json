@@ -22,6 +22,9 @@
     "result": {
       "item": "minecraft:torch",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

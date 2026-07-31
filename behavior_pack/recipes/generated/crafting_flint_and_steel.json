@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "matcha:tinder"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

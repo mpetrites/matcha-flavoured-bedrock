@@ -8,16 +8,19 @@
       "crafting_table"
     ],
     "pattern": [
-      "££",
-      "££"
+      "\u00a3\u00a3",
+      "\u00a3\u00a3"
     ],
     "key": {
-      "£": {
+      "\u00a3": {
         "item": "minecraft:snow"
       }
     },
     "result": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:snow"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

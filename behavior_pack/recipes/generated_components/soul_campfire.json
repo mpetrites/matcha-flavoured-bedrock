@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "matcha:soul_campfire"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

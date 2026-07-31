@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:apple_empanada"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

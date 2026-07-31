@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:weathered_copper_golem_statue"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

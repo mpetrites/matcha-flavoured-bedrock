@@ -19,6 +19,9 @@
     "result": {
       "item": "minecraft:redstone",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

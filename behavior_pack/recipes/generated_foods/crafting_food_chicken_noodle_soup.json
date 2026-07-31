@@ -32,6 +32,9 @@
     "result": {
       "item": "matcha:crafting_chicken_noodle_soup",
       "count": 3
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

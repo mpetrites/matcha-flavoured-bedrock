@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "minecraft:clock"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

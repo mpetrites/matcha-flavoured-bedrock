@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:polished_cinnabar"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

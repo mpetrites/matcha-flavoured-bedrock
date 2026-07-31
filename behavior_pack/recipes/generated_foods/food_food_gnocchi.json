@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:gnocchi"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

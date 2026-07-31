@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:weathered_chiseled_copper"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

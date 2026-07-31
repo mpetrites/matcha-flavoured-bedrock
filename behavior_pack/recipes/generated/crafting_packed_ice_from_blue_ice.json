@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:packed_ice",
       "count": 9
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

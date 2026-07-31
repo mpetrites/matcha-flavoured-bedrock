@@ -19,6 +19,9 @@
     "result": {
       "item": "minecraft:stick",
       "count": 16
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

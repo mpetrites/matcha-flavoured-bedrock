@@ -21,6 +21,9 @@
     },
     "result": {
       "item": "matcha:heart_container"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

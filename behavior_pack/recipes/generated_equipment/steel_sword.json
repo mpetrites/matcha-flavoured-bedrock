@@ -1,15 +1,28 @@
 {
-  "format_version": "1.21.130",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:steel_sword"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:iron_ingot",
-    "base": "matcha:iron_sword",
-    "addition": "minecraft:resin_brick",
-    "result": "matcha:steel_sword"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "matcha:iron_sword"
+      },
+      {
+        "item": "minecraft:resin_brick"
+      }
+    ],
+    "result": {
+      "item": "matcha:steel_sword"
+    }
   }
 }

@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:canned_apples"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

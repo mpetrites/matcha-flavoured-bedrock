@@ -5,7 +5,7 @@
       "identifier": "matcha:adamant_axe",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.axe"
+        "group": "minecraft:itemGroup.name.axe"
       }
     },
     "components": {

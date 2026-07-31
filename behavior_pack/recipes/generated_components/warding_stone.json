@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:warding_stone"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

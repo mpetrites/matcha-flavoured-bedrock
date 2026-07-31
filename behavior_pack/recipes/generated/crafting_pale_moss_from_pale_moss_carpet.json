@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "minecraft:pale_moss_block"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

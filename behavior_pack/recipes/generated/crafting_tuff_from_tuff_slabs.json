@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:tuff"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

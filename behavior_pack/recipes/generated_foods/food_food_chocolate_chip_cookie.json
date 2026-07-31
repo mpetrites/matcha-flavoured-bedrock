@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:chocolate_chip_cookie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

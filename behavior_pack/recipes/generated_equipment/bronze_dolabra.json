@@ -1,15 +1,28 @@
 {
-  "format_version": "1.21.130",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:bronze_dolabra"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:netherite_upgrade_smithing_template",
-    "base": "minecraft:copper_axe",
-    "addition": "minecraft:phantom_membrane",
-    "result": "matcha:bronze_dolabra"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
+        "item": "minecraft:copper_axe"
+      },
+      {
+        "item": "minecraft:phantom_membrane"
+      }
+    ],
+    "result": {
+      "item": "matcha:bronze_dolabra"
+    }
   }
 }

@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "minecraft:potent_sulfur"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -20,6 +20,9 @@
     "result": {
       "item": "minecraft:chest",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

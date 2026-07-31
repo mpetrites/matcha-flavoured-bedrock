@@ -31,6 +31,9 @@
     },
     "result": {
       "item": "matcha:blessing_lunge_breach"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

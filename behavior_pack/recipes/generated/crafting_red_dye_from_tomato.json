@@ -18,6 +18,9 @@
     "result": {
       "item": "minecraft:red_dye",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

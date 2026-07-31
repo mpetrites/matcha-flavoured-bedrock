@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:golden_carrot_cupcake"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:granite"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

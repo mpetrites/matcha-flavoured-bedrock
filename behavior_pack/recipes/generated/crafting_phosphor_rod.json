@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:end_rod",
       "count": 6
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

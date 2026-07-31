@@ -1,15 +1,28 @@
 {
-  "format_version": "1.21.130",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:shakudo_mattock"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:netherite_upgrade_smithing_template",
-    "base": "minecraft:copper_hoe",
-    "addition": "minecraft:shulker_shell",
-    "result": "matcha:shakudo_mattock"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
+        "item": "minecraft:copper_hoe"
+      },
+      {
+        "item": "minecraft:shulker_shell"
+      }
+    ],
+    "result": {
+      "item": "matcha:shakudo_mattock"
+    }
   }
 }

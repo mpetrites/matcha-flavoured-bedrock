@@ -5,7 +5,7 @@
       "identifier": "matcha:bronze_shears",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.shears"
+        "group": "minecraft:itemGroup.name.shears"
       }
     },
     "components": {

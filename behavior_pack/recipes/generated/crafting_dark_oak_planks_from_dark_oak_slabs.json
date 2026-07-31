@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:dark_oak_planks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

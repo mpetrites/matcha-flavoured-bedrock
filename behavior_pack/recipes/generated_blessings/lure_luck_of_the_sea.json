@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:blessing_lure_luck_of_the_sea"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

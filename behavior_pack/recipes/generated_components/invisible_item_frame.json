@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:invisible_item_frame"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

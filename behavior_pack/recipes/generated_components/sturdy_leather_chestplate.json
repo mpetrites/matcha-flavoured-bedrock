@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:sturdy_leather_chestplate"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

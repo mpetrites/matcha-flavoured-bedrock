@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:disc_fragment_5",
       "count": 3
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

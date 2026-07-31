@@ -5,7 +5,7 @@
       "identifier": "matcha:bronze_boots",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.boots"
+        "group": "minecraft:itemGroup.name.boots"
       }
     },
     "components": {

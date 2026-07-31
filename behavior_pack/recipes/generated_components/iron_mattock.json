@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:iron_mattock"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

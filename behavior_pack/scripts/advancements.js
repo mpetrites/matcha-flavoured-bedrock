@@ -94,7 +94,7 @@ world.afterEvents.playerSpawn.subscribe(({player})=>system.run(()=>reconcile(pla
 world.afterEvents.playerDimensionChange.subscribe(({player,toDimension})=>emit(player,"changed_dimension",{dimension:toDimension.id}));
 world.afterEvents.itemCompleteUse.subscribe(({source,itemStack})=>emit(source,"consume_item",{item:itemStack.typeId}));
 world.afterEvents.itemUse.subscribe(({source,itemStack})=>emit(source,"using_item",{item:itemStack.typeId}));
-world.afterEvents.itemUseOn.subscribe(({source,itemStack})=>emit(source,"item_used_on_block",{item:itemStack.typeId}));
+world.afterEvents.itemUseOn?.subscribe(({source,itemStack})=>emit(source,"item_used_on_block",{item:itemStack.typeId}));
 world.afterEvents.entityDie.subscribe(({deadEntity,damageSource})=>{ const player=damageSource.damagingEntity; if (player?.typeId==="minecraft:player") emit(player,"player_killed_entity",{entity:deadEntity.typeId}); });
 system.runInterval(()=>{ for (const player of world.getAllPlayers()) reconcile(player); },20);
 

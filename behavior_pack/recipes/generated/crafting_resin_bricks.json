@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:resin_bricks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

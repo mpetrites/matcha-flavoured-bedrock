@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:glow_berry_crumble"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

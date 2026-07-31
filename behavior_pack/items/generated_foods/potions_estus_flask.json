@@ -5,7 +5,7 @@
       "identifier": "matcha:potions_estus_flask",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     },
     "components": {

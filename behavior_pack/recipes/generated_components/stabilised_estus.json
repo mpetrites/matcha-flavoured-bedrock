@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:stabilised_estus"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

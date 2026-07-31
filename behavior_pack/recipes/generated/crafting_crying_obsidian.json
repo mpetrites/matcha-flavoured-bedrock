@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "minecraft:crying_obsidian"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

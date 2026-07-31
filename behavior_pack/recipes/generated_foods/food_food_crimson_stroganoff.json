@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:crimson_stroganoff"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

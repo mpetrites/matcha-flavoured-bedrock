@@ -20,6 +20,9 @@
     "result": {
       "item": "minecraft:iron_door",
       "count": 3
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

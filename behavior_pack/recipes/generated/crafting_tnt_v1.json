@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:tnt",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

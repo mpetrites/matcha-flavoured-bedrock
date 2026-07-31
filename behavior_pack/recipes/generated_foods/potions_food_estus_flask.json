@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:potions_estus_flask"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

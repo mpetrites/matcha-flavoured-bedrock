@@ -18,6 +18,9 @@
     "result": {
       "item": "minecraft:lime_carpet",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

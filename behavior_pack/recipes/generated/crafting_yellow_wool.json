@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:yellow_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

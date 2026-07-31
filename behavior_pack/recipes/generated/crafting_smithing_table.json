@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "minecraft:smithing_table"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

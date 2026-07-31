@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:golden_sword"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

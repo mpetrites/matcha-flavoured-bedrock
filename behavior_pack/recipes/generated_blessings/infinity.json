@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:blessing_infinity"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

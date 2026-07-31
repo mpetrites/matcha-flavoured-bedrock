@@ -21,6 +21,9 @@
     },
     "result": {
       "item": "minecraft:name_tag"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -21,6 +21,9 @@
     },
     "result": {
       "item": "minecraft:lantern"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

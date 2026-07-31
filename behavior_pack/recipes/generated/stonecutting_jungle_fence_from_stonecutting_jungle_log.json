@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:jungle_fence",
       "count": 3
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

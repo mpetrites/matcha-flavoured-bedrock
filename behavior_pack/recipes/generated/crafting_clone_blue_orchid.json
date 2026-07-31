@@ -21,6 +21,9 @@
     "result": {
       "item": "minecraft:blue_orchid",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -39,6 +39,9 @@
     "result": {
       "item": "minecraft:mud",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

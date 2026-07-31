@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:blessing_hell_bound_book"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

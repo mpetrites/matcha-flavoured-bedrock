@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:wooden_hoe"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

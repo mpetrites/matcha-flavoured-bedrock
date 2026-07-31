@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:purpur_block"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -8,6 +8,6 @@
       "smoker"
     ],
     "input": "minecraft:clay",
-    "output": "minecraft:terracotta"
+    "output": "minecraft:hardened_clay"
   }
 }

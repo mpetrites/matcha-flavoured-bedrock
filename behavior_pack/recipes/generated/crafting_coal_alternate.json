@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "minecraft:coal_block"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

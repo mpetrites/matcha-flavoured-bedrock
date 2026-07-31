@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:crafting_morsel_stew"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

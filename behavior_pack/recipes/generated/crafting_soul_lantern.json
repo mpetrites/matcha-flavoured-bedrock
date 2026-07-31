@@ -21,6 +21,9 @@
     },
     "result": {
       "item": "minecraft:soul_lantern"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

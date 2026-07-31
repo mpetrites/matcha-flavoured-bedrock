@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:sulfur"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

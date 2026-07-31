@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:hay_block"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

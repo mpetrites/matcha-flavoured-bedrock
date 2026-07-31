@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:polished_blackstone"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

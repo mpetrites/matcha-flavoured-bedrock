@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "matcha:iron_helmet"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

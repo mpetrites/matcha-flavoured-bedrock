@@ -21,6 +21,9 @@
     },
     "result": {
       "item": "minecraft:sculk_sensor"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

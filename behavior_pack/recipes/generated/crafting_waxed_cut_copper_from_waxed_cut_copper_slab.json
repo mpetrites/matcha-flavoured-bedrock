@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:waxed_cut_copper"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

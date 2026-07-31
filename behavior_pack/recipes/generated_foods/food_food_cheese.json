@@ -21,6 +21,9 @@
     "result": {
       "item": "matcha:cheese",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

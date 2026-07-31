@@ -16,8 +16,11 @@
       }
     ],
     "result": {
-      "item": "minecraft:magma_block",
+      "item": "minecraft:magma",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

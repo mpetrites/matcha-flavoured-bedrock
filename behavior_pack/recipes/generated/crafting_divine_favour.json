@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "minecraft:nether_star"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -14,6 +14,9 @@
     ],
     "result": {
       "item": "minecraft:stripped_birch_log"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -1,15 +1,28 @@
 {
-  "format_version": "1.21.130",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:shakudo_axe"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:copper_ingot",
-    "base": "minecraft:copper_axe",
-    "addition": "minecraft:shulker_shell",
-    "result": "matcha:shakudo_axe"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_axe"
+      },
+      {
+        "item": "minecraft:shulker_shell"
+      }
+    ],
+    "result": {
+      "item": "matcha:shakudo_axe"
+    }
   }
 }

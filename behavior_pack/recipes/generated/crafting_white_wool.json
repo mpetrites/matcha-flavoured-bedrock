@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:white_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

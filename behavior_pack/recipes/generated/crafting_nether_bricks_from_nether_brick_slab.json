@@ -16,7 +16,10 @@
       }
     ],
     "result": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:nether_brick"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -38,6 +38,9 @@
     ],
     "result": {
       "item": "minecraft:ice"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

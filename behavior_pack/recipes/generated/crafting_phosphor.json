@@ -30,6 +30,9 @@
     "result": {
       "item": "minecraft:glow_ink_sac",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

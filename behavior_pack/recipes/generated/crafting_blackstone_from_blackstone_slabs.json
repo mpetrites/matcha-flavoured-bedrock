@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:blackstone"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "matcha:diamond_boots"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

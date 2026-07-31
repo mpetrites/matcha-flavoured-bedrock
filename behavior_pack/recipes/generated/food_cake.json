@@ -31,6 +31,9 @@
     },
     "result": {
       "item": "minecraft:cake"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

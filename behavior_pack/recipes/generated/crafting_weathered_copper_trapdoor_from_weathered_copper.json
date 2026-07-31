@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:weathered_copper_trapdoor",
       "count": 9
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -14,6 +14,9 @@
     ],
     "result": {
       "item": "minecraft:stripped_acacia_log"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

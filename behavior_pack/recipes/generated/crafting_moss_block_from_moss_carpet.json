@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:moss_block"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

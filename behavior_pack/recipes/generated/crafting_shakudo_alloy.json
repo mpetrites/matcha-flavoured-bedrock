@@ -38,6 +38,9 @@
     ],
     "result": {
       "item": "minecraft:shulker_shell"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

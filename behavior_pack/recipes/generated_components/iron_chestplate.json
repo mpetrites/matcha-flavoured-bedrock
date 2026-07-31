@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:iron_chestplate"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

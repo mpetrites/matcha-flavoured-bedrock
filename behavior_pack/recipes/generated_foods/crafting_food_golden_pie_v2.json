@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:crafting_golden_pie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

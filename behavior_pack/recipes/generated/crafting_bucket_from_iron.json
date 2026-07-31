@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:bucket"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

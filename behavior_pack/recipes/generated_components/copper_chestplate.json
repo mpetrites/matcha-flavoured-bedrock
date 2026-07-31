@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:copper_chestplate"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

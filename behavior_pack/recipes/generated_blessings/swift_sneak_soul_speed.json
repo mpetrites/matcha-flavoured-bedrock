@@ -28,6 +28,9 @@
     },
     "result": {
       "item": "matcha:blessing_swift_sneak_soul_speed"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

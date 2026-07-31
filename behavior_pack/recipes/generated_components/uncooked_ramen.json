@@ -29,6 +29,9 @@
     ],
     "result": {
       "item": "matcha:uncooked_ramen"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

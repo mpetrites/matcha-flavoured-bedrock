@@ -14,6 +14,9 @@
     ],
     "result": {
       "item": "minecraft:spruce_fence_gate"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -14,6 +14,9 @@
     ],
     "result": {
       "item": "minecraft:jungle_trapdoor"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

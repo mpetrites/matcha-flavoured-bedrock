@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:orange_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -5,7 +5,7 @@
       "identifier": "matcha:chocolate_chip_cookie",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     },
     "components": {

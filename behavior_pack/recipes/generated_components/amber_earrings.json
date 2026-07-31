@@ -1,15 +1,28 @@
 {
   "format_version": "1.21.100",
-  "minecraft:recipe_smithing_transform": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha_port:smithing_table_component_amber_earrings"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:copper_ingot",
-    "base": "minecraft:copper_helmet",
-    "addition": "minecraft:resin_clump",
-    "result": "matcha:amber_earrings"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_helmet"
+      },
+      {
+        "item": "minecraft:resin_clump"
+      }
+    ],
+    "result": {
+      "item": "matcha:amber_earrings"
+    }
   }
 }

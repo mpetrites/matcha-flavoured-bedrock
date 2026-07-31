@@ -21,6 +21,9 @@
     "result": {
       "item": "matcha:pupusa",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -14,6 +14,9 @@
     ],
     "result": {
       "item": "minecraft:brown_mushroom"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

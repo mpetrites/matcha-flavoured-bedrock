@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:iron_dolabra"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

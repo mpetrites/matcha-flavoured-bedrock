@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "minecraft:shulker_box"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

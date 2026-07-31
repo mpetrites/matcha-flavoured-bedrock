@@ -20,14 +20,16 @@ REPORT=ROOT/"docs/component-item-conversion-report.json"
 BEGIN,END="## BEGIN GENERATED MATCHA COMPONENT ITEMS","## END GENERATED MATCHA COMPONENT ITEMS"
 EXISTING={"crystal_heart":"matcha:heart_container","bronze_sword":"matcha:bronze_sword"}
 ARMOR_SLOTS={"head":"slot.armor.head","chest":"slot.armor.chest","legs":"slot.armor.legs","feet":"slot.armor.feet"}
+BEDROCK_RECORD_EVENTS={"golden":"11","labyrinthine":"cat"}
 JUKEBOX_SONGS={}
 for song_path in (JAVA/"data/main/jukebox_song").glob("*.json"):
     song=json.loads(song_path.read_text())
+    event=BEDROCK_RECORD_EVENTS.get(song_path.stem)
     JUKEBOX_SONGS[f"main:{song_path.stem}"]={
         "comparator_signal":song.get("comparator_output",1),
         "duration":song.get("length_in_seconds",0),
-        "sound_event":f"matcha.{song_path.stem}",
-    }
+        "sound_event":event,
+    } if event else None
 
 def reset(path,suffix):
     path.mkdir(parents=True,exist_ok=True)
@@ -108,7 +110,7 @@ for p,d,c in sources:
     if c.get("minecraft:fire_resistant"):
         components["minecraft:fire_resistant"]=True
     jukebox=c.get("minecraft:jukebox_playable")
-    if jukebox in JUKEBOX_SONGS:
+    if JUKEBOX_SONGS.get(jukebox):
         components["minecraft:record"]=JUKEBOX_SONGS[jukebox]
     damage=attr(c,"minecraft:attack_damage")
     if damage is None: damage=number_from_lore(c,"🗡")
@@ -127,7 +129,8 @@ for p,d,c in sources:
         components["minecraft:wearable"]={"slot":ARMOR_SLOTS[eq["slot"]],"protection":int(protection)}
     repair=c.get("minecraft:repairable",{}).get("items")
     if repair and c.get("minecraft:max_damage"):
-        components["minecraft:repairable"]={"repair_items":[{"items":repair,"repair_amount":max(1,c["minecraft:max_damage"]//4)}]}
+        repair_items=repair if isinstance(repair,list) else [repair]
+        components["minecraft:repairable"]={"repair_items":[{"items":repair_items,"repair_amount":max(1,c["minecraft:max_damage"]//4)}]}
     item={"format_version":"1.21.100","minecraft:item":{"description":{"identifier":ident,"menu_category":{"category":"equipment" if c.get("minecraft:max_damage") else "items"}},"components":components}}
     (ITEMS/f"{stem}.json").write_text(json.dumps(item,indent=2)+"\n")
     names.append(f"item.{ident}.name={display(c,p.stem,lang)}")

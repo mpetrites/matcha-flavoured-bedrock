@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:quartz_block"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

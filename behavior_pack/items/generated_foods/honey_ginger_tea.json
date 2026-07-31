@@ -5,7 +5,7 @@
       "identifier": "matcha:honey_ginger_tea",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     },
     "components": {

@@ -19,6 +19,9 @@
     "result": {
       "item": "minecraft:chiseled_sulfur",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

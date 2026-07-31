@@ -19,6 +19,9 @@
     "result": {
       "item": "minecraft:iron_bars",
       "count": 16
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

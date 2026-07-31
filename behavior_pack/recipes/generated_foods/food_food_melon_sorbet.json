@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:melon_sorbet"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

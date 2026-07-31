@@ -5,7 +5,7 @@
       "identifier": "matcha:golden_pickled_carrots",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     },
     "components": {

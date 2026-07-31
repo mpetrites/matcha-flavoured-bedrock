@@ -90,6 +90,14 @@ python3 tools/check_parity_1_4.py --source /path/to/unpacked/Matcha_Flavoured_1_
 python3 tools/check_estus.py
 ```
 
+Matcha's state-preserving upgrades are exposed through a scripted UI when a
+player sneak-uses a smithing table. The audit covers all 57 upgrade routes and
+the transfer of compatible base-item state:
+
+```sh
+python3 tools/check_smithing.py
+```
+
 Enchantments and blessing proxies are generated and audited with:
 
 ```sh
@@ -155,3 +163,13 @@ python3 tools/generate_vanilla_replacements.py /path/to/Matcha_Flavoured
 python3 tools/sync_vanilla_recipe_inputs.py
 python3 tools/check_vanilla_replacements.py
 ```
+
+For target-version content-log cleanup, `fix_content_log_errors.py` normalizes
+item groups, repair arrays, recipe unlocks, and removes definitions rejected by
+the supplied log. `restore_bedrock_recipes.py` then restores rejected recipes
+with valid Bedrock IDs or crafting fallbacks. The 16 colored-banner recipes
+remain omitted because their Java result identifiers have no valid Bedrock
+counterpart. Custom music discs use the valid native record events `11` and
+`cat`; the resource pack overrides those events with Matcha's audio. This gives
+the custom items native jukebox behavior, with the tradeoff that the two
+corresponding vanilla discs play the same replacement tracks while active.

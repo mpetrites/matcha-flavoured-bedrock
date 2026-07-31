@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:acacia_fence",
       "count": 3
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

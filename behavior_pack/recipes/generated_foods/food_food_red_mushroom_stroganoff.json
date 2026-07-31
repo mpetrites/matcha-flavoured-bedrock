@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:red_mushroom_stroganoff"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

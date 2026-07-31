@@ -16,7 +16,10 @@
       }
     ],
     "result": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:end_bricks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

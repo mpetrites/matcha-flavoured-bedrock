@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:flour_bag"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -18,6 +18,9 @@
     "result": {
       "item": "minecraft:red_carpet",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

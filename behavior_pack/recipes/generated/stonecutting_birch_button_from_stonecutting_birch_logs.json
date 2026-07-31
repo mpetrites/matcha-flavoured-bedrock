@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:birch_button",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -19,6 +19,9 @@
     "result": {
       "item": "minecraft:red_sandstone",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

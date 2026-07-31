@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:mossy_cobblestone"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -22,6 +22,9 @@
     "result": {
       "item": "minecraft:gravel",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

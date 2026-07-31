@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:clay",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:gimmari"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

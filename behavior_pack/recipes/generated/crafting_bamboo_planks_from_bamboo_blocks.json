@@ -24,6 +24,9 @@
     "result": {
       "item": "minecraft:bamboo_planks",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

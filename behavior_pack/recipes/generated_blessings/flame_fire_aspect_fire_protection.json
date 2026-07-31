@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:blessing_flame_fire_aspect_fire_protection"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

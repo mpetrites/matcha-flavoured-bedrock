@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "matcha:dough"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

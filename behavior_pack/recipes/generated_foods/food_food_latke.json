@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:latke"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

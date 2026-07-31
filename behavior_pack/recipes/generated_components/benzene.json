@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:benzene"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

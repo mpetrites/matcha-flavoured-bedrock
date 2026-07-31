@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "matcha:golden_helmet"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

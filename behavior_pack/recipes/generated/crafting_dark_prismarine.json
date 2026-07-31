@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:dark_prismarine",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -4,7 +4,7 @@ This repository is an unofficial Bedrock Edition adaptation of **Matcha
 Flavoured**, created by Klei Wright:
 
 - Source project: https://modrinth.com/datapack/matcha-flavoured
-- Source version used for the current audit: 1.04
+- Source version used for the current audit: 1.03
 - Original license: Creative Commons Attribution-NonCommercial-ShareAlike
   4.0 International
 

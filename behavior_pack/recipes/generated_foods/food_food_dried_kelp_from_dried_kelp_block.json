@@ -15,6 +15,9 @@
     "result": {
       "item": "matcha:dried_kelp_from_dried_kelp_block",
       "count": 9
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

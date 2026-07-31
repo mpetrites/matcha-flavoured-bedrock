@@ -34,6 +34,9 @@
     },
     "result": {
       "item": "matcha:crafting_green_curry"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

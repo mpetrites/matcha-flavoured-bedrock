@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:sweet_berry_danish"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

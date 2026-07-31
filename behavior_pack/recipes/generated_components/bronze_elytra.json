@@ -1,15 +1,28 @@
 {
   "format_version": "1.21.100",
-  "minecraft:recipe_smithing_transform": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha_port:smithing_table_component_bronze_elytra"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:honeycomb",
-    "base": "matcha:bronze_elytra",
-    "addition": "minecraft:phantom_membrane",
-    "result": "matcha:bronze_elytra"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:honeycomb"
+      },
+      {
+        "item": "matcha:bronze_elytra"
+      },
+      {
+        "item": "minecraft:phantom_membrane"
+      }
+    ],
+    "result": {
+      "item": "matcha:bronze_elytra"
+    }
   }
 }

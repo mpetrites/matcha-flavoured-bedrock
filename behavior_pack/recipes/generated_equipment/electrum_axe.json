@@ -1,15 +1,28 @@
 {
-  "format_version": "1.21.130",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:electrum_axe"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:diamond",
-    "base": "minecraft:diamond_axe",
-    "addition": "minecraft:heart_of_the_sea",
-    "result": "matcha:electrum_axe"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:diamond_axe"
+      },
+      {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    ],
+    "result": {
+      "item": "matcha:electrum_axe"
+    }
   }
 }

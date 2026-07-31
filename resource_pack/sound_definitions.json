@@ -10,6 +10,15 @@
         }
       ]
     },
+    "record.11": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/matcha/custom/golden_demo",
+          "stream": true
+        }
+      ]
+    },
     "matcha.false_subwoofer_lullaby": {
       "category": "music",
       "sounds": [
@@ -20,6 +29,15 @@
       ]
     },
     "matcha.labyrinthine": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/swamp/labyrinthine",
+          "stream": true
+        }
+      ]
+    },
+    "record.cat": {
       "category": "record",
       "sounds": [
         {

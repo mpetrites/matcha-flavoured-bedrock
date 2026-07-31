@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:exposed_copper_door",
       "count": 6
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

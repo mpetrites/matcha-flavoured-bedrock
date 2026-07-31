@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:oxidized_copper_chain"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

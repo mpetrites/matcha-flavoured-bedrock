@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:coarse_dirt",
       "count": 6
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

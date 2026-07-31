@@ -28,6 +28,9 @@
     },
     "result": {
       "item": "matcha:blessing_traversal"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

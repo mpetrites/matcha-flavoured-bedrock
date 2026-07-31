@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:sculk"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

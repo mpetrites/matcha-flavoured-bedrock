@@ -5,7 +5,7 @@
       "identifier": "matcha:electrum_mattock",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.mattock"
+        "group": "minecraft:itemGroup.name.mattock"
       }
     },
     "components": {

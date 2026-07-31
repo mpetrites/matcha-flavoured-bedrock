@@ -34,6 +34,9 @@
     },
     "result": {
       "item": "matcha:blessing_efficiency_unbreaking"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

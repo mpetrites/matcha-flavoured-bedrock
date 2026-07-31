@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:cyan_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

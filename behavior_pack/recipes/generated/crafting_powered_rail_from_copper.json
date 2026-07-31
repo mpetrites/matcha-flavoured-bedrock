@@ -24,8 +24,11 @@
       }
     },
     "result": {
-      "item": "minecraft:powered_rail",
+      "item": "minecraft:golden_rail",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

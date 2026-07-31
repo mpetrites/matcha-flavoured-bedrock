@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:leather_pants"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

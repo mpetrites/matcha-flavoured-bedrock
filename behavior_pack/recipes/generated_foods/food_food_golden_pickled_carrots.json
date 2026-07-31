@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:golden_pickled_carrots"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

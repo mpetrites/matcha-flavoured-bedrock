@@ -8,6 +8,6 @@
       "furnace"
     ],
     "input": "minecraft:netherrack",
-    "output": "minecraft:nether_bricks"
+    "output": "minecraft:nether_brick"
   }
 }

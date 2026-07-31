@@ -8,6 +8,6 @@
       "furnace"
     ],
     "input": "minecraft:bush",
-    "output": "minecraft:dead_bush"
+    "output": "minecraft:deadbush"
   }
 }

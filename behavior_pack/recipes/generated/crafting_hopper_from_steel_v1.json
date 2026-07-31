@@ -23,6 +23,9 @@
     "result": {
       "item": "minecraft:hopper",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:lime_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

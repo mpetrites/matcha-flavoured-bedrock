@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:sweet_berry_toast"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

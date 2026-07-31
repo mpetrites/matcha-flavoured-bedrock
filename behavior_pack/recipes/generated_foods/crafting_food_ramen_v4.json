@@ -26,6 +26,9 @@
     ],
     "result": {
       "item": "matcha:crafting_ramen"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

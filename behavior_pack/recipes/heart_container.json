@@ -22,6 +22,9 @@
     "result": {
       "item": "matcha:heart_container",
       "count": 1
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

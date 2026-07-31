@@ -1,15 +1,28 @@
 {
-  "format_version": "1.21.130",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:electrum_spear"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": "minecraft:diamond",
-    "base": "matcha:diamond_spear",
-    "addition": "minecraft:heart_of_the_sea",
-    "result": "matcha:electrum_spear"
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "matcha:diamond_spear"
+      },
+      {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    ],
+    "result": {
+      "item": "matcha:electrum_spear"
+    }
   }
 }

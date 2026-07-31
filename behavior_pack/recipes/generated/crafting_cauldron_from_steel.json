@@ -20,6 +20,9 @@
     "result": {
       "item": "minecraft:cauldron",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

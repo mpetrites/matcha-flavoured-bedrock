@@ -21,6 +21,9 @@
     "result": {
       "item": "minecraft:wither_rose",
       "count": 2
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -28,6 +28,9 @@
     },
     "result": {
       "item": "matcha:blessing_channeling_smite"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

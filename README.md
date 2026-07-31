@@ -21,18 +21,21 @@ With cheats enabled, use `/function matcha_equipment_test`,
 `/function matcha_advancement_test`. Use `/function matcha_global_mechanics_test`
 for environment and interaction systems.
 
-## Included in alpha 0.11.0
+## Included in alpha 0.11.5
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
 - Original textures for those foods
 - Bronze, Steel, Shakudo, Electrum, and Adamant equipment: 62 generated items
   with recipes, repairs, worn armor, attack cooldowns, and kinetic spears
+- 57 smithing-table upgrades exposed through a sneak-use UI that carries the
+  base item's name, lore, durability ratio, enchantments, and dynamic state
 - 104 component-bearing custom items and 109 recipe variants
 - Scripted regeneration effects matching the Java recipes
-- Managed-hunger approximation using Bedrock's saturation effect
-- 945 generated Bedrock recipe definitions translated from 752
-  component-free recipes in the pinned 1.03 upstream release
+- Hunger disabled by keeping it full and hiding its HUD element
+- 930 loadable generated Bedrock recipe definitions translated from 752
+  component-free recipes in the pinned 1.03 upstream release; 16 colored-banner
+  recipes are omitted because their Java results have no valid Bedrock item ID
 - 90 scripted custom consumables from 120 upstream recipes, including effect
   probabilities, cleansing actions, layered effects, use times, and container
   remainders; Estus potion effects are included. The poison and weakness
@@ -41,7 +44,7 @@ for environment and interaction systems.
 - Entity-driven Estus progression: source-faithful Raw Estus drops from
   player-killed Blazes, Zombies, Husks, Drowned, and Zombie Villagers; pickup
   healing; Estus Ash conversion; Benzene stabilization; and Flask recipes
-- Matcha survival rules: managed hunger, disabled natural regeneration,
+- Matcha survival rules: disabled and hidden hunger, disabled natural regeneration,
   keep-inventory deaths, manual sleep time, Crystal Hearts, and persistent
   maximum-health progression
 - All 23 source custom enchantments routed through Bedrock equivalents, plus
@@ -69,8 +72,8 @@ for environment and interaction systems.
 - Native presentation overrides for all 65 source biomes, including sky,
   water, vegetation, and fog colors, plus persistent Nether water placement
 - Source block texture layers, armor trims, four splash particles, sun/rain/moon
-  environment art, painting atlas, colormaps, bell audio, both custom tracks,
-  jukebox records, 40 active biome music routes, and scripted particles/ambience
+  environment art, painting atlas, colormaps, bell audio, both playable custom
+  music discs, 40 active biome music routes, and scripted particles/ambience
 
 See [REMAINING_PARITY.md](REMAINING_PARITY.md) for the audited discrepancy
 ledger. Machine-readable conversion and parity reports are under `docs/`.
@@ -86,6 +89,7 @@ python3 tools/check_upstream.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_parity_1_03.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/generate_equipment.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_equipment.py
+python3 tools/check_smithing.py
 python3 tools/convert_component_items.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_parity_1_4.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 python3 tools/check_estus.py

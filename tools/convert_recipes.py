@@ -30,6 +30,24 @@ PROXY_ITEM_MAP = {
     "minecraft:zoglin_spawn_egg": "matcha:uncooked_paneer_makhani",
     "minecraft:wither_skeleton_spawn_egg": "matcha:uncooked_ramen",
     "minecraft:endermite_spawn_egg": "matcha:benzene",
+    # Java names which Bedrock still exposes under legacy runtime IDs.
+    "minecraft:bricks": "minecraft:brick_block",
+    "minecraft:dead_bush": "minecraft:deadbush",
+    "minecraft:end_stone_bricks": "minecraft:end_bricks",
+    "minecraft:light_gray_glazed_terracotta": "minecraft:silver_glazed_terracotta",
+    "minecraft:magma_block": "minecraft:magma",
+    "minecraft:nether_bricks": "minecraft:nether_brick",
+    "minecraft:oak_button": "minecraft:wooden_button",
+    "minecraft:oak_door": "minecraft:wooden_door",
+    "minecraft:oak_fence_gate": "minecraft:fence_gate",
+    "minecraft:oak_pressure_plate": "minecraft:wooden_pressure_plate",
+    "minecraft:oak_trapdoor": "minecraft:trapdoor",
+    "minecraft:powered_rail": "minecraft:golden_rail",
+    "minecraft:red_nether_bricks": "minecraft:red_nether_brick",
+    "minecraft:snow_block": "minecraft:snow",
+    "minecraft:terracotta": "minecraft:hardened_clay",
+    "#minecraft:logs_that_burn": "minecraft:oak_log",
+    "#minecraft:wooden_tool_materials": "minecraft:oak_planks",
 }
 
 # Generated singleton replacements extend the hand-maintained proxy list.  This
@@ -50,7 +68,7 @@ def namespaced(value: str) -> str:
 
 def options(value: str | list[str]) -> list[str]:
     values = value if isinstance(value, list) else [value]
-    return [PROXY_ITEM_MAP.get(namespaced(value), namespaced(value)) for value in values]
+    return [PROXY_ITEM_MAP.get(value, PROXY_ITEM_MAP.get(namespaced(value), namespaced(value))) for value in values]
 
 
 def safe_name(value: str) -> str:
@@ -59,7 +77,8 @@ def safe_name(value: str) -> str:
 
 def result_for(recipe: dict) -> dict:
     source = recipe["result"]
-    result = {"item": namespaced(source["id"])}
+    source_id = namespaced(source["id"])
+    result = {"item": PROXY_ITEM_MAP.get(source_id, source_id)}
     if source.get("count", 1) != 1:
         result["count"] = source["count"]
     return result
@@ -92,6 +111,7 @@ def convert_shaped(recipe: dict, namespace: str, stem: str) -> list[dict]:
                 "minecraft:recipe_shaped": {
                     "description": description(recipe_id),
                     "tags": ["crafting_table"],
+                    "unlock": {"context": "AlwaysUnlocked"},
                     "pattern": recipe["pattern"],
                     "key": key,
                     "result": result_for(recipe),
@@ -113,6 +133,7 @@ def convert_shapeless(recipe: dict, namespace: str, stem: str) -> list[dict]:
                 "minecraft:recipe_shapeless": {
                     "description": description(recipe_id),
                     "tags": ["crafting_table"],
+                    "unlock": {"context": "AlwaysUnlocked"},
                     "ingredients": [{"item": item} for item in selected],
                     "result": result_for(recipe),
                 },
@@ -132,6 +153,7 @@ def convert_single_input(
             body = {
                 "description": description(recipe_id),
                 "tags": ["stonecutter"],
+                "unlock": {"context": "AlwaysUnlocked"},
                 "ingredients": [{"item": item}],
                 "result": result_for(recipe),
             }
@@ -164,16 +186,20 @@ def convert_smithing(recipe: dict, namespace: str, stem: str) -> list[dict]:
     converted = []
     for number, selected in enumerate(variants):
         recipe_id = identifier(namespace, stem, number, len(variants))
+        # Bedrock smithing transforms only accept the Netherite upgrade
+        # material/template slots. Preserve custom progression as ordinary
+        # crafting; this intentionally creates a fresh result item.
         body = {
             "description": description(recipe_id),
-            "tags": ["smithing_table"],
-            **dict(zip(fields, selected)),
-            "result": result_for(recipe)["item"],
+            "tags": ["crafting_table"],
+            "unlock": {"context": "AlwaysUnlocked"},
+            "ingredients": [{"item": item} for item in selected],
+            "result": result_for(recipe),
         }
         converted.append(
             {
                 "format_version": "1.21.100",
-                "minecraft:recipe_smithing_transform": body,
+                "minecraft:recipe_shapeless": body,
             }
         )
     return converted

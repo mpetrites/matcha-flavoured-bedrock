@@ -18,6 +18,9 @@
     "result": {
       "item": "minecraft:pale_moss_carpet",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

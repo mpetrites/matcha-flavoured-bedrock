@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:blessing_wind_burst_anemos"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

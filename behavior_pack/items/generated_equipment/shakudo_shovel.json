@@ -5,7 +5,7 @@
       "identifier": "matcha:shakudo_shovel",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.shovel"
+        "group": "minecraft:itemGroup.name.shovel"
       }
     },
     "components": {

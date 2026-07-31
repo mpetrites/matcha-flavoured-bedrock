@@ -5,7 +5,7 @@
       "identifier": "matcha:crafting_squid_ink_pasta",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.cookedFood"
+        "group": "minecraft:itemGroup.name.cookedFood"
       }
     },
     "components": {

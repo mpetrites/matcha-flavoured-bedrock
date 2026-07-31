@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:tuff_bricks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

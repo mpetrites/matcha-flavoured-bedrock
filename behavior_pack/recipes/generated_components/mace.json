@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:mace"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

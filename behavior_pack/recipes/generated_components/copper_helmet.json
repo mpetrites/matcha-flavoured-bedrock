@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "matcha:copper_helmet"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

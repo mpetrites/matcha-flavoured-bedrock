@@ -28,6 +28,9 @@
     },
     "result": {
       "item": "matcha:blessing_zephyr"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "minecraft:sculk_shrieker"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

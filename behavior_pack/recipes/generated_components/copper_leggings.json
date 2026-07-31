@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:copper_leggings"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

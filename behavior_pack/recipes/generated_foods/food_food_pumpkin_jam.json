@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:pumpkin_jam"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

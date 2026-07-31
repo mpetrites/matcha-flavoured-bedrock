@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:prismarine_bricks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

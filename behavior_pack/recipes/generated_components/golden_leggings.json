@@ -19,6 +19,9 @@
     },
     "result": {
       "item": "matcha:golden_leggings"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

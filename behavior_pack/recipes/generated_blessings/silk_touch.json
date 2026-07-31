@@ -25,6 +25,9 @@
     },
     "result": {
       "item": "matcha:blessing_silk_touch"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

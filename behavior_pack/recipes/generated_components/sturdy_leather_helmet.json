@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "matcha:sturdy_leather_helmet"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

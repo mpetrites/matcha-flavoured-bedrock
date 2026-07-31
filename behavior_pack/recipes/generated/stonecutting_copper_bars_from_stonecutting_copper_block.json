@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:copper_bars",
       "count": 36
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

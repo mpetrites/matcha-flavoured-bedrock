@@ -5,7 +5,7 @@
       "identifier": "matcha:adamant_chestplate",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.chestplate"
+        "group": "minecraft:itemGroup.name.chestplate"
       }
     },
     "components": {

@@ -7,7 +7,7 @@
     "tags": [
       "smoker"
     ],
-    "input": "#minecraft:logs_that_burn",
+    "input": "minecraft:oak_log",
     "output": "minecraft:charcoal"
   }
 }

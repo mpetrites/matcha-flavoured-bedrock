@@ -29,6 +29,9 @@
     ],
     "result": {
       "item": "matcha:uncooked_paneer_makhani"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

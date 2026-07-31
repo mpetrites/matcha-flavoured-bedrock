@@ -23,6 +23,9 @@
     ],
     "result": {
       "item": "matcha:french_toast"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

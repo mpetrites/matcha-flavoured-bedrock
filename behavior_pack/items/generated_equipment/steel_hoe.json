@@ -5,7 +5,7 @@
       "identifier": "matcha:steel_hoe",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.hoe"
+        "group": "minecraft:itemGroup.name.hoe"
       }
     },
     "components": {

@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:snow_shovel"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

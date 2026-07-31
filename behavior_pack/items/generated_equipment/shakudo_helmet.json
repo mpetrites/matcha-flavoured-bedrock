@@ -5,7 +5,7 @@
       "identifier": "matcha:shakudo_helmet",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.helmet"
+        "group": "minecraft:itemGroup.name.helmet"
       }
     },
     "components": {

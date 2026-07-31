@@ -26,6 +26,9 @@
     "result": {
       "item": "minecraft:pearlescent_froglight",
       "count": 4
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

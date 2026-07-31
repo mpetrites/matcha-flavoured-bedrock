@@ -20,6 +20,9 @@
     ],
     "result": {
       "item": "matcha:pickled_tomatoes"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

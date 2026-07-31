@@ -17,6 +17,9 @@
     ],
     "result": {
       "item": "minecraft:warped_planks"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -18,6 +18,9 @@
     },
     "result": {
       "item": "minecraft:brown_wool"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

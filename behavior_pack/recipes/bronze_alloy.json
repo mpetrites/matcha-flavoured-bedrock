@@ -4,21 +4,44 @@
     "description": {
       "identifier": "matcha:bronze_alloy"
     },
-    "tags": ["crafting_table"],
+    "tags": [
+      "crafting_table"
+    ],
     "ingredients": [
-      {"item": "minecraft:copper_ingot"},
-      {"item": "minecraft:copper_ingot"},
-      {"item": "minecraft:copper_ingot"},
-      {"item": "minecraft:copper_ingot"},
-      {"item": "minecraft:copper_ingot"},
-      {"item": "minecraft:copper_ingot"},
-      {"item": "minecraft:copper_ingot"},
-      {"item": "minecraft:prismarine_crystals"},
-      {"item": "minecraft:gold_ingot"}
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:prismarine_crystals"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      }
     ],
     "result": {
       "item": "matcha:bronze_alloy",
       "count": 1
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

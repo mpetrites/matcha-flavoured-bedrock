@@ -15,6 +15,9 @@
     "result": {
       "item": "minecraft:ladder",
       "count": 8
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }

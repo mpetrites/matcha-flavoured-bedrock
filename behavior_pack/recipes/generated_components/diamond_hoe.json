@@ -22,6 +22,9 @@
     },
     "result": {
       "item": "matcha:diamond_hoe"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     }
   }
 }
