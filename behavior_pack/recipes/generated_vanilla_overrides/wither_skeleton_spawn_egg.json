@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "minecraft:wither_skeleton_spawn_egg"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:dried_kelp"
+      },
+      {
+        "item": "minecraft:egg"
+      },
+      {
+        "item": "matcha:dough"
+      },
+      {
+        "item": "minecraft:porkchop"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "result": {
+      "item": "matcha:uncooked_ramen"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

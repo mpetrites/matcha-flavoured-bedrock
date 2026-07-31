@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:stonecutting_birch_log_from_stonecutting_birch_logs_v2"
+      "identifier": "matcha:stonecutting_birch_log_from_stonecutting_birch_logs_v2"
     },
     "tags": [
       "stonecutter"

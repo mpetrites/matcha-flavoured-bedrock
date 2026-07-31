@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:blasting_cobbled_deepslate_from_blasting_deepslate"
+      "identifier": "matcha:blasting_cobbled_deepslate_from_blasting_deepslate"
     },
     "tags": [
       "blast_furnace"

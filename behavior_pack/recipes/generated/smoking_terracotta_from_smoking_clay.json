@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:smoking_terracotta_from_smoking_clay"
+      "identifier": "matcha:smoking_terracotta_from_smoking_clay"
     },
     "tags": [
       "smoker"

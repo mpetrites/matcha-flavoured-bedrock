@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_ender_eye"
+      "identifier": "matcha:crafting_ender_eye"
     },
     "tags": [
       "crafting_table"

@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_food_squid_ink_pasta_v1"
+      "identifier": "matcha:crafting_food_squid_ink_pasta_v1"
     },
     "tags": [
       "crafting_table"

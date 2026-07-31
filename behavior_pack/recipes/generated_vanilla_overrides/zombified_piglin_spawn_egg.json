@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "minecraft:zombified_piglin_spawn_egg"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:green_dye"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "matcha:milk_bottle"
+      },
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "result": {
+      "item": "matcha:uncooked_green_curry"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

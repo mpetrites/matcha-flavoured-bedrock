@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:mushroom_stew"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:cocoa_beans",
+    "output": "matcha:chocolate"
+  }
+}

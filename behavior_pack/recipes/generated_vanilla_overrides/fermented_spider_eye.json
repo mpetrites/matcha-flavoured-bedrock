@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:fermented_spider_eye"
+    },
+    "tags": [
+      "furnace",
+      "campfire"
+    ],
+    "input": "minecraft:apple",
+    "output": "matcha:baked_apple"
+  }
+}

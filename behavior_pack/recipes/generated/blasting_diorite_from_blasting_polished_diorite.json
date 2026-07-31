@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:blasting_diorite_from_blasting_polished_diorite"
+      "identifier": "matcha:blasting_diorite_from_blasting_polished_diorite"
     },
     "tags": [
       "blast_furnace"

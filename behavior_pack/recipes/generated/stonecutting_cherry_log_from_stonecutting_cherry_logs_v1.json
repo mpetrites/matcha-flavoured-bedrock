@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:stonecutting_cherry_log_from_stonecutting_cherry_logs_v1"
+      "identifier": "matcha:stonecutting_cherry_log_from_stonecutting_cherry_logs_v1"
     },
     "tags": [
       "stonecutter"

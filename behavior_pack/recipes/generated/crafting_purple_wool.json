@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "matcha_port:crafting_purple_wool"
+      "identifier": "matcha:crafting_purple_wool"
     },
     "tags": [
       "crafting_table"

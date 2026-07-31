@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "matcha_port:crafting_red_sandstone"
+      "identifier": "matcha:crafting_red_sandstone"
     },
     "tags": [
       "crafting_table"

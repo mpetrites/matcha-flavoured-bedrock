@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:stonecutting_oak_slab_from_stonecutting_oak_trapdoor"
+      "identifier": "matcha:stonecutting_oak_slab_from_stonecutting_oak_trapdoor"
     },
     "tags": [
       "stonecutter"

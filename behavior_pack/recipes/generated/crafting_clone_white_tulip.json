@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_clone_white_tulip"
+      "identifier": "matcha:crafting_clone_white_tulip"
     },
     "tags": [
       "crafting_table"

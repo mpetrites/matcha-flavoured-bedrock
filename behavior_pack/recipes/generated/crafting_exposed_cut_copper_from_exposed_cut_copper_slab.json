@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_exposed_cut_copper_from_exposed_cut_copper_slab"
+      "identifier": "matcha:crafting_exposed_cut_copper_from_exposed_cut_copper_slab"
     },
     "tags": [
       "crafting_table"

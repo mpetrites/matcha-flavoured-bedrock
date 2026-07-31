@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:stonecutting_acacia_trapoor_from_stonecutting_acacia_logs"
+      "identifier": "matcha:stonecutting_acacia_trapoor_from_stonecutting_acacia_logs"
     },
     "tags": [
       "stonecutter"

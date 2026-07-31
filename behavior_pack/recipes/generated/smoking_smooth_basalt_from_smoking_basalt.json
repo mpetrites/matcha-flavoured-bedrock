@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:smoking_smooth_basalt_from_smoking_basalt"
+      "identifier": "matcha:smoking_smooth_basalt_from_smoking_basalt"
     },
     "tags": [
       "smoker"

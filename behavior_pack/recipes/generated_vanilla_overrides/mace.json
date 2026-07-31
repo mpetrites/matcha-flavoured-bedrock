@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:mace"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "H",
+      "#",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:iron_ingot"
+      },
+      "H": {
+        "item": "minecraft:heavy_core"
+      }
+    },
+    "result": {
+      "item": "matcha:mace"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

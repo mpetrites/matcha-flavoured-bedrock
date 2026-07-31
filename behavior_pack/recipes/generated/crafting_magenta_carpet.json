@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "matcha_port:crafting_magenta_carpet"
+      "identifier": "matcha:crafting_magenta_carpet"
     },
     "tags": [
       "crafting_table"

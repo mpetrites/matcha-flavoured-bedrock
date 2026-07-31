@@ -1,7 +1,7 @@
 # Remaining parity and known discrepancies
 
 Baseline: official Matcha Flavoured Java 1.03 compared with Bedrock Alpha
-0.11.6. The source release, hashes, and expected inventory are pinned in
+0.11.7. The source release, hashes, and expected inventory are pinned in
 `tools/upstream_baseline.json`; machine-readable audit reports live in `docs/`.
 
 Completed migration milestones are intentionally omitted from this file. The

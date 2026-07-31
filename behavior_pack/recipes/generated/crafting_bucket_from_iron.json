@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "matcha_port:crafting_bucket_from_iron"
+      "identifier": "matcha:crafting_bucket_from_iron"
     },
     "tags": [
       "crafting_table"

@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:food_food_glow_mash_campfire"
+      "identifier": "matcha:food_food_glow_mash_campfire"
     },
     "tags": [
       "campfire"

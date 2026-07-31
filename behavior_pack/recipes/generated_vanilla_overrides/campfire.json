@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:campfire"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "SS",
+      "LL"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:oak_log"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "matcha:campfire"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

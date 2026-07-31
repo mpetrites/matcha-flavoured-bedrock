@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:crafting_dead_bush_from_smelting_bush"
+      "identifier": "matcha:crafting_dead_bush_from_smelting_bush"
     },
     "tags": [
       "furnace"

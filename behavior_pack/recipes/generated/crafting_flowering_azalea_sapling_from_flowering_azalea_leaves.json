@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_flowering_azalea_sapling_from_flowering_azalea_leaves"
+      "identifier": "matcha:crafting_flowering_azalea_sapling_from_flowering_azalea_leaves"
     },
     "tags": [
       "crafting_table"

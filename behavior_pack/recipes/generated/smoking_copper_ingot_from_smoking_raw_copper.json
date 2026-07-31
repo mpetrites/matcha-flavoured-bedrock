@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:smoking_copper_ingot_from_smoking_raw_copper"
+      "identifier": "matcha:smoking_copper_ingot_from_smoking_raw_copper"
     },
     "tags": [
       "smoker"

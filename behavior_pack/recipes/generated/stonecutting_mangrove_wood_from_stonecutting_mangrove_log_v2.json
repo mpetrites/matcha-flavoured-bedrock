@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:stonecutting_mangrove_wood_from_stonecutting_mangrove_log_v2"
+      "identifier": "matcha:stonecutting_mangrove_wood_from_stonecutting_mangrove_log_v2"
     },
     "tags": [
       "stonecutter"

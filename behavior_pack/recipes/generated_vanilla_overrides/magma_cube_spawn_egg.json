@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:magma_cube_spawn_egg"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "matcha:flour"
+      }
+    },
+    "result": {
+      "item": "matcha:flour_bag"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

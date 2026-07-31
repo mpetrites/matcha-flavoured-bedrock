@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:rotten_flesh"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:glow_berries",
+    "output": "matcha:glow_mash"
+  }
+}

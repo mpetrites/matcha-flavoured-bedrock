@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:smelting_gold_nugget_from_smelting_gold_materials_v3"
+      "identifier": "matcha:smelting_gold_nugget_from_smelting_gold_materials_v3"
     },
     "tags": [
       "furnace"

@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:blasting_iron_ingot_from_blasting_iron_materials_v17"
+      "identifier": "matcha:blasting_iron_ingot_from_blasting_iron_materials_v17"
     },
     "tags": [
       "blast_furnace"

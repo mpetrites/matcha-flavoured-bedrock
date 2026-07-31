@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:rabbit_foot"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:brown_mushroom",
+    "output": "matcha:braised_brown_mushroom"
+  }
+}

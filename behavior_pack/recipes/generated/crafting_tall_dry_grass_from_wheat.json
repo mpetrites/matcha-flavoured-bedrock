@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_tall_dry_grass_from_wheat"
+      "identifier": "matcha:crafting_tall_dry_grass_from_wheat"
     },
     "tags": [
       "crafting_table"

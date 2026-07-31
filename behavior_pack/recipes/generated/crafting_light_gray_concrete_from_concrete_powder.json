@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_light_gray_concrete_from_concrete_powder"
+      "identifier": "matcha:crafting_light_gray_concrete_from_concrete_powder"
     },
     "tags": [
       "crafting_table"

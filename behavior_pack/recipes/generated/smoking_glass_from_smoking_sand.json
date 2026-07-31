@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:smoking_glass_from_smoking_sand"
+      "identifier": "matcha:smoking_glass_from_smoking_sand"
     },
     "tags": [
       "smoker"

@@ -15,6 +15,7 @@ for path in (ROOT/"behavior_pack/items").rglob("*.json"):
 missing={base:target for base,target in replacements.items() if target not in identifiers}
 overlap=sorted(set(replacements)&set(ambiguous))
 stale=[]
+recipe_overrides={}
 def visit(value,path):
     if isinstance(value,dict):
         for key,child in value.items():
@@ -24,9 +25,16 @@ def visit(value,path):
     elif isinstance(value,list):
         for child in value: visit(child,path)
 for path in (ROOT/"behavior_pack/recipes").rglob("*.json"):
-    visit(json.loads(path.read_text()),path)
+    data=json.loads(path.read_text()); visit(data,path)
+    for key,body in data.items():
+        if key.startswith("minecraft:recipe_") and isinstance(body,dict):
+            ident=body.get("description",{}).get("identifier")
+            result=body.get("result",body.get("output"))
+            result_id=result.get("item") if isinstance(result,dict) else result
+            if ident in replacements: recipe_overrides[ident]=result_id
 
-report={"replacement_count":len(replacements),"ambiguous_count":len(ambiguous),"missing_targets":missing,"ambiguous_overlap":overlap,"stale_recipe_inputs":stale,"status":"pass" if not (missing or overlap or stale) else "fail"}
+missing_recipe_overrides={base:target for base,target in replacements.items() if recipe_overrides.get(base)!=target}
+report={"replacement_count":len(replacements),"ambiguous_count":len(ambiguous),"missing_targets":missing,"ambiguous_overlap":overlap,"stale_recipe_inputs":stale,"recipe_override_count":len(recipe_overrides),"missing_or_incorrect_recipe_overrides":missing_recipe_overrides,"status":"pass" if not (missing or overlap or stale or missing_recipe_overrides) else "fail"}
 (ROOT/"docs/vanilla-replacement-check-report.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps({k:(len(v) if isinstance(v,(list,dict)) else v) for k,v in report.items()}))
 if report["status"]!="pass": raise SystemExit(1)

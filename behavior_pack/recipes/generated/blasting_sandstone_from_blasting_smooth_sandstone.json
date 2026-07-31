@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:blasting_sandstone_from_blasting_smooth_sandstone"
+      "identifier": "matcha:blasting_sandstone_from_blasting_smooth_sandstone"
     },
     "tags": [
       "blast_furnace"

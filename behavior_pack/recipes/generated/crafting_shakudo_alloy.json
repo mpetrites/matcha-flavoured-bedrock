@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:crafting_shakudo_alloy"
+      "identifier": "matcha:crafting_shakudo_alloy"
     },
     "tags": [
       "crafting_table"

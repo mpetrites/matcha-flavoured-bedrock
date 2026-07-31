@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "matcha_port:blasting_steel_alloy"
+      "identifier": "matcha:blasting_steel_alloy"
     },
     "tags": [
       "blast_furnace"

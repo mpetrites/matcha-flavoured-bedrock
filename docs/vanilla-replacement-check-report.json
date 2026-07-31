@@ -4,5 +4,7 @@
   "missing_targets": {},
   "ambiguous_overlap": [],
   "stale_recipe_inputs": [],
+  "recipe_override_count": 79,
+  "missing_or_incorrect_recipe_overrides": {},
   "status": "pass"
 }

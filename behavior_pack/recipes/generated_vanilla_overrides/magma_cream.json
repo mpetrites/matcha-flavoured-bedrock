@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:magma_cream"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:sweet_berries",
+    "output": "matcha:sweet_berry_mash"
+  }
+}

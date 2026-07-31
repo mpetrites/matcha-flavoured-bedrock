@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "matcha_port:food_food_golden_apple"
+      "identifier": "matcha:food_food_golden_apple"
     },
     "tags": [
       "crafting_table"

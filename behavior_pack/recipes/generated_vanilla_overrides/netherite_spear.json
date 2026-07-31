@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "minecraft:netherite_spear"
+    },
+    "tags": [
+      "smithing_table"
+    ],
+    "template": "minecraft:diamond",
+    "base": "matcha:diamond_spear",
+    "addition": "minecraft:netherite_ingot",
+    "result": "matcha:adamant_spear"
+  }
+}

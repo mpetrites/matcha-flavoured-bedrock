@@ -115,7 +115,7 @@ def result_for(recipe: dict) -> dict:
 def identifier(namespace: str, stem: str, variant: int, total: int) -> str:
     base = safe_name(f"{namespace}_{stem}")
     suffix = f"_v{variant + 1}" if total > 1 else ""
-    return f"matcha_port:{base}{suffix}"
+    return f"matcha:{base}{suffix}"
 
 
 def description(recipe_id: str) -> dict:

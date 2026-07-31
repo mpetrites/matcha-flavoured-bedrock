@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "matcha_port:stonecutting_spruce_door_from_stonecutting_spruce_logs"
+      "identifier": "matcha:stonecutting_spruce_door_from_stonecutting_spruce_logs"
     },
     "tags": [
       "stonecutter"

@@ -1,0 +1,322 @@
+{
+  "generated_count": 79,
+  "generated": [
+    {
+      "vanilla_identifier": "minecraft:beetroot_soup",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_milk_bottle.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:blaze_rod",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/stabilised_estus.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:breeze_rod",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_baked_pumpkin.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:campfire",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/campfire.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:chainmail_boots",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/chainmail_boots.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:chainmail_chestplate",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/chainmail_chestplate.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:chainmail_helmet",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/chainmail_helmet.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:chainmail_leggings",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/chainmail_leggings.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cooked_beef",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_beef.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cooked_chicken",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_chicken.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cooked_mutton",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_mutton.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cooked_porkchop",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_pork.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cooked_rabbit",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_rabbit.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cooked_salmon",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_salmon.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cookie",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cheese.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:copper_pickaxe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/copper_pickaxe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:copper_shovel",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/copper_shovel.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:copper_spear",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/copper_spear.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:copper_sword",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/copper_sword.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:diamond_pickaxe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/diamond_pickaxe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:diamond_shovel",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/diamond_shovel.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:diamond_spear",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/diamond_spear.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:diamond_sword",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/diamond_sword.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:elytra",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/bronze_elytra.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:enderman_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/flour.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:endermite_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/benzene.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:fermented_spider_eye",
+      "matcha_recipe": "behavior_pack/recipes/baked_apple.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:flint_and_steel",
+      "matcha_recipe": "behavior_pack/recipes/generated/crafting_fire_starter.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:glistering_melon_slice",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/nazar.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_apple",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_golden_apple.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_axe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_axe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_boots",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_boots.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_carrot",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_golden_carrot.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_chestplate",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_chestplate.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_helmet",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_helmet.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_hoe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_hoe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_leggings",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_leggings.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_pickaxe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_pickaxe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_shovel",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_shovel.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_spear",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_spear.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:golden_sword",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/golden_sword.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:iron_pickaxe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/iron_pickaxe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:iron_spear",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/iron_spear.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:iron_sword",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/iron_sword.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:item_frame",
+      "matcha_recipe": "behavior_pack/recipes/generated/crafting_item_frame.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:mace",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/mace.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:magma_cream",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_sweet_berry_mash.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:magma_cube_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/flour_bag.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:minecart",
+      "matcha_recipe": "behavior_pack/recipes/generated/crafting_minecart_from_iron.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:mushroom_stew",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_chocolate.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:music_disc_11",
+      "matcha_recipe": "behavior_pack/recipes/generated/crafting_music_disc_11.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:music_disc_cat",
+      "matcha_recipe": "behavior_pack/recipes/generated/crafting_music_disc_cat.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:netherite_boots",
+      "matcha_recipe": "behavior_pack/recipes/generated_equipment/adamant_boots.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:netherite_chestplate",
+      "matcha_recipe": "behavior_pack/recipes/generated_equipment/adamant_chestplate.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:netherite_helmet",
+      "matcha_recipe": "behavior_pack/recipes/generated_equipment/adamant_helmet.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:netherite_leggings",
+      "matcha_recipe": "behavior_pack/recipes/generated_equipment/adamant_leggings.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:netherite_pickaxe",
+      "matcha_recipe": "behavior_pack/recipes/generated_equipment/adamant_pickaxe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:netherite_shovel",
+      "matcha_recipe": "behavior_pack/recipes/generated_equipment/adamant_shovel.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:netherite_spear",
+      "matcha_recipe": "behavior_pack/recipes/generated_equipment/adamant_spear.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:piglin_brute_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/carbon_rich_iron.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:popped_chorus_fruit",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_popped_chorus_fruit.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:potion",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/potions_food_estus_flask.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:pumpkin_pie",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/crafting_food_golden_pie_v1.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:rabbit_foot",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_braised_brown_mushroom.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:rotten_flesh",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_glow_mash.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:shield",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/lesser_warding_shield.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:shulker_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/dough.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:soul_campfire",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/soul_campfire.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:strider_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/uncooked_curry.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:turtle_scute",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/divine_fragment.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:wither_skeleton_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/uncooked_ramen.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:wooden_axe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/wooden_axe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:wooden_hoe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/wooden_hoe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:wooden_pickaxe",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/wooden_pickaxe.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:wooden_shovel",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/wooden_shovel.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:wooden_spear",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/wooden_spear.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:wooden_sword",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/wooden_sword.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:zoglin_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/uncooked_paneer_makhani.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:zombified_piglin_spawn_egg",
+      "matcha_recipe": "behavior_pack/recipes/generated_components/uncooked_green_curry.json"
+    }
+  ],
+  "replacement_items_without_recipe": []
+}

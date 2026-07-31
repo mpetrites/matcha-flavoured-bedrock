@@ -216,7 +216,7 @@
       "textures": "blaze_powder"
     },
     "matcha_estus_ash": {
-      "textures": "glowstone_dust"
+      "textures": "textures/items/vanilla_proxy/glowstone_dust"
     },
     "matcha_food_apple_empanada": {
       "textures": "textures/items/generated_foods/apple_empanada"
@@ -231,7 +231,7 @@
       "textures": "textures/items/generated_foods/baked_potato"
     },
     "matcha_food_baked_pumpkin": {
-      "textures": "breeze_rod"
+      "textures": "textures/items/vanilla_proxy/breeze_rod"
     },
     "matcha_food_bokguk": {
       "textures": "textures/items/generated_foods/bokguk"
@@ -276,7 +276,7 @@
       "textures": "textures/items/generated_foods/charred_potato"
     },
     "matcha_food_cheese": {
-      "textures": "cookie"
+      "textures": "textures/items/vanilla_proxy/cookie"
     },
     "matcha_food_chocolate": {
       "textures": "textures/items/generated_foods/chocolate"
@@ -288,19 +288,19 @@
       "textures": "textures/items/generated_foods/chorus_mochi"
     },
     "matcha_food_cooked_beef": {
-      "textures": "cooked_beef"
+      "textures": "textures/items/vanilla_proxy/beef_cooked"
     },
     "matcha_food_cooked_chicken": {
-      "textures": "cooked_chicken"
+      "textures": "textures/items/vanilla_proxy/chicken_cooked"
     },
     "matcha_food_cooked_cod": {
       "textures": "textures/items/generated_foods/cooked_cod"
     },
     "matcha_food_cooked_mutton": {
-      "textures": "cooked_mutton"
+      "textures": "textures/items/vanilla_proxy/mutton_cooked"
     },
     "matcha_food_cooked_porkchop": {
-      "textures": "cooked_porkchop"
+      "textures": "textures/items/vanilla_proxy/porkchop_cooked"
     },
     "matcha_food_cooked_pufferfish": {
       "textures": "textures/items/generated_foods/cooked_pufferfish"
@@ -312,16 +312,16 @@
       "textures": "textures/items/generated_foods/cooked_salmon"
     },
     "matcha_food_chicken_noodle_soup": {
-      "textures": "rabbit_stew"
+      "textures": "textures/items/vanilla_proxy/rabbit_stew"
     },
     "matcha_food_golden_pie": {
-      "textures": "pumpkin_pie"
+      "textures": "textures/items/vanilla_proxy/pumpkin_pie"
     },
     "matcha_food_green_curry": {
       "textures": "textures/items/generated_foods/green_curry"
     },
     "matcha_food_morsel_stew": {
-      "textures": "rabbit_stew"
+      "textures": "textures/items/vanilla_proxy/rabbit_stew"
     },
     "matcha_food_paneer_makhani": {
       "textures": "textures/items/generated_foods/paneer_makhani"
@@ -330,19 +330,19 @@
       "textures": "textures/items/generated_foods/ramen"
     },
     "matcha_food_squid_ink_pasta": {
-      "textures": "rabbit_stew"
+      "textures": "textures/items/vanilla_proxy/rabbit_stew"
     },
     "matcha_food_stuffed_mushrooms": {
-      "textures": "baked_potato"
+      "textures": "textures/items/vanilla_proxy/potato_baked"
     },
     "matcha_food_crimson_stroganoff": {
       "textures": "textures/items/generated_foods/crimson_stroganoff"
     },
     "matcha_food_dried_kelp": {
-      "textures": "dried_kelp"
+      "textures": "textures/items/vanilla_proxy/dried_kelp"
     },
     "matcha_food_dried_kelp_from_dried_kelp_block": {
-      "textures": "dried_kelp"
+      "textures": "textures/items/vanilla_proxy/dried_kelp"
     },
     "matcha_food_french_toast": {
       "textures": "textures/items/generated_foods/french_toast"
@@ -408,7 +408,7 @@
       "textures": "textures/items/generated_foods/melon_sorbet"
     },
     "matcha_food_milk_bottle": {
-      "textures": "beetroot_soup"
+      "textures": "textures/items/vanilla_proxy/beetroot_soup"
     },
     "matcha_food_naan": {
       "textures": "textures/items/generated_foods/naan"
@@ -435,10 +435,10 @@
       "textures": "textures/items/generated_foods/pickled_warped_fungus"
     },
     "matcha_food_popped_chorus_fruit": {
-      "textures": "popped_chorus_fruit"
+      "textures": "textures/items/vanilla_proxy/chorus_fruit_popped"
     },
     "matcha_food_estus_flask": {
-      "textures": "potion"
+      "textures": "textures/items/vanilla_proxy/potion_bottle_drinkable"
     },
     "matcha_food_puerquito": {
       "textures": "textures/items/generated_foods/puerquito"
@@ -504,7 +504,7 @@
       "textures": "textures/items/generated_blessings/frost_walker_frost_protection"
     },
     "matcha_blessing_hell_bound_book": {
-      "textures": "textures/items/book_enchanted"
+      "textures": "textures/items/vanilla_proxy/book_enchanted"
     },
     "matcha_blessing_infinity": {
       "textures": "textures/items/generated_blessings/infinity"
@@ -1200,16 +1200,16 @@
       "textures": "textures/items/writable_book"
     },
     "matcha_component_bedrock_buster": {
-      "textures": "chicken_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_chicken"
     },
     "matcha_component_benzene": {
-      "textures": "endermite_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_endermite"
     },
     "matcha_component_campfire": {
       "textures": "textures/items/generated_components/campfire"
     },
     "matcha_component_carbon_rich_iron": {
-      "textures": "piglin_brute_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_piglin_brute"
     },
     "matcha_component_chainmail_boots": {
       "textures": "textures/items/generated_components/chainmail_boots"
@@ -1233,7 +1233,7 @@
       "textures": "textures/items/generated_components/copper_chestplate"
     },
     "matcha_component_copper_compass": {
-      "textures": "compass"
+      "textures": "textures/items/vanilla_proxy/compass_item"
     },
     "matcha_component_copper_dolabra": {
       "textures": "textures/items/generated_components/copper_dolabra"
@@ -1314,7 +1314,7 @@
       "textures": "textures/items/generated_components/golden_chestplate"
     },
     "matcha_component_golden_compass": {
-      "textures": "compass"
+      "textures": "textures/items/vanilla_proxy/compass_item"
     },
     "matcha_component_golden_helmet": {
       "textures": "textures/items/generated_components/golden_helmet"
@@ -1431,49 +1431,49 @@
       "textures": "textures/items/generated_components/warding_stone"
     },
     "matcha_component_wooden_axe": {
-      "textures": "wooden_axe"
+      "textures": "textures/items/vanilla_proxy/wood_axe"
     },
     "matcha_component_wooden_cross": {
       "textures": "textures/items/generated_components/wooden_cross"
     },
     "matcha_component_wooden_hoe": {
-      "textures": "wooden_hoe"
+      "textures": "textures/items/vanilla_proxy/wood_hoe"
     },
     "matcha_component_wooden_pickaxe": {
-      "textures": "wooden_pickaxe"
+      "textures": "textures/items/vanilla_proxy/wood_pickaxe"
     },
     "matcha_component_wooden_shovel": {
-      "textures": "wooden_shovel"
+      "textures": "textures/items/vanilla_proxy/wood_shovel"
     },
     "matcha_component_wooden_spear": {
       "textures": "textures/items/generated_components/wooden_spear"
     },
     "matcha_component_wooden_sword": {
-      "textures": "wooden_sword"
+      "textures": "textures/items/vanilla_proxy/wood_sword"
     },
     "matcha_component_music_disc_labyrinthine": {
       "textures": "textures/items/generated_components/music_disc_labyrinthine"
     },
     "matcha_component_dough": {
-      "textures": "shulker_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_shulker"
     },
     "matcha_component_flour": {
-      "textures": "enderman_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_enderman"
     },
     "matcha_component_flour_bag": {
-      "textures": "magma_cube_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_magma_cube"
     },
     "matcha_component_uncooked_curry": {
-      "textures": "strider_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_strider"
     },
     "matcha_component_uncooked_green_curry": {
-      "textures": "zombified_piglin_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_zombified_piglin"
     },
     "matcha_component_uncooked_paneer_makhani": {
-      "textures": "zoglin_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_zoglin"
     },
     "matcha_component_uncooked_ramen": {
-      "textures": "wither_skeleton_spawn_egg"
+      "textures": "textures/items/vanilla_proxy/spawn_egg_wither_skeleton"
     },
     "matcha_component_amber_earrings": {
       "textures": "textures/items/generated_components/amber_earrings"
@@ -1488,7 +1488,7 @@
       "textures": "textures/items/generated_components/gilded_leather_boots"
     },
     "matcha_component_warding_shield": {
-      "textures": "shield"
+      "textures": "textures/items/vanilla_proxy/shield"
     },
     "matcha_component_silver_sword": {
       "textures": "textures/items/generated_components/silver_sword"

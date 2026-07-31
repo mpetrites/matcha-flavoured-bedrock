@@ -29,6 +29,15 @@ variants. Recipes whose outputs contain Java item components are deliberately
 reported and skipped because dropping those components would silently produce
 the wrong item.
 
+Recipe-visible custom items must have self-contained icons. Import vanilla
+proxy artwork from the matching official Bedrock sample pack, then audit every
+custom recipe ingredient and result:
+
+```sh
+python3 tools/import_recipe_icons.py --source /path/to/bedrock-samples/resource_pack
+python3 tools/check_recipe_icons.py
+```
+
 `convert_foods.py` handles the food subset of those component-bearing results:
 
 ```sh
@@ -161,8 +170,14 @@ bases with multiple Matcha forms are deliberately excluded:
 ```sh
 python3 tools/generate_vanilla_replacements.py /path/to/Matcha_Flavoured
 python3 tools/sync_vanilla_recipe_inputs.py
+python3 tools/generate_vanilla_recipe_overrides.py
 python3 tools/check_vanilla_replacements.py
 ```
+
+The recipe-override generator copies one canonical Matcha recipe for each
+craftable replacement item and gives that copy the corresponding
+`minecraft:` identifier. Bedrock therefore shadows the built-in recipe rather
+than leaving a second recipe that still produces the vanilla item.
 
 For target-version content-log cleanup, `fix_content_log_errors.py` normalizes
 item groups, repair arrays, recipe unlocks, and removes definitions rejected by

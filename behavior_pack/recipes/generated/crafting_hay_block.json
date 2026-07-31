@@ -2,7 +2,7 @@
   "format_version": "1.21.100",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "matcha_port:crafting_hay_block"
+      "identifier": "matcha:crafting_hay_block"
     },
     "tags": [
       "crafting_table"
