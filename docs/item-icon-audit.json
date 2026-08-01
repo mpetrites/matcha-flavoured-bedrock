@@ -1,0 +1,341 @@
+{
+  "used_custom_item_icons": 492,
+  "exact_source_imports": 28,
+  "bedrock_base_references": 27,
+  "unresolved_icons": 0,
+  "imported": [
+    {
+      "identifier": "matcha:loot_item_028369266f",
+      "definition": "behavior_pack/items/generated_loot/028369266f.json",
+      "atlas_key": "matcha_loot_028369266f",
+      "source": "textures/items/source_imports/beetroot"
+    },
+    {
+      "identifier": "matcha:loot_item_0317534a0d",
+      "definition": "behavior_pack/items/generated_loot/0317534a0d.json",
+      "atlas_key": "matcha_loot_0317534a0d",
+      "source": "textures/items/source_imports/golden_hoe"
+    },
+    {
+      "identifier": "matcha:loot_item_0b468afb17",
+      "definition": "behavior_pack/items/generated_loot/0b468afb17.json",
+      "atlas_key": "matcha_loot_0b468afb17",
+      "source": "textures/items/source_imports/leather_boots"
+    },
+    {
+      "identifier": "matcha:loot_item_17898a8d18",
+      "definition": "behavior_pack/items/generated_loot/17898a8d18.json",
+      "atlas_key": "matcha_loot_17898a8d18",
+      "source": "textures/items/source_imports/iron_sword"
+    },
+    {
+      "identifier": "matcha:loot_item_25479cb30e",
+      "definition": "behavior_pack/items/generated_loot/25479cb30e.json",
+      "atlas_key": "matcha_loot_25479cb30e",
+      "source": "textures/items/source_imports/golden_apple"
+    },
+    {
+      "identifier": "matcha:loot_item_28e2874b14",
+      "definition": "behavior_pack/items/generated_loot/28e2874b14.json",
+      "atlas_key": "matcha_loot_28e2874b14",
+      "source": "textures/items/source_imports/carrot"
+    },
+    {
+      "identifier": "matcha:loot_item_3fc6e6d22b",
+      "definition": "behavior_pack/items/generated_loot/3fc6e6d22b.json",
+      "atlas_key": "matcha_loot_3fc6e6d22b",
+      "source": "textures/items/source_imports/ender_pearl"
+    },
+    {
+      "identifier": "matcha:loot_item_433e5f5c17",
+      "definition": "behavior_pack/items/generated_loot/433e5f5c17.json",
+      "atlas_key": "matcha_loot_433e5f5c17",
+      "source": "textures/items/source_imports/potion"
+    },
+    {
+      "identifier": "matcha:loot_item_45051c1a4f",
+      "definition": "behavior_pack/items/generated_loot/45051c1a4f.json",
+      "atlas_key": "matcha_loot_45051c1a4f",
+      "source": "textures/items/source_imports/rabbit_hide"
+    },
+    {
+      "identifier": "matcha:loot_item_58fa09963e",
+      "definition": "behavior_pack/items/generated_loot/58fa09963e.json",
+      "atlas_key": "matcha_loot_58fa09963e",
+      "source": "textures/items/source_imports/sweet_berries"
+    },
+    {
+      "identifier": "matcha:loot_item_65eeed778b",
+      "definition": "behavior_pack/items/generated_loot/65eeed778b.json",
+      "atlas_key": "matcha_loot_65eeed778b",
+      "source": "textures/items/source_imports/apple"
+    },
+    {
+      "identifier": "matcha:loot_item_6980a6fc7b",
+      "definition": "behavior_pack/items/generated_loot/6980a6fc7b.json",
+      "atlas_key": "matcha_loot_6980a6fc7b",
+      "source": "textures/items/source_imports/leather_leggings"
+    },
+    {
+      "identifier": "matcha:loot_item_8c6fa5e3dc",
+      "definition": "behavior_pack/items/generated_loot/8c6fa5e3dc.json",
+      "atlas_key": "matcha_loot_8c6fa5e3dc",
+      "source": "textures/items/source_imports/bread"
+    },
+    {
+      "identifier": "matcha:loot_item_945956504a",
+      "definition": "behavior_pack/items/generated_loot/945956504a.json",
+      "atlas_key": "matcha_loot_945956504a",
+      "source": "textures/items/source_imports/golden_carrot"
+    },
+    {
+      "identifier": "matcha:loot_item_b6d0741578",
+      "definition": "behavior_pack/items/generated_loot/b6d0741578.json",
+      "atlas_key": "matcha_loot_b6d0741578",
+      "source": "textures/items/source_imports/apple"
+    },
+    {
+      "identifier": "matcha:loot_item_be8c8e93b2",
+      "definition": "behavior_pack/items/generated_loot/be8c8e93b2.json",
+      "atlas_key": "matcha_loot_be8c8e93b2",
+      "source": "textures/items/source_imports/salmon"
+    },
+    {
+      "identifier": "matcha:trade_item_0e1ba7fb00",
+      "definition": "behavior_pack/items/generated_trades/0e1ba7fb00.json",
+      "atlas_key": "matcha_trade_0e1ba7fb00",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_1a8f51e84c",
+      "definition": "behavior_pack/items/generated_trades/1a8f51e84c.json",
+      "atlas_key": "matcha_trade_1a8f51e84c",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_28d2d3d8c7",
+      "definition": "behavior_pack/items/generated_trades/28d2d3d8c7.json",
+      "atlas_key": "matcha_trade_28d2d3d8c7",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_2a9c804f94",
+      "definition": "behavior_pack/items/generated_trades/2a9c804f94.json",
+      "atlas_key": "matcha_trade_2a9c804f94",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_2c77844bfe",
+      "definition": "behavior_pack/items/generated_trades/2c77844bfe.json",
+      "atlas_key": "matcha_trade_2c77844bfe",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_2d75349fc8",
+      "definition": "behavior_pack/items/generated_trades/2d75349fc8.json",
+      "atlas_key": "matcha_trade_2d75349fc8",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_3fc6e6d22b",
+      "definition": "behavior_pack/items/generated_trades/3fc6e6d22b.json",
+      "atlas_key": "matcha_trade_3fc6e6d22b",
+      "source": "textures/items/source_imports/ender_pearl"
+    },
+    {
+      "identifier": "matcha:trade_item_76ac31fa03",
+      "definition": "behavior_pack/items/generated_trades/76ac31fa03.json",
+      "atlas_key": "matcha_trade_76ac31fa03",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_be8c8e93b2",
+      "definition": "behavior_pack/items/generated_trades/be8c8e93b2.json",
+      "atlas_key": "matcha_trade_be8c8e93b2",
+      "source": "textures/items/source_imports/salmon"
+    },
+    {
+      "identifier": "matcha:trade_item_caf558a84c",
+      "definition": "behavior_pack/items/generated_trades/caf558a84c.json",
+      "atlas_key": "matcha_trade_caf558a84c",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_f76bb0de4f",
+      "definition": "behavior_pack/items/generated_trades/f76bb0de4f.json",
+      "atlas_key": "matcha_trade_f76bb0de4f",
+      "source": "textures/items/source_imports/splash_potion"
+    },
+    {
+      "identifier": "matcha:trade_item_fb4fc95df5",
+      "definition": "behavior_pack/items/generated_trades/fb4fc95df5.json",
+      "atlas_key": "matcha_trade_fb4fc95df5",
+      "source": "textures/items/source_imports/splash_potion"
+    }
+  ],
+  "base_pack": [
+    {
+      "identifier": "matcha:loot_item_0f7f5a4c51",
+      "definition": "behavior_pack/items/generated_loot/0f7f5a4c51.json",
+      "atlas_key": "matcha_loot_0f7f5a4c51",
+      "texture": "textures/items/fish_raw"
+    },
+    {
+      "identifier": "matcha:loot_item_2611ae5e5a",
+      "definition": "behavior_pack/items/generated_loot/2611ae5e5a.json",
+      "atlas_key": "matcha_loot_2611ae5e5a",
+      "texture": "textures/items/charcoal"
+    },
+    {
+      "identifier": "matcha:loot_item_2ea2e3d523",
+      "definition": "behavior_pack/items/generated_loot/2ea2e3d523.json",
+      "atlas_key": "matcha_loot_2ea2e3d523",
+      "texture": "textures/items/dye_powder_blue"
+    },
+    {
+      "identifier": "matcha:loot_item_43ef966c39",
+      "definition": "behavior_pack/items/generated_loot/43ef966c39.json",
+      "atlas_key": "matcha_loot_43ef966c39",
+      "texture": "textures/items/snowball"
+    },
+    {
+      "identifier": "matcha:loot_item_4687d9410d",
+      "definition": "behavior_pack/items/generated_loot/4687d9410d.json",
+      "atlas_key": "matcha_loot_4687d9410d",
+      "texture": "textures/items/apple_golden"
+    },
+    {
+      "identifier": "matcha:loot_item_79c64b6a1e",
+      "definition": "behavior_pack/items/generated_loot/79c64b6a1e.json",
+      "atlas_key": "matcha_loot_79c64b6a1e",
+      "texture": "textures/items/fish_raw"
+    },
+    {
+      "identifier": "matcha:loot_item_8bf02186c9",
+      "definition": "behavior_pack/items/generated_loot/8bf02186c9.json",
+      "atlas_key": "matcha_loot_8bf02186c9",
+      "texture": "textures/items/chorus_fruit"
+    },
+    {
+      "identifier": "matcha:loot_item_9c1c8a583d",
+      "definition": "behavior_pack/items/generated_loot/9c1c8a583d.json",
+      "atlas_key": "matcha_loot_9c1c8a583d",
+      "texture": "textures/items/dye_powder_blue"
+    },
+    {
+      "identifier": "matcha:loot_item_a12a7d2f57",
+      "definition": "behavior_pack/items/generated_loot/a12a7d2f57.json",
+      "atlas_key": "matcha_loot_a12a7d2f57",
+      "texture": "textures/items/fish_pufferfish_raw"
+    },
+    {
+      "identifier": "matcha:loot_item_c45f6b6d8f",
+      "definition": "behavior_pack/items/generated_loot/c45f6b6d8f.json",
+      "atlas_key": "matcha_loot_c45f6b6d8f",
+      "texture": "textures/items/glow_berries"
+    },
+    {
+      "identifier": "matcha:loot_item_ce12f3e9e5",
+      "definition": "behavior_pack/items/generated_loot/ce12f3e9e5.json",
+      "atlas_key": "matcha_loot_ce12f3e9e5",
+      "texture": "textures/items/trident"
+    },
+    {
+      "identifier": "matcha:loot_item_d247b21ee8",
+      "definition": "behavior_pack/items/generated_loot/d247b21ee8.json",
+      "atlas_key": "matcha_loot_d247b21ee8",
+      "texture": "textures/items/melon"
+    },
+    {
+      "identifier": "matcha:loot_item_e34800fb88",
+      "definition": "behavior_pack/items/generated_loot/e34800fb88.json",
+      "atlas_key": "matcha_loot_e34800fb88",
+      "texture": "textures/items/clownfish_raw"
+    },
+    {
+      "identifier": "matcha:loot_item_ed9ae92edf",
+      "definition": "behavior_pack/items/generated_loot/ed9ae92edf.json",
+      "atlas_key": "matcha_loot_ed9ae92edf",
+      "texture": "textures/items/fish_raw"
+    },
+    {
+      "identifier": "matcha:raw_estus",
+      "definition": "behavior_pack/items/raw_estus.json",
+      "atlas_key": "matcha_raw_estus",
+      "texture": "textures/items/blaze_powder"
+    },
+    {
+      "identifier": "matcha:trade_item_0f7f5a4c51",
+      "definition": "behavior_pack/items/generated_trades/0f7f5a4c51.json",
+      "atlas_key": "matcha_trade_0f7f5a4c51",
+      "texture": "textures/items/fish_raw"
+    },
+    {
+      "identifier": "matcha:trade_item_4ac45ccc91",
+      "definition": "behavior_pack/items/generated_trades/4ac45ccc91.json",
+      "atlas_key": "matcha_trade_4ac45ccc91",
+      "texture": "textures/blocks/glass"
+    },
+    {
+      "identifier": "matcha:trade_item_518c4c508b",
+      "definition": "behavior_pack/items/generated_trades/518c4c508b.json",
+      "atlas_key": "matcha_trade_518c4c508b",
+      "texture": "textures/items/book_writable"
+    },
+    {
+      "identifier": "matcha:trade_item_89d9cfe191",
+      "definition": "behavior_pack/items/generated_trades/89d9cfe191.json",
+      "atlas_key": "matcha_trade_89d9cfe191",
+      "texture": "textures/blocks/stone_granite"
+    },
+    {
+      "identifier": "matcha:trade_item_90b0bcad6d",
+      "definition": "behavior_pack/items/generated_trades/90b0bcad6d.json",
+      "atlas_key": "matcha_trade_90b0bcad6d",
+      "texture": "textures/blocks/stone"
+    },
+    {
+      "identifier": "matcha:trade_item_a12a7d2f57",
+      "definition": "behavior_pack/items/generated_trades/a12a7d2f57.json",
+      "atlas_key": "matcha_trade_a12a7d2f57",
+      "texture": "textures/items/fish_pufferfish_raw"
+    },
+    {
+      "identifier": "matcha:trade_item_b007da104b",
+      "definition": "behavior_pack/items/generated_trades/b007da104b.json",
+      "atlas_key": "matcha_trade_b007da104b",
+      "texture": "textures/blocks/dripstone_block"
+    },
+    {
+      "identifier": "matcha:trade_item_c871d75d17",
+      "definition": "behavior_pack/items/generated_trades/c871d75d17.json",
+      "atlas_key": "matcha_trade_c871d75d17",
+      "texture": "textures/blocks/calcite"
+    },
+    {
+      "identifier": "matcha:trade_item_d126e94c1a",
+      "definition": "behavior_pack/items/generated_trades/d126e94c1a.json",
+      "atlas_key": "matcha_trade_d126e94c1a",
+      "texture": "textures/blocks/stone_andesite"
+    },
+    {
+      "identifier": "matcha:trade_item_e34800fb88",
+      "definition": "behavior_pack/items/generated_trades/e34800fb88.json",
+      "atlas_key": "matcha_trade_e34800fb88",
+      "texture": "textures/items/clownfish_raw"
+    },
+    {
+      "identifier": "matcha:trade_item_e620c6856f",
+      "definition": "behavior_pack/items/generated_trades/e620c6856f.json",
+      "atlas_key": "matcha_trade_e620c6856f",
+      "texture": "textures/items/bundle_red"
+    },
+    {
+      "identifier": "matcha:trade_item_f351641b8c",
+      "definition": "behavior_pack/items/generated_trades/f351641b8c.json",
+      "atlas_key": "matcha_trade_f351641b8c",
+      "texture": "textures/blocks/tuff"
+    }
+  ],
+  "unresolved": []
+}

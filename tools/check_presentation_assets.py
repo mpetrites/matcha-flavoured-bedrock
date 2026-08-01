@@ -47,7 +47,7 @@ checks.extend([
 sounds = json.loads((rp / "sound_definitions.json").read_text())["sound_definitions"]
 for event in ("matcha.golden", "matcha.labyrinthine", "matcha.dry_hands", "matcha.false_subwoofer_lullaby", "record.11", "record.cat"):
     checks.append((f"sound event {event}", event in sounds))
-for item, duration, event in (("music_disc_golden", 188, "record.11"), ("music_disc_labyrinthine", 324, "record.cat")):
+for item, duration, event in (("music_disc_golden", 188, "11"), ("music_disc_labyrinthine", 324, "cat")):
     components = json.loads((ROOT / f"behavior_pack/items/generated_components/{item}.json").read_text())["minecraft:item"]["components"]
     record = components.get("minecraft:record", {})
     checks.append((f"native record component {item}", record.get("duration") == duration and record.get("sound_event") == event))

@@ -39,7 +39,13 @@ def note_approximation(function,strategy):approximation_details[(CURRENT_TABLE,f
 def display(c,base):
  v=c.get("minecraft:item_name") or c.get("minecraft:custom_name")
  if isinstance(v,str):return v
- if isinstance(v,dict):return v.get("text") or source_lang.get(v.get("translate"),v.get("translate"))
+ if isinstance(v,dict):
+  if v.get("text"):return v["text"]
+  translation=v.get("translate")
+  if translation in source_lang:return source_lang[translation]
+  model=str(c.get("minecraft:item_model","")).split(":")[-1]
+  fallback=model or str(translation or "").rsplit(".",1)[-1]
+  if fallback:return fallback.replace("_"," ").title()
  return base.split(":")[-1].replace("_"," ").title()
 def custom_item(base,c):
  model=str(c.get("minecraft:item_model","")).split(":")[-1]

@@ -30,6 +30,14 @@ for path in (ROOT / "behavior_pack/items").rglob("*.json"):
     display = body.get("components", {}).get("minecraft:display_name", {})
     if identifier: items[identifier] = display.get("value") if isinstance(display, dict) else None
 
+# Native custom blocks also provide an inventory item with the same identifier.
+for path in (ROOT / "behavior_pack/blocks").rglob("*.json"):
+    body = json.loads(path.read_text(encoding="utf-8")).get("minecraft:block", {})
+    identifier = body.get("description", {}).get("identifier")
+    display = body.get("components", {}).get("minecraft:display_name")
+    if identifier:
+        items[identifier] = display if isinstance(display, str) else None
+
 problems = []
 for identifier in sorted(craftable):
     key = items.get(identifier)

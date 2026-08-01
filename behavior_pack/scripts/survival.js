@@ -96,15 +96,35 @@ function advanceSleepingTime() {
   world.setTimeOfDay((world.getTimeOfDay() + 120) % 24000);
 }
 
-system.run(() => {
-  world.gameRules.naturalRegeneration = false;
-  world.gameRules.keepInventory = true;
-  world.gameRules.doInsomnia = false;
-  world.gameRules.doDayLightCycle = false;
-  world.gameRules.playersSleepingPercentage = 100;
-});
+function applyMatchaGameRules() {
+  const rules = [
+    ["naturalRegeneration", false, "naturalregeneration false"],
+    ["keepInventory", true, "keepinventory true"],
+    ["doInsomnia", false, "doinsomnia false"],
+    ["doDayLightCycle", false, "dodaylightcycle false"],
+    ["playersSleepingPercentage", 100, "playerssleepingpercentage 100"]
+  ];
+
+  for (const [property, value, command] of rules) {
+    try {
+      world.gameRules[property] = value;
+    } catch {}
+
+    // Also issue the command because some releases accept a GameRules setter
+    // without persisting it during world startup.
+    try {
+      world.getDimension("overworld").runCommand(`gamerule ${command}`);
+    } catch {}
+  }
+}
+
+system.run(applyMatchaGameRules);
 
 world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
+  // Re-assert on world entry so upgraded worlds and settings changed outside
+  // the pack cannot silently restore vanilla regeneration or death drops.
+  if (initialSpawn) system.run(applyMatchaGameRules);
+
   if (initialSpawn) {
     trackedMaxHealth(player);
   } else {

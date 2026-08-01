@@ -213,7 +213,7 @@
       "textures": "textures/items/generated_equipment/steel_sword"
     },
     "matcha_raw_estus": {
-      "textures": "blaze_powder"
+      "textures": "textures/items/blaze_powder"
     },
     "matcha_estus_ash": {
       "textures": "textures/items/vanilla_proxy/glowstone_dust"
@@ -558,10 +558,10 @@
       "textures": "textures/items/generated_loot/cdfc89dd82"
     },
     "matcha_loot_028369266f": {
-      "textures": "textures/items/beetroot"
+      "textures": "textures/items/source_imports/beetroot"
     },
     "matcha_loot_28e2874b14": {
-      "textures": "textures/items/carrot"
+      "textures": "textures/items/source_imports/carrot"
     },
     "matcha_loot_c45f6b6d8f": {
       "textures": "textures/items/glow_berries"
@@ -570,52 +570,52 @@
       "textures": "textures/items/chorus_fruit"
     },
     "matcha_loot_b6d0741578": {
-      "textures": "textures/items/apple"
+      "textures": "textures/items/source_imports/apple"
     },
     "matcha_loot_d247b21ee8": {
-      "textures": "textures/items/melon_slice"
+      "textures": "textures/items/melon"
     },
     "matcha_loot_43ef966c39": {
       "textures": "textures/items/snowball"
     },
     "matcha_loot_58fa09963e": {
-      "textures": "textures/items/sweet_berries"
+      "textures": "textures/items/source_imports/sweet_berries"
     },
     "matcha_loot_2ea2e3d523": {
-      "textures": "textures/items/lapis_lazuli"
+      "textures": "textures/items/dye_powder_blue"
     },
     "matcha_loot_9c1c8a583d": {
-      "textures": "textures/items/lapis_lazuli"
+      "textures": "textures/items/dye_powder_blue"
     },
     "matcha_loot_8c6fa5e3dc": {
-      "textures": "textures/items/bread"
+      "textures": "textures/items/source_imports/bread"
     },
     "matcha_loot_45051c1a4f": {
-      "textures": "textures/items/rabbit_hide"
+      "textures": "textures/items/source_imports/rabbit_hide"
     },
     "matcha_loot_6980a6fc7b": {
-      "textures": "textures/items/leather_leggings"
+      "textures": "textures/items/source_imports/leather_leggings"
     },
     "matcha_loot_0b468afb17": {
-      "textures": "textures/items/leather_boots"
+      "textures": "textures/items/source_imports/leather_boots"
     },
     "matcha_loot_2611ae5e5a": {
       "textures": "textures/items/charcoal"
     },
     "matcha_loot_70e4cb3d7d": {
-      "textures": "textures/items/popped_chorus_fruit"
+      "textures": "textures/items/vanilla_proxy/chorus_fruit_popped"
     },
     "matcha_loot_433e5f5c17": {
-      "textures": "textures/items/potion"
+      "textures": "textures/items/source_imports/potion"
     },
     "matcha_loot_17898a8d18": {
-      "textures": "textures/items/iron_sword"
+      "textures": "textures/items/source_imports/iron_sword"
     },
     "matcha_loot_0317534a0d": {
-      "textures": "textures/items/golden_hoe"
+      "textures": "textures/items/source_imports/golden_hoe"
     },
     "matcha_loot_155c35c823": {
-      "textures": "textures/items/compass"
+      "textures": "textures/items/vanilla_proxy/compass_item"
     },
     "matcha_loot_ce12f3e9e5": {
       "textures": "textures/items/trident"
@@ -624,7 +624,7 @@
       "textures": "textures/items/generated_loot/aa7dbe5ee9"
     },
     "matcha_loot_3fc6e6d22b": {
-      "textures": "textures/items/ender_pearl"
+      "textures": "textures/items/source_imports/ender_pearl"
     },
     "matcha_loot_4d59a24ba7": {
       "textures": "textures/items/generated_loot/4d59a24ba7"
@@ -633,16 +633,16 @@
       "textures": "textures/items/generated_loot/89c5092861"
     },
     "matcha_loot_65eeed778b": {
-      "textures": "textures/items/apple"
+      "textures": "textures/items/source_imports/apple"
     },
     "matcha_loot_4687d9410d": {
-      "textures": "textures/items/enchanted_golden_apple"
+      "textures": "textures/items/apple_golden"
     },
     "matcha_loot_25479cb30e": {
-      "textures": "textures/items/golden_apple"
+      "textures": "textures/items/source_imports/golden_apple"
     },
     "matcha_loot_945956504a": {
-      "textures": "textures/items/golden_carrot"
+      "textures": "textures/items/source_imports/golden_carrot"
     },
     "matcha_loot_d561f51a6b": {
       "textures": "textures/items/generated_loot/d561f51a6b"
@@ -666,10 +666,10 @@
       "textures": "textures/items/generated_loot/0a3fc42565"
     },
     "matcha_loot_ed9ae92edf": {
-      "textures": "textures/items/cod"
+      "textures": "textures/items/fish_raw"
     },
     "matcha_loot_79c64b6a1e": {
-      "textures": "textures/items/cod"
+      "textures": "textures/items/fish_raw"
     },
     "matcha_loot_3079b5704c": {
       "textures": "textures/items/generated_loot/3079b5704c"
@@ -684,7 +684,7 @@
       "textures": "textures/items/generated_loot/4e7d4722a6"
     },
     "matcha_loot_0f7f5a4c51": {
-      "textures": "textures/items/cod"
+      "textures": "textures/items/fish_raw"
     },
     "matcha_loot_3c460a85ac": {
       "textures": "textures/items/generated_loot/3c460a85ac"
@@ -753,13 +753,13 @@
       "textures": "textures/items/generated_loot/caa97e9ea6"
     },
     "matcha_loot_a12a7d2f57": {
-      "textures": "textures/items/pufferfish"
+      "textures": "textures/items/fish_pufferfish_raw"
     },
     "matcha_loot_e6499dbe68": {
       "textures": "textures/items/generated_loot/e6499dbe68"
     },
     "matcha_loot_be8c8e93b2": {
-      "textures": "textures/items/salmon"
+      "textures": "textures/items/source_imports/salmon"
     },
     "matcha_loot_233789c421": {
       "textures": "textures/items/generated_loot/233789c421"
@@ -783,7 +783,7 @@
       "textures": "textures/items/generated_loot/989248390c"
     },
     "matcha_loot_e34800fb88": {
-      "textures": "textures/items/tropical_fish"
+      "textures": "textures/items/clownfish_raw"
     },
     "matcha_loot_c913e4c357": {
       "textures": "textures/items/generated_loot/c913e4c357"
@@ -798,10 +798,10 @@
       "textures": "textures/items/generated_loot/e07c904137"
     },
     "matcha_loot_aadb914327": {
-      "textures": "textures/items/frog_spawn_egg"
+      "textures": "textures/items/generated_loot/frog_spawn_egg"
     },
     "matcha_loot_02bdb93dc2": {
-      "textures": "textures/items/tadpole_spawn_egg"
+      "textures": "textures/items/generated_loot/tadpole_spawn_egg"
     },
     "matcha_loot_6f4213d042": {
       "textures": "textures/items/generated_loot/6f4213d042"
@@ -843,7 +843,7 @@
       "textures": "textures/items/generated_loot/2a925bbc29"
     },
     "matcha_trade_e620c6856f": {
-      "textures": "textures/items/red_bundle"
+      "textures": "textures/items/bundle_red"
     },
     "matcha_trade_3f784bfe4d": {
       "textures": "textures/items/generated_trades/3f784bfe4d"
@@ -858,34 +858,34 @@
       "textures": "textures/items/generated_trades/daab46bfad"
     },
     "matcha_trade_1a8f51e84c": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_76ac31fa03": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_caf558a84c": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_f76bb0de4f": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_2c77844bfe": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_2a9c804f94": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_28d2d3d8c7": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_0e1ba7fb00": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_2d75349fc8": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_fb4fc95df5": {
-      "textures": "textures/items/splash_potion"
+      "textures": "textures/items/source_imports/splash_potion"
     },
     "matcha_trade_cf5f5bf233": {
       "textures": "textures/items/generated_trades/cf5f5bf233"
@@ -939,7 +939,7 @@
       "textures": "textures/items/generated_trades/0b534c88b1"
     },
     "matcha_trade_0f7f5a4c51": {
-      "textures": "textures/items/cod"
+      "textures": "textures/items/fish_raw"
     },
     "matcha_trade_3c460a85ac": {
       "textures": "textures/items/generated_trades/3c460a85ac"
@@ -957,13 +957,13 @@
       "textures": "textures/items/generated_trades/5672211d4d"
     },
     "matcha_trade_a12a7d2f57": {
-      "textures": "textures/items/pufferfish"
+      "textures": "textures/items/fish_pufferfish_raw"
     },
     "matcha_trade_e6499dbe68": {
       "textures": "textures/items/generated_trades/e6499dbe68"
     },
     "matcha_trade_be8c8e93b2": {
-      "textures": "textures/items/salmon"
+      "textures": "textures/items/source_imports/salmon"
     },
     "matcha_trade_233789c421": {
       "textures": "textures/items/generated_trades/233789c421"
@@ -972,7 +972,7 @@
       "textures": "textures/items/generated_trades/8f4772d92c"
     },
     "matcha_trade_e34800fb88": {
-      "textures": "textures/items/tropical_fish"
+      "textures": "textures/items/clownfish_raw"
     },
     "matcha_trade_0a3fc42565": {
       "textures": "textures/items/generated_trades/0a3fc42565"
@@ -1083,7 +1083,7 @@
       "textures": "textures/items/generated_trades/651ce908a3"
     },
     "matcha_trade_3fc6e6d22b": {
-      "textures": "textures/items/ender_pearl"
+      "textures": "textures/items/source_imports/ender_pearl"
     },
     "matcha_trade_3ff70043ae": {
       "textures": "textures/items/generated_trades/3ff70043ae"
@@ -1110,37 +1110,37 @@
       "textures": "textures/items/generated_trades/d62f670da1"
     },
     "matcha_trade_d126e94c1a": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/stone_andesite"
     },
     "matcha_trade_c7eb8e9a1b": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/diorite"
     },
     "matcha_trade_89d9cfe191": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/stone_granite"
     },
     "matcha_trade_90b0bcad6d": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/stone"
     },
     "matcha_trade_648eaf6a61": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/deepslate"
     },
     "matcha_trade_4ac45ccc91": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/glass"
     },
     "matcha_trade_d8dc24ca7c": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/smooth_red_sandstone"
     },
     "matcha_trade_c56bf026de": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/sandstone_top"
     },
     "matcha_trade_f351641b8c": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/tuff"
     },
     "matcha_trade_c871d75d17": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/calcite"
     },
     "matcha_trade_b007da104b": {
-      "textures": "textures/items/chicken_spawn_egg"
+      "textures": "textures/blocks/dripstone_block"
     },
     "matcha_trade_d962cf5bf6": {
       "textures": "textures/items/generated_trades/d962cf5bf6"
@@ -1197,19 +1197,19 @@
       "textures": "textures/items/generated_trades/7a9b8dc5dd"
     },
     "matcha_trade_518c4c508b": {
-      "textures": "textures/items/writable_book"
+      "textures": "textures/items/book_writable"
     },
     "matcha_component_bedrock_buster": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_chicken"
+      "textures": "textures/items/generated_components/bedrock_buster"
     },
     "matcha_component_benzene": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_endermite"
+      "textures": "textures/items/generated_components/benzene"
     },
     "matcha_component_campfire": {
       "textures": "textures/items/generated_components/campfire"
     },
     "matcha_component_carbon_rich_iron": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_piglin_brute"
+      "textures": "textures/items/generated_components/carbon_rich_iron"
     },
     "matcha_component_chainmail_boots": {
       "textures": "textures/items/generated_components/chainmail_boots"
@@ -1461,19 +1461,19 @@
       "textures": "textures/items/generated_components/flour"
     },
     "matcha_component_flour_bag": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_magma_cube"
+      "textures": "textures/items/generated_components/flour_bag"
     },
     "matcha_component_uncooked_curry": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_strider"
+      "textures": "textures/items/generated_components/uncooked_curry"
     },
     "matcha_component_uncooked_green_curry": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_zombified_piglin"
+      "textures": "textures/items/generated_components/uncooked_green_curry"
     },
     "matcha_component_uncooked_paneer_makhani": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_zoglin"
+      "textures": "textures/items/generated_components/uncooked_paneer_makhani"
     },
     "matcha_component_uncooked_ramen": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_wither_skeleton"
+      "textures": "textures/items/generated_components/uncooked_ramen"
     },
     "matcha_component_amber_earrings": {
       "textures": "textures/items/generated_components/amber_earrings"

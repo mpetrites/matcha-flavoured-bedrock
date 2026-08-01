@@ -28,7 +28,13 @@ custom_by_signature={}; custom_audit=[]; lang=[]
 def component_name(components, fallback):
     value=components.get("minecraft:item_name") or components.get("minecraft:custom_name")
     if isinstance(value,str): return value
-    if isinstance(value,dict): return value.get("text") or source_lang.get(value.get("translate"),value.get("translate"))
+    if isinstance(value,dict):
+        if value.get("text"): return value["text"]
+        translation=value.get("translate")
+        if translation in source_lang: return source_lang[translation]
+        model=str(components.get("minecraft:item_model","")).split(":")[-1]
+        fallback_name=model or str(translation or "").rsplit(".",1)[-1]
+        if fallback_name: return fallback_name.replace("_"," ").title()
     return fallback.replace("minecraft:","").replace("_"," ").title()
 
 def resolve_stack(stack, context):

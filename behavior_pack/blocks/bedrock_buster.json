@@ -1,0 +1,50 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "matcha:bedrock_buster",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "item.matcha:bedrock_buster.name",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "matcha_bedrock_buster_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "matcha_bedrock_buster_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "matcha_bedrock_buster_bottom",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "minecraft:geometry.full_block",
+        "material_instances": {
+          "*": {
+            "texture": "matcha_bedrock_buster_side",
+            "render_method": "opaque"
+          },
+          "up": {
+            "texture": "matcha_bedrock_buster_top",
+            "render_method": "opaque"
+          },
+          "down": {
+            "texture": "matcha_bedrock_buster_bottom",
+            "render_method": "opaque"
+          }
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:destructible_by_explosion": false
+    }
+  }
+}

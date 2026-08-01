@@ -20,7 +20,7 @@
       "minecraft:record": {
         "comparator_signal": 1,
         "duration": 188,
-        "sound_event": "record.11"
+        "sound_event": "11"
       }
     }
   }

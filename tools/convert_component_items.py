@@ -18,10 +18,14 @@ ATLAS=ROOT/"resource_pack/textures/item_texture.json"
 LANG=ROOT/"resource_pack/texts/en_US.lang"
 REPORT=ROOT/"docs/component-item-conversion-report.json"
 BEGIN,END="## BEGIN GENERATED MATCHA COMPONENT ITEMS","## END GENERATED MATCHA COMPONENT ITEMS"
-EXISTING={"crystal_heart":"matcha:heart_container","bronze_sword":"matcha:bronze_sword"}
+EXISTING={
+    "bedrock_buster":"matcha:bedrock_buster",
+    "crystal_heart":"matcha:heart_container",
+    "bronze_sword":"matcha:bronze_sword",
+}
 CUSTOM_TEXTURE_STEMS={"dough","flour","warding_shield"}
 ARMOR_SLOTS={"head":"slot.armor.head","chest":"slot.armor.chest","legs":"slot.armor.legs","feet":"slot.armor.feet"}
-BEDROCK_RECORD_EVENTS={"golden":"record.11","labyrinthine":"record.cat"}
+BEDROCK_RECORD_EVENTS={"golden":"11","labyrinthine":"cat"}
 JUKEBOX_SONGS={}
 for song_path in (JAVA/"data/main/jukebox_song").glob("*.json"):
     song=json.loads(song_path.read_text())

@@ -30,6 +30,9 @@ function targetLocation(event) {
 world.beforeEvents.playerInteractWithBlock.subscribe((event) => {
   const {itemStack,player:source}=event;
   if (!itemStack || (itemStack.typeId!==WARDING_STONE && itemStack.typeId!==BEDROCK_BUSTER)) return;
+  // These items run scripted placement behavior; prevent the Bedrock Buster's
+  // custom-block item representation from placing a persistent block first.
+  event.cancel=true;
   const location=targetLocation(event);
   system.run(() => {
   if (itemStack.typeId===WARDING_STONE) {
