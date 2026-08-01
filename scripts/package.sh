@@ -7,7 +7,18 @@ trap 'rm -rf "$build_dir"' EXIT HUP INT TERM
 
 bp_name="Matcha_BP.mcpack"
 rp_name="Matcha_RP.mcpack"
-addon_name="Matcha_Flavoured_Bedrock_Alpha_0.12.5.mcaddon"
+
+version=${VERSION:-$(python3 - "$project_dir/behavior_pack/manifest.json" <<'PY'
+import json
+import sys
+
+with open(sys.argv[1], encoding="utf-8") as manifest_file:
+    manifest = json.load(manifest_file)
+
+print(".".join(str(part) for part in manifest["header"]["version"]))
+PY
+)}
+addon_name="Matcha_Flavoured_Bedrock_Alpha_${version}.mcaddon"
 
 rm -f "$project_dir/dist/$addon_name"
 

@@ -1,0 +1,72 @@
+name: Package and release
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build GitHub release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out tagged version
+        uses: actions/checkout@v4
+
+      - name: Validate version tag and manifests
+        id: version
+        shell: python
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          import json
+          import os
+          import re
+
+          tag = os.environ["TAG"]
+          version = tag.removeprefix("v")
+          if not re.fullmatch(r"\d+\.\d+\.\d+", version):
+              raise SystemExit(f"Tag {tag!r} is not a semantic version tag")
+
+          versions = {}
+          for pack in ("behavior_pack", "resource_pack"):
+              with open(f"{pack}/manifest.json", encoding="utf-8") as file:
+                  manifest = json.load(file)
+              versions[pack] = ".".join(
+                  str(part) for part in manifest["header"]["version"]
+              )
+
+          if any(pack_version != version for pack_version in versions.values()):
+              details = ", ".join(
+                  f"{pack}={pack_version}" for pack, pack_version in versions.items()
+              )
+              raise SystemExit(
+                  f"Tag version {version} does not match the manifests ({details})"
+              )
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              print(f"number={version}", file=output)
+              print(
+                  f"asset=dist/Matcha_Flavoured_Bedrock_Alpha_{version}.mcaddon",
+                  file=output,
+              )
+
+      - name: Build add-on package
+        env:
+          VERSION: ${{ steps.version.outputs.number }}
+        run: ./scripts/package.sh
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ASSET: ${{ steps.version.outputs.asset }}
+        run: >-
+          gh release create "${{ github.ref_name }}" "$ASSET"
+          --verify-tag
+          --generate-notes
+          --title "Matcha Flavoured ${{ steps.version.outputs.number }}"
