@@ -21,7 +21,7 @@ With cheats enabled, use `/function matcha_equipment_test`,
 `/function matcha_advancement_test`. Use `/function matcha_global_mechanics_test`
 for environment and interaction systems.
 
-## Included in alpha 0.11.10
+## Included in alpha 0.12.2
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
