@@ -7,7 +7,7 @@ trap 'rm -rf "$build_dir"' EXIT HUP INT TERM
 
 bp_name="Matcha_BP.mcpack"
 rp_name="Matcha_RP.mcpack"
-addon_name="Matcha_Flavoured_Bedrock_Alpha_0.12.4.mcaddon"
+addon_name="Matcha_Flavoured_Bedrock_Alpha_0.12.5.mcaddon"
 
 rm -f "$project_dir/dist/$addon_name"
 
