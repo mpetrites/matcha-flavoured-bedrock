@@ -53,16 +53,20 @@
     {
       "name": "stabilised Estus uses ash",
       "status": "pass",
-      "detail": {
-        "item": "matcha:estus_ash"
-      }
+      "detail": [
+        "matcha:benzene",
+        "matcha:estus_ash",
+        "minecraft:ender_pearl"
+      ]
     },
     {
       "name": "stabilised Estus uses benzene",
       "status": "pass",
-      "detail": {
-        "item": "matcha:benzene"
-      }
+      "detail": [
+        "matcha:benzene",
+        "matcha:estus_ash",
+        "minecraft:ender_pearl"
+      ]
     },
     {
       "name": "Estus Flask uses two ash",

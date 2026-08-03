@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.100",
+  "format_version": "1.21.130",
   "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:electrum_helmet"
@@ -15,7 +15,7 @@
         "item": "minecraft:diamond"
       },
       {
-        "item": "minecraft:diamond_helmet"
+        "item": "matcha:diamond_helmet"
       },
       {
         "item": "minecraft:heart_of_the_sea"

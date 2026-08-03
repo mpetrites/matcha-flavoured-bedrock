@@ -7,9 +7,12 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
-        "item": "minecraft:dried_kelp"
+        "item": "matcha:dried_kelp"
       },
       {
         "item": "minecraft:carrot"
@@ -26,9 +29,6 @@
     ],
     "result": {
       "item": "matcha:gimmari"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

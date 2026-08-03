@@ -7,15 +7,18 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
-        "item": "minecraft:baked_potato"
+        "item": "matcha:baked_potato"
       },
       {
         "item": "minecraft:egg"
       },
       {
-        "item": "minecraft:bread"
+        "item": "matcha:bread"
       },
       {
         "item": "matcha:milk_bottle"
@@ -23,9 +26,6 @@
     ],
     "result": {
       "item": "matcha:latke"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

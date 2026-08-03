@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " # ",
-      " X ",
-      " X "
+      " A ",
+      " B ",
+      " B "
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:amethyst_shard"
       },
-      "X": {
+      "B": {
         "item": "minecraft:copper_ingot"
       }
     },
     "result": {
       "item": "minecraft:spyglass"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

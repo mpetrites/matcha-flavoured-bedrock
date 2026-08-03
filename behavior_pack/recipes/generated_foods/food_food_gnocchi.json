@@ -7,9 +7,12 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
-        "item": "minecraft:baked_potato"
+        "item": "matcha:baked_potato"
       },
       {
         "item": "matcha:cheese"
@@ -26,9 +29,6 @@
     ],
     "result": {
       "item": "matcha:gnocchi"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

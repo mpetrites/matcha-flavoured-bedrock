@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:lava_bucket"
@@ -18,9 +21,6 @@
     "result": {
       "item": "minecraft:magma",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

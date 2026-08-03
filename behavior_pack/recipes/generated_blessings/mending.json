@@ -7,19 +7,22 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "ESE",
-      "EBE",
-      "EDE"
+      "CAC",
+      "CBC",
+      "CDC"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:nether_star"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "E": {
+      "C": {
         "item": "minecraft:diamond"
       },
       "D": {
@@ -28,9 +31,6 @@
     },
     "result": {
       "item": "matcha:blessing_mending"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

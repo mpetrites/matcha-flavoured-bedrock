@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:iron_block"
@@ -15,9 +18,6 @@
     "result": {
       "item": "minecraft:iron_bars",
       "count": 36
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

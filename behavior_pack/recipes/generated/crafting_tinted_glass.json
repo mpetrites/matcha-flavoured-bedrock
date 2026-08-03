@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " G ",
-      "GSG",
-      " G "
+      " A ",
+      "ABA",
+      " A "
     ],
     "key": {
-      "G": {
+      "A": {
         "item": "minecraft:glass"
       },
-      "S": {
+      "B": {
         "item": "minecraft:amethyst_shard"
       }
     },
     "result": {
       "item": "minecraft:tinted_glass",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

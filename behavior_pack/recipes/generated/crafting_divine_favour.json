@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "###",
-      "###"
+      "AAA",
+      "AAA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "matcha:divine_fragment"
       }
     },
     "result": {
       "item": "minecraft:nether_star"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -39,7 +39,8 @@ checks.extend([
     ("source sun mapped", (rp / "textures/environment/sun.png").exists()),
     ("source weather mapped", (rp / "textures/environment/weather.png").exists()),
     ("moon phase atlas", dimensions(rp / "textures/environment/moon_phases.png") == (128, 64)),
-    ("Match painting atlas", dimensions(rp / "textures/painting/kz.png") == (256, 256)),
+    ("Match painting texture", dimensions(rp / "textures/painting/match.png") == (32, 32)),
+    ("painting back texture", dimensions(rp / "textures/painting/back.png") == (16, 16)),
     ("two custom tracks", len(list((rp / "sounds/matcha/custom").glob("*.ogg"))) == 2),
     ("two bell overrides", len(list((rp / "sounds/block/bell").glob("*.ogg"))) == 2),
 ])
@@ -64,6 +65,8 @@ checks.extend([
 ])
 
 asset_report = json.loads((ROOT / "docs/presentation-assets-report.json").read_text())
+if asset_report["copied"]["painting_atlas_merged"]:
+    checks.append(("Match painting atlas", dimensions(rp / "textures/painting/kz.png") == (256, 256)))
 checks.extend([
     ("699 Java models classified", asset_report["java_models"]["total"] == 699),
     ("30 Java blockstates classified", asset_report["java_blockstates"]["total"] == 30),

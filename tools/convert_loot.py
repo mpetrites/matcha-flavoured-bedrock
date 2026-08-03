@@ -33,7 +33,7 @@ for recipe_path in (JAVA/"data").glob("*/recipe/*.json"):
  try:identifier=json.loads(item_path.read_text())["minecraft:item"]["description"]["identifier"]
  except:continue
  signature_map[result.get("id","")+"|"+json.dumps(components,sort_keys=True,separators=(",",":"))]=identifier
-custom={}; lang=[]; translated_functions=Counter(); approximated_functions=Counter(); dropped_functions=Counter(); dropped_conditions=Counter(); entry_types=Counter(); empty=[]
+custom={}; rendered_custom={}; lang=[]; translated_functions=Counter(); approximated_functions=Counter(); dropped_functions=Counter(); dropped_conditions=Counter(); entry_types=Counter(); empty=[]
 generated_tables={}; approximation_details=Counter(); CURRENT_TABLE=""
 def note_approximation(function,strategy):approximation_details[(CURRENT_TABLE,function,strategy)]+=1
 def display(c,base):
@@ -53,15 +53,27 @@ def custom_item(base,c):
  sig=base+"|"+json.dumps(c,sort_keys=True,separators=(",",":"))
  if sig in signature_map:return signature_map[sig]
  if sig in custom:return custom[sig]
- h=hashlib.sha1(sig.encode()).hexdigest()[:10]; ident=f"matcha:loot_item_{h}"; custom[sig]=ident; key=f"matcha_loot_{h}"
+ h=hashlib.sha1(sig.encode()).hexdigest()[:10]
+ # Trade and loot sources often contain the exact same custom stack. Reuse
+ # the trade item generated earlier in the build instead of defining it twice.
+ trade_item=ROOT/f"behavior_pack/items/generated_trades/{h}.json"
+ if trade_item.exists():
+  ident=json.loads(trade_item.read_text())["minecraft:item"]["description"]["identifier"];custom[sig]=ident;return ident
+ ident=f"matcha:loot_item_{h}"; key=f"matcha_loot_{h}"
  src=JAVA/f"assets/minecraft/textures/item/{model}.png"
  if model and src.exists():shutil.copy2(src,TEXTURES/f"{h}.png"); texture=f"textures/items/generated_loot/{h}"
  else:texture=f"textures/items/{base.split(':')[-1]}"
- atlas["texture_data"][key]={"textures":texture};stale_atlas_keys.discard(key);comps={"minecraft:display_name":{"value":f"item.{ident}.name"},"minecraft:icon":{"textures":{"default":key}},"minecraft:max_stack_size":c.get("minecraft:max_stack_size",1 if c.get("minecraft:max_damage") else 64)}
+ comps={"minecraft:max_stack_size":c.get("minecraft:max_stack_size",1 if c.get("minecraft:max_damage") else 64)}
  if model in {"cheerful_clay_statue","mournful_clay_statue"}:
   comps["minecraft:interact_button"]="Use";comps["minecraft:use_animation"]="bow";comps["minecraft:use_modifiers"]={"use_duration":0.1,"movement_modifier":1.0}
  if c.get("minecraft:max_damage"):comps["minecraft:durability"]={"max_durability":c["minecraft:max_damage"]}
  if c.get("minecraft:enchantment_glint_override") or c.get("minecraft:enchantments") or c.get("minecraft:stored_enchantments"):comps["minecraft:glint"]=True
+ rendered=json.dumps([display(c,base),texture,comps],sort_keys=True,separators=(",",":"))
+ if rendered in rendered_custom:
+  custom[sig]=rendered_custom[rendered];return custom[sig]
+ custom[sig]=ident;rendered_custom[rendered]=ident
+ comps={"minecraft:display_name":{"value":f"item.{ident}.name"},"minecraft:icon":{"textures":{"default":key}}}|comps
+ atlas["texture_data"][key]={"textures":texture};stale_atlas_keys.discard(key)
  item={"format_version":"1.21.100","minecraft:item":{"description":{"identifier":ident,"menu_category":{"category":"items"}},"components":comps}}
  (ITEMS/f"{h}.json").write_text(json.dumps(item,indent=2)+"\n");lang.append(f"item.{ident}.name={display(c,base)}");return ident
 def number(v):
@@ -241,5 +253,5 @@ if begin in text:
 else:text=text.rstrip()+"\n\n"+section+"\n"
 LANG.write_text(text)
 approximation_rows=[{"source_table":table,"function":function,"strategy":strategy,"occurrences":count} for (table,function,strategy),count in sorted(approximation_details.items())]
-report={"baseline":baseline(),"source_tables":len(list(SOURCE.rglob('*.json'))),"converted_tables":converted,"generated_helper_tables":len(generated_tables),"generated_loot_items":len(custom),"empty_sources":empty,"entry_types":entry_types,"translated_functions":translated_functions,"approximated_functions":approximated_functions,"dropped_functions":dropped_functions,"dropped_conditions":dropped_conditions,"approximation_details":approximation_rows}
+report={"baseline":baseline(),"source_tables":len(list(SOURCE.rglob('*.json'))),"converted_tables":converted,"generated_helper_tables":len(generated_tables),"generated_loot_items":len(rendered_custom),"empty_sources":empty,"entry_types":entry_types,"translated_functions":translated_functions,"approximated_functions":approximated_functions,"dropped_functions":dropped_functions,"dropped_conditions":dropped_conditions,"approximation_details":approximation_rows}
 (ROOT/"docs/loot-conversion-report.json").write_text(json.dumps(report,indent=2)+"\n");print(json.dumps({k:v for k,v in report.items() if k not in ('entry_types','dropped_functions','dropped_conditions')}))

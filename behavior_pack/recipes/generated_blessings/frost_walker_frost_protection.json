@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SbS",
-      "FBF",
-      "SFS"
+      "ADA",
+      "CBC",
+      "ACA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "matcha:golden_apple"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "C": {
         "item": "minecraft:blue_ice"
       },
-      "b": {
+      "D": {
         "item": "matcha:golden_hoe"
       }
     },
     "result": {
       "item": "matcha:blessing_frost_walker_frost_protection"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

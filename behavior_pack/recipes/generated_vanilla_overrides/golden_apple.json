@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "nnn",
-      "ncn",
-      "nnn"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "n": {
+      "A": {
         "item": "minecraft:gold_nugget"
       },
-      "c": {
+      "B": {
         "item": "minecraft:apple"
       }
     },
     "result": {
       "item": "matcha:golden_apple"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

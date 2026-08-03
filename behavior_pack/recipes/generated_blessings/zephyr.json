@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SHS",
-      "FBF",
-      "SFS"
+      "ADA",
+      "CBC",
+      "ACA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:wind_charge"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "C": {
         "item": "minecraft:feather"
       },
-      "H": {
+      "D": {
         "item": "minecraft:allium"
       }
     },
     "result": {
       "item": "matcha:blessing_zephyr"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

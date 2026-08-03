@@ -7,22 +7,22 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "# #",
-      "###"
+      "AAA",
+      "A A",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:oak_log"
       }
     },
     "result": {
       "item": "minecraft:chest",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

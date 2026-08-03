@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:weathered_copper_chain"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:oxidized_copper_chain"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

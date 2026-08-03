@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:birch_wood"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:stripped_birch_wood"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

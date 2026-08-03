@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "#c#",
-      "# #"
+      "AAA",
+      "ABA",
+      "A A"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:copper_ingot"
       },
-      "c": {
+      "B": {
         "item": "minecraft:lightning_rod"
       }
     },
     "result": {
       "item": "minecraft:bell"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

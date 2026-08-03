@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "matcha:baked_pumpkin"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:pumpkin_jam"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "H",
-      "#",
-      "X"
+      "C",
+      "A",
+      "B"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:stick"
       },
-      "X": {
+      "B": {
         "item": "minecraft:iron_ingot"
       },
-      "H": {
+      "C": {
         "item": "minecraft:heavy_core"
       }
     },
     "result": {
       "item": "matcha:mace"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

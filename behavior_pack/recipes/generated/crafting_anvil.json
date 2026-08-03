@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "III",
-      " i ",
-      "iii"
+      "AAA",
+      " B ",
+      "BBB"
     ],
     "key": {
-      "I": {
+      "A": {
         "item": "minecraft:resin_brick"
       },
-      "i": {
+      "B": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "minecraft:anvil"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "##"
+      "AA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:cyan_wool"
       }
     },
     "result": {
       "item": "minecraft:cyan_carpet",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

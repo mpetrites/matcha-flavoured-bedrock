@@ -7,34 +7,34 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "TPS",
-      " M",
-      "BBB"
+      "BAC",
+      " E",
+      "DDD"
     ],
     "key": {
-      "P": {
+      "A": {
         "item": "matcha:cooked_chicken"
       },
-      "T": {
+      "B": {
         "item": "matcha:glow_mash"
       },
-      "S": {
+      "C": {
         "item": "minecraft:bone"
       },
-      "B": {
+      "D": {
         "item": "minecraft:bowl"
       },
-      "M": {
+      "E": {
         "item": "minecraft:water_bucket"
       }
     },
     "result": {
       "item": "matcha:crafting_chicken_noodle_soup",
       "count": 3
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

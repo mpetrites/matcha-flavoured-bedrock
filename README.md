@@ -21,7 +21,7 @@ With cheats enabled, use `/function matcha_equipment_test`,
 `/function matcha_advancement_test`. Use `/function matcha_global_mechanics_test`
 for environment and interaction systems.
 
-## Included in alpha 0.12.2
+## Included in alpha 0.12.6
 
 - Health foods: baked apple, fried egg, charred meat, charred fish, and
   charred potato
@@ -33,10 +33,10 @@ for environment and interaction systems.
 - 104 component-bearing custom items and 109 recipe variants
 - Scripted regeneration effects matching the Java recipes
 - Hunger disabled by keeping it full and hiding its HUD element
-- 930 loadable generated Bedrock recipe definitions translated from 752
-  component-free recipes in the pinned 1.03 upstream release; 16 colored-banner
-  recipes are omitted because their Java results have no valid Bedrock item ID
-- 90 scripted custom consumables from 120 upstream recipes, including effect
+- 944 loadable generated Bedrock recipe definitions translated from 751
+  component-free recipes in the pinned 1.03 upstream release, including all 16
+  colored-banner recipes through valid Bedrock banner identifiers
+- 89 distinct scripted custom consumables from 120 upstream recipes, including effect
   probabilities, cleansing actions, layered effects, use times, and container
   remainders; Estus potion effects are included. The poison and weakness
   preserves are aimed area splashes, mead and milk are completion-gated drinks,
@@ -77,44 +77,31 @@ for environment and interaction systems.
 
 See [REMAINING_PARITY.md](REMAINING_PARITY.md) for the audited discrepancy
 ledger. Machine-readable conversion and parity reports are under `docs/`.
-Passing static checks establish source inventory and pack-surface coverage;
-they do not replace the in-game validation listed in that ledger.
+The exhaustive [full parity audit](docs/full-parity-audit.json) accounts for
+all 4,900 files in the pinned Java release across 42 source surfaces. Passing
+static checks establishes source ownership and pack-surface coverage; it does
+not replace the in-game validation listed in that ledger.
 
 ## Build
 
 Run:
 
 ```sh
-python3 tools/check_upstream.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_parity_1_03.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/generate_equipment.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_equipment.py
-python3 tools/check_smithing.py
-python3 tools/convert_component_items.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_parity_1_4.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_estus.py
-python3 tools/generate_enchantments.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_enchantments.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_survival_milestone.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/generate_villager_trades.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_villager_trades.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/convert_loot.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-PYTHONPATH=/tmp/matcha_pydeps python3 tools/convert_structures.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_loot_structures.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/generate_advancements.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_advancements.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_global_mechanics.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_food_interactions.py
-python3 tools/check_item_names.py
-python3 tools/convert_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_worldgen.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/convert_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_presentation_assets.py --source /path/to/unpacked/Matcha_Flavoured_1_03
-python3 tools/check_vanilla_replacements.py
-./scripts/package.sh
+python3 tools/build.py --source /path/to/unpacked/Matcha_Flavoured_1_03
 ```
 
-The packaged add-on is written to `dist/`.
+The orchestrator validates the source, regenerates recipes and every custom
+item family, converts structures, advancements, world generation, and
+presentation assets, runs the complete audit suite, and packages the add-on
+to `dist/`. Packaging runs only if every earlier stage succeeds.
+
+Structure conversion requires `nbtlib`:
+
+```sh
+python3 -m pip install --target /tmp/matcha_pydeps nbtlib
+PYTHONPATH=/tmp/matcha_pydeps python3 tools/build.py \
+  --source /path/to/unpacked/Matcha_Flavoured_1_03
+```
 
 ## Attribution and license
 

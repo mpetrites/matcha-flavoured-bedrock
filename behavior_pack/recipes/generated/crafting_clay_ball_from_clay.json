@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:clay"
@@ -15,9 +18,6 @@
     "result": {
       "item": "minecraft:clay_ball",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

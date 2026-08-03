@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "##",
-      "##"
+      "AA",
+      "AA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "minecraft:iron_trapdoor",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

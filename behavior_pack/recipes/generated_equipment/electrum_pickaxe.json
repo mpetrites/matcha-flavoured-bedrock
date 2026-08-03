@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.100",
+  "format_version": "1.21.130",
   "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:electrum_pickaxe"

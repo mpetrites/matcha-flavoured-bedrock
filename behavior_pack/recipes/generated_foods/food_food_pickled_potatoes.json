@@ -7,9 +7,12 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
-        "item": "minecraft:baked_potato"
+        "item": "matcha:baked_potato"
       },
       {
         "item": "minecraft:brown_mushroom"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:pickled_potatoes"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

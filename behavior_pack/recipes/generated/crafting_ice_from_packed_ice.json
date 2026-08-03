@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:packed_ice"
@@ -15,9 +18,6 @@
     "result": {
       "item": "minecraft:ice",
       "count": 9
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

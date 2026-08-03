@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:gunpowder"
@@ -21,9 +24,6 @@
     "result": {
       "item": "minecraft:fire_charge",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

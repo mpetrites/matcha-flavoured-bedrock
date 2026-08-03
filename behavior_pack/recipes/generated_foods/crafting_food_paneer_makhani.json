@@ -7,36 +7,36 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "EMS",
-      "TPT",
-      " B "
+      "BFD",
+      "CAC",
+      " E "
     ],
     "key": {
-      "P": {
+      "A": {
         "item": "matcha:cheese"
       },
-      "E": {
+      "B": {
         "item": "minecraft:glowstone_dust"
       },
-      "T": {
+      "C": {
         "item": "minecraft:beetroot"
       },
-      "S": {
+      "D": {
         "item": "minecraft:sugar"
       },
-      "B": {
+      "E": {
         "item": "minecraft:bowl"
       },
-      "M": {
+      "F": {
         "item": "matcha:milk_bottle"
       }
     },
     "result": {
       "item": "matcha:crafting_paneer_makhani"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

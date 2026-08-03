@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "# #",
-      "E E",
-      "#C#"
+      "A A",
+      "C C",
+      "ABA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:mud_bricks"
       },
-      "C": {
+      "B": {
         "item": "matcha:campfire"
       },
-      "E": {
+      "C": {
         "item": "minecraft:packed_mud"
       }
     },
     "result": {
       "item": "minecraft:smoker"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

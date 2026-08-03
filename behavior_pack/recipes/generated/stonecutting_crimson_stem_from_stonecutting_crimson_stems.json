@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:crimson_hyphae"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:crimson_stem"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

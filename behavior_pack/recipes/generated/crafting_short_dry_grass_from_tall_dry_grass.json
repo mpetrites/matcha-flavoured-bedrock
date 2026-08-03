@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:tall_dry_grass"
@@ -15,9 +18,6 @@
     "result": {
       "item": "minecraft:short_dry_grass",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

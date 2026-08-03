@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "X",
-      "#",
-      "#"
+      "B",
+      "A",
+      "A"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:stick"
       },
-      "X": {
+      "B": {
         "item": "minecraft:oak_planks"
       }
     },
     "result": {
       "item": "matcha:wooden_shovel"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

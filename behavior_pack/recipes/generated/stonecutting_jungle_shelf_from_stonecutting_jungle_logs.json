@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:jungle_log"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:jungle_shelf"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

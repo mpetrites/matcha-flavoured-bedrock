@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "aba",
-      "FBF",
-      "aFa"
+      "DCD",
+      "BAB",
+      "DBD"
     ],
     "key": {
-      "B": {
+      "A": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "B": {
         "item": "minecraft:echo_shard"
       },
-      "b": {
-        "item": "minecraft:iron_hoe"
+      "C": {
+        "item": "matcha:iron_hoe"
       },
-      "a": {
+      "D": {
         "item": "minecraft:sculk"
       }
     },
     "result": {
       "item": "matcha:blessing_swift_sneak_soul_speed"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

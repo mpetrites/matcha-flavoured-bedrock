@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:weathered_copper"
@@ -15,9 +18,6 @@
     "result": {
       "item": "minecraft:weathered_copper_bars",
       "count": 36
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

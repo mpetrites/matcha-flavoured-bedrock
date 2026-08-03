@@ -786,26 +786,6 @@ export const FOOD_EFFECTS = {
       ]
     }
   ],
-  "matcha:dried_kelp_from_dried_kelp_block": [
-    {
-      "type": "apply_effects",
-      "probability": 1,
-      "effects": [
-        {
-          "id": "regeneration",
-          "duration": 12,
-          "amplifier": 2,
-          "showParticles": false
-        },
-        {
-          "id": "water_breathing",
-          "duration": 200,
-          "amplifier": 0,
-          "showParticles": false
-        }
-      ]
-    }
-  ],
   "matcha:french_toast": [
     {
       "type": "apply_effects",

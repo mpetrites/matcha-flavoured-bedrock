@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "X X",
-      "XXX",
-      "XXX"
+      "A A",
+      "AAA",
+      "AAA"
     ],
     "key": {
-      "X": {
+      "A": {
         "item": "minecraft:copper_ingot"
       }
     },
     "result": {
       "item": "matcha:copper_chestplate"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

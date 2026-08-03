@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "CLC",
-      "WBW",
+      "BDB",
+      "CAC",
       "   "
     ],
     "key": {
-      "B": {
+      "A": {
         "item": "minecraft:enchanted_book"
       },
-      "C": {
+      "B": {
         "item": "minecraft:emerald"
       },
-      "W": {
+      "C": {
         "item": "minecraft:white_wool"
       },
-      "L": {
-        "item": "minecraft:leather_boots"
+      "D": {
+        "item": "matcha:leather_boots"
       }
     },
     "result": {
       "item": "matcha:blessing_traversal"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

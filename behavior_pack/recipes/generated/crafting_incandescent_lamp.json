@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "GGG",
-      "GRG",
-      "GGG"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "G": {
+      "A": {
         "item": "minecraft:glass"
       },
-      "R": {
+      "B": {
         "item": "minecraft:redstone"
       }
     },
     "result": {
       "item": "minecraft:redstone_lamp",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

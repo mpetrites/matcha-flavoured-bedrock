@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:nether_star"
@@ -15,9 +18,6 @@
     "result": {
       "item": "matcha:divine_fragment",
       "count": 9
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

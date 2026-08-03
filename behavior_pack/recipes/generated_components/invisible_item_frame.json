@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "#X#",
-      "###"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:stick"
       },
-      "X": {
+      "B": {
         "item": "minecraft:glass_pane"
       }
     },
     "result": {
       "item": "matcha:invisible_item_frame"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

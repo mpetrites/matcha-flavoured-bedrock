@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:honey_bottle"
@@ -23,9 +26,6 @@
     ],
     "result": {
       "item": "matcha:mead"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

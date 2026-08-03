@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "#S#",
-      "#C#",
-      "###"
+      "ACA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:iron_ingot"
       },
-      "C": {
+      "B": {
         "item": "minecraft:cobbled_deepslate"
       },
-      "S": {
+      "C": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "minecraft:netherite_upgrade_smithing_template"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

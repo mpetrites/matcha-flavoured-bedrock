@@ -7,23 +7,23 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "#s#",
-      " # "
+      "ABA",
+      " A "
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:diamond_block"
       },
-      "s": {
+      "B": {
         "item": "matcha:divine_fragment"
       }
     },
     "result": {
       "item": "matcha:heart_container"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

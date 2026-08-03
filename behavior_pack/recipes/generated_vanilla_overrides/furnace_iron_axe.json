@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:iron_axe",
+    "input": "matcha:iron_axe",
     "output": "minecraft:iron_ingot"
   }
 }

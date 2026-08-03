@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "I I",
-      "ICI",
-      " I "
+      "B B",
+      "BAB",
+      " B "
     ],
     "key": {
-      "C": {
+      "A": {
         "item": "minecraft:chest"
       },
-      "I": {
+      "B": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "minecraft:hopper",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

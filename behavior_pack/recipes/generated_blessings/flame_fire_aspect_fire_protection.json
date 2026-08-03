@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "ESE",
-      "SBS",
-      "ESE"
+      "CAC",
+      "ABA",
+      "CAC"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:fire_charge"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "E": {
+      "C": {
         "item": "minecraft:gold_ingot"
       }
     },
     "result": {
       "item": "matcha:blessing_flame_fire_aspect_fire_protection"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

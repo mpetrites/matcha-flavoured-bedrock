@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:crimson_fungus"
@@ -26,9 +29,6 @@
     ],
     "result": {
       "item": "matcha:crimson_stroganoff"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

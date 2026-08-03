@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:mossy_cobblestone_slab"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:mossy_cobblestone"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

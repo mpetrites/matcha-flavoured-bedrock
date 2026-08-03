@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SbS",
-      "FBF",
-      "SFS"
+      "ADA",
+      "CBC",
+      "ACA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:arrow"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "C": {
         "item": "minecraft:porkchop"
       },
-      "b": {
+      "D": {
         "item": "minecraft:prismarine_crystals"
       }
     },
     "result": {
       "item": "matcha:blessing_power_multishot"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

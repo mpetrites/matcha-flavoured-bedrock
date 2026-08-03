@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:diamond_leggings",
+    "input": "matcha:diamond_leggings",
     "output": "minecraft:diamond"
   }
 }

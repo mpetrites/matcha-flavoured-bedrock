@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:brown_mushroom_block"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:brown_mushroom"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

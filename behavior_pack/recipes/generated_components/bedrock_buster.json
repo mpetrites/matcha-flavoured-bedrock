@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "XXX",
-      "X#X",
-      "XXX"
+      "BBB",
+      "BAB",
+      "BBB"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "matcha:divine_fragment"
       },
-      "X": {
+      "B": {
         "item": "minecraft:tnt"
       }
     },
     "result": {
       "item": "matcha:bedrock_buster"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

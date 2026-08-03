@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:copper_door"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:exposed_copper_door"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

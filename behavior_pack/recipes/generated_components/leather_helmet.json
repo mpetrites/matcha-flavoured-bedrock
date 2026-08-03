@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "XXX",
-      "X X"
+      "AAA",
+      "A A"
     ],
     "key": {
-      "X": {
+      "A": {
         "item": "minecraft:rabbit_hide"
       }
     },
     "result": {
       "item": "matcha:leather_helmet"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

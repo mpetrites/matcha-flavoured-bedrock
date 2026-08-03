@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:bamboo_mosaic"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:bamboo_button"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

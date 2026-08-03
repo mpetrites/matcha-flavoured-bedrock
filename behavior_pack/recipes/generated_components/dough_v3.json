@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:brown_egg"
@@ -24,9 +27,6 @@
     "result": {
       "item": "matcha:dough",
       "count": 3
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

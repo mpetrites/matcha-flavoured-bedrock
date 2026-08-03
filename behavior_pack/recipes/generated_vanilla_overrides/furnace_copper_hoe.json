@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:copper_hoe",
+    "input": "matcha:copper_hoe",
     "output": "minecraft:copper_ingot"
   }
 }

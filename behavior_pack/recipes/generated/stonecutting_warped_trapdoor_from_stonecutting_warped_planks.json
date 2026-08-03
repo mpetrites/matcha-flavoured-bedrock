@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:warped_planks"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:warped_trapdoor"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

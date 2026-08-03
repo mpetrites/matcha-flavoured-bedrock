@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "TTT",
-      "TST",
-      "TTT"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "T": {
+      "A": {
         "item": "minecraft:torch"
       },
-      "S": {
+      "B": {
         "item": "minecraft:soul_sand"
       }
     },
     "result": {
       "item": "minecraft:soul_torch",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

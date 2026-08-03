@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:iron_ingot"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:iron_trapdoor"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,36 +7,36 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "EMS",
-      "TPT",
-      " B "
+      "BFD",
+      "CAC",
+      " E "
     ],
     "key": {
-      "P": {
-        "item": "minecraft:cooked_cod"
-      },
-      "E": {
-        "item": "minecraft:glowstone_dust"
-      },
-      "T": {
-        "item": "minecraft:green_dye"
-      },
-      "S": {
-        "item": "minecraft:sugar"
+      "A": {
+        "item": "matcha:cooked_cod"
       },
       "B": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "C": {
+        "item": "minecraft:green_dye"
+      },
+      "D": {
+        "item": "minecraft:sugar"
+      },
+      "E": {
         "item": "minecraft:bowl"
       },
-      "M": {
+      "F": {
         "item": "matcha:milk_bottle"
       }
     },
     "result": {
       "item": "matcha:crafting_green_curry"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "DX",
-      "XD"
+      "AB",
+      "BA"
     ],
     "key": {
-      "D": {
+      "A": {
         "item": "minecraft:prismarine"
       },
-      "X": {
+      "B": {
         "item": "minecraft:glowstone_dust"
       }
     },
     "result": {
       "item": "minecraft:sea_lantern",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

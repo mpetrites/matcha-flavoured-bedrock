@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "# #",
-      " # "
+      "A A",
+      " A "
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "minecraft:bucket"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

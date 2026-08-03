@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:copper_leggings",
+    "input": "matcha:copper_leggings",
     "output": "minecraft:copper_ingot"
   }
 }

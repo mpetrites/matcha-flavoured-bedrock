@@ -7,23 +7,23 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " ~",
-      "O"
+      " B",
+      "A"
     ],
     "key": {
-      "O": {
+      "A": {
         "item": "minecraft:paper"
       },
-      "~": {
+      "B": {
         "item": "minecraft:string"
       }
     },
     "result": {
       "item": "minecraft:name_tag"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -1,8 +1,13 @@
 # Remaining parity and known discrepancies
 
 Baseline: official Matcha Flavoured Java 1.03 compared with Bedrock Alpha
-0.11.8. The source release, hashes, and expected inventory are pinned in
+0.12.6. The source release, hashes, and expected inventory are pinned in
 `tools/upstream_baseline.json`; machine-readable audit reports live in `docs/`.
+
+The static audit accounts for all 4,900 upstream files in 42 source surfaces.
+This ledger therefore lists semantic differences, engine limitations, and
+in-game verification—not unexamined source categories. See
+`docs/full-parity-audit.json` for the exhaustive ownership map.
 
 Completed migration milestones are intentionally omitted from this file. The
 README describes shipped coverage; this ledger contains only work or behavior
@@ -78,9 +83,8 @@ that still differs from the pinned Java source.
   and fog colors. Bedrock retains its terrain/carvers/features and weighted
   biome spawn tables; vanilla dimension geometry and lighting cannot be
   replaced safely. See `docs/WORLDGEN_PORT.md` for the field-level evaluation.
-- Sixteen colored-banner recipes are omitted because the Java result IDs are
-  not valid Bedrock item identifiers. Golden and Labyrinthine use native
-  Bedrock record events `11` and `cat`, with those two events overridden by the
+- Golden and Labyrinthine use native Bedrock record events `11` and `cat`,
+  with those two events overridden by the
   resource pack. Consequently, vanilla Disc 11 and Cat also play the Matcha
   tracks while this resource pack is active.
 - The official 1.03 Wither-fight experiment states that it is not implemented;
@@ -94,4 +98,4 @@ that still differs from the pinned Java source.
 - Complete a survival playthrough from a new world through Adamant, including
   death/health rules, villagers, structures, loot, and the End reward.
 - Re-run the full static parity suite after each source or target-engine update;
-  the current pinned 1.03 audit passes every checker listed in `tools/README.md`.
+  the current pinned 1.03 audit passes all 35 build stages, including packaging.

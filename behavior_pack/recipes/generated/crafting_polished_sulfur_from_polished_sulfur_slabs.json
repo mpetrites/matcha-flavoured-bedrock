@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:polished_sulfur_slab"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:polished_sulfur"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

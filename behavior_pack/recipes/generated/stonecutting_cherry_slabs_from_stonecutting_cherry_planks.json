@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:cherry_planks"
@@ -15,9 +18,6 @@
     "result": {
       "item": "minecraft:cherry_slab",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

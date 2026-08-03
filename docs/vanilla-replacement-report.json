@@ -1,9 +1,11 @@
 {
-  "singleton_replacements": 79,
-  "ambiguous_bases": 43,
+  "singleton_replacements": 105,
+  "ambiguous_bases": 17,
   "replacements": {
+    "minecraft:baked_potato": "matcha:baked_potato",
     "minecraft:beetroot_soup": "matcha:milk_bottle",
     "minecraft:blaze_rod": "matcha:stabilised_estus",
+    "minecraft:bread": "matcha:bread",
     "minecraft:breeze_rod": "matcha:baked_pumpkin",
     "minecraft:campfire": "matcha:campfire",
     "minecraft:chainmail_boots": "matcha:chainmail_boots",
@@ -12,19 +14,33 @@
     "minecraft:chainmail_leggings": "matcha:chainmail_leggings",
     "minecraft:cooked_beef": "matcha:cooked_beef",
     "minecraft:cooked_chicken": "matcha:cooked_chicken",
+    "minecraft:cooked_cod": "matcha:cooked_cod",
     "minecraft:cooked_mutton": "matcha:cooked_mutton",
     "minecraft:cooked_porkchop": "matcha:cooked_porkchop",
     "minecraft:cooked_rabbit": "matcha:cooked_rabbit",
     "minecraft:cooked_salmon": "matcha:cooked_salmon",
     "minecraft:cookie": "matcha:cheese",
+    "minecraft:copper_axe": "matcha:copper_axe",
+    "minecraft:copper_boots": "matcha:copper_boots",
+    "minecraft:copper_chestplate": "matcha:copper_chestplate",
+    "minecraft:copper_helmet": "matcha:copper_helmet",
+    "minecraft:copper_hoe": "matcha:copper_hoe",
+    "minecraft:copper_leggings": "matcha:copper_leggings",
     "minecraft:copper_pickaxe": "matcha:copper_pickaxe",
     "minecraft:copper_shovel": "matcha:copper_shovel",
     "minecraft:copper_spear": "matcha:copper_spear",
     "minecraft:copper_sword": "matcha:copper_sword",
+    "minecraft:diamond_axe": "matcha:diamond_axe",
+    "minecraft:diamond_boots": "matcha:diamond_boots",
+    "minecraft:diamond_chestplate": "matcha:diamond_chestplate",
+    "minecraft:diamond_helmet": "matcha:diamond_helmet",
+    "minecraft:diamond_hoe": "matcha:diamond_hoe",
+    "minecraft:diamond_leggings": "matcha:diamond_leggings",
     "minecraft:diamond_pickaxe": "matcha:diamond_pickaxe",
     "minecraft:diamond_shovel": "matcha:diamond_shovel",
     "minecraft:diamond_spear": "matcha:diamond_spear",
     "minecraft:diamond_sword": "matcha:diamond_sword",
+    "minecraft:dried_kelp": "matcha:dried_kelp",
     "minecraft:elytra": "matcha:bronze_elytra",
     "minecraft:enderman_spawn_egg": "matcha:flour",
     "minecraft:endermite_spawn_egg": "matcha:benzene",
@@ -43,10 +59,20 @@
     "minecraft:golden_shovel": "matcha:golden_shovel",
     "minecraft:golden_spear": "matcha:golden_spear",
     "minecraft:golden_sword": "matcha:golden_sword",
+    "minecraft:iron_axe": "matcha:iron_axe",
+    "minecraft:iron_boots": "matcha:iron_boots",
+    "minecraft:iron_chestplate": "matcha:iron_chestplate",
+    "minecraft:iron_helmet": "matcha:iron_helmet",
+    "minecraft:iron_hoe": "matcha:iron_hoe",
+    "minecraft:iron_leggings": "matcha:iron_leggings",
     "minecraft:iron_pickaxe": "matcha:iron_pickaxe",
+    "minecraft:iron_shovel": "matcha:iron_shovel",
     "minecraft:iron_spear": "matcha:iron_spear",
     "minecraft:iron_sword": "matcha:iron_sword",
     "minecraft:item_frame": "matcha:invisible_item_frame",
+    "minecraft:leather_boots": "matcha:leather_boots",
+    "minecraft:leather_chestplate": "matcha:leather_chestplate",
+    "minecraft:leather_helmet": "matcha:leather_helmet",
     "minecraft:mace": "matcha:mace",
     "minecraft:magma_cream": "matcha:sweet_berry_mash",
     "minecraft:magma_cube_spawn_egg": "matcha:flour_bag",
@@ -83,14 +109,6 @@
     "minecraft:zombified_piglin_spawn_egg": "matcha:uncooked_green_curry"
   },
   "ambiguous": {
-    "minecraft:baked_potato": [
-      "matcha:baked_potato",
-      "matcha:crafting_stuffed_mushrooms"
-    ],
-    "minecraft:bread": [
-      "matcha:bread",
-      "matcha:naan"
-    ],
     "minecraft:chicken_spawn_egg": [
       "matcha:bedrock_buster",
       "matcha:warding_stone"
@@ -98,68 +116,6 @@
     "minecraft:compass": [
       "matcha:copper_compass",
       "matcha:golden_compass"
-    ],
-    "minecraft:cooked_cod": [
-      "matcha:cooked_cod",
-      "matcha:cooked_pufferfish"
-    ],
-    "minecraft:copper_axe": [
-      "matcha:copper_axe",
-      "matcha:copper_dolabra"
-    ],
-    "minecraft:copper_boots": [
-      "matcha:bronze_boots",
-      "matcha:copper_boots",
-      "matcha:shakudo_boots"
-    ],
-    "minecraft:copper_chestplate": [
-      "matcha:bronze_chestplate",
-      "matcha:copper_chestplate",
-      "matcha:shakudo_chestplate"
-    ],
-    "minecraft:copper_helmet": [
-      "matcha:amber_earrings",
-      "matcha:bronze_helmet",
-      "matcha:copper_helmet",
-      "matcha:shakudo_helmet"
-    ],
-    "minecraft:copper_hoe": [
-      "matcha:copper_hoe",
-      "matcha:copper_mattock"
-    ],
-    "minecraft:copper_leggings": [
-      "matcha:bronze_leggings",
-      "matcha:copper_leggings",
-      "matcha:shakudo_leggings"
-    ],
-    "minecraft:diamond_axe": [
-      "matcha:diamond_axe",
-      "matcha:diamond_dolabra",
-      "matcha:electrum_axe"
-    ],
-    "minecraft:diamond_boots": [
-      "matcha:diamond_boots",
-      "matcha:electrum_boots"
-    ],
-    "minecraft:diamond_chestplate": [
-      "matcha:diamond_chestplate",
-      "matcha:electrum_chestplate"
-    ],
-    "minecraft:diamond_helmet": [
-      "matcha:diamond_helmet",
-      "matcha:electrum_helmet"
-    ],
-    "minecraft:diamond_hoe": [
-      "matcha:diamond_hoe",
-      "matcha:diamond_mattock"
-    ],
-    "minecraft:diamond_leggings": [
-      "matcha:diamond_leggings",
-      "matcha:electrum_leggings"
-    ],
-    "minecraft:dried_kelp": [
-      "matcha:dried_kelp",
-      "matcha:dried_kelp_from_dried_kelp_block"
     ],
     "minecraft:enchanted_book": [
       "matcha:bane_of_arthopods",
@@ -185,47 +141,6 @@
       "matcha:warding",
       "matcha:wind_burst_anemos",
       "matcha:zephyr"
-    ],
-    "minecraft:iron_axe": [
-      "matcha:iron_axe",
-      "matcha:iron_dolabra"
-    ],
-    "minecraft:iron_boots": [
-      "matcha:iron_boots",
-      "matcha:steel_boots"
-    ],
-    "minecraft:iron_chestplate": [
-      "matcha:iron_chestplate",
-      "matcha:steel_chestplate"
-    ],
-    "minecraft:iron_helmet": [
-      "matcha:iron_helmet",
-      "matcha:steel_helmet"
-    ],
-    "minecraft:iron_hoe": [
-      "matcha:iron_hoe",
-      "matcha:iron_mattock"
-    ],
-    "minecraft:iron_leggings": [
-      "matcha:iron_leggings",
-      "matcha:steel_leggings"
-    ],
-    "minecraft:iron_shovel": [
-      "matcha:iron_shovel",
-      "matcha:snow_shovel"
-    ],
-    "minecraft:leather_boots": [
-      "matcha:gilded_leather_boots",
-      "matcha:leather_boots",
-      "matcha:sturdy_leather_boots"
-    ],
-    "minecraft:leather_chestplate": [
-      "matcha:leather_chestplate",
-      "matcha:sturdy_leather_chestplate"
-    ],
-    "minecraft:leather_helmet": [
-      "matcha:leather_helmet",
-      "matcha:sturdy_leather_helmet"
     ],
     "minecraft:leather_leggings": [
       "matcha:leather_pants",

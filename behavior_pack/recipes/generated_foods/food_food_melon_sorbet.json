@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:melon_slice"
@@ -23,9 +26,6 @@
     ],
     "result": {
       "item": "matcha:melon_sorbet"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

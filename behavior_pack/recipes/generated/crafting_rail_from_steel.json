@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "X X",
-      "X#X",
-      "X X"
+      "B B",
+      "BAB",
+      "B B"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:stick"
       },
-      "X": {
+      "B": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "minecraft:rail",
       "count": 64
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,28 +7,28 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SHS",
-      "HRH",
-      "SHS"
+      "CAC",
+      "ABA",
+      "CAC"
     ],
     "key": {
-      "H": {
+      "A": {
         "item": "minecraft:copper_ingot"
       },
-      "R": {
+      "B": {
         "item": "minecraft:redstone"
       },
-      "S": {
+      "C": {
         "item": "minecraft:stone_bricks"
       }
     },
     "result": {
       "item": "minecraft:target",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

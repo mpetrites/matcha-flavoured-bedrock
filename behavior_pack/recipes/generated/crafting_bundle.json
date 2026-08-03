@@ -7,23 +7,23 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "-",
-      "#"
+      "B",
+      "A"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:rabbit_hide"
       },
-      "-": {
+      "B": {
         "item": "minecraft:string"
       }
     },
     "result": {
       "item": "minecraft:bundle"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

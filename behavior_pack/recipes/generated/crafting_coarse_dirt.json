@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "DGD",
-      "GDG",
-      "DDD"
+      "ABA",
+      "BAB",
+      "AAA"
     ],
     "key": {
-      "D": {
+      "A": {
         "item": "minecraft:dirt"
       },
-      "G": {
+      "B": {
         "item": "minecraft:flint"
       }
     },
     "result": {
       "item": "minecraft:coarse_dirt",
       "count": 6
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

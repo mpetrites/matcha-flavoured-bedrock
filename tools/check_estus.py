@@ -15,8 +15,9 @@ for mob in ("blaze","zombie","husk","drowned","zombie_villager"):
 for effect in ('"regeneration", 40','"resistance", 100'):
     check(f"effect {effect}",effect in script,effect)
 stable=json.loads((ROOT/"behavior_pack/recipes/generated_components/stabilised_estus.json").read_text())["minecraft:recipe_shaped"]
-check("stabilised Estus uses ash",stable["key"]["E"]["item"]=="matcha:estus_ash",stable["key"]["E"])
-check("stabilised Estus uses benzene",stable["key"]["B"]["item"]=="matcha:benzene",stable["key"]["B"])
+stable_items={entry["item"] for entry in stable["key"].values()}
+check("stabilised Estus uses ash","matcha:estus_ash" in stable_items,sorted(stable_items))
+check("stabilised Estus uses benzene","matcha:benzene" in stable_items,sorted(stable_items))
 flask=json.loads((ROOT/"behavior_pack/recipes/generated_foods/potions_food_estus_flask.json").read_text())["minecraft:recipe_shapeless"]
 ash=sum(x["item"]=="matcha:estus_ash" for x in flask["ingredients"])
 check("Estus Flask uses two ash",ash==2,ash)

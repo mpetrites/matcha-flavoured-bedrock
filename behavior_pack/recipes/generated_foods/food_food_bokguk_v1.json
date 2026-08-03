@@ -7,9 +7,12 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
-        "item": "minecraft:dried_kelp"
+        "item": "matcha:dried_kelp"
       },
       {
         "item": "minecraft:carrot"
@@ -18,7 +21,7 @@
         "item": "minecraft:pufferfish"
       },
       {
-        "item": "minecraft:cooked_cod"
+        "item": "matcha:cooked_cod"
       },
       {
         "item": "matcha:braised_brown_mushroom"
@@ -29,9 +32,6 @@
     ],
     "result": {
       "item": "matcha:bokguk"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

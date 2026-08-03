@@ -1,6 +1,10 @@
 {
-  "generated_count": 141,
+  "generated_count": 145,
   "generated": [
+    {
+      "vanilla_identifier": "minecraft:baked_potato",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_baked_potato.json"
+    },
     {
       "vanilla_identifier": "minecraft:beetroot_soup",
       "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_milk_bottle.json"
@@ -8,6 +12,10 @@
     {
       "vanilla_identifier": "minecraft:blaze_rod",
       "matcha_recipe": "behavior_pack/recipes/generated_components/stabilised_estus.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:bread",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_bread.json"
     },
     {
       "vanilla_identifier": "minecraft:breeze_rod",
@@ -44,6 +52,10 @@
     {
       "vanilla_identifier": "minecraft:cooked_chicken",
       "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_chicken.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:cooked_cod",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_cooked_cod.json"
     },
     {
       "vanilla_identifier": "minecraft:cooked_mutton",
@@ -144,6 +156,10 @@
     {
       "vanilla_identifier": "minecraft:diamond_sword",
       "matcha_recipe": "behavior_pack/recipes/generated_components/diamond_sword.json"
+    },
+    {
+      "vanilla_identifier": "minecraft:dried_kelp",
+      "matcha_recipe": "behavior_pack/recipes/generated_foods/food_food_dried_kelp.json"
     },
     {
       "vanilla_identifier": "minecraft:elytra",

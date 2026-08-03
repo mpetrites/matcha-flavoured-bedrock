@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " b ",
-      "FBF",
-      " F "
+      " C ",
+      "BAB",
+      " B "
     ],
     "key": {
-      "B": {
+      "A": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "B": {
         "item": "minecraft:nautilus_shell"
       },
-      "b": {
+      "C": {
         "item": "minecraft:azure_bluet"
       }
     },
     "result": {
       "item": "matcha:blessing_lure_luck_of_the_sea"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "X X",
-      "X X"
+      "A A",
+      "A A"
     ],
     "key": {
-      "X": {
+      "A": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "matcha:iron_boots"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

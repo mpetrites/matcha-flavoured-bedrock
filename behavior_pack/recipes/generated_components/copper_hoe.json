@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "XX",
-      " #",
-      " #"
+      "BB",
+      " A",
+      " A"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:stick"
       },
-      "X": {
+      "B": {
         "item": "minecraft:copper_ingot"
       }
     },
     "result": {
       "item": "matcha:copper_hoe"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

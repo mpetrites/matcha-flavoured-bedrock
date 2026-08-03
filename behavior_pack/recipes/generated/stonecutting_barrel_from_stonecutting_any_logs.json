@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:oak_log"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:barrel"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

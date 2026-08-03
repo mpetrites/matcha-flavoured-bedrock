@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SS",
-      "SS"
+      "AA",
+      "AA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:cinnabar_bricks"
       }
     },
     "result": {
       "item": "minecraft:chiseled_cinnabar",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

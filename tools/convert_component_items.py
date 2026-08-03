@@ -27,9 +27,11 @@ CUSTOM_TEXTURE_STEMS={"dough","flour","warding_shield"}
 ARMOR_SLOTS={"head":"slot.armor.head","chest":"slot.armor.chest","legs":"slot.armor.legs","feet":"slot.armor.feet"}
 BEDROCK_RECORD_EVENTS={"golden":"11","labyrinthine":"cat"}
 JUKEBOX_SONGS={}
+JUKEBOX_DESCRIPTIONS={}
 for song_path in (JAVA/"data/main/jukebox_song").glob("*.json"):
     song=json.loads(song_path.read_text())
     event=BEDROCK_RECORD_EVENTS.get(song_path.stem)
+    JUKEBOX_DESCRIPTIONS[f"main:{song_path.stem}"]=song.get("description")
     JUKEBOX_SONGS[f"main:{song_path.stem}"]={
         "comparator_signal":song.get("comparator_output",1),
         "duration":song.get("length_in_seconds",0),
@@ -145,7 +147,8 @@ for p,d,c in sources:
         components["minecraft:repairable"]={"repair_items":[{"items":repair_items,"repair_amount":max(1,c["minecraft:max_damage"]//4)}]}
     item={"format_version":"1.21.100","minecraft:item":{"description":{"identifier":ident,"menu_category":{"category":"equipment" if c.get("minecraft:max_damage") else "items"}},"components":components}}
     (ITEMS/f"{stem}.json").write_text(json.dumps(item,indent=2)+"\n")
-    names.append(f"item.{ident}.name={display(c,p.stem,lang)}")
+    name=JUKEBOX_DESCRIPTIONS.get(jukebox) or display(c,p.stem,lang)
+    names.append(f"item.{ident}.name={name}")
     supported={"minecraft:item_name","minecraft:custom_name","minecraft:item_model","minecraft:max_stack_size","minecraft:max_damage","minecraft:attribute_modifiers","minecraft:tool","minecraft:equippable","minecraft:repairable","minecraft:lore","minecraft:tooltip_display","minecraft:enchantment_glint_override","minecraft:fire_resistant","minecraft:unbreakable","minecraft:rarity","minecraft:jukebox_playable"}
     audit.append({"source":source_name,"item":ident,"status":"generated","untranslated_components":sorted(set(c)-supported)})
 for p,d,c in sources:

@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:warped_hyphae"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:stripped_warped_hyphae"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

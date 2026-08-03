@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "FSF",
-      "FBF",
-      "FFF"
+      "CAC",
+      "CBC",
+      "CCC"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:resin_brick"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "C": {
         "item": "minecraft:iron_block"
       }
     },
     "result": {
       "item": "matcha:blessing_density_knockback_punch"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

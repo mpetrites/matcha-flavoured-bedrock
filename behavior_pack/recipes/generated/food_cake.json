@@ -7,9 +7,12 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "sAs",
-      "BEB",
+      "EAE",
+      "BDB",
       "CCC"
     ],
     "key": {
@@ -22,18 +25,15 @@
       "C": {
         "item": "matcha:flour"
       },
-      "E": {
+      "D": {
         "item": "minecraft:egg"
       },
-      "s": {
+      "E": {
         "item": "minecraft:sweet_berries"
       }
     },
     "result": {
       "item": "minecraft:cake"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

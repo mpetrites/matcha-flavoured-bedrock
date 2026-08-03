@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:wheat_seeds"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:flour"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

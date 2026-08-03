@@ -7,12 +7,15 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:brown_mushroom"
       },
       {
-        "item": "minecraft:bread"
+        "item": "matcha:bread"
       },
       {
         "item": "matcha:cheese"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:crafting_stuffed_mushrooms"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

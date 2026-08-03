@@ -7,28 +7,28 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "GRG",
-      "RPR",
-      "GRG"
+      "ABA",
+      "BCB",
+      "ABA"
     ],
     "key": {
-      "G": {
+      "A": {
         "item": "minecraft:glow_ink_sac"
       },
-      "R": {
+      "B": {
         "item": "minecraft:glass"
       },
-      "P": {
+      "C": {
         "item": "minecraft:yellow_dye"
       }
     },
     "result": {
       "item": "minecraft:ochre_froglight",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "PP",
-      "PP"
+      "AA",
+      "AA"
     ],
     "key": {
-      "P": {
+      "A": {
         "item": "minecraft:prismarine"
       }
     },
     "result": {
       "item": "minecraft:prismarine_bricks",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

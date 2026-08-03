@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "@@",
-      "##",
-      "##"
+      "BB",
+      "AA",
+      "AA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:oak_planks"
       },
-      "@": {
+      "B": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "minecraft:smithing_table"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

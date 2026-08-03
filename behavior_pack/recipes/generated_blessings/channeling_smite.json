@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "ESE",
-      "SBS",
-      "EIE"
+      "DAD",
+      "ABA",
+      "DCD"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:prismarine_crystals"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "I": {
+      "C": {
         "item": "minecraft:iron_ingot"
       },
-      "E": {
+      "D": {
         "item": "minecraft:glowstone_dust"
       }
     },
     "result": {
       "item": "matcha:blessing_channeling_smite"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "ASA",
-      "ABA",
-      "AAA"
+      "CAC",
+      "CBC",
+      "CCC"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:ender_pearl"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "A": {
+      "C": {
         "item": "minecraft:arrow"
       }
     },
     "result": {
       "item": "matcha:blessing_infinity"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,13 +7,16 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " S ",
-      "SBS",
-      " S "
+      " A ",
+      "ABA",
+      " A "
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:ender_pearl"
       },
       "B": {
@@ -22,9 +25,6 @@
     },
     "result": {
       "item": "matcha:blessing_reach"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

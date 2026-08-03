@@ -16,6 +16,10 @@ for path in (ROOT / "behavior_pack/items").rglob("*.json"):
     textures = icon.get("textures", {}) if isinstance(icon, dict) else {}
     if identifier:
         ITEMS[identifier] = textures.get("default") if isinstance(textures, dict) else None
+BLOCKS = {
+    json.loads(path.read_text()).get("minecraft:block", {}).get("description", {}).get("identifier")
+    for path in (ROOT / "behavior_pack/blocks").rglob("*.json")
+}
 
 used = set()
 def visit(value):
@@ -34,6 +38,8 @@ for path in (ROOT / "behavior_pack/recipes").rglob("*.json"):
 problems = []
 required_dimensions = {"matcha:warding_shield": (16, 16)}
 for identifier in sorted(item for item in used if item.startswith("matcha:")):
+    if identifier in BLOCKS:
+        continue
     key = ITEMS.get(identifier)
     if not key:
         problems.append({"item": identifier, "problem": "missing item definition or icon key"})

@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SSS",
-      "SBS",
-      "SHS"
+      "AAA",
+      "ABA",
+      "ACA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:wind_charge"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "H": {
+      "C": {
         "item": "minecraft:heart_of_the_sea"
       }
     },
     "result": {
       "item": "matcha:blessing_wind_burst_anemos"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

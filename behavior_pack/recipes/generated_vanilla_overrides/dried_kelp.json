@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:dried_kelp"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:kelp",
+    "output": "matcha:dried_kelp"
+  }
+}

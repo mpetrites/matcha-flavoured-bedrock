@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:glass_bottle"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:potions_estus_flask"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

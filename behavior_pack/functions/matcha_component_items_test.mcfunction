@@ -1,5 +1,4 @@
 # Generated component-item test kit
-give @s matcha:bedrock_buster 1
 give @s matcha:benzene 1
 give @s matcha:campfire 1
 give @s matcha:carbon_rich_iron 1

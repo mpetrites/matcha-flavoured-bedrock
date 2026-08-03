@@ -1,16 +1,13 @@
 {
   "source_component_item_recipes": 104,
-  "custom_items_generated": 99,
-  "existing_items_reused": 5,
+  "custom_items_generated": 98,
+  "existing_items_reused": 6,
   "recipe_files_generated": 109,
   "items": [
     {
       "source": "data/crafting/recipe/bedrock_buster.json",
       "item": "matcha:bedrock_buster",
-      "status": "generated",
-      "untranslated_components": [
-        "minecraft:entity_data"
-      ]
+      "status": "existing_item_reused"
     },
     {
       "source": "data/crafting/recipe/benzene.json",

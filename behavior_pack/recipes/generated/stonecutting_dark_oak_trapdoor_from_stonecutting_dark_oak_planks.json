@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:dark_oak_planks"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:dark_oak_trapdoor"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

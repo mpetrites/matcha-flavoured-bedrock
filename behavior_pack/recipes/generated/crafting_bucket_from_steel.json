@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "# #",
-      " # "
+      "A A",
+      " A "
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "minecraft:bucket",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

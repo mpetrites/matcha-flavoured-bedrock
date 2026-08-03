@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "CC",
-      "CC"
+      "AA",
+      "AA"
     ],
     "key": {
-      "C": {
+      "A": {
         "item": "minecraft:redstone"
       }
     },
     "result": {
       "item": "minecraft:copper_ingot"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

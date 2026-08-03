@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "#X#",
-      "###"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:oak_planks"
       },
-      "X": {
+      "B": {
         "item": "minecraft:phantom_membrane"
       }
     },
     "result": {
       "item": "minecraft:jukebox"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

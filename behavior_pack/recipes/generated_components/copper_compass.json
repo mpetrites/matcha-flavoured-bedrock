@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " # ",
-      "#X#",
-      " # "
+      " A ",
+      "ABA",
+      " A "
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:copper_ingot"
       },
-      "X": {
+      "B": {
         "item": "minecraft:redstone"
       }
     },
     "result": {
       "item": "matcha:copper_compass"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

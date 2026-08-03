@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "# #",
-      "###"
+      "AAA",
+      "A A",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:oak_planks"
       }
     },
     "result": {
       "item": "minecraft:chest"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

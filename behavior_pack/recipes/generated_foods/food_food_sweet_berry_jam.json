@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "matcha:sweet_berry_mash"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:sweet_berry_jam"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

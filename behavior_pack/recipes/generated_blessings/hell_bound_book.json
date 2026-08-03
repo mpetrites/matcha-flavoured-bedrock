@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "b",
-      "E",
-      "B"
+      "C",
+      "B",
+      "A"
     ],
     "key": {
-      "B": {
+      "A": {
         "item": "minecraft:book"
       },
-      "E": {
+      "B": {
         "item": "matcha:stabilised_estus"
       },
-      "b": {
+      "C": {
         "item": "matcha:benzene"
       }
     },
     "result": {
       "item": "matcha:blessing_hell_bound_book"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

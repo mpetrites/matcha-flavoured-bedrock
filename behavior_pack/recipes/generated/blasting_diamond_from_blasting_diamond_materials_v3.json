@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:diamond_axe",
+    "input": "matcha:diamond_axe",
     "output": "minecraft:diamond"
   }
 }

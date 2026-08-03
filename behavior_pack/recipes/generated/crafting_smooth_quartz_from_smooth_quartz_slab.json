@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:smooth_quartz_slab"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:smooth_quartz"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

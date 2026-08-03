@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "###",
-      "###"
+      "AAA",
+      "AAA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:coal"
       }
     },
     "result": {
       "item": "minecraft:coal_block"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

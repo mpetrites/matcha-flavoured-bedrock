@@ -7,28 +7,28 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "X X",
-      "X#X",
-      "XRX"
+      "C C",
+      "CAC",
+      "CBC"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:stone_pressure_plate"
       },
-      "R": {
+      "B": {
         "item": "minecraft:redstone"
       },
-      "X": {
+      "C": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "minecraft:detector_rail",
       "count": 16
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

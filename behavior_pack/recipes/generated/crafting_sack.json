@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "LLL",
-      "LCL",
-      "LLL"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "L": {
+      "A": {
         "item": "minecraft:leather"
       },
-      "C": {
+      "B": {
         "item": "minecraft:chest"
       }
     },
     "result": {
       "item": "minecraft:shulker_box"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

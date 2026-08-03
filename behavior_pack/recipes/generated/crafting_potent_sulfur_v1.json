@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "GGG",
-      "GGG",
-      "GGG"
+      "AAA",
+      "AAA",
+      "AAA"
     ],
     "key": {
-      "G": {
+      "A": {
         "item": "minecraft:gunpowder"
       }
     },
     "result": {
       "item": "minecraft:potent_sulfur"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

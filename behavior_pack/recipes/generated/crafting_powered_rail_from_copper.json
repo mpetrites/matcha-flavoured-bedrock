@@ -7,28 +7,28 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "X X",
-      "X#X",
-      "XRX"
+      "C C",
+      "CAC",
+      "CBC"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:stick"
       },
-      "R": {
+      "B": {
         "item": "minecraft:redstone"
       },
-      "X": {
+      "C": {
         "item": "minecraft:copper_ingot"
       }
     },
     "result": {
       "item": "minecraft:golden_rail",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

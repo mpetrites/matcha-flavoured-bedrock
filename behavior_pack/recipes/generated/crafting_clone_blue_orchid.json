@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:blue_orchid"
@@ -21,9 +24,6 @@
     "result": {
       "item": "minecraft:blue_orchid",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

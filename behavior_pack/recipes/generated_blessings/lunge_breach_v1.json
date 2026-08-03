@@ -7,33 +7,33 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " b ",
-      "aBc",
-      " F "
+      " C ",
+      "DAE",
+      " B "
     ],
     "key": {
-      "B": {
+      "A": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
-        "item": "minecraft:iron_helmet"
+      "B": {
+        "item": "matcha:iron_helmet"
       },
-      "b": {
+      "C": {
         "item": "minecraft:red_dye"
       },
-      "a": {
+      "D": {
         "item": "matcha:iron_sword"
       },
-      "c": {
+      "E": {
         "item": "matcha:warding_shield"
       }
     },
     "result": {
       "item": "matcha:blessing_lunge_breach"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

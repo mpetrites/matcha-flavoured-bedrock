@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:egg"
@@ -18,14 +21,11 @@
         "item": "minecraft:glowstone_dust"
       },
       {
-        "item": "minecraft:bread"
+        "item": "matcha:bread"
       }
     ],
     "result": {
       "item": "matcha:french_toast"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

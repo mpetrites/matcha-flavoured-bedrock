@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "###"
+      "AAA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "minecraft:iron_bars",
       "count": 32
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

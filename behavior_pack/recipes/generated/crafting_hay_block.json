@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "DD",
-      "DD"
+      "AA",
+      "AA"
     ],
     "key": {
-      "D": {
+      "A": {
         "item": "minecraft:wheat"
       }
     },
     "result": {
       "item": "minecraft:hay_block"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

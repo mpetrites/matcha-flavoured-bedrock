@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:bowl"
@@ -21,14 +24,11 @@
         "item": "minecraft:brown_mushroom"
       },
       {
-        "item": "minecraft:dried_kelp"
+        "item": "matcha:dried_kelp"
       }
     ],
     "result": {
       "item": "matcha:crafting_ramen"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

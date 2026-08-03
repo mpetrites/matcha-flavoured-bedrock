@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "#W",
-      "W#"
+      "AB",
+      "BA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:sandstone"
       },
-      "W": {
+      "B": {
         "item": "minecraft:red_sandstone"
       }
     },
     "result": {
       "item": "minecraft:end_bricks",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

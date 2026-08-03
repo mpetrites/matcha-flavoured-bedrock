@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:exposed_copper"
@@ -15,9 +18,6 @@
     "result": {
       "item": "minecraft:exposed_copper_chain",
       "count": 54
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

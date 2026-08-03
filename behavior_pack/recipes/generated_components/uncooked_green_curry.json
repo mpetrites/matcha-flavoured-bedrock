@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:green_dye"
@@ -29,9 +32,6 @@
     ],
     "result": {
       "item": "matcha:uncooked_green_curry"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

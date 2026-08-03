@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "matcha:flour_bag"
@@ -15,9 +18,6 @@
     "result": {
       "item": "matcha:flour",
       "count": 9
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

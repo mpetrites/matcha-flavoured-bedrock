@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " S ",
-      "SOS",
-      " S "
+      " A ",
+      "ABA",
+      " A "
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:amethyst_shard"
       },
-      "O": {
+      "B": {
         "item": "minecraft:obsidian"
       }
     },
     "result": {
       "item": "minecraft:crying_obsidian"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

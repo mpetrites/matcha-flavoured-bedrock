@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "###"
+      "AAA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "minecraft:iron_bars",
       "count": 16
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

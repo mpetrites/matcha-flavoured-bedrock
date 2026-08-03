@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " # ",
-      "#X#",
-      " # "
+      " A ",
+      "ABA",
+      " A "
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:gold_ingot"
       },
-      "X": {
+      "B": {
         "item": "minecraft:quartz"
       }
     },
     "result": {
       "item": "minecraft:clock"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

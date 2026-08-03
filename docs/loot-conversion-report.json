@@ -22,7 +22,7 @@
   "source_tables": 282,
   "converted_tables": 282,
   "generated_helper_tables": 16,
-  "generated_loot_items": 98,
+  "generated_loot_items": 39,
   "empty_sources": [
     "advancement/custom/root.json"
   ],

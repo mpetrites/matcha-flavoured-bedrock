@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "# #",
-      "###"
+      "A A",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "matcha:minecart_from_steel",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

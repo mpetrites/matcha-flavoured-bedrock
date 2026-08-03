@@ -7,21 +7,21 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SS",
-      "SS"
+      "AA",
+      "AA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:brick"
       }
     },
     "result": {
       "item": "minecraft:brick_block",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

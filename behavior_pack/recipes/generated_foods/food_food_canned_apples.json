@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "matcha:baked_apple"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:canned_apples"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

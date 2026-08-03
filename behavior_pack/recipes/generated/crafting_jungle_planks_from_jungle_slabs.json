@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:jungle_slab"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:jungle_planks"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

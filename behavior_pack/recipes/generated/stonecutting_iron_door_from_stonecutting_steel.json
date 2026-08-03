@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:resin_brick"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:iron_door"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

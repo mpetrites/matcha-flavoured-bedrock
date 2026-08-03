@@ -7,23 +7,23 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " X ",
-      "X#X"
+      " B ",
+      "BAB"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:soul_torch"
       },
-      "X": {
+      "B": {
         "item": "minecraft:iron_nugget"
       }
     },
     "result": {
       "item": "minecraft:soul_lantern"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

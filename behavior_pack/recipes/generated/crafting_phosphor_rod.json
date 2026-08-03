@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SES",
-      "SES",
-      "SES"
+      "ABA",
+      "ABA",
+      "ABA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:glass_pane"
       },
-      "E": {
+      "B": {
         "item": "minecraft:glow_ink_sac"
       }
     },
     "result": {
       "item": "minecraft:end_rod",
       "count": 6
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

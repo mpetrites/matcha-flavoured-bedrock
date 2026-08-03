@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.100",
+  "format_version": "1.21.130",
   "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "matcha:bronze_chestplate"
@@ -15,7 +15,7 @@
         "item": "minecraft:copper_ingot"
       },
       {
-        "item": "minecraft:copper_chestplate"
+        "item": "matcha:copper_chestplate"
       },
       {
         "item": "minecraft:phantom_membrane"

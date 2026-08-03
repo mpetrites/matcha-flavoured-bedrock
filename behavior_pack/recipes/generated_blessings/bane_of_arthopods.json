@@ -7,13 +7,16 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " S ",
-      "SBS",
-      " S "
+      " A ",
+      "ABA",
+      " A "
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:spider_eye"
       },
       "B": {
@@ -22,9 +25,6 @@
     },
     "result": {
       "item": "matcha:blessing_bane_of_arthopods"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:chiseled_copper"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:exposed_chiseled_copper"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

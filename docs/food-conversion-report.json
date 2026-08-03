@@ -1,10 +1,11 @@
 {
   "source_food_recipes": 120,
-  "custom_food_items": 90,
+  "custom_food_items": 89,
   "existing_items_reused": 5,
-  "new_item_definitions": 85,
+  "new_item_definitions": 84,
   "bedrock_recipe_variants": 127,
-  "scripted_food_effects": 90,
+  "scripted_food_effects": 89,
+  "scripted_splash_foods": 2,
   "textures": {
     "matcha:apple_empanada": "textures/items/generated_foods/apple_empanada",
     "matcha:baked_apple": "textures/items/generated_foods/baked_apple",
@@ -47,7 +48,6 @@
     "matcha:crafting_stuffed_mushrooms": "baked_potato",
     "matcha:crimson_stroganoff": "textures/items/generated_foods/crimson_stroganoff",
     "matcha:dried_kelp": "dried_kelp",
-    "matcha:dried_kelp_from_dried_kelp_block": "dried_kelp",
     "matcha:french_toast": "textures/items/generated_foods/french_toast",
     "matcha:fried_egg": "textures/items/generated_foods/fried_egg",
     "matcha:gimmari": "textures/items/generated_foods/gimmari",

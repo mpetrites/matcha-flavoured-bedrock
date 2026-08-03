@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "matcha:stabilised_estus"
@@ -18,9 +21,6 @@
     "result": {
       "item": "minecraft:ender_eye",
       "count": 16
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "EBE",
-      "EPE",
-      "EEE"
+      "ABA",
+      "ACA",
+      "AAA"
     ],
     "key": {
-      "E": {
+      "A": {
         "item": "matcha:estus_ash"
       },
       "B": {
         "item": "matcha:benzene"
       },
-      "P": {
+      "C": {
         "item": "minecraft:ender_pearl"
       }
     },
     "result": {
       "item": "matcha:stabilised_estus"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "#a#",
-      "###"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:disc_fragment_5"
       },
-      "a": {
+      "B": {
         "item": "minecraft:mossy_stone_bricks"
       }
     },
     "result": {
       "item": "matcha:music_disc_labyrinthine"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:acacia_trapdoor"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:acacia_slab"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

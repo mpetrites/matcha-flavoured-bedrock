@@ -7,16 +7,19 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "I I",
-      "I I",
-      "#C#"
+      "B B",
+      "B B",
+      "ACA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:smooth_stone"
       },
-      "I": {
+      "B": {
         "item": "minecraft:stone_bricks"
       },
       "C": {
@@ -25,9 +28,6 @@
     },
     "result": {
       "item": "minecraft:blast_furnace"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

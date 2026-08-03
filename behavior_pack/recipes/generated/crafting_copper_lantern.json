@@ -7,23 +7,23 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " X ",
-      "X#X"
+      " B ",
+      "BAB"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:copper_torch"
       },
-      "X": {
+      "B": {
         "item": "minecraft:copper_nugget"
       }
     },
     "result": {
       "item": "minecraft:copper_lantern"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

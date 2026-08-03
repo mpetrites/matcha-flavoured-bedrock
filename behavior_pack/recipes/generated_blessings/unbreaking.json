@@ -7,19 +7,22 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "ESE",
+      "CAC",
       "DBD",
-      "EDE"
+      "CDC"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "matcha:divine_fragment"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "E": {
+      "C": {
         "item": "minecraft:glowstone_dust"
       },
       "D": {
@@ -28,9 +31,6 @@
     },
     "result": {
       "item": "matcha:blessing_unbreaking"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

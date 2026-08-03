@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:sulfur"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:gunpowder"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

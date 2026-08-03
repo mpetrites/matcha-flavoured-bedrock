@@ -1,0 +1,292 @@
+{
+  "baseline": {
+    "project": "matcha-flavoured",
+    "version": "1.03",
+    "version_id": "2OaIqKKy",
+    "published": "2026-07-27T23:31:38.298082Z",
+    "filename": "Matcha_Flavoured_1_03.zip",
+    "url": "https://cdn.modrinth.com/data/QI0EmgZ1/versions/2OaIqKKy/Matcha_Flavoured_1_03.zip",
+    "size": 11865005,
+    "sha1": "4d40b820203b51a91473f74dd961c858889fcdb8",
+    "sha512": "46e59fba4915089dfa742e9a3147e879ba0744be9328871d67ac92e7df250847088c44c2682ab58d64fe390e16b0c97efa4039a429e852af16dcf4b2419f5a2a",
+    "inventory": {
+      "recipes": 1060,
+      "custom_enchantments": 23,
+      "blessings": 23,
+      "villager_trades": 235,
+      "trade_sets": 68,
+      "loot_tables": 282,
+      "worldgen_files": 75
+    }
+  },
+  "summary": {
+    "source_files": 4900,
+    "surfaces": 42,
+    "classified_surfaces": 42,
+    "unclassified_surfaces": 0,
+    "stale_routes": 0,
+    "status_counts": {
+      "classified": 7,
+      "converted": 23,
+      "engine-limited": 2,
+      "implemented": 10
+    },
+    "status": "pass"
+  },
+  "surfaces": [
+    {
+      "surface": "assets/matcha/sounds",
+      "files": 2,
+      "status": "converted",
+      "handling": "sound definitions"
+    },
+    {
+      "surface": "assets/minecraft/blockstates",
+      "files": 30,
+      "status": "classified",
+      "handling": "textures ported; Java geometry documented"
+    },
+    {
+      "surface": "assets/minecraft/equipment",
+      "files": 12,
+      "status": "converted",
+      "handling": "armor attachables and equipment generator"
+    },
+    {
+      "surface": "assets/minecraft/items",
+      "files": 296,
+      "status": "converted",
+      "handling": "custom item definitions/icons"
+    },
+    {
+      "surface": "assets/minecraft/lang",
+      "files": 4,
+      "status": "converted",
+      "handling": "English item and advancement names"
+    },
+    {
+      "surface": "assets/minecraft/models",
+      "files": 699,
+      "status": "classified",
+      "handling": "icons/attachables ported; Java model semantics documented"
+    },
+    {
+      "surface": "assets/minecraft/sounds",
+      "files": 2,
+      "status": "converted",
+      "handling": "bell overrides"
+    },
+    {
+      "surface": "assets/minecraft/sounds.json",
+      "files": 1,
+      "status": "converted",
+      "handling": "sound definitions"
+    },
+    {
+      "surface": "assets/minecraft/texts",
+      "files": 1,
+      "status": "classified",
+      "handling": "source credits preserved by project attribution"
+    },
+    {
+      "surface": "assets/minecraft/textures",
+      "files": 1641,
+      "status": "converted",
+      "handling": "presentation converter and source icon importer"
+    },
+    {
+      "surface": "data/blasting/recipe",
+      "files": 26,
+      "status": "converted",
+      "handling": "recipe converter"
+    },
+    {
+      "surface": "data/blessings/recipe",
+      "files": 23,
+      "status": "converted",
+      "handling": "blessing generator and scripted enchantments"
+    },
+    {
+      "surface": "data/crafting/recipe",
+      "files": 459,
+      "status": "converted",
+      "handling": "recipe/component/equipment generators"
+    },
+    {
+      "surface": "data/custom_music/jukebox_song",
+      "files": 1,
+      "status": "classified",
+      "handling": "presentation report; no obtainable source recipe"
+    },
+    {
+      "surface": "data/custom_music/recipe",
+      "files": 1,
+      "status": "converted",
+      "handling": "recipe converter"
+    },
+    {
+      "surface": "data/endless_repairs/README.txt",
+      "files": 1,
+      "status": "classified",
+      "handling": "source documentation"
+    },
+    {
+      "surface": "data/endless_repairs/advancement",
+      "files": 1,
+      "status": "converted",
+      "handling": "advancement registry"
+    },
+    {
+      "surface": "data/endless_repairs/function",
+      "files": 1,
+      "status": "implemented",
+      "handling": "scripted repair-state behavior"
+    },
+    {
+      "surface": "data/food/recipe",
+      "files": 123,
+      "status": "converted",
+      "handling": "food and recipe converters"
+    },
+    {
+      "surface": "data/main/advancement",
+      "files": 223,
+      "status": "converted",
+      "handling": "advancement registry"
+    },
+    {
+      "surface": "data/main/banner_pattern",
+      "files": 10,
+      "status": "engine-limited",
+      "handling": "Java banner registry has no behavior-pack equivalent"
+    },
+    {
+      "surface": "data/main/enchantment",
+      "files": 23,
+      "status": "implemented",
+      "handling": "blessings and scripted enchantments"
+    },
+    {
+      "surface": "data/main/function",
+      "files": 94,
+      "status": "implemented",
+      "handling": "survival, mechanics, worldgen, villager, and interaction scripts"
+    },
+    {
+      "surface": "data/main/instrument",
+      "files": 1,
+      "status": "implemented",
+      "handling": "Happy Ghast horn interaction"
+    },
+    {
+      "surface": "data/main/jukebox_song",
+      "files": 3,
+      "status": "implemented",
+      "handling": "custom items and sound events"
+    },
+    {
+      "surface": "data/main/predicate",
+      "files": 10,
+      "status": "implemented",
+      "handling": "script event/state adapters"
+    },
+    {
+      "surface": "data/main/tags",
+      "files": 3,
+      "status": "classified",
+      "handling": "expanded or routed by generators/scripts"
+    },
+    {
+      "surface": "data/minecraft/dimension_type",
+      "files": 2,
+      "status": "engine-limited",
+      "handling": "documented in worldgen report"
+    },
+    {
+      "surface": "data/minecraft/enchantment",
+      "files": 1,
+      "status": "implemented",
+      "handling": "enchantment generator/script routing"
+    },
+    {
+      "surface": "data/minecraft/loot_table",
+      "files": 282,
+      "status": "converted",
+      "handling": "loot converter"
+    },
+    {
+      "surface": "data/minecraft/predicate",
+      "files": 1,
+      "status": "implemented",
+      "handling": "scripted environment adapter"
+    },
+    {
+      "surface": "data/minecraft/structure",
+      "files": 16,
+      "status": "converted",
+      "handling": "mcstructure converter"
+    },
+    {
+      "surface": "data/minecraft/tags",
+      "files": 98,
+      "status": "classified",
+      "handling": "expanded by converters or documented as engine-limited"
+    },
+    {
+      "surface": "data/minecraft/timeline",
+      "files": 2,
+      "status": "implemented",
+      "handling": "extended day script"
+    },
+    {
+      "surface": "data/minecraft/trade_set",
+      "files": 68,
+      "status": "converted",
+      "handling": "villager trade catalog"
+    },
+    {
+      "surface": "data/minecraft/villager_trade",
+      "files": 235,
+      "status": "converted",
+      "handling": "villager trade catalog"
+    },
+    {
+      "surface": "data/minecraft/worldgen",
+      "files": 75,
+      "status": "converted",
+      "handling": "client biomes, structures, and documented limits"
+    },
+    {
+      "surface": "data/potions/recipe",
+      "files": 1,
+      "status": "converted",
+      "handling": "food/component converter"
+    },
+    {
+      "surface": "data/smelting/recipe",
+      "files": 3,
+      "status": "converted",
+      "handling": "recipe converter"
+    },
+    {
+      "surface": "data/smithing_table/recipe",
+      "files": 70,
+      "status": "implemented",
+      "handling": "state-preserving scripted smithing"
+    },
+    {
+      "surface": "data/smoking/recipe",
+      "files": 28,
+      "status": "converted",
+      "handling": "recipe converter"
+    },
+    {
+      "surface": "data/stonecutting/recipe",
+      "files": 327,
+      "status": "converted",
+      "handling": "recipe converter"
+    }
+  ],
+  "unclassified": [],
+  "stale_routes": []
+}

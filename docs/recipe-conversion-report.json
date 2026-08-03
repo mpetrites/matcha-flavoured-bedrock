@@ -1,19 +1,20 @@
 {
   "source_recipe_count": 1060,
   "counts": {
-    "bedrock_recipes_generated": 945,
+    "bedrock_recipes_generated": 944,
     "minecraft:blasting": 26,
     "minecraft:campfire_cooking": 3,
     "minecraft:crafting_shaped": 165,
-    "minecraft:crafting_shapeless": 194,
+    "minecraft:crafting_shapeless": 193,
     "minecraft:smelting": 6,
     "minecraft:smoking": 28,
     "minecraft:stonecutting": 330,
     "skipped_component_results": 308,
-    "source_recipes_converted": 752
+    "skipped_native_replacements": 1,
+    "source_recipes_converted": 751
   },
-  "generated_files": 945,
-  "skipped_count": 308,
+  "generated_files": 944,
+  "skipped_count": 309,
   "skipped": [
     {
       "source": "data/blessings/recipe/bane_of_arthopods.json",
@@ -114,6 +115,10 @@
     {
       "source": "data/crafting/recipe/benzene.json",
       "reason": "Java-only result components require a custom Bedrock item"
+    },
+    {
+      "source": "data/crafting/recipe/bronze_alloy.json",
+      "reason": "replaced by native matcha:bronze_alloy recipe"
     },
     {
       "source": "data/crafting/recipe/campfire.json",

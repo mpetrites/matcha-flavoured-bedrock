@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SsS",
-      "LBL",
-      "SLS"
+      "ACA",
+      "DBD",
+      "ADA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "matcha:nazar"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "s": {
+      "C": {
         "item": "minecraft:prismarine_crystals"
       },
-      "L": {
+      "D": {
         "item": "minecraft:lapis_lazuli"
       }
     },
     "result": {
       "item": "matcha:blessing_warding"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

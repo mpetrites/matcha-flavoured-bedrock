@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "#D",
-      "D#"
+      "AB",
+      "BA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:calcite"
       },
-      "D": {
+      "B": {
         "item": "minecraft:raw_copper"
       }
     },
     "result": {
       "item": "minecraft:prismarine",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

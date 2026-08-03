@@ -7,28 +7,28 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      " C ",
-      "CBC",
-      " R "
+      " B ",
+      "BAB",
+      " C "
     ],
     "key": {
-      "B": {
+      "A": {
         "item": "minecraft:redstone_torch"
       },
-      "C": {
+      "B": {
         "item": "minecraft:exposed_copper"
       },
-      "R": {
+      "C": {
         "item": "minecraft:redstone"
       }
     },
     "result": {
       "item": "minecraft:exposed_copper_bulb",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,23 +7,23 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "# #",
-      "#E#"
+      "A A",
+      "ABA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:sculk_vein"
       },
-      "E": {
+      "B": {
         "item": "minecraft:echo_shard"
       }
     },
     "result": {
       "item": "minecraft:sculk_sensor"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

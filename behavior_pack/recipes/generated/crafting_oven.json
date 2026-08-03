@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "III",
-      "# #",
-      "#C#"
+      "CCC",
+      "A A",
+      "ABA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:brick_block"
       },
-      "C": {
+      "B": {
         "item": "matcha:campfire"
       },
-      "I": {
+      "C": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "minecraft:furnace"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

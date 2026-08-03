@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:bread"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "matcha:dough",
+    "output": "matcha:bread"
+  }
+}

@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "CQ",
-      "QC"
+      "AB",
+      "BA"
     ],
     "key": {
-      "C": {
+      "A": {
         "item": "minecraft:cobblestone"
       },
-      "Q": {
+      "B": {
         "item": "minecraft:quartz"
       }
     },
     "result": {
       "item": "minecraft:diorite",
       "count": 4
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

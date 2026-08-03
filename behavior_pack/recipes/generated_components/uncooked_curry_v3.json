@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:glowstone_dust"
@@ -32,9 +35,6 @@
     ],
     "result": {
       "item": "matcha:uncooked_curry"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

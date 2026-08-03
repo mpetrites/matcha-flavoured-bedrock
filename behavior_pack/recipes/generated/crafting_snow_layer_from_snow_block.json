@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "##"
+      "AA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:snow"
       }
     },
     "result": {
       "item": "minecraft:snow",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

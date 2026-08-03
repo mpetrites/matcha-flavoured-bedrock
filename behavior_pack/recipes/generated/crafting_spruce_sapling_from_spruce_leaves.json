@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:spruce_leaves"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:spruce_sapling"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

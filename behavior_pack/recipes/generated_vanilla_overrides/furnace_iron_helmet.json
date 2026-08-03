@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:iron_helmet",
+    "input": "matcha:iron_helmet",
     "output": "minecraft:iron_ingot"
   }
 }

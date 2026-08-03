@@ -1,196 +1,358 @@
 {
-  "used_custom_item_icons": 492,
-  "exact_source_imports": 28,
-  "bedrock_base_references": 27,
-  "unresolved_icons": 0,
+  "used_custom_item_icons": 432,
+  "exact_source_imports": 57,
+  "bedrock_base_references": 6,
+  "unresolved_icons": 23,
   "imported": [
+    {
+      "identifier": "matcha:blessing_hell_bound_book",
+      "definition": "behavior_pack/items/generated_blessings/hell_bound_book.json",
+      "atlas_key": "matcha_blessing_hell_bound_book",
+      "source": "resource_pack/textures/items/vanilla_proxy/book_enchanted.png"
+    },
+    {
+      "identifier": "matcha:benzene",
+      "definition": "behavior_pack/items/generated_components/benzene.json",
+      "atlas_key": "matcha_component_benzene",
+      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_endermite.png"
+    },
+    {
+      "identifier": "matcha:carbon_rich_iron",
+      "definition": "behavior_pack/items/generated_components/carbon_rich_iron.json",
+      "atlas_key": "matcha_component_carbon_rich_iron",
+      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_piglin_brute.png"
+    },
+    {
+      "identifier": "matcha:copper_compass",
+      "definition": "behavior_pack/items/generated_components/copper_compass.json",
+      "atlas_key": "matcha_component_copper_compass",
+      "source": "resource_pack/textures/items/vanilla_proxy/compass_item.png"
+    },
+    {
+      "identifier": "matcha:flour_bag",
+      "definition": "behavior_pack/items/generated_components/flour_bag.json",
+      "atlas_key": "matcha_component_flour_bag",
+      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_magma_cube.png"
+    },
+    {
+      "identifier": "matcha:golden_compass",
+      "definition": "behavior_pack/items/generated_components/golden_compass.json",
+      "atlas_key": "matcha_component_golden_compass",
+      "source": "resource_pack/textures/items/vanilla_proxy/compass_item.png"
+    },
+    {
+      "identifier": "matcha:uncooked_curry",
+      "definition": "behavior_pack/items/generated_components/uncooked_curry.json",
+      "atlas_key": "matcha_component_uncooked_curry",
+      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_strider.png"
+    },
+    {
+      "identifier": "matcha:uncooked_green_curry",
+      "definition": "behavior_pack/items/generated_components/uncooked_green_curry.json",
+      "atlas_key": "matcha_component_uncooked_green_curry",
+      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_zombified_piglin.png"
+    },
+    {
+      "identifier": "matcha:uncooked_paneer_makhani",
+      "definition": "behavior_pack/items/generated_components/uncooked_paneer_makhani.json",
+      "atlas_key": "matcha_component_uncooked_paneer_makhani",
+      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_zoglin.png"
+    },
+    {
+      "identifier": "matcha:uncooked_ramen",
+      "definition": "behavior_pack/items/generated_components/uncooked_ramen.json",
+      "atlas_key": "matcha_component_uncooked_ramen",
+      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_wither_skeleton.png"
+    },
+    {
+      "identifier": "matcha:wooden_axe",
+      "definition": "behavior_pack/items/generated_components/wooden_axe.json",
+      "atlas_key": "matcha_component_wooden_axe",
+      "source": "resource_pack/textures/items/vanilla_proxy/wood_axe.png"
+    },
+    {
+      "identifier": "matcha:wooden_hoe",
+      "definition": "behavior_pack/items/generated_components/wooden_hoe.json",
+      "atlas_key": "matcha_component_wooden_hoe",
+      "source": "resource_pack/textures/items/vanilla_proxy/wood_hoe.png"
+    },
+    {
+      "identifier": "matcha:wooden_pickaxe",
+      "definition": "behavior_pack/items/generated_components/wooden_pickaxe.json",
+      "atlas_key": "matcha_component_wooden_pickaxe",
+      "source": "resource_pack/textures/items/vanilla_proxy/wood_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:wooden_shovel",
+      "definition": "behavior_pack/items/generated_components/wooden_shovel.json",
+      "atlas_key": "matcha_component_wooden_shovel",
+      "source": "resource_pack/textures/items/vanilla_proxy/wood_shovel.png"
+    },
+    {
+      "identifier": "matcha:wooden_sword",
+      "definition": "behavior_pack/items/generated_components/wooden_sword.json",
+      "atlas_key": "matcha_component_wooden_sword",
+      "source": "resource_pack/textures/items/vanilla_proxy/wood_sword.png"
+    },
+    {
+      "identifier": "matcha:baked_pumpkin",
+      "definition": "behavior_pack/items/generated_foods/baked_pumpkin.json",
+      "atlas_key": "matcha_food_baked_pumpkin",
+      "source": "resource_pack/textures/items/vanilla_proxy/breeze_rod.png"
+    },
+    {
+      "identifier": "matcha:cheese",
+      "definition": "behavior_pack/items/generated_foods/cheese.json",
+      "atlas_key": "matcha_food_cheese",
+      "source": "assets/minecraft/textures/item/cookie.png"
+    },
+    {
+      "identifier": "matcha:crafting_chicken_noodle_soup",
+      "definition": "behavior_pack/items/generated_foods/crafting_chicken_noodle_soup.json",
+      "atlas_key": "matcha_food_chicken_noodle_soup",
+      "source": "resource_pack/textures/items/vanilla_proxy/rabbit_stew.png"
+    },
+    {
+      "identifier": "matcha:cooked_beef",
+      "definition": "behavior_pack/items/generated_foods/cooked_beef.json",
+      "atlas_key": "matcha_food_cooked_beef",
+      "source": "resource_pack/textures/items/vanilla_proxy/beef_cooked.png"
+    },
+    {
+      "identifier": "matcha:cooked_chicken",
+      "definition": "behavior_pack/items/generated_foods/cooked_chicken.json",
+      "atlas_key": "matcha_food_cooked_chicken",
+      "source": "resource_pack/textures/items/vanilla_proxy/chicken_cooked.png"
+    },
+    {
+      "identifier": "matcha:cooked_mutton",
+      "definition": "behavior_pack/items/generated_foods/cooked_mutton.json",
+      "atlas_key": "matcha_food_cooked_mutton",
+      "source": "resource_pack/textures/items/vanilla_proxy/mutton_cooked.png"
+    },
+    {
+      "identifier": "matcha:cooked_porkchop",
+      "definition": "behavior_pack/items/generated_foods/cooked_porkchop.json",
+      "atlas_key": "matcha_food_cooked_porkchop",
+      "source": "resource_pack/textures/items/vanilla_proxy/porkchop_cooked.png"
+    },
+    {
+      "identifier": "matcha:dried_kelp",
+      "definition": "behavior_pack/items/generated_foods/dried_kelp.json",
+      "atlas_key": "matcha_food_dried_kelp",
+      "source": "resource_pack/textures/items/vanilla_proxy/dried_kelp.png"
+    },
+    {
+      "identifier": "matcha:potions_estus_flask",
+      "definition": "behavior_pack/items/generated_foods/potions_estus_flask.json",
+      "atlas_key": "matcha_food_estus_flask",
+      "source": "assets/minecraft/textures/item/potion.png"
+    },
+    {
+      "identifier": "matcha:crafting_golden_pie",
+      "definition": "behavior_pack/items/generated_foods/crafting_golden_pie.json",
+      "atlas_key": "matcha_food_golden_pie",
+      "source": "resource_pack/textures/items/vanilla_proxy/pumpkin_pie.png"
+    },
+    {
+      "identifier": "matcha:milk_bottle",
+      "definition": "behavior_pack/items/generated_foods/milk_bottle.json",
+      "atlas_key": "matcha_food_milk_bottle",
+      "source": "assets/minecraft/textures/item/beetroot_soup.png"
+    },
+    {
+      "identifier": "matcha:crafting_morsel_stew",
+      "definition": "behavior_pack/items/generated_foods/crafting_morsel_stew.json",
+      "atlas_key": "matcha_food_morsel_stew",
+      "source": "resource_pack/textures/items/vanilla_proxy/rabbit_stew.png"
+    },
+    {
+      "identifier": "matcha:popped_chorus_fruit",
+      "definition": "behavior_pack/items/generated_foods/popped_chorus_fruit.json",
+      "atlas_key": "matcha_food_popped_chorus_fruit",
+      "source": "resource_pack/textures/items/vanilla_proxy/chorus_fruit_popped.png"
+    },
+    {
+      "identifier": "matcha:crafting_squid_ink_pasta",
+      "definition": "behavior_pack/items/generated_foods/crafting_squid_ink_pasta.json",
+      "atlas_key": "matcha_food_squid_ink_pasta",
+      "source": "resource_pack/textures/items/vanilla_proxy/rabbit_stew.png"
+    },
+    {
+      "identifier": "matcha:crafting_stuffed_mushrooms",
+      "definition": "behavior_pack/items/generated_foods/crafting_stuffed_mushrooms.json",
+      "atlas_key": "matcha_food_stuffed_mushrooms",
+      "source": "assets/minecraft/textures/item/baked_potato.png"
+    },
     {
       "identifier": "matcha:loot_item_028369266f",
       "definition": "behavior_pack/items/generated_loot/028369266f.json",
       "atlas_key": "matcha_loot_028369266f",
-      "source": "textures/items/source_imports/beetroot"
+      "source": "assets/minecraft/textures/item/beetroot.png"
+    },
+    {
+      "identifier": "matcha:loot_item_02bdb93dc2",
+      "definition": "behavior_pack/items/generated_loot/02bdb93dc2.json",
+      "atlas_key": "matcha_loot_02bdb93dc2",
+      "source": "assets/minecraft/textures/item/tadpole_spawn_egg.png"
     },
     {
       "identifier": "matcha:loot_item_0317534a0d",
       "definition": "behavior_pack/items/generated_loot/0317534a0d.json",
       "atlas_key": "matcha_loot_0317534a0d",
-      "source": "textures/items/source_imports/golden_hoe"
+      "source": "assets/minecraft/textures/item/golden_hoe.png"
     },
     {
       "identifier": "matcha:loot_item_0b468afb17",
       "definition": "behavior_pack/items/generated_loot/0b468afb17.json",
       "atlas_key": "matcha_loot_0b468afb17",
-      "source": "textures/items/source_imports/leather_boots"
+      "source": "assets/minecraft/textures/item/leather_boots.png"
     },
     {
       "identifier": "matcha:loot_item_17898a8d18",
       "definition": "behavior_pack/items/generated_loot/17898a8d18.json",
       "atlas_key": "matcha_loot_17898a8d18",
-      "source": "textures/items/source_imports/iron_sword"
+      "source": "assets/minecraft/textures/item/iron_sword.png"
     },
     {
       "identifier": "matcha:loot_item_25479cb30e",
       "definition": "behavior_pack/items/generated_loot/25479cb30e.json",
       "atlas_key": "matcha_loot_25479cb30e",
-      "source": "textures/items/source_imports/golden_apple"
+      "source": "assets/minecraft/textures/item/golden_apple.png"
     },
     {
       "identifier": "matcha:loot_item_28e2874b14",
       "definition": "behavior_pack/items/generated_loot/28e2874b14.json",
       "atlas_key": "matcha_loot_28e2874b14",
-      "source": "textures/items/source_imports/carrot"
-    },
-    {
-      "identifier": "matcha:loot_item_3fc6e6d22b",
-      "definition": "behavior_pack/items/generated_loot/3fc6e6d22b.json",
-      "atlas_key": "matcha_loot_3fc6e6d22b",
-      "source": "textures/items/source_imports/ender_pearl"
+      "source": "assets/minecraft/textures/item/carrot.png"
     },
     {
       "identifier": "matcha:loot_item_433e5f5c17",
       "definition": "behavior_pack/items/generated_loot/433e5f5c17.json",
       "atlas_key": "matcha_loot_433e5f5c17",
-      "source": "textures/items/source_imports/potion"
+      "source": "assets/minecraft/textures/item/potion.png"
     },
     {
       "identifier": "matcha:loot_item_45051c1a4f",
       "definition": "behavior_pack/items/generated_loot/45051c1a4f.json",
       "atlas_key": "matcha_loot_45051c1a4f",
-      "source": "textures/items/source_imports/rabbit_hide"
+      "source": "assets/minecraft/textures/item/rabbit_hide.png"
     },
     {
       "identifier": "matcha:loot_item_58fa09963e",
       "definition": "behavior_pack/items/generated_loot/58fa09963e.json",
       "atlas_key": "matcha_loot_58fa09963e",
-      "source": "textures/items/source_imports/sweet_berries"
-    },
-    {
-      "identifier": "matcha:loot_item_65eeed778b",
-      "definition": "behavior_pack/items/generated_loot/65eeed778b.json",
-      "atlas_key": "matcha_loot_65eeed778b",
-      "source": "textures/items/source_imports/apple"
+      "source": "assets/minecraft/textures/item/sweet_berries.png"
     },
     {
       "identifier": "matcha:loot_item_6980a6fc7b",
       "definition": "behavior_pack/items/generated_loot/6980a6fc7b.json",
       "atlas_key": "matcha_loot_6980a6fc7b",
-      "source": "textures/items/source_imports/leather_leggings"
+      "source": "assets/minecraft/textures/item/leather_leggings.png"
     },
     {
       "identifier": "matcha:loot_item_8c6fa5e3dc",
       "definition": "behavior_pack/items/generated_loot/8c6fa5e3dc.json",
       "atlas_key": "matcha_loot_8c6fa5e3dc",
-      "source": "textures/items/source_imports/bread"
+      "source": "assets/minecraft/textures/item/bread.png"
     },
     {
       "identifier": "matcha:loot_item_945956504a",
       "definition": "behavior_pack/items/generated_loot/945956504a.json",
       "atlas_key": "matcha_loot_945956504a",
-      "source": "textures/items/source_imports/golden_carrot"
+      "source": "assets/minecraft/textures/item/golden_carrot.png"
+    },
+    {
+      "identifier": "matcha:loot_item_aadb914327",
+      "definition": "behavior_pack/items/generated_loot/aadb914327.json",
+      "atlas_key": "matcha_loot_aadb914327",
+      "source": "assets/minecraft/textures/item/frog_spawn_egg.png"
     },
     {
       "identifier": "matcha:loot_item_b6d0741578",
       "definition": "behavior_pack/items/generated_loot/b6d0741578.json",
       "atlas_key": "matcha_loot_b6d0741578",
-      "source": "textures/items/source_imports/apple"
-    },
-    {
-      "identifier": "matcha:loot_item_be8c8e93b2",
-      "definition": "behavior_pack/items/generated_loot/be8c8e93b2.json",
-      "atlas_key": "matcha_loot_be8c8e93b2",
-      "source": "textures/items/source_imports/salmon"
+      "source": "assets/minecraft/textures/item/apple.png"
     },
     {
       "identifier": "matcha:trade_item_0e1ba7fb00",
       "definition": "behavior_pack/items/generated_trades/0e1ba7fb00.json",
       "atlas_key": "matcha_trade_0e1ba7fb00",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_1a8f51e84c",
       "definition": "behavior_pack/items/generated_trades/1a8f51e84c.json",
       "atlas_key": "matcha_trade_1a8f51e84c",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_28d2d3d8c7",
       "definition": "behavior_pack/items/generated_trades/28d2d3d8c7.json",
       "atlas_key": "matcha_trade_28d2d3d8c7",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_2a9c804f94",
       "definition": "behavior_pack/items/generated_trades/2a9c804f94.json",
       "atlas_key": "matcha_trade_2a9c804f94",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_2c77844bfe",
       "definition": "behavior_pack/items/generated_trades/2c77844bfe.json",
       "atlas_key": "matcha_trade_2c77844bfe",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_2d75349fc8",
       "definition": "behavior_pack/items/generated_trades/2d75349fc8.json",
       "atlas_key": "matcha_trade_2d75349fc8",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_3fc6e6d22b",
       "definition": "behavior_pack/items/generated_trades/3fc6e6d22b.json",
       "atlas_key": "matcha_trade_3fc6e6d22b",
-      "source": "textures/items/source_imports/ender_pearl"
+      "source": "assets/minecraft/textures/item/ender_pearl.png"
     },
     {
       "identifier": "matcha:trade_item_76ac31fa03",
       "definition": "behavior_pack/items/generated_trades/76ac31fa03.json",
       "atlas_key": "matcha_trade_76ac31fa03",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_be8c8e93b2",
       "definition": "behavior_pack/items/generated_trades/be8c8e93b2.json",
       "atlas_key": "matcha_trade_be8c8e93b2",
-      "source": "textures/items/source_imports/salmon"
+      "source": "assets/minecraft/textures/item/salmon.png"
     },
     {
       "identifier": "matcha:trade_item_caf558a84c",
       "definition": "behavior_pack/items/generated_trades/caf558a84c.json",
       "atlas_key": "matcha_trade_caf558a84c",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_f76bb0de4f",
       "definition": "behavior_pack/items/generated_trades/f76bb0de4f.json",
       "atlas_key": "matcha_trade_f76bb0de4f",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     },
     {
       "identifier": "matcha:trade_item_fb4fc95df5",
       "definition": "behavior_pack/items/generated_trades/fb4fc95df5.json",
       "atlas_key": "matcha_trade_fb4fc95df5",
-      "source": "textures/items/source_imports/splash_potion"
+      "source": "assets/minecraft/textures/item/splash_potion.png"
     }
   ],
   "base_pack": [
-    {
-      "identifier": "matcha:loot_item_0f7f5a4c51",
-      "definition": "behavior_pack/items/generated_loot/0f7f5a4c51.json",
-      "atlas_key": "matcha_loot_0f7f5a4c51",
-      "texture": "textures/items/fish_raw"
-    },
     {
       "identifier": "matcha:loot_item_2611ae5e5a",
       "definition": "behavior_pack/items/generated_loot/2611ae5e5a.json",
       "atlas_key": "matcha_loot_2611ae5e5a",
       "texture": "textures/items/charcoal"
-    },
-    {
-      "identifier": "matcha:loot_item_2ea2e3d523",
-      "definition": "behavior_pack/items/generated_loot/2ea2e3d523.json",
-      "atlas_key": "matcha_loot_2ea2e3d523",
-      "texture": "textures/items/dye_powder_blue"
     },
     {
       "identifier": "matcha:loot_item_43ef966c39",
@@ -199,34 +361,10 @@
       "texture": "textures/items/snowball"
     },
     {
-      "identifier": "matcha:loot_item_4687d9410d",
-      "definition": "behavior_pack/items/generated_loot/4687d9410d.json",
-      "atlas_key": "matcha_loot_4687d9410d",
-      "texture": "textures/items/apple_golden"
-    },
-    {
-      "identifier": "matcha:loot_item_79c64b6a1e",
-      "definition": "behavior_pack/items/generated_loot/79c64b6a1e.json",
-      "atlas_key": "matcha_loot_79c64b6a1e",
-      "texture": "textures/items/fish_raw"
-    },
-    {
       "identifier": "matcha:loot_item_8bf02186c9",
       "definition": "behavior_pack/items/generated_loot/8bf02186c9.json",
       "atlas_key": "matcha_loot_8bf02186c9",
       "texture": "textures/items/chorus_fruit"
-    },
-    {
-      "identifier": "matcha:loot_item_9c1c8a583d",
-      "definition": "behavior_pack/items/generated_loot/9c1c8a583d.json",
-      "atlas_key": "matcha_loot_9c1c8a583d",
-      "texture": "textures/items/dye_powder_blue"
-    },
-    {
-      "identifier": "matcha:loot_item_a12a7d2f57",
-      "definition": "behavior_pack/items/generated_loot/a12a7d2f57.json",
-      "atlas_key": "matcha_loot_a12a7d2f57",
-      "texture": "textures/items/fish_pufferfish_raw"
     },
     {
       "identifier": "matcha:loot_item_c45f6b6d8f",
@@ -241,101 +379,150 @@
       "texture": "textures/items/trident"
     },
     {
+      "identifier": "matcha:raw_estus",
+      "definition": "behavior_pack/items/raw_estus.json",
+      "atlas_key": "matcha_raw_estus",
+      "texture": "textures/items/blaze_powder"
+    }
+  ],
+  "unresolved": [
+    {
+      "identifier": "matcha:loot_item_155c35c823",
+      "definition": "behavior_pack/items/generated_loot/155c35c823.json",
+      "atlas_key": "matcha_loot_155c35c823",
+      "texture": "textures/items/compass"
+    },
+    {
+      "identifier": "matcha:loot_item_2ea2e3d523",
+      "definition": "behavior_pack/items/generated_loot/2ea2e3d523.json",
+      "atlas_key": "matcha_loot_2ea2e3d523",
+      "texture": "textures/items/lapis_lazuli"
+    },
+    {
+      "identifier": "matcha:loot_item_4687d9410d",
+      "definition": "behavior_pack/items/generated_loot/4687d9410d.json",
+      "atlas_key": "matcha_loot_4687d9410d",
+      "texture": "textures/items/enchanted_golden_apple"
+    },
+    {
+      "identifier": "matcha:loot_item_70e4cb3d7d",
+      "definition": "behavior_pack/items/generated_loot/70e4cb3d7d.json",
+      "atlas_key": "matcha_loot_70e4cb3d7d",
+      "texture": "textures/items/popped_chorus_fruit"
+    },
+    {
+      "identifier": "matcha:loot_item_79c64b6a1e",
+      "definition": "behavior_pack/items/generated_loot/79c64b6a1e.json",
+      "atlas_key": "matcha_loot_79c64b6a1e",
+      "texture": "textures/items/cod"
+    },
+    {
       "identifier": "matcha:loot_item_d247b21ee8",
       "definition": "behavior_pack/items/generated_loot/d247b21ee8.json",
       "atlas_key": "matcha_loot_d247b21ee8",
-      "texture": "textures/items/melon"
-    },
-    {
-      "identifier": "matcha:loot_item_e34800fb88",
-      "definition": "behavior_pack/items/generated_loot/e34800fb88.json",
-      "atlas_key": "matcha_loot_e34800fb88",
-      "texture": "textures/items/clownfish_raw"
+      "texture": "textures/items/melon_slice"
     },
     {
       "identifier": "matcha:loot_item_ed9ae92edf",
       "definition": "behavior_pack/items/generated_loot/ed9ae92edf.json",
       "atlas_key": "matcha_loot_ed9ae92edf",
-      "texture": "textures/items/fish_raw"
-    },
-    {
-      "identifier": "matcha:raw_estus",
-      "definition": "behavior_pack/items/raw_estus.json",
-      "atlas_key": "matcha_raw_estus",
-      "texture": "textures/items/blaze_powder"
+      "texture": "textures/items/cod"
     },
     {
       "identifier": "matcha:trade_item_0f7f5a4c51",
       "definition": "behavior_pack/items/generated_trades/0f7f5a4c51.json",
       "atlas_key": "matcha_trade_0f7f5a4c51",
-      "texture": "textures/items/fish_raw"
+      "texture": "textures/items/cod"
     },
     {
       "identifier": "matcha:trade_item_4ac45ccc91",
       "definition": "behavior_pack/items/generated_trades/4ac45ccc91.json",
       "atlas_key": "matcha_trade_4ac45ccc91",
-      "texture": "textures/blocks/glass"
+      "texture": "textures/items/chicken_spawn_egg"
     },
     {
       "identifier": "matcha:trade_item_518c4c508b",
       "definition": "behavior_pack/items/generated_trades/518c4c508b.json",
       "atlas_key": "matcha_trade_518c4c508b",
-      "texture": "textures/items/book_writable"
+      "texture": "textures/items/writable_book"
+    },
+    {
+      "identifier": "matcha:trade_item_648eaf6a61",
+      "definition": "behavior_pack/items/generated_trades/648eaf6a61.json",
+      "atlas_key": "matcha_trade_648eaf6a61",
+      "texture": "textures/items/chicken_spawn_egg"
     },
     {
       "identifier": "matcha:trade_item_89d9cfe191",
       "definition": "behavior_pack/items/generated_trades/89d9cfe191.json",
       "atlas_key": "matcha_trade_89d9cfe191",
-      "texture": "textures/blocks/stone_granite"
+      "texture": "textures/items/chicken_spawn_egg"
     },
     {
       "identifier": "matcha:trade_item_90b0bcad6d",
       "definition": "behavior_pack/items/generated_trades/90b0bcad6d.json",
       "atlas_key": "matcha_trade_90b0bcad6d",
-      "texture": "textures/blocks/stone"
+      "texture": "textures/items/chicken_spawn_egg"
     },
     {
       "identifier": "matcha:trade_item_a12a7d2f57",
       "definition": "behavior_pack/items/generated_trades/a12a7d2f57.json",
       "atlas_key": "matcha_trade_a12a7d2f57",
-      "texture": "textures/items/fish_pufferfish_raw"
+      "texture": "textures/items/pufferfish"
     },
     {
       "identifier": "matcha:trade_item_b007da104b",
       "definition": "behavior_pack/items/generated_trades/b007da104b.json",
       "atlas_key": "matcha_trade_b007da104b",
-      "texture": "textures/blocks/dripstone_block"
+      "texture": "textures/items/chicken_spawn_egg"
+    },
+    {
+      "identifier": "matcha:trade_item_c56bf026de",
+      "definition": "behavior_pack/items/generated_trades/c56bf026de.json",
+      "atlas_key": "matcha_trade_c56bf026de",
+      "texture": "textures/items/chicken_spawn_egg"
+    },
+    {
+      "identifier": "matcha:trade_item_c7eb8e9a1b",
+      "definition": "behavior_pack/items/generated_trades/c7eb8e9a1b.json",
+      "atlas_key": "matcha_trade_c7eb8e9a1b",
+      "texture": "textures/items/chicken_spawn_egg"
     },
     {
       "identifier": "matcha:trade_item_c871d75d17",
       "definition": "behavior_pack/items/generated_trades/c871d75d17.json",
       "atlas_key": "matcha_trade_c871d75d17",
-      "texture": "textures/blocks/calcite"
+      "texture": "textures/items/chicken_spawn_egg"
     },
     {
       "identifier": "matcha:trade_item_d126e94c1a",
       "definition": "behavior_pack/items/generated_trades/d126e94c1a.json",
       "atlas_key": "matcha_trade_d126e94c1a",
-      "texture": "textures/blocks/stone_andesite"
+      "texture": "textures/items/chicken_spawn_egg"
+    },
+    {
+      "identifier": "matcha:trade_item_d8dc24ca7c",
+      "definition": "behavior_pack/items/generated_trades/d8dc24ca7c.json",
+      "atlas_key": "matcha_trade_d8dc24ca7c",
+      "texture": "textures/items/chicken_spawn_egg"
     },
     {
       "identifier": "matcha:trade_item_e34800fb88",
       "definition": "behavior_pack/items/generated_trades/e34800fb88.json",
       "atlas_key": "matcha_trade_e34800fb88",
-      "texture": "textures/items/clownfish_raw"
+      "texture": "textures/items/tropical_fish"
     },
     {
       "identifier": "matcha:trade_item_e620c6856f",
       "definition": "behavior_pack/items/generated_trades/e620c6856f.json",
       "atlas_key": "matcha_trade_e620c6856f",
-      "texture": "textures/items/bundle_red"
+      "texture": "textures/items/red_bundle"
     },
     {
       "identifier": "matcha:trade_item_f351641b8c",
       "definition": "behavior_pack/items/generated_trades/f351641b8c.json",
       "atlas_key": "matcha_trade_f351641b8c",
-      "texture": "textures/blocks/tuff"
+      "texture": "textures/items/chicken_spawn_egg"
     }
-  ],
-  "unresolved": []
+  ]
 }

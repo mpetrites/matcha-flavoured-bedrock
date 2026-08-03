@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:bowl"
@@ -26,9 +29,6 @@
     ],
     "result": {
       "item": "matcha:crafting_morsel_stew"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

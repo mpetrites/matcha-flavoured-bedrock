@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SbS",
-      "FBF",
-      "SFS"
+      "ADA",
+      "CBC",
+      "ACA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:arrow"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "C": {
         "item": "minecraft:gold_ingot"
       },
-      "b": {
+      "D": {
         "item": "minecraft:disc_fragment_5"
       }
     },
     "result": {
       "item": "matcha:blessing_piercing_impaling"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

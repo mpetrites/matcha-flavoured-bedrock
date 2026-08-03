@@ -40,7 +40,6 @@ give @s matcha:crafting_squid_ink_pasta 1
 give @s matcha:crafting_stuffed_mushrooms 1
 give @s matcha:crimson_stroganoff 1
 give @s matcha:dried_kelp 1
-give @s matcha:dried_kelp_from_dried_kelp_block 1
 give @s matcha:french_toast 1
 give @s matcha:fried_egg 1
 give @s matcha:gimmari 1

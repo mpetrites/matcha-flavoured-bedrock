@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###",
-      "#X#",
-      "###"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:disc_fragment_5"
       },
-      "X": {
+      "B": {
         "item": "minecraft:glow_ink_sac"
       }
     },
     "result": {
       "item": "minecraft:music_disc_far"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

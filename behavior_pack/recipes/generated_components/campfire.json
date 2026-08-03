@@ -7,23 +7,23 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SS",
-      "LL"
+      "BB",
+      "AA"
     ],
     "key": {
-      "L": {
+      "A": {
         "item": "minecraft:oak_log"
       },
-      "S": {
+      "B": {
         "item": "minecraft:stick"
       }
     },
     "result": {
       "item": "matcha:campfire"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

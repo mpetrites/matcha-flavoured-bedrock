@@ -7,36 +7,36 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "ESE",
-      "pBd",
-      "EDE"
+      "CAC",
+      "FBE",
+      "CDC"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:nether_star"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "E": {
+      "C": {
         "item": "minecraft:glowstone_dust"
       },
       "D": {
         "item": "minecraft:diamond"
       },
-      "d": {
-        "item": "minecraft:diamond_axe"
+      "E": {
+        "item": "matcha:diamond_axe"
       },
-      "p": {
+      "F": {
         "item": "matcha:diamond_pickaxe"
       }
     },
     "result": {
       "item": "matcha:blessing_efficiency_unbreaking"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

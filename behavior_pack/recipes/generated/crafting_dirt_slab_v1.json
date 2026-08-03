@@ -7,20 +7,20 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "###"
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:dirt"
       }
     },
     "result": {
       "item": "minecraft:petrified_oak_slab",
       "count": 6
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

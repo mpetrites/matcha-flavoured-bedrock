@@ -24,7 +24,22 @@ manifests = [
     json.loads((ROOT / "behavior_pack/manifest.json").read_text()),
     json.loads((ROOT / "resource_pack/manifest.json").read_text()),
 ]
-assert all(manifest["header"]["version"] == [0, 12, 2] for manifest in manifests)
+versions = {tuple(manifest["header"]["version"]) for manifest in manifests}
+assert len(versions) == 1, f"behavior/resource pack version mismatch: {sorted(versions)}"
+for manifest in manifests:
+    assert all(
+        module["version"] == manifest["header"]["version"]
+        for module in manifest["modules"]
+    ), f"module/header version mismatch in {manifest['header']['name']}"
+
+behavior_manifest = manifests[0]
+resource_manifest = manifests[1]
+resource_dependency = next(
+    dependency
+    for dependency in behavior_manifest["dependencies"]
+    if dependency.get("uuid") == resource_manifest["header"]["uuid"]
+)
+assert resource_dependency["version"] == resource_manifest["header"]["version"]
 assert 'import "./smithing.js";' in (ROOT / "behavior_pack/scripts/main.js").read_text()
 
 print(json.dumps({"scripted_upgrades": 57, "status": "pass"}))

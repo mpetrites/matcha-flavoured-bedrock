@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:honey_bottle"
@@ -21,14 +24,11 @@
         "item": "minecraft:glowstone_dust"
       },
       {
-        "item": "minecraft:bread"
+        "item": "matcha:bread"
       }
     ],
     "result": {
       "item": "matcha:honied_french_toast"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:sweet_berries"
@@ -21,14 +24,11 @@
         "item": "minecraft:glowstone_dust"
       },
       {
-        "item": "minecraft:bread"
+        "item": "matcha:bread"
       }
     ],
     "result": {
       "item": "matcha:sweet_berry_toast"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

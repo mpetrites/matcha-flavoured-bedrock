@@ -7,30 +7,30 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SbS",
-      "FBF",
-      "SFS"
+      "ADA",
+      "CBC",
+      "ACA"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:wind_charge"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "F": {
+      "C": {
         "item": "minecraft:feather"
       },
-      "b": {
+      "D": {
         "item": "minecraft:honeycomb"
       }
     },
     "result": {
       "item": "matcha:blessing_feather_falling"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

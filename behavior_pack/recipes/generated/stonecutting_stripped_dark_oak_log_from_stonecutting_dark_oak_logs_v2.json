@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:dark_oak_wood"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:stripped_dark_oak_log"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

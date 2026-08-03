@@ -7,22 +7,22 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "N",
-      "N",
-      "N"
+      "A",
+      "A",
+      "A"
     ],
     "key": {
-      "N": {
+      "A": {
         "item": "minecraft:copper_nugget"
       }
     },
     "result": {
       "item": "minecraft:copper_chain",
       "count": 2
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

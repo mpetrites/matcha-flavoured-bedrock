@@ -53,6 +53,28 @@ def custom_item_id(recipe: dict, path: Path) -> str:
     return f"matcha:{key}"
 
 
+def item_signature(recipe: dict) -> str:
+    """Identity of the custom stack, excluding recipe-specific details."""
+    result = recipe["result"]
+    return json.dumps(
+        [result["id"], result.get("components", {})],
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+
+
+def canonical_recipe(entries: list[tuple[Path, dict]]) -> tuple[Path, dict]:
+    return min(
+        entries,
+        key=lambda entry: (
+            "_from_" in entry[0].stem,
+            entry[0].stem.endswith("_campfire"),
+            len(entry[0].stem),
+            entry[0].stem,
+        ),
+    )
+
+
 def display_name(recipe: dict, path: Path, lang: dict[str, str]) -> str:
     components = recipe["result"]["components"]
     item_name = components.get("minecraft:item_name") or components.get("minecraft:custom_name")
@@ -271,6 +293,19 @@ def main() -> None:
             continue
         recipes.append((path, recipe))
 
+    # Alternate recipes can yield the exact same component-bearing stack. All
+    # such recipes must point at one Bedrock item definition.
+    signature_groups: dict[str, list[tuple[Path, dict]]] = {}
+    for entry in recipes:
+        signature_groups.setdefault(item_signature(entry[1]), []).append(entry)
+    item_id_by_signature = {}
+    for signature, entries in signature_groups.items():
+        canonical_path, canonical_data = canonical_recipe(entries)
+        item_id_by_signature[signature] = custom_item_id(canonical_data, canonical_path)
+
+    def resolved_item_id(recipe: dict) -> str:
+        return item_id_by_signature[item_signature(recipe)]
+
     canonical: dict[str, tuple[Path, dict]] = {}
     effects: dict[str, list[dict]] = {}
     splashes: dict[str, list[dict]] = {}
@@ -279,7 +314,7 @@ def main() -> None:
     conflicts = []
 
     for path, recipe in recipes:
-        item_id = custom_item_id(recipe, path)
+        item_id = resolved_item_id(recipe)
         actions = effect_actions(recipe)
         if item_id in effects and effects[item_id] != actions:
             conflicts.append(
@@ -332,7 +367,7 @@ def main() -> None:
 
     generated_recipe_count = 0
     for path, recipe in recipes:
-        item_id = custom_item_id(recipe, path)
+        item_id = resolved_item_id(recipe)
         if item_id in EXISTING_ITEMS:
             continue
         recipe_copy = copy.deepcopy(recipe)

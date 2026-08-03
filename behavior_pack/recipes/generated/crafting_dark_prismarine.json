@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "SSS",
-      "SIS",
-      "SSS"
+      "BBB",
+      "BAB",
+      "BBB"
     ],
     "key": {
-      "I": {
+      "A": {
         "item": "minecraft:black_dye"
       },
-      "S": {
+      "B": {
         "item": "minecraft:prismarine"
       }
     },
     "result": {
       "item": "minecraft:dark_prismarine",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

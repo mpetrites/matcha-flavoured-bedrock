@@ -7,17 +7,17 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:dried_kelp_block"
       }
     ],
     "result": {
-      "item": "matcha:dried_kelp_from_dried_kelp_block",
+      "item": "matcha:dried_kelp",
       "count": 9
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

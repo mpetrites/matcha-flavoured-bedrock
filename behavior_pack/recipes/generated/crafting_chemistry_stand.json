@@ -7,13 +7,16 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
       " B ",
       " C ",
-      "###"
+      "AAA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:cobblestone"
       },
       "B": {
@@ -25,9 +28,6 @@
     },
     "result": {
       "item": "minecraft:brewing_stand"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

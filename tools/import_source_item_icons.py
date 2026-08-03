@@ -39,6 +39,38 @@ BEDROCK_BASE_TEXTURES = {
     "textures/items/trident",
 }
 
+# Generators use Java item/model names, while the checked-in Bedrock proxy
+# textures use Bedrock's legacy filenames. Re-link those existing assets after
+# every regeneration so a full build does not depend on a second source tree.
+VANILLA_PROXY_BY_IDENTIFIER = {
+    "matcha:baked_pumpkin": "breeze_rod",
+    "matcha:blessing_hell_bound_book": "book_enchanted",
+    "matcha:benzene": "spawn_egg_endermite",
+    "matcha:carbon_rich_iron": "spawn_egg_piglin_brute",
+    "matcha:cooked_beef": "beef_cooked",
+    "matcha:cooked_chicken": "chicken_cooked",
+    "matcha:cooked_mutton": "mutton_cooked",
+    "matcha:cooked_porkchop": "porkchop_cooked",
+    "matcha:copper_compass": "compass_item",
+    "matcha:crafting_chicken_noodle_soup": "rabbit_stew",
+    "matcha:crafting_golden_pie": "pumpkin_pie",
+    "matcha:crafting_morsel_stew": "rabbit_stew",
+    "matcha:crafting_squid_ink_pasta": "rabbit_stew",
+    "matcha:dried_kelp": "dried_kelp",
+    "matcha:flour_bag": "spawn_egg_magma_cube",
+    "matcha:golden_compass": "compass_item",
+    "matcha:popped_chorus_fruit": "chorus_fruit_popped",
+    "matcha:uncooked_curry": "spawn_egg_strider",
+    "matcha:uncooked_green_curry": "spawn_egg_zombified_piglin",
+    "matcha:uncooked_paneer_makhani": "spawn_egg_zoglin",
+    "matcha:uncooked_ramen": "spawn_egg_wither_skeleton",
+    "matcha:wooden_axe": "wood_axe",
+    "matcha:wooden_hoe": "wood_hoe",
+    "matcha:wooden_pickaxe": "wood_pickaxe",
+    "matcha:wooden_shovel": "wood_shovel",
+    "matcha:wooden_sword": "wood_sword",
+}
+
 
 def used_icons() -> dict[str, dict[str, str]]:
     icons = {}
@@ -78,6 +110,12 @@ def main() -> None:
         if local_texture.is_file():
             if texture.startswith("textures/items/source_imports/"):
                 imported.append({**details, "atlas_key": key, "source": texture})
+            continue
+        proxy_stem = VANILLA_PROXY_BY_IDENTIFIER.get(details["identifier"])
+        proxy_texture = ROOT / f"resource_pack/textures/items/vanilla_proxy/{proxy_stem}.png"
+        if proxy_stem and proxy_texture.is_file():
+            texture_data[key] = {"textures": f"textures/items/vanilla_proxy/{proxy_stem}"}
+            imported.append({**details, "atlas_key": key, "source": str(proxy_texture.relative_to(ROOT))})
             continue
         if texture in BEDROCK_BASE_TEXTURES:
             base_pack.append({**details, "atlas_key": key, "texture": texture})

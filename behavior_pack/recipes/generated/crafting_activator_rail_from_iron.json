@@ -7,28 +7,28 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "XSX",
-      "X#X",
-      "XSX"
+      "CBC",
+      "CAC",
+      "CBC"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:redstone_torch"
       },
-      "S": {
+      "B": {
         "item": "minecraft:stick"
       },
-      "X": {
+      "C": {
         "item": "minecraft:iron_ingot"
       }
     },
     "result": {
       "item": "minecraft:activator_rail",
       "count": 16
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

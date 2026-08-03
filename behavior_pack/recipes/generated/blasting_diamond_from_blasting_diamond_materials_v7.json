@@ -7,7 +7,7 @@
     "tags": [
       "blast_furnace"
     ],
-    "input": "minecraft:diamond_helmet",
+    "input": "matcha:diamond_helmet",
     "output": "minecraft:diamond"
   }
 }

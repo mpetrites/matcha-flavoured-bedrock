@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:warped_fungus"
@@ -20,9 +23,6 @@
     ],
     "result": {
       "item": "matcha:pickled_warped_fungus"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

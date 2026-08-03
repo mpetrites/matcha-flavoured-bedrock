@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:stripped_acacia_log"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:acacia_log"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

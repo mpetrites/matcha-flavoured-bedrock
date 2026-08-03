@@ -7,24 +7,24 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "#",
-      "X"
+      "A",
+      "B"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:redstone"
       },
-      "X": {
+      "B": {
         "item": "minecraft:stick"
       }
     },
     "result": {
       "item": "minecraft:redstone_torch",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

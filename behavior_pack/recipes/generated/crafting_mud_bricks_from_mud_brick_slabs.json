@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:mud_brick_slab"
@@ -17,9 +20,6 @@
     ],
     "result": {
       "item": "minecraft:mud_bricks"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

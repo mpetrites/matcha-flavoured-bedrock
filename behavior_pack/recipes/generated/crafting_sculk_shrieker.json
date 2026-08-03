@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "b b",
-      "# #",
-      "#E#"
+      "C C",
+      "A A",
+      "ABA"
     ],
     "key": {
-      "#": {
+      "A": {
         "item": "minecraft:sculk_vein"
       },
-      "E": {
+      "B": {
         "item": "minecraft:echo_shard"
       },
-      "b": {
+      "C": {
         "item": "minecraft:bone"
       }
     },
     "result": {
       "item": "minecraft:sculk_shrieker"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

@@ -7,6 +7,9 @@
     "tags": [
       "stonecutter"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:birch_stairs"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:birch_planks"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

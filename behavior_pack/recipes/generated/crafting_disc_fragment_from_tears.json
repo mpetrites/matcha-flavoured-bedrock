@@ -7,6 +7,9 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "ingredients": [
       {
         "item": "minecraft:music_disc_tears"
@@ -14,9 +17,6 @@
     ],
     "result": {
       "item": "minecraft:disc_fragment_5"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

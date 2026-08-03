@@ -7,25 +7,25 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "I I",
-      "ICI",
-      " I "
+      "B B",
+      "BAB",
+      " B "
     ],
     "key": {
-      "C": {
+      "A": {
         "item": "minecraft:barrel"
       },
-      "I": {
+      "B": {
         "item": "minecraft:resin_brick"
       }
     },
     "result": {
       "item": "minecraft:hopper",
       "count": 8
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }

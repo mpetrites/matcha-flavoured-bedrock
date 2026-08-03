@@ -7,27 +7,27 @@
     "tags": [
       "crafting_table"
     ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
     "pattern": [
-      "ASA",
-      "SBS",
-      "ASA"
+      "CAC",
+      "ABA",
+      "CAC"
     ],
     "key": {
-      "S": {
+      "A": {
         "item": "minecraft:shulker_shell"
       },
       "B": {
         "item": "minecraft:enchanted_book"
       },
-      "A": {
+      "C": {
         "item": "minecraft:glowstone_dust"
       }
     },
     "result": {
       "item": "matcha:blessing_silk_touch"
-    },
-    "unlock": {
-      "context": "AlwaysUnlocked"
     }
   }
 }
