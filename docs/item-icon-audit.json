@@ -1,9 +1,33 @@
 {
   "used_custom_item_icons": 432,
-  "exact_source_imports": 57,
+  "exact_source_imports": 257,
   "bedrock_base_references": 6,
   "unresolved_icons": 23,
   "imported": [
+    {
+      "identifier": "matcha:adamant_claymore",
+      "definition": "behavior_pack/items/generated_equipment/adamant_claymore.json",
+      "atlas_key": "matcha_adamant_claymore",
+      "source": "assets/minecraft/textures/item/adamant_claymore.png"
+    },
+    {
+      "identifier": "matcha:adamant_dolabra",
+      "definition": "behavior_pack/items/generated_equipment/adamant_dolabra.json",
+      "atlas_key": "matcha_adamant_dolabra",
+      "source": "assets/minecraft/textures/item/adamant_dolabra.png"
+    },
+    {
+      "identifier": "matcha:adamant_mattock",
+      "definition": "behavior_pack/items/generated_equipment/adamant_mattock.json",
+      "atlas_key": "matcha_adamant_mattock",
+      "source": "assets/minecraft/textures/item/adamant_mattock.png"
+    },
+    {
+      "identifier": "matcha:baked_apple",
+      "definition": "behavior_pack/items/baked_apple.json",
+      "atlas_key": "matcha_baked_apple",
+      "source": "assets/minecraft/textures/item/baked_apple.png"
+    },
     {
       "identifier": "matcha:blessing_hell_bound_book",
       "definition": "behavior_pack/items/generated_blessings/hell_bound_book.json",
@@ -11,16 +35,184 @@
       "source": "resource_pack/textures/items/vanilla_proxy/book_enchanted.png"
     },
     {
+      "identifier": "matcha:blessing_warding",
+      "definition": "behavior_pack/items/generated_blessings/warding.json",
+      "atlas_key": "matcha_blessing_warding",
+      "source": "assets/minecraft/textures/item/blessing_warding.png"
+    },
+    {
+      "identifier": "matcha:bronze_axe",
+      "definition": "behavior_pack/items/generated_equipment/bronze_axe.json",
+      "atlas_key": "matcha_bronze_axe",
+      "source": "assets/minecraft/textures/item/bronze_axe.png"
+    },
+    {
+      "identifier": "matcha:bronze_boots",
+      "definition": "behavior_pack/items/generated_equipment/bronze_boots.json",
+      "atlas_key": "matcha_bronze_boots",
+      "source": "assets/minecraft/textures/item/bronze_boots.png"
+    },
+    {
+      "identifier": "matcha:bronze_chestplate",
+      "definition": "behavior_pack/items/generated_equipment/bronze_chestplate.json",
+      "atlas_key": "matcha_bronze_chestplate",
+      "source": "assets/minecraft/textures/item/bronze_chestplate.png"
+    },
+    {
+      "identifier": "matcha:bronze_dolabra",
+      "definition": "behavior_pack/items/generated_equipment/bronze_dolabra.json",
+      "atlas_key": "matcha_bronze_dolabra",
+      "source": "assets/minecraft/textures/item/bronze_dolabra.png"
+    },
+    {
+      "identifier": "matcha:bronze_helmet",
+      "definition": "behavior_pack/items/generated_equipment/bronze_helmet.json",
+      "atlas_key": "matcha_bronze_helmet",
+      "source": "assets/minecraft/textures/item/bronze_helmet.png"
+    },
+    {
+      "identifier": "matcha:bronze_hoe",
+      "definition": "behavior_pack/items/generated_equipment/bronze_hoe.json",
+      "atlas_key": "matcha_bronze_hoe",
+      "source": "assets/minecraft/textures/item/bronze_hoe.png"
+    },
+    {
+      "identifier": "matcha:bronze_leggings",
+      "definition": "behavior_pack/items/generated_equipment/bronze_leggings.json",
+      "atlas_key": "matcha_bronze_leggings",
+      "source": "assets/minecraft/textures/item/bronze_leggings.png"
+    },
+    {
+      "identifier": "matcha:bronze_mattock",
+      "definition": "behavior_pack/items/generated_equipment/bronze_mattock.json",
+      "atlas_key": "matcha_bronze_mattock",
+      "source": "assets/minecraft/textures/item/bronze_mattock.png"
+    },
+    {
+      "identifier": "matcha:bronze_pickaxe",
+      "definition": "behavior_pack/items/generated_equipment/bronze_pickaxe.json",
+      "atlas_key": "matcha_bronze_pickaxe",
+      "source": "assets/minecraft/textures/item/bronze_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:bronze_shears",
+      "definition": "behavior_pack/items/generated_equipment/bronze_shears.json",
+      "atlas_key": "matcha_bronze_shears",
+      "source": "assets/minecraft/textures/item/bronze_shears.png"
+    },
+    {
+      "identifier": "matcha:bronze_shovel",
+      "definition": "behavior_pack/items/generated_equipment/bronze_shovel.json",
+      "atlas_key": "matcha_bronze_shovel",
+      "source": "assets/minecraft/textures/item/bronze_shovel.png"
+    },
+    {
+      "identifier": "matcha:bronze_spear",
+      "definition": "behavior_pack/items/generated_equipment/bronze_spear.json",
+      "atlas_key": "matcha_bronze_spear",
+      "source": "assets/minecraft/textures/item/bronze_spear.png"
+    },
+    {
+      "identifier": "matcha:bronze_sword",
+      "definition": "behavior_pack/items/bronze_sword.json",
+      "atlas_key": "matcha_bronze_sword",
+      "source": "assets/minecraft/textures/item/bronze_sword.png"
+    },
+    {
+      "identifier": "matcha:charred_fish",
+      "definition": "behavior_pack/items/charred_fish.json",
+      "atlas_key": "matcha_charred_fish",
+      "source": "assets/minecraft/textures/item/charred_fish.png"
+    },
+    {
+      "identifier": "matcha:charred_meat",
+      "definition": "behavior_pack/items/charred_meat.json",
+      "atlas_key": "matcha_charred_meat",
+      "source": "assets/minecraft/textures/item/charred_meat.png"
+    },
+    {
+      "identifier": "matcha:charred_potato",
+      "definition": "behavior_pack/items/charred_potato.json",
+      "atlas_key": "matcha_charred_potato",
+      "source": "assets/minecraft/textures/item/charred_potato.png"
+    },
+    {
+      "identifier": "matcha:amber_earrings",
+      "definition": "behavior_pack/items/generated_components/amber_earrings.json",
+      "atlas_key": "matcha_component_amber_earrings",
+      "source": "assets/minecraft/textures/item/amber_earrings.png"
+    },
+    {
       "identifier": "matcha:benzene",
       "definition": "behavior_pack/items/generated_components/benzene.json",
       "atlas_key": "matcha_component_benzene",
-      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_endermite.png"
+      "source": "assets/minecraft/textures/item/benzene.png"
+    },
+    {
+      "identifier": "matcha:bronze_elytra",
+      "definition": "behavior_pack/items/generated_components/bronze_elytra.json",
+      "atlas_key": "matcha_component_bronze_elytra",
+      "source": "assets/minecraft/textures/item/bronze_elytra.png"
+    },
+    {
+      "identifier": "matcha:butcher_knife",
+      "definition": "behavior_pack/items/generated_components/butcher_knife.json",
+      "atlas_key": "matcha_component_butcher_knife",
+      "source": "assets/minecraft/textures/item/butcher_knife.png"
+    },
+    {
+      "identifier": "matcha:campfire",
+      "definition": "behavior_pack/items/generated_components/campfire.json",
+      "atlas_key": "matcha_component_campfire",
+      "source": "assets/minecraft/textures/item/campfire.png"
     },
     {
       "identifier": "matcha:carbon_rich_iron",
       "definition": "behavior_pack/items/generated_components/carbon_rich_iron.json",
       "atlas_key": "matcha_component_carbon_rich_iron",
-      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_piglin_brute.png"
+      "source": "assets/minecraft/textures/item/carbon_rich_iron.png"
+    },
+    {
+      "identifier": "matcha:chainmail_boots",
+      "definition": "behavior_pack/items/generated_components/chainmail_boots.json",
+      "atlas_key": "matcha_component_chainmail_boots",
+      "source": "assets/minecraft/textures/item/chainmail_boots.png"
+    },
+    {
+      "identifier": "matcha:chainmail_chestplate",
+      "definition": "behavior_pack/items/generated_components/chainmail_chestplate.json",
+      "atlas_key": "matcha_component_chainmail_chestplate",
+      "source": "assets/minecraft/textures/item/chainmail_chestplate.png"
+    },
+    {
+      "identifier": "matcha:chainmail_helmet",
+      "definition": "behavior_pack/items/generated_components/chainmail_helmet.json",
+      "atlas_key": "matcha_component_chainmail_helmet",
+      "source": "assets/minecraft/textures/item/chainmail_helmet.png"
+    },
+    {
+      "identifier": "matcha:chainmail_leggings",
+      "definition": "behavior_pack/items/generated_components/chainmail_leggings.json",
+      "atlas_key": "matcha_component_chainmail_leggings",
+      "source": "assets/minecraft/textures/item/chainmail_leggings.png"
+    },
+    {
+      "identifier": "matcha:copper_axe",
+      "definition": "behavior_pack/items/generated_components/copper_axe.json",
+      "atlas_key": "matcha_component_copper_axe",
+      "source": "assets/minecraft/textures/item/copper_axe.png"
+    },
+    {
+      "identifier": "matcha:copper_boots",
+      "definition": "behavior_pack/items/generated_components/copper_boots.json",
+      "atlas_key": "matcha_component_copper_boots",
+      "source": "assets/minecraft/textures/item/copper_boots.png"
+    },
+    {
+      "identifier": "matcha:copper_chestplate",
+      "definition": "behavior_pack/items/generated_components/copper_chestplate.json",
+      "atlas_key": "matcha_component_copper_chestplate",
+      "source": "assets/minecraft/textures/item/copper_chestplate.png"
     },
     {
       "identifier": "matcha:copper_compass",
@@ -29,10 +221,172 @@
       "source": "resource_pack/textures/items/vanilla_proxy/compass_item.png"
     },
     {
+      "identifier": "matcha:copper_dolabra",
+      "definition": "behavior_pack/items/generated_components/copper_dolabra.json",
+      "atlas_key": "matcha_component_copper_dolabra",
+      "source": "assets/minecraft/textures/item/copper_dolabra.png"
+    },
+    {
+      "identifier": "matcha:copper_helmet",
+      "definition": "behavior_pack/items/generated_components/copper_helmet.json",
+      "atlas_key": "matcha_component_copper_helmet",
+      "source": "assets/minecraft/textures/item/copper_helmet.png"
+    },
+    {
+      "identifier": "matcha:copper_hoe",
+      "definition": "behavior_pack/items/generated_components/copper_hoe.json",
+      "atlas_key": "matcha_component_copper_hoe",
+      "source": "assets/minecraft/textures/item/copper_hoe.png"
+    },
+    {
+      "identifier": "matcha:copper_leggings",
+      "definition": "behavior_pack/items/generated_components/copper_leggings.json",
+      "atlas_key": "matcha_component_copper_leggings",
+      "source": "assets/minecraft/textures/item/copper_leggings.png"
+    },
+    {
+      "identifier": "matcha:copper_mattock",
+      "definition": "behavior_pack/items/generated_components/copper_mattock.json",
+      "atlas_key": "matcha_component_copper_mattock",
+      "source": "assets/minecraft/textures/item/copper_mattock.png"
+    },
+    {
+      "identifier": "matcha:copper_pickaxe",
+      "definition": "behavior_pack/items/generated_components/copper_pickaxe.json",
+      "atlas_key": "matcha_component_copper_pickaxe",
+      "source": "assets/minecraft/textures/item/copper_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:copper_shears",
+      "definition": "behavior_pack/items/generated_components/copper_shears.json",
+      "atlas_key": "matcha_component_copper_shears",
+      "source": "assets/minecraft/textures/item/copper_shears.png"
+    },
+    {
+      "identifier": "matcha:copper_shovel",
+      "definition": "behavior_pack/items/generated_components/copper_shovel.json",
+      "atlas_key": "matcha_component_copper_shovel",
+      "source": "assets/minecraft/textures/item/copper_shovel.png"
+    },
+    {
+      "identifier": "matcha:copper_spear",
+      "definition": "behavior_pack/items/generated_components/copper_spear.json",
+      "atlas_key": "matcha_component_copper_spear",
+      "source": "assets/minecraft/textures/item/copper_spear.png"
+    },
+    {
+      "identifier": "matcha:copper_sword",
+      "definition": "behavior_pack/items/generated_components/copper_sword.json",
+      "atlas_key": "matcha_component_copper_sword",
+      "source": "assets/minecraft/textures/item/copper_sword.png"
+    },
+    {
+      "identifier": "matcha:diamond_axe",
+      "definition": "behavior_pack/items/generated_components/diamond_axe.json",
+      "atlas_key": "matcha_component_diamond_axe",
+      "source": "assets/minecraft/textures/item/diamond_axe.png"
+    },
+    {
+      "identifier": "matcha:diamond_boots",
+      "definition": "behavior_pack/items/generated_components/diamond_boots.json",
+      "atlas_key": "matcha_component_diamond_boots",
+      "source": "assets/minecraft/textures/item/diamond_boots.png"
+    },
+    {
+      "identifier": "matcha:diamond_chestplate",
+      "definition": "behavior_pack/items/generated_components/diamond_chestplate.json",
+      "atlas_key": "matcha_component_diamond_chestplate",
+      "source": "assets/minecraft/textures/item/diamond_chestplate.png"
+    },
+    {
+      "identifier": "matcha:diamond_dolabra",
+      "definition": "behavior_pack/items/generated_components/diamond_dolabra.json",
+      "atlas_key": "matcha_component_diamond_dolabra",
+      "source": "assets/minecraft/textures/item/diamond_dolabra.png"
+    },
+    {
+      "identifier": "matcha:diamond_helmet",
+      "definition": "behavior_pack/items/generated_components/diamond_helmet.json",
+      "atlas_key": "matcha_component_diamond_helmet",
+      "source": "assets/minecraft/textures/item/diamond_helmet.png"
+    },
+    {
+      "identifier": "matcha:diamond_hoe",
+      "definition": "behavior_pack/items/generated_components/diamond_hoe.json",
+      "atlas_key": "matcha_component_diamond_hoe",
+      "source": "assets/minecraft/textures/item/diamond_hoe.png"
+    },
+    {
+      "identifier": "matcha:diamond_leggings",
+      "definition": "behavior_pack/items/generated_components/diamond_leggings.json",
+      "atlas_key": "matcha_component_diamond_leggings",
+      "source": "assets/minecraft/textures/item/diamond_leggings.png"
+    },
+    {
+      "identifier": "matcha:diamond_mattock",
+      "definition": "behavior_pack/items/generated_components/diamond_mattock.json",
+      "atlas_key": "matcha_component_diamond_mattock",
+      "source": "assets/minecraft/textures/item/diamond_mattock.png"
+    },
+    {
+      "identifier": "matcha:diamond_pickaxe",
+      "definition": "behavior_pack/items/generated_components/diamond_pickaxe.json",
+      "atlas_key": "matcha_component_diamond_pickaxe",
+      "source": "assets/minecraft/textures/item/diamond_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:diamond_shovel",
+      "definition": "behavior_pack/items/generated_components/diamond_shovel.json",
+      "atlas_key": "matcha_component_diamond_shovel",
+      "source": "assets/minecraft/textures/item/diamond_shovel.png"
+    },
+    {
+      "identifier": "matcha:diamond_spear",
+      "definition": "behavior_pack/items/generated_components/diamond_spear.json",
+      "atlas_key": "matcha_component_diamond_spear",
+      "source": "assets/minecraft/textures/item/diamond_spear.png"
+    },
+    {
+      "identifier": "matcha:diamond_sword",
+      "definition": "behavior_pack/items/generated_components/diamond_sword.json",
+      "atlas_key": "matcha_component_diamond_sword",
+      "source": "assets/minecraft/textures/item/diamond_sword.png"
+    },
+    {
+      "identifier": "matcha:dough",
+      "definition": "behavior_pack/items/generated_components/dough.json",
+      "atlas_key": "matcha_component_dough",
+      "source": "assets/minecraft/textures/item/dough.png"
+    },
+    {
+      "identifier": "matcha:flour",
+      "definition": "behavior_pack/items/generated_components/flour.json",
+      "atlas_key": "matcha_component_flour",
+      "source": "assets/minecraft/textures/item/flour.png"
+    },
+    {
       "identifier": "matcha:flour_bag",
       "definition": "behavior_pack/items/generated_components/flour_bag.json",
       "atlas_key": "matcha_component_flour_bag",
-      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_magma_cube.png"
+      "source": "assets/minecraft/textures/item/flour_bag.png"
+    },
+    {
+      "identifier": "matcha:golden_axe",
+      "definition": "behavior_pack/items/generated_components/golden_axe.json",
+      "atlas_key": "matcha_component_golden_axe",
+      "source": "assets/minecraft/textures/item/golden_axe.png"
+    },
+    {
+      "identifier": "matcha:golden_boots",
+      "definition": "behavior_pack/items/generated_components/golden_boots.json",
+      "atlas_key": "matcha_component_golden_boots",
+      "source": "assets/minecraft/textures/item/golden_boots.png"
+    },
+    {
+      "identifier": "matcha:golden_chestplate",
+      "definition": "behavior_pack/items/generated_components/golden_chestplate.json",
+      "atlas_key": "matcha_component_golden_chestplate",
+      "source": "assets/minecraft/textures/item/golden_chestplate.png"
     },
     {
       "identifier": "matcha:golden_compass",
@@ -41,34 +395,250 @@
       "source": "resource_pack/textures/items/vanilla_proxy/compass_item.png"
     },
     {
+      "identifier": "matcha:golden_helmet",
+      "definition": "behavior_pack/items/generated_components/golden_helmet.json",
+      "atlas_key": "matcha_component_golden_helmet",
+      "source": "assets/minecraft/textures/item/golden_helmet.png"
+    },
+    {
+      "identifier": "matcha:golden_hoe",
+      "definition": "behavior_pack/items/generated_components/golden_hoe.json",
+      "atlas_key": "matcha_component_golden_hoe",
+      "source": "assets/minecraft/textures/item/golden_hoe.png"
+    },
+    {
+      "identifier": "matcha:golden_leggings",
+      "definition": "behavior_pack/items/generated_components/golden_leggings.json",
+      "atlas_key": "matcha_component_golden_leggings",
+      "source": "assets/minecraft/textures/item/golden_leggings.png"
+    },
+    {
+      "identifier": "matcha:golden_pickaxe",
+      "definition": "behavior_pack/items/generated_components/golden_pickaxe.json",
+      "atlas_key": "matcha_component_golden_pickaxe",
+      "source": "assets/minecraft/textures/item/golden_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:golden_shovel",
+      "definition": "behavior_pack/items/generated_components/golden_shovel.json",
+      "atlas_key": "matcha_component_golden_shovel",
+      "source": "assets/minecraft/textures/item/golden_shovel.png"
+    },
+    {
+      "identifier": "matcha:golden_spear",
+      "definition": "behavior_pack/items/generated_components/golden_spear.json",
+      "atlas_key": "matcha_component_golden_spear",
+      "source": "assets/minecraft/textures/item/golden_spear.png"
+    },
+    {
+      "identifier": "matcha:golden_sword",
+      "definition": "behavior_pack/items/generated_components/golden_sword.json",
+      "atlas_key": "matcha_component_golden_sword",
+      "source": "assets/minecraft/textures/item/golden_sword.png"
+    },
+    {
+      "identifier": "matcha:invisible_item_frame",
+      "definition": "behavior_pack/items/generated_components/invisible_item_frame.json",
+      "atlas_key": "matcha_component_invisible_item_frame",
+      "source": "assets/minecraft/textures/item/invisible_item_frame.png"
+    },
+    {
+      "identifier": "matcha:iron_axe",
+      "definition": "behavior_pack/items/generated_components/iron_axe.json",
+      "atlas_key": "matcha_component_iron_axe",
+      "source": "assets/minecraft/textures/item/iron_axe.png"
+    },
+    {
+      "identifier": "matcha:iron_boots",
+      "definition": "behavior_pack/items/generated_components/iron_boots.json",
+      "atlas_key": "matcha_component_iron_boots",
+      "source": "assets/minecraft/textures/item/iron_boots.png"
+    },
+    {
+      "identifier": "matcha:iron_chestplate",
+      "definition": "behavior_pack/items/generated_components/iron_chestplate.json",
+      "atlas_key": "matcha_component_iron_chestplate",
+      "source": "assets/minecraft/textures/item/iron_chestplate.png"
+    },
+    {
+      "identifier": "matcha:iron_dolabra",
+      "definition": "behavior_pack/items/generated_components/iron_dolabra.json",
+      "atlas_key": "matcha_component_iron_dolabra",
+      "source": "assets/minecraft/textures/item/iron_dolabra.png"
+    },
+    {
+      "identifier": "matcha:iron_helmet",
+      "definition": "behavior_pack/items/generated_components/iron_helmet.json",
+      "atlas_key": "matcha_component_iron_helmet",
+      "source": "assets/minecraft/textures/item/iron_helmet.png"
+    },
+    {
+      "identifier": "matcha:iron_hoe",
+      "definition": "behavior_pack/items/generated_components/iron_hoe.json",
+      "atlas_key": "matcha_component_iron_hoe",
+      "source": "assets/minecraft/textures/item/iron_hoe.png"
+    },
+    {
+      "identifier": "matcha:iron_leggings",
+      "definition": "behavior_pack/items/generated_components/iron_leggings.json",
+      "atlas_key": "matcha_component_iron_leggings",
+      "source": "assets/minecraft/textures/item/iron_leggings.png"
+    },
+    {
+      "identifier": "matcha:iron_mattock",
+      "definition": "behavior_pack/items/generated_components/iron_mattock.json",
+      "atlas_key": "matcha_component_iron_mattock",
+      "source": "assets/minecraft/textures/item/iron_mattock.png"
+    },
+    {
+      "identifier": "matcha:iron_pickaxe",
+      "definition": "behavior_pack/items/generated_components/iron_pickaxe.json",
+      "atlas_key": "matcha_component_iron_pickaxe",
+      "source": "assets/minecraft/textures/item/iron_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:iron_shovel",
+      "definition": "behavior_pack/items/generated_components/iron_shovel.json",
+      "atlas_key": "matcha_component_iron_shovel",
+      "source": "assets/minecraft/textures/item/iron_shovel.png"
+    },
+    {
+      "identifier": "matcha:iron_spear",
+      "definition": "behavior_pack/items/generated_components/iron_spear.json",
+      "atlas_key": "matcha_component_iron_spear",
+      "source": "assets/minecraft/textures/item/iron_spear.png"
+    },
+    {
+      "identifier": "matcha:iron_sword",
+      "definition": "behavior_pack/items/generated_components/iron_sword.json",
+      "atlas_key": "matcha_component_iron_sword",
+      "source": "assets/minecraft/textures/item/iron_sword.png"
+    },
+    {
+      "identifier": "matcha:leather_boots",
+      "definition": "behavior_pack/items/generated_components/leather_boots.json",
+      "atlas_key": "matcha_component_leather_boots",
+      "source": "assets/minecraft/textures/item/leather_boots.png"
+    },
+    {
+      "identifier": "matcha:leather_chestplate",
+      "definition": "behavior_pack/items/generated_components/leather_chestplate.json",
+      "atlas_key": "matcha_component_leather_chestplate",
+      "source": "assets/minecraft/textures/item/leather_chestplate.png"
+    },
+    {
+      "identifier": "matcha:leather_helmet",
+      "definition": "behavior_pack/items/generated_components/leather_helmet.json",
+      "atlas_key": "matcha_component_leather_helmet",
+      "source": "assets/minecraft/textures/item/leather_helmet.png"
+    },
+    {
+      "identifier": "matcha:mace",
+      "definition": "behavior_pack/items/generated_components/mace.json",
+      "atlas_key": "matcha_component_mace",
+      "source": "assets/minecraft/textures/item/mace.png"
+    },
+    {
+      "identifier": "matcha:music_disc_golden",
+      "definition": "behavior_pack/items/generated_components/music_disc_golden.json",
+      "atlas_key": "matcha_component_music_disc_golden",
+      "source": "assets/minecraft/textures/item/music_disc_golden.png"
+    },
+    {
+      "identifier": "matcha:music_disc_labyrinthine",
+      "definition": "behavior_pack/items/generated_components/music_disc_labyrinthine.json",
+      "atlas_key": "matcha_component_music_disc_labyrinthine",
+      "source": "assets/minecraft/textures/item/music_disc_labyrinthine.png"
+    },
+    {
+      "identifier": "matcha:silver_sword",
+      "definition": "behavior_pack/items/generated_components/silver_sword.json",
+      "atlas_key": "matcha_component_silver_sword",
+      "source": "assets/minecraft/textures/item/silver_sword.png"
+    },
+    {
+      "identifier": "matcha:snow_shovel",
+      "definition": "behavior_pack/items/generated_components/snow_shovel.json",
+      "atlas_key": "matcha_component_snow_shovel",
+      "source": "assets/minecraft/textures/item/snow_shovel.png"
+    },
+    {
+      "identifier": "matcha:soul_campfire",
+      "definition": "behavior_pack/items/generated_components/soul_campfire.json",
+      "atlas_key": "matcha_component_soul_campfire",
+      "source": "assets/minecraft/textures/item/soul_campfire.png"
+    },
+    {
+      "identifier": "matcha:sturdy_leather_boots",
+      "definition": "behavior_pack/items/generated_components/sturdy_leather_boots.json",
+      "atlas_key": "matcha_component_sturdy_leather_boots",
+      "source": "assets/minecraft/textures/item/sturdy_leather_boots.png"
+    },
+    {
+      "identifier": "matcha:sturdy_leather_chestplate",
+      "definition": "behavior_pack/items/generated_components/sturdy_leather_chestplate.json",
+      "atlas_key": "matcha_component_sturdy_leather_chestplate",
+      "source": "assets/minecraft/textures/item/sturdy_leather_chestplate.png"
+    },
+    {
+      "identifier": "matcha:sturdy_leather_helmet",
+      "definition": "behavior_pack/items/generated_components/sturdy_leather_helmet.json",
+      "atlas_key": "matcha_component_sturdy_leather_helmet",
+      "source": "assets/minecraft/textures/item/sturdy_leather_helmet.png"
+    },
+    {
+      "identifier": "matcha:tinder",
+      "definition": "behavior_pack/items/generated_components/tinder.json",
+      "atlas_key": "matcha_component_tinder",
+      "source": "assets/minecraft/textures/item/tinder.png"
+    },
+    {
       "identifier": "matcha:uncooked_curry",
       "definition": "behavior_pack/items/generated_components/uncooked_curry.json",
       "atlas_key": "matcha_component_uncooked_curry",
-      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_strider.png"
+      "source": "assets/minecraft/textures/item/uncooked_curry.png"
     },
     {
       "identifier": "matcha:uncooked_green_curry",
       "definition": "behavior_pack/items/generated_components/uncooked_green_curry.json",
       "atlas_key": "matcha_component_uncooked_green_curry",
-      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_zombified_piglin.png"
+      "source": "assets/minecraft/textures/item/uncooked_green_curry.png"
     },
     {
       "identifier": "matcha:uncooked_paneer_makhani",
       "definition": "behavior_pack/items/generated_components/uncooked_paneer_makhani.json",
       "atlas_key": "matcha_component_uncooked_paneer_makhani",
-      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_zoglin.png"
+      "source": "assets/minecraft/textures/item/uncooked_paneer_makhani.png"
     },
     {
       "identifier": "matcha:uncooked_ramen",
       "definition": "behavior_pack/items/generated_components/uncooked_ramen.json",
       "atlas_key": "matcha_component_uncooked_ramen",
-      "source": "resource_pack/textures/items/vanilla_proxy/spawn_egg_wither_skeleton.png"
+      "source": "assets/minecraft/textures/item/uncooked_ramen.png"
+    },
+    {
+      "identifier": "matcha:warding_stone",
+      "definition": "behavior_pack/items/generated_components/warding_stone.json",
+      "atlas_key": "matcha_component_warding_stone",
+      "source": "assets/minecraft/textures/item/warding_stone.png"
+    },
+    {
+      "identifier": "matcha:warding_sword",
+      "definition": "behavior_pack/items/generated_components/warding_sword.json",
+      "atlas_key": "matcha_component_warding_sword",
+      "source": "assets/minecraft/textures/item/warding_sword.png"
     },
     {
       "identifier": "matcha:wooden_axe",
       "definition": "behavior_pack/items/generated_components/wooden_axe.json",
       "atlas_key": "matcha_component_wooden_axe",
       "source": "resource_pack/textures/items/vanilla_proxy/wood_axe.png"
+    },
+    {
+      "identifier": "matcha:wooden_cross",
+      "definition": "behavior_pack/items/generated_components/wooden_cross.json",
+      "atlas_key": "matcha_component_wooden_cross",
+      "source": "assets/minecraft/textures/item/wooden_cross.png"
     },
     {
       "identifier": "matcha:wooden_hoe",
@@ -89,16 +659,178 @@
       "source": "resource_pack/textures/items/vanilla_proxy/wood_shovel.png"
     },
     {
+      "identifier": "matcha:wooden_spear",
+      "definition": "behavior_pack/items/generated_components/wooden_spear.json",
+      "atlas_key": "matcha_component_wooden_spear",
+      "source": "assets/minecraft/textures/item/wooden_spear.png"
+    },
+    {
       "identifier": "matcha:wooden_sword",
       "definition": "behavior_pack/items/generated_components/wooden_sword.json",
       "atlas_key": "matcha_component_wooden_sword",
       "source": "resource_pack/textures/items/vanilla_proxy/wood_sword.png"
     },
     {
+      "identifier": "matcha:electrum_axe",
+      "definition": "behavior_pack/items/generated_equipment/electrum_axe.json",
+      "atlas_key": "matcha_electrum_axe",
+      "source": "assets/minecraft/textures/item/electrum_axe.png"
+    },
+    {
+      "identifier": "matcha:electrum_boots",
+      "definition": "behavior_pack/items/generated_equipment/electrum_boots.json",
+      "atlas_key": "matcha_electrum_boots",
+      "source": "assets/minecraft/textures/item/electrum_boots.png"
+    },
+    {
+      "identifier": "matcha:electrum_chestplate",
+      "definition": "behavior_pack/items/generated_equipment/electrum_chestplate.json",
+      "atlas_key": "matcha_electrum_chestplate",
+      "source": "assets/minecraft/textures/item/electrum_chestplate.png"
+    },
+    {
+      "identifier": "matcha:electrum_dolabra",
+      "definition": "behavior_pack/items/generated_equipment/electrum_dolabra.json",
+      "atlas_key": "matcha_electrum_dolabra",
+      "source": "assets/minecraft/textures/item/electrum_dolabra.png"
+    },
+    {
+      "identifier": "matcha:electrum_helmet",
+      "definition": "behavior_pack/items/generated_equipment/electrum_helmet.json",
+      "atlas_key": "matcha_electrum_helmet",
+      "source": "assets/minecraft/textures/item/electrum_helmet.png"
+    },
+    {
+      "identifier": "matcha:electrum_hoe",
+      "definition": "behavior_pack/items/generated_equipment/electrum_hoe.json",
+      "atlas_key": "matcha_electrum_hoe",
+      "source": "assets/minecraft/textures/item/electrum_hoe.png"
+    },
+    {
+      "identifier": "matcha:electrum_leggings",
+      "definition": "behavior_pack/items/generated_equipment/electrum_leggings.json",
+      "atlas_key": "matcha_electrum_leggings",
+      "source": "assets/minecraft/textures/item/electrum_leggings.png"
+    },
+    {
+      "identifier": "matcha:electrum_mattock",
+      "definition": "behavior_pack/items/generated_equipment/electrum_mattock.json",
+      "atlas_key": "matcha_electrum_mattock",
+      "source": "assets/minecraft/textures/item/electrum_mattock.png"
+    },
+    {
+      "identifier": "matcha:electrum_pickaxe",
+      "definition": "behavior_pack/items/generated_equipment/electrum_pickaxe.json",
+      "atlas_key": "matcha_electrum_pickaxe",
+      "source": "assets/minecraft/textures/item/electrum_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:electrum_shovel",
+      "definition": "behavior_pack/items/generated_equipment/electrum_shovel.json",
+      "atlas_key": "matcha_electrum_shovel",
+      "source": "assets/minecraft/textures/item/electrum_shovel.png"
+    },
+    {
+      "identifier": "matcha:electrum_spear",
+      "definition": "behavior_pack/items/generated_equipment/electrum_spear.json",
+      "atlas_key": "matcha_electrum_spear",
+      "source": "assets/minecraft/textures/item/electrum_spear.png"
+    },
+    {
+      "identifier": "matcha:electrum_sword",
+      "definition": "behavior_pack/items/generated_equipment/electrum_sword.json",
+      "atlas_key": "matcha_electrum_sword",
+      "source": "assets/minecraft/textures/item/electrum_sword.png"
+    },
+    {
+      "identifier": "matcha:apple_empanada",
+      "definition": "behavior_pack/items/generated_foods/apple_empanada.json",
+      "atlas_key": "matcha_food_apple_empanada",
+      "source": "assets/minecraft/textures/item/apple_empanada.png"
+    },
+    {
+      "identifier": "matcha:baked_golden_apple",
+      "definition": "behavior_pack/items/generated_foods/baked_golden_apple.json",
+      "atlas_key": "matcha_food_baked_golden_apple",
+      "source": "assets/minecraft/textures/item/baked_golden_apple.png"
+    },
+    {
+      "identifier": "matcha:baked_potato",
+      "definition": "behavior_pack/items/generated_foods/baked_potato.json",
+      "atlas_key": "matcha_food_baked_potato",
+      "source": "assets/minecraft/textures/item/baked_potato.png"
+    },
+    {
       "identifier": "matcha:baked_pumpkin",
       "definition": "behavior_pack/items/generated_foods/baked_pumpkin.json",
       "atlas_key": "matcha_food_baked_pumpkin",
       "source": "resource_pack/textures/items/vanilla_proxy/breeze_rod.png"
+    },
+    {
+      "identifier": "matcha:bokguk",
+      "definition": "behavior_pack/items/generated_foods/bokguk.json",
+      "atlas_key": "matcha_food_bokguk",
+      "source": "assets/minecraft/textures/item/bokguk.png"
+    },
+    {
+      "identifier": "matcha:braised_brown_mushroom",
+      "definition": "behavior_pack/items/generated_foods/braised_brown_mushroom.json",
+      "atlas_key": "matcha_food_braised_brown_mushroom",
+      "source": "assets/minecraft/textures/item/braised_brown_mushroom.png"
+    },
+    {
+      "identifier": "matcha:braised_crimson_fungus",
+      "definition": "behavior_pack/items/generated_foods/braised_crimson_fungus.json",
+      "atlas_key": "matcha_food_braised_crimson_fungus",
+      "source": "assets/minecraft/textures/item/braised_crimson_fungus.png"
+    },
+    {
+      "identifier": "matcha:braised_red_mushroom",
+      "definition": "behavior_pack/items/generated_foods/braised_red_mushroom.json",
+      "atlas_key": "matcha_food_braised_red_mushroom",
+      "source": "assets/minecraft/textures/item/braised_red_mushroom.png"
+    },
+    {
+      "identifier": "matcha:braised_warped_fungus",
+      "definition": "behavior_pack/items/generated_foods/braised_warped_fungus.json",
+      "atlas_key": "matcha_food_braised_warped_fungus",
+      "source": "assets/minecraft/textures/item/braised_warped_fungus.png"
+    },
+    {
+      "identifier": "matcha:bread",
+      "definition": "behavior_pack/items/generated_foods/bread.json",
+      "atlas_key": "matcha_food_bread",
+      "source": "assets/minecraft/textures/item/bread.png"
+    },
+    {
+      "identifier": "matcha:brownie",
+      "definition": "behavior_pack/items/generated_foods/brownie.json",
+      "atlas_key": "matcha_food_brownie",
+      "source": "assets/minecraft/textures/item/brownie.png"
+    },
+    {
+      "identifier": "matcha:bruschetta",
+      "definition": "behavior_pack/items/generated_foods/bruschetta.json",
+      "atlas_key": "matcha_food_bruschetta",
+      "source": "assets/minecraft/textures/item/bruschetta.png"
+    },
+    {
+      "identifier": "matcha:canned_apples",
+      "definition": "behavior_pack/items/generated_foods/canned_apples.json",
+      "atlas_key": "matcha_food_canned_apples",
+      "source": "assets/minecraft/textures/item/canned_apples.png"
+    },
+    {
+      "identifier": "matcha:canned_golden_apples",
+      "definition": "behavior_pack/items/generated_foods/canned_golden_apples.json",
+      "atlas_key": "matcha_food_canned_golden_apples",
+      "source": "assets/minecraft/textures/item/canned_golden_apples.png"
+    },
+    {
+      "identifier": "matcha:carrot_cupcake",
+      "definition": "behavior_pack/items/generated_foods/carrot_cupcake.json",
+      "atlas_key": "matcha_food_carrot_cupcake",
+      "source": "assets/minecraft/textures/item/carrot_cupcake.png"
     },
     {
       "identifier": "matcha:cheese",
@@ -113,6 +845,24 @@
       "source": "resource_pack/textures/items/vanilla_proxy/rabbit_stew.png"
     },
     {
+      "identifier": "matcha:chocolate",
+      "definition": "behavior_pack/items/generated_foods/chocolate.json",
+      "atlas_key": "matcha_food_chocolate",
+      "source": "assets/minecraft/textures/item/chocolate.png"
+    },
+    {
+      "identifier": "matcha:chocolate_chip_cookie",
+      "definition": "behavior_pack/items/generated_foods/chocolate_chip_cookie.json",
+      "atlas_key": "matcha_food_chocolate_chip_cookie",
+      "source": "assets/minecraft/textures/item/chocolate_chip_cookie.png"
+    },
+    {
+      "identifier": "matcha:chorus_mochi",
+      "definition": "behavior_pack/items/generated_foods/chorus_mochi.json",
+      "atlas_key": "matcha_food_chorus_mochi",
+      "source": "assets/minecraft/textures/item/chorus_mochi.png"
+    },
+    {
       "identifier": "matcha:cooked_beef",
       "definition": "behavior_pack/items/generated_foods/cooked_beef.json",
       "atlas_key": "matcha_food_cooked_beef",
@@ -123,6 +873,12 @@
       "definition": "behavior_pack/items/generated_foods/cooked_chicken.json",
       "atlas_key": "matcha_food_cooked_chicken",
       "source": "resource_pack/textures/items/vanilla_proxy/chicken_cooked.png"
+    },
+    {
+      "identifier": "matcha:cooked_cod",
+      "definition": "behavior_pack/items/generated_foods/cooked_cod.json",
+      "atlas_key": "matcha_food_cooked_cod",
+      "source": "assets/minecraft/textures/item/cooked_cod.png"
     },
     {
       "identifier": "matcha:cooked_mutton",
@@ -137,6 +893,30 @@
       "source": "resource_pack/textures/items/vanilla_proxy/porkchop_cooked.png"
     },
     {
+      "identifier": "matcha:cooked_pufferfish",
+      "definition": "behavior_pack/items/generated_foods/cooked_pufferfish.json",
+      "atlas_key": "matcha_food_cooked_pufferfish",
+      "source": "assets/minecraft/textures/item/cooked_pufferfish.png"
+    },
+    {
+      "identifier": "matcha:cooked_rabbit",
+      "definition": "behavior_pack/items/generated_foods/cooked_rabbit.json",
+      "atlas_key": "matcha_food_cooked_rabbit",
+      "source": "assets/minecraft/textures/item/cooked_rabbit.png"
+    },
+    {
+      "identifier": "matcha:cooked_salmon",
+      "definition": "behavior_pack/items/generated_foods/cooked_salmon.json",
+      "atlas_key": "matcha_food_cooked_salmon",
+      "source": "assets/minecraft/textures/item/cooked_salmon.png"
+    },
+    {
+      "identifier": "matcha:crimson_stroganoff",
+      "definition": "behavior_pack/items/generated_foods/crimson_stroganoff.json",
+      "atlas_key": "matcha_food_crimson_stroganoff",
+      "source": "assets/minecraft/textures/item/crimson_stroganoff.png"
+    },
+    {
       "identifier": "matcha:dried_kelp",
       "definition": "behavior_pack/items/generated_foods/dried_kelp.json",
       "atlas_key": "matcha_food_dried_kelp",
@@ -149,10 +929,136 @@
       "source": "assets/minecraft/textures/item/potion.png"
     },
     {
+      "identifier": "matcha:french_toast",
+      "definition": "behavior_pack/items/generated_foods/french_toast.json",
+      "atlas_key": "matcha_food_french_toast",
+      "source": "assets/minecraft/textures/item/french_toast.png"
+    },
+    {
+      "identifier": "matcha:gimmari",
+      "definition": "behavior_pack/items/generated_foods/gimmari.json",
+      "atlas_key": "matcha_food_gimmari",
+      "source": "assets/minecraft/textures/item/gimmari.png"
+    },
+    {
+      "identifier": "matcha:glow_berry_crumble",
+      "definition": "behavior_pack/items/generated_foods/glow_berry_crumble.json",
+      "atlas_key": "matcha_food_glow_berry_crumble",
+      "source": "assets/minecraft/textures/item/glow_berry_crumble.png"
+    },
+    {
+      "identifier": "matcha:glow_jam",
+      "definition": "behavior_pack/items/generated_foods/glow_jam.json",
+      "atlas_key": "matcha_food_glow_jam",
+      "source": "assets/minecraft/textures/item/glow_jam.png"
+    },
+    {
+      "identifier": "matcha:glow_mash",
+      "definition": "behavior_pack/items/generated_foods/glow_mash.json",
+      "atlas_key": "matcha_food_glow_mash",
+      "source": "assets/minecraft/textures/item/glow_mash.png"
+    },
+    {
+      "identifier": "matcha:gnocchi",
+      "definition": "behavior_pack/items/generated_foods/gnocchi.json",
+      "atlas_key": "matcha_food_gnocchi",
+      "source": "assets/minecraft/textures/item/gnocchi.png"
+    },
+    {
+      "identifier": "matcha:golden_apple",
+      "definition": "behavior_pack/items/generated_foods/golden_apple.json",
+      "atlas_key": "matcha_food_golden_apple",
+      "source": "assets/minecraft/textures/item/golden_apple.png"
+    },
+    {
+      "identifier": "matcha:golden_apple_empanada",
+      "definition": "behavior_pack/items/generated_foods/golden_apple_empanada.json",
+      "atlas_key": "matcha_food_golden_apple_empanada",
+      "source": "assets/minecraft/textures/item/golden_apple_empanada.png"
+    },
+    {
+      "identifier": "matcha:golden_carrot",
+      "definition": "behavior_pack/items/generated_foods/golden_carrot.json",
+      "atlas_key": "matcha_food_golden_carrot",
+      "source": "assets/minecraft/textures/item/golden_carrot.png"
+    },
+    {
+      "identifier": "matcha:golden_carrot_cupcake",
+      "definition": "behavior_pack/items/generated_foods/golden_carrot_cupcake.json",
+      "atlas_key": "matcha_food_golden_carrot_cupcake",
+      "source": "assets/minecraft/textures/item/golden_carrot_cupcake.png"
+    },
+    {
+      "identifier": "matcha:golden_pickled_carrots",
+      "definition": "behavior_pack/items/generated_foods/golden_pickled_carrots.json",
+      "atlas_key": "matcha_food_golden_pickled_carrots",
+      "source": "assets/minecraft/textures/item/golden_pickled_carrots.png"
+    },
+    {
       "identifier": "matcha:crafting_golden_pie",
       "definition": "behavior_pack/items/generated_foods/crafting_golden_pie.json",
       "atlas_key": "matcha_food_golden_pie",
       "source": "resource_pack/textures/items/vanilla_proxy/pumpkin_pie.png"
+    },
+    {
+      "identifier": "matcha:golden_steamed_carrots",
+      "definition": "behavior_pack/items/generated_foods/golden_steamed_carrots.json",
+      "atlas_key": "matcha_food_golden_steamed_carrots",
+      "source": "assets/minecraft/textures/item/golden_steamed_carrots.png"
+    },
+    {
+      "identifier": "matcha:green_curry",
+      "definition": "behavior_pack/items/generated_foods/green_curry.json",
+      "atlas_key": "matcha_food_green_curry",
+      "source": "assets/minecraft/textures/item/green_curry.png"
+    },
+    {
+      "identifier": "matcha:grilled_melon",
+      "definition": "behavior_pack/items/generated_foods/grilled_melon.json",
+      "atlas_key": "matcha_food_grilled_melon",
+      "source": "assets/minecraft/textures/item/grilled_melon.png"
+    },
+    {
+      "identifier": "matcha:grilled_tomatoes",
+      "definition": "behavior_pack/items/generated_foods/grilled_tomatoes.json",
+      "atlas_key": "matcha_food_grilled_tomatoes",
+      "source": "assets/minecraft/textures/item/grilled_tomatoes.png"
+    },
+    {
+      "identifier": "matcha:honey_ginger_tea",
+      "definition": "behavior_pack/items/generated_foods/honey_ginger_tea.json",
+      "atlas_key": "matcha_food_honey_ginger_tea",
+      "source": "assets/minecraft/textures/item/honey_ginger_tea.png"
+    },
+    {
+      "identifier": "matcha:honied_french_toast",
+      "definition": "behavior_pack/items/generated_foods/honied_french_toast.json",
+      "atlas_key": "matcha_food_honied_french_toast",
+      "source": "assets/minecraft/textures/item/honied_french_toast.png"
+    },
+    {
+      "identifier": "matcha:japanese_curry",
+      "definition": "behavior_pack/items/generated_foods/japanese_curry.json",
+      "atlas_key": "matcha_food_japanese_curry",
+      "source": "assets/minecraft/textures/item/japanese_curry.png"
+    },
+    {
+      "identifier": "matcha:latke",
+      "definition": "behavior_pack/items/generated_foods/latke.json",
+      "atlas_key": "matcha_food_latke",
+      "source": "assets/minecraft/textures/item/latke.png"
+    },
+    {
+      "identifier": "matcha:mead",
+      "definition": "behavior_pack/items/generated_foods/mead.json",
+      "atlas_key": "matcha_food_mead",
+      "source": "assets/minecraft/textures/item/mead.png"
+    },
+    {
+      "identifier": "matcha:melon_sorbet",
+      "definition": "behavior_pack/items/generated_foods/melon_sorbet.json",
+      "atlas_key": "matcha_food_melon_sorbet",
+      "source": "assets/minecraft/textures/item/melon_sorbet.png"
     },
     {
       "identifier": "matcha:milk_bottle",
@@ -167,10 +1073,106 @@
       "source": "resource_pack/textures/items/vanilla_proxy/rabbit_stew.png"
     },
     {
+      "identifier": "matcha:naan",
+      "definition": "behavior_pack/items/generated_foods/naan.json",
+      "atlas_key": "matcha_food_naan",
+      "source": "assets/minecraft/textures/item/naan.png"
+    },
+    {
+      "identifier": "matcha:crafting_paneer_makhani",
+      "definition": "behavior_pack/items/generated_foods/crafting_paneer_makhani.json",
+      "atlas_key": "matcha_food_paneer_makhani",
+      "source": "assets/minecraft/textures/item/paneer_makhani.png"
+    },
+    {
+      "identifier": "matcha:pickled_carrots",
+      "definition": "behavior_pack/items/generated_foods/pickled_carrots.json",
+      "atlas_key": "matcha_food_pickled_carrots",
+      "source": "assets/minecraft/textures/item/pickled_carrots.png"
+    },
+    {
+      "identifier": "matcha:pickled_crimson_fungus",
+      "definition": "behavior_pack/items/generated_foods/pickled_crimson_fungus.json",
+      "atlas_key": "matcha_food_pickled_crimson_fungus",
+      "source": "assets/minecraft/textures/item/pickled_crimson_fungus.png"
+    },
+    {
+      "identifier": "matcha:pickled_mushrooms",
+      "definition": "behavior_pack/items/generated_foods/pickled_mushrooms.json",
+      "atlas_key": "matcha_food_pickled_mushrooms",
+      "source": "assets/minecraft/textures/item/pickled_mushrooms.png"
+    },
+    {
+      "identifier": "matcha:pickled_potatoes",
+      "definition": "behavior_pack/items/generated_foods/pickled_potatoes.json",
+      "atlas_key": "matcha_food_pickled_potatoes",
+      "source": "assets/minecraft/textures/item/pickled_potatoes.png"
+    },
+    {
+      "identifier": "matcha:pickled_red_mushrooms",
+      "definition": "behavior_pack/items/generated_foods/pickled_red_mushrooms.json",
+      "atlas_key": "matcha_food_pickled_red_mushrooms",
+      "source": "assets/minecraft/textures/item/pickled_red_mushrooms.png"
+    },
+    {
+      "identifier": "matcha:pickled_tomatoes",
+      "definition": "behavior_pack/items/generated_foods/pickled_tomatoes.json",
+      "atlas_key": "matcha_food_pickled_tomatoes",
+      "source": "assets/minecraft/textures/item/pickled_tomatoes.png"
+    },
+    {
+      "identifier": "matcha:pickled_warped_fungus",
+      "definition": "behavior_pack/items/generated_foods/pickled_warped_fungus.json",
+      "atlas_key": "matcha_food_pickled_warped_fungus",
+      "source": "assets/minecraft/textures/item/pickled_warped_fungus.png"
+    },
+    {
       "identifier": "matcha:popped_chorus_fruit",
       "definition": "behavior_pack/items/generated_foods/popped_chorus_fruit.json",
       "atlas_key": "matcha_food_popped_chorus_fruit",
       "source": "resource_pack/textures/items/vanilla_proxy/chorus_fruit_popped.png"
+    },
+    {
+      "identifier": "matcha:puerquito",
+      "definition": "behavior_pack/items/generated_foods/puerquito.json",
+      "atlas_key": "matcha_food_puerquito",
+      "source": "assets/minecraft/textures/item/puerquito.png"
+    },
+    {
+      "identifier": "matcha:pumpkin_empanada",
+      "definition": "behavior_pack/items/generated_foods/pumpkin_empanada.json",
+      "atlas_key": "matcha_food_pumpkin_empanada",
+      "source": "assets/minecraft/textures/item/pumpkin_empanada.png"
+    },
+    {
+      "identifier": "matcha:pumpkin_jam",
+      "definition": "behavior_pack/items/generated_foods/pumpkin_jam.json",
+      "atlas_key": "matcha_food_pumpkin_jam",
+      "source": "assets/minecraft/textures/item/pumpkin_jam.png"
+    },
+    {
+      "identifier": "matcha:pupusa",
+      "definition": "behavior_pack/items/generated_foods/pupusa.json",
+      "atlas_key": "matcha_food_pupusa",
+      "source": "assets/minecraft/textures/item/pupusa.png"
+    },
+    {
+      "identifier": "matcha:crafting_ramen",
+      "definition": "behavior_pack/items/generated_foods/crafting_ramen.json",
+      "atlas_key": "matcha_food_ramen",
+      "source": "assets/minecraft/textures/item/ramen.png"
+    },
+    {
+      "identifier": "matcha:red_mushroom_stroganoff",
+      "definition": "behavior_pack/items/generated_foods/red_mushroom_stroganoff.json",
+      "atlas_key": "matcha_food_red_mushroom_stroganoff",
+      "source": "assets/minecraft/textures/item/red_mushroom_stroganoff.png"
+    },
+    {
+      "identifier": "matcha:rind_jam",
+      "definition": "behavior_pack/items/generated_foods/rind_jam.json",
+      "atlas_key": "matcha_food_rind_jam",
+      "source": "assets/minecraft/textures/item/rind_jam.png"
     },
     {
       "identifier": "matcha:crafting_squid_ink_pasta",
@@ -179,10 +1181,64 @@
       "source": "resource_pack/textures/items/vanilla_proxy/rabbit_stew.png"
     },
     {
+      "identifier": "matcha:steamed_carrots",
+      "definition": "behavior_pack/items/generated_foods/steamed_carrots.json",
+      "atlas_key": "matcha_food_steamed_carrots",
+      "source": "assets/minecraft/textures/item/steamed_carrots.png"
+    },
+    {
+      "identifier": "matcha:stroganoff",
+      "definition": "behavior_pack/items/generated_foods/stroganoff.json",
+      "atlas_key": "matcha_food_stroganoff",
+      "source": "assets/minecraft/textures/item/stroganoff.png"
+    },
+    {
       "identifier": "matcha:crafting_stuffed_mushrooms",
       "definition": "behavior_pack/items/generated_foods/crafting_stuffed_mushrooms.json",
       "atlas_key": "matcha_food_stuffed_mushrooms",
       "source": "assets/minecraft/textures/item/baked_potato.png"
+    },
+    {
+      "identifier": "matcha:sweet_berry_danish",
+      "definition": "behavior_pack/items/generated_foods/sweet_berry_danish.json",
+      "atlas_key": "matcha_food_sweet_berry_danish",
+      "source": "assets/minecraft/textures/item/sweet_berry_danish.png"
+    },
+    {
+      "identifier": "matcha:sweet_berry_jam",
+      "definition": "behavior_pack/items/generated_foods/sweet_berry_jam.json",
+      "atlas_key": "matcha_food_sweet_berry_jam",
+      "source": "assets/minecraft/textures/item/sweet_berry_jam.png"
+    },
+    {
+      "identifier": "matcha:sweet_berry_mash",
+      "definition": "behavior_pack/items/generated_foods/sweet_berry_mash.json",
+      "atlas_key": "matcha_food_sweet_berry_mash",
+      "source": "assets/minecraft/textures/item/sweet_berry_mash.png"
+    },
+    {
+      "identifier": "matcha:sweet_berry_toast",
+      "definition": "behavior_pack/items/generated_foods/sweet_berry_toast.json",
+      "atlas_key": "matcha_food_sweet_berry_toast",
+      "source": "assets/minecraft/textures/item/sweet_berry_toast.png"
+    },
+    {
+      "identifier": "matcha:warped_stroganoff",
+      "definition": "behavior_pack/items/generated_foods/warped_stroganoff.json",
+      "atlas_key": "matcha_food_warped_stroganoff",
+      "source": "assets/minecraft/textures/item/warped_stroganoff.png"
+    },
+    {
+      "identifier": "matcha:fried_egg",
+      "definition": "behavior_pack/items/fried_egg.json",
+      "atlas_key": "matcha_fried_egg",
+      "source": "assets/minecraft/textures/item/fried_egg.png"
+    },
+    {
+      "identifier": "matcha:heart_container",
+      "definition": "behavior_pack/items/heart_container.json",
+      "atlas_key": "matcha_heart_container",
+      "source": "assets/minecraft/textures/item/heart_container.png"
     },
     {
       "identifier": "matcha:loot_item_028369266f",
@@ -273,6 +1329,150 @@
       "definition": "behavior_pack/items/generated_loot/b6d0741578.json",
       "atlas_key": "matcha_loot_b6d0741578",
       "source": "assets/minecraft/textures/item/apple.png"
+    },
+    {
+      "identifier": "matcha:shakudo_axe",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_axe.json",
+      "atlas_key": "matcha_shakudo_axe",
+      "source": "assets/minecraft/textures/item/shakudo_axe.png"
+    },
+    {
+      "identifier": "matcha:shakudo_boots",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_boots.json",
+      "atlas_key": "matcha_shakudo_boots",
+      "source": "assets/minecraft/textures/item/shakudo_boots.png"
+    },
+    {
+      "identifier": "matcha:shakudo_chestplate",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_chestplate.json",
+      "atlas_key": "matcha_shakudo_chestplate",
+      "source": "assets/minecraft/textures/item/shakudo_chestplate.png"
+    },
+    {
+      "identifier": "matcha:shakudo_dolabra",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_dolabra.json",
+      "atlas_key": "matcha_shakudo_dolabra",
+      "source": "assets/minecraft/textures/item/shakudo_dolabra.png"
+    },
+    {
+      "identifier": "matcha:shakudo_helmet",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_helmet.json",
+      "atlas_key": "matcha_shakudo_helmet",
+      "source": "assets/minecraft/textures/item/shakudo_helmet.png"
+    },
+    {
+      "identifier": "matcha:shakudo_hoe",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_hoe.json",
+      "atlas_key": "matcha_shakudo_hoe",
+      "source": "assets/minecraft/textures/item/shakudo_hoe.png"
+    },
+    {
+      "identifier": "matcha:shakudo_leggings",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_leggings.json",
+      "atlas_key": "matcha_shakudo_leggings",
+      "source": "assets/minecraft/textures/item/shakudo_leggings.png"
+    },
+    {
+      "identifier": "matcha:shakudo_mattock",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_mattock.json",
+      "atlas_key": "matcha_shakudo_mattock",
+      "source": "assets/minecraft/textures/item/shakudo_mattock.png"
+    },
+    {
+      "identifier": "matcha:shakudo_pickaxe",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_pickaxe.json",
+      "atlas_key": "matcha_shakudo_pickaxe",
+      "source": "assets/minecraft/textures/item/shakudo_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:shakudo_shovel",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_shovel.json",
+      "atlas_key": "matcha_shakudo_shovel",
+      "source": "assets/minecraft/textures/item/shakudo_shovel.png"
+    },
+    {
+      "identifier": "matcha:shakudo_spear",
+      "definition": "behavior_pack/items/generated_equipment/shakudo_spear.json",
+      "atlas_key": "matcha_shakudo_spear",
+      "source": "assets/minecraft/textures/item/shakudo_spear.png"
+    },
+    {
+      "identifier": "matcha:steel_axe",
+      "definition": "behavior_pack/items/generated_equipment/steel_axe.json",
+      "atlas_key": "matcha_steel_axe",
+      "source": "assets/minecraft/textures/item/steel_axe.png"
+    },
+    {
+      "identifier": "matcha:steel_boots",
+      "definition": "behavior_pack/items/generated_equipment/steel_boots.json",
+      "atlas_key": "matcha_steel_boots",
+      "source": "assets/minecraft/textures/item/steel_boots.png"
+    },
+    {
+      "identifier": "matcha:steel_chestplate",
+      "definition": "behavior_pack/items/generated_equipment/steel_chestplate.json",
+      "atlas_key": "matcha_steel_chestplate",
+      "source": "assets/minecraft/textures/item/steel_chestplate.png"
+    },
+    {
+      "identifier": "matcha:steel_dolabra",
+      "definition": "behavior_pack/items/generated_equipment/steel_dolabra.json",
+      "atlas_key": "matcha_steel_dolabra",
+      "source": "assets/minecraft/textures/item/steel_dolabra.png"
+    },
+    {
+      "identifier": "matcha:steel_helmet",
+      "definition": "behavior_pack/items/generated_equipment/steel_helmet.json",
+      "atlas_key": "matcha_steel_helmet",
+      "source": "assets/minecraft/textures/item/steel_helmet.png"
+    },
+    {
+      "identifier": "matcha:steel_hoe",
+      "definition": "behavior_pack/items/generated_equipment/steel_hoe.json",
+      "atlas_key": "matcha_steel_hoe",
+      "source": "assets/minecraft/textures/item/steel_hoe.png"
+    },
+    {
+      "identifier": "matcha:steel_leggings",
+      "definition": "behavior_pack/items/generated_equipment/steel_leggings.json",
+      "atlas_key": "matcha_steel_leggings",
+      "source": "assets/minecraft/textures/item/steel_leggings.png"
+    },
+    {
+      "identifier": "matcha:steel_mattock",
+      "definition": "behavior_pack/items/generated_equipment/steel_mattock.json",
+      "atlas_key": "matcha_steel_mattock",
+      "source": "assets/minecraft/textures/item/steel_mattock.png"
+    },
+    {
+      "identifier": "matcha:steel_pickaxe",
+      "definition": "behavior_pack/items/generated_equipment/steel_pickaxe.json",
+      "atlas_key": "matcha_steel_pickaxe",
+      "source": "assets/minecraft/textures/item/steel_pickaxe.png"
+    },
+    {
+      "identifier": "matcha:steel_shears",
+      "definition": "behavior_pack/items/generated_equipment/steel_shears.json",
+      "atlas_key": "matcha_steel_shears",
+      "source": "assets/minecraft/textures/item/steel_shears.png"
+    },
+    {
+      "identifier": "matcha:steel_shovel",
+      "definition": "behavior_pack/items/generated_equipment/steel_shovel.json",
+      "atlas_key": "matcha_steel_shovel",
+      "source": "assets/minecraft/textures/item/steel_shovel.png"
+    },
+    {
+      "identifier": "matcha:steel_spear",
+      "definition": "behavior_pack/items/generated_equipment/steel_spear.json",
+      "atlas_key": "matcha_steel_spear",
+      "source": "assets/minecraft/textures/item/steel_spear.png"
+    },
+    {
+      "identifier": "matcha:steel_sword",
+      "definition": "behavior_pack/items/generated_equipment/steel_sword.json",
+      "atlas_key": "matcha_steel_sword",
+      "source": "assets/minecraft/textures/item/steel_sword.png"
     },
     {
       "identifier": "matcha:trade_item_0e1ba7fb00",

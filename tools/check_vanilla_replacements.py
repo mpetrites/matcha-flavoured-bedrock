@@ -2,6 +2,7 @@
 """Validate generated singleton replacement targets and recipe inputs."""
 import json
 from pathlib import Path
+from recipe_input_policy import preserved_inputs
 
 ROOT=Path(__file__).resolve().parents[1]
 table=json.loads((ROOT/"tools/vanilla_replacements.json").read_text())
@@ -21,23 +22,20 @@ missing={base:target for base,target in replacements.items() if target not in id
 overlap=sorted(set(replacements)&set(ambiguous))
 stale=[]
 recipe_overrides={}
-preserved_inputs={
-    ("behavior_pack/recipes/generated_components/lesser_warding_shield.json","minecraft:shield"),
-    ("behavior_pack/recipes/generated_components/warding_shield.json","minecraft:shield"),
-    ("behavior_pack/recipes/generated_vanilla_overrides/shield.json","minecraft:shield"),
-}
-def visit(value,path):
+def visit(value,path,preserved):
     if isinstance(value,dict):
         for key,child in value.items():
             if key in {"item","input","base","addition","template"} and isinstance(child,str) and child in replacements:
                 relative=str(path.relative_to(ROOT))
-                if (relative,child) not in preserved_inputs:
+                if child not in preserved:
                     stale.append({"recipe":relative,"vanilla_input":child,"replacement":replacements[child]})
-            visit(child,path)
+            visit(child,path,preserved)
     elif isinstance(value,list):
-        for child in value: visit(child,path)
+        for child in value: visit(child,path,preserved)
 for path in (ROOT/"behavior_pack/recipes").rglob("*.json"):
-    data=json.loads(path.read_text()); visit(data,path)
+    data=json.loads(path.read_text())
+    body=next((value for key,value in data.items() if key.startswith("minecraft:recipe_") and isinstance(value,dict)),{})
+    visit(data,path,preserved_inputs(body))
     for key,body in data.items():
         if key.startswith("minecraft:recipe_") and isinstance(body,dict):
             ident=body.get("description",{}).get("identifier")

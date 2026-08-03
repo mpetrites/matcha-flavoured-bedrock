@@ -37,6 +37,9 @@ for path in (ROOT / "behavior_pack/recipes").rglob("*.json"):
 
 problems = []
 required_dimensions = {"matcha:warding_shield": (16, 16)}
+required_textures = {
+    "matcha:benzene": "textures/items/source_imports/benzene",
+}
 for identifier in sorted(item for item in used if item.startswith("matcha:")):
     if identifier in BLOCKS:
         continue
@@ -50,6 +53,9 @@ for identifier in sorted(item for item in used if item.startswith("matcha:")):
         continue
     paths = entry.get("textures") if isinstance(entry, dict) else entry
     paths = [paths] if isinstance(paths, str) else paths
+    required_texture = required_textures.get(identifier)
+    if required_texture and required_texture not in (paths or []):
+        problems.append({"item": identifier, "problem": f"expected Java-derived texture {required_texture}, found {paths}"})
     for texture in paths or []:
         files = [ROOT / "resource_pack" / f"{texture}{suffix}" for suffix in ("", ".png", ".tga")]
         existing = next((path for path in files if path.is_file()), None)

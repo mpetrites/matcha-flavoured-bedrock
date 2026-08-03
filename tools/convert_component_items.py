@@ -23,7 +23,9 @@ EXISTING={
     "crystal_heart":"matcha:heart_container",
     "bronze_sword":"matcha:bronze_sword",
 }
-CUSTOM_TEXTURE_STEMS={"dough","flour","warding_shield"}
+# Preserve checked-in exact Java renders for item models that do not have a
+# standalone PNG in assets/minecraft/textures/item (for example spawn eggs).
+CUSTOM_TEXTURE_STEMS={"benzene","dough","flour","warding_shield"}
 ARMOR_SLOTS={"head":"slot.armor.head","chest":"slot.armor.chest","legs":"slot.armor.legs","feet":"slot.armor.feet"}
 BEDROCK_RECORD_EVENTS={"golden":"11","labyrinthine":"cat"}
 JUKEBOX_SONGS={}
@@ -88,6 +90,12 @@ canonical_by_signature={}
 groups={}
 for entry in sources: groups.setdefault(component_signature(entry[1],entry[2]),[]).append(entry)
 for signature,group in groups.items(): canonical_by_signature[signature]=canonical_source(group)[0].stem
+identifier_by_signature={
+    signature: EXISTING.get(canonical,f"matcha:{safe_name(canonical)}")
+    for signature,canonical in canonical_by_signature.items()
+}
+if len(set(identifier_by_signature.values())) != len(identifier_by_signature):
+    raise SystemExit("Distinct component item signatures resolved to duplicate item identifiers")
 for p,d,c in sources:
     source_name=str(p.relative_to(JAVA))
     model=(c.get("minecraft:item_model") or d["result"]["id"]).split(":",1)[-1]
@@ -160,7 +168,13 @@ for p,d,c in sources:
     if ident in EXISTING.values() and (ROOT/f"behavior_pack/recipes/{p.stem}.json").exists():
         continue
     namespace=p.parent.parent.name
-    for i,out in enumerate(convert(recipe,namespace,f"component_{p.stem}")):
+    preserved_base_items={
+        "bronze_elytra": "minecraft:elytra",
+        "lesser_warding_shield": "minecraft:shield",
+        "warding_shield": "minecraft:shield",
+    }
+    preserve_inputs=frozenset({preserved_base_items[p.stem]}) if p.stem in preserved_base_items else frozenset()
+    for i,out in enumerate(convert(recipe,namespace,f"component_{p.stem}",preserve_inputs)):
         suffix=f"_v{i+1}" if i else ""
         (RECIPES/f"{p.stem}{suffix}.json").write_text(json.dumps(out,indent=2)+"\n")
 ATLAS.write_text(json.dumps(atlas,indent=2)+"\n"); replace_block(LANG,BEGIN,END,sorted(names))

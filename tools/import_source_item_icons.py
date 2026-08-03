@@ -40,12 +40,12 @@ BEDROCK_BASE_TEXTURES = {
 }
 
 # Generators use Java item/model names, while the checked-in Bedrock proxy
-# textures use Bedrock's legacy filenames. Re-link those existing assets after
-# every regeneration so a full build does not depend on a second source tree.
+# textures use Bedrock's legacy filenames. These are fallbacks only: a matching
+# Java texture must always win, even when an older generated or proxy texture is
+# already present locally.
 VANILLA_PROXY_BY_IDENTIFIER = {
     "matcha:baked_pumpkin": "breeze_rod",
     "matcha:blessing_hell_bound_book": "book_enchanted",
-    "matcha:benzene": "spawn_egg_endermite",
     "matcha:carbon_rich_iron": "spawn_egg_piglin_brute",
     "matcha:cooked_beef": "beef_cooked",
     "matcha:cooked_chicken": "chicken_cooked",
@@ -106,6 +106,22 @@ def main() -> None:
         if not isinstance(texture, str):
             continue
 
+        # Resolve by the custom-item identifier first. Atlas paths can point at
+        # stale Bedrock proxies from an earlier build, whereas the identifier's
+        # stem is stable and matches Java's custom texture naming convention.
+        identifier_stem = details["identifier"].split(":", 1)[-1]
+        source_candidates = [source_items / f"{identifier_stem}.png"]
+        texture_candidate = source_items / f"{Path(texture).name}.png"
+        if texture_candidate not in source_candidates:
+            source_candidates.append(texture_candidate)
+        source_texture = next((candidate for candidate in source_candidates if candidate.is_file()), None)
+        if source_texture is not None:
+            destination = DESTINATION / f"{identifier_stem}.png"
+            shutil.copyfile(source_texture, destination)
+            texture_data[key] = {"textures": f"textures/items/source_imports/{destination.stem}"}
+            imported.append({**details, "atlas_key": key, "source": str(source_texture.relative_to(source))})
+            continue
+
         local_texture = destination_root / f"{texture}.png"
         if local_texture.is_file():
             if texture.startswith("textures/items/source_imports/"):
@@ -121,14 +137,7 @@ def main() -> None:
             base_pack.append({**details, "atlas_key": key, "texture": texture})
             continue
 
-        source_texture = source_items / f"{Path(texture).name}.png"
-        if source_texture.is_file():
-            destination = DESTINATION / source_texture.name
-            shutil.copyfile(source_texture, destination)
-            texture_data[key] = {"textures": f"textures/items/source_imports/{destination.stem}"}
-            imported.append({**details, "atlas_key": key, "source": str(source_texture.relative_to(source))})
-        else:
-            unresolved.append({**details, "atlas_key": key, "texture": texture})
+        unresolved.append({**details, "atlas_key": key, "texture": texture})
 
     ATLAS.write_text(json.dumps(atlas, indent=2) + "\n", encoding="utf-8")
     report = {

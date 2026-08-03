@@ -48,6 +48,8 @@ PROXY_ITEM_MAP = {
     "minecraft:terracotta": "minecraft:hardened_clay",
     "minecraft:slime_block": "minecraft:slime",
     "minecraft:spectral_arrow": "minecraft:arrow",
+    # Java `snow` is the thin layer; Bedrock reserves `snow` for the block.
+    "minecraft:snow": "minecraft:snow_layer",
     "minecraft:waxed_copper_block": "minecraft:waxed_copper",
     "#minecraft:acacia_logs": "minecraft:acacia_log",
     "#minecraft:bamboo_blocks": "minecraft:bamboo_block",
@@ -93,9 +95,14 @@ def namespaced(value: str) -> str:
     return value if ":" in value else f"minecraft:{value}"
 
 
-def options(value: str | list[str]) -> list[str]:
+def options(value: str | list[str], preserve_inputs: frozenset[str] = frozenset()) -> list[str]:
     values = value if isinstance(value, list) else [value]
-    return [PROXY_ITEM_MAP.get(value, PROXY_ITEM_MAP.get(namespaced(value), namespaced(value))) for value in values]
+    return [
+        namespaced(value)
+        if namespaced(value) in preserve_inputs
+        else PROXY_ITEM_MAP.get(value, PROXY_ITEM_MAP.get(namespaced(value), namespaced(value)))
+        for value in values
+    ]
 
 
 def safe_name(value: str) -> str:
@@ -121,14 +128,14 @@ def description(recipe_id: str) -> dict:
     return {"identifier": recipe_id}
 
 
-def convert_shaped(recipe: dict, namespace: str, stem: str) -> list[dict]:
+def convert_shaped(recipe: dict, namespace: str, stem: str, preserve_inputs: frozenset[str]) -> list[dict]:
     symbols = list(recipe["key"])
     # Bedrock counts UTF-8 bytes rather than Unicode code points when it
     # validates pattern width. Normalize Java's arbitrary key symbols to
     # single-byte ASCII so a 2x2 recipe cannot be misread as 4x2.
     ascii_symbols = iter("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789")
     symbol_map = {symbol: next(ascii_symbols) for symbol in symbols}
-    choices = [options(recipe["key"][symbol]) for symbol in symbols]
+    choices = [options(recipe["key"][symbol], preserve_inputs) for symbol in symbols]
     variants = list(itertools.product(*choices))
     converted = []
     for number, selected in enumerate(variants):
@@ -156,8 +163,8 @@ def convert_shaped(recipe: dict, namespace: str, stem: str) -> list[dict]:
     return converted
 
 
-def convert_shapeless(recipe: dict, namespace: str, stem: str) -> list[dict]:
-    choices = [options(ingredient) for ingredient in recipe["ingredients"]]
+def convert_shapeless(recipe: dict, namespace: str, stem: str, preserve_inputs: frozenset[str]) -> list[dict]:
+    choices = [options(ingredient, preserve_inputs) for ingredient in recipe["ingredients"]]
     variants = list(itertools.product(*choices))
     converted = []
     for number, selected in enumerate(variants):
@@ -178,9 +185,9 @@ def convert_shapeless(recipe: dict, namespace: str, stem: str) -> list[dict]:
 
 
 def convert_single_input(
-    recipe: dict, namespace: str, stem: str, kind: str
+    recipe: dict, namespace: str, stem: str, kind: str, preserve_inputs: frozenset[str]
 ) -> list[dict]:
-    inputs = options(recipe["ingredient"])
+    inputs = options(recipe["ingredient"], preserve_inputs)
     converted = []
     for number, item in enumerate(inputs):
         recipe_id = identifier(namespace, stem, number, len(inputs))
@@ -214,9 +221,9 @@ def convert_single_input(
     return converted
 
 
-def convert_smithing(recipe: dict, namespace: str, stem: str) -> list[dict]:
+def convert_smithing(recipe: dict, namespace: str, stem: str, preserve_inputs: frozenset[str]) -> list[dict]:
     fields = ["template", "base", "addition"]
-    choices = [options(recipe[field]) for field in fields]
+    choices = [options(recipe[field], preserve_inputs) for field in fields]
     variants = list(itertools.product(*choices))
     converted = []
     for number, selected in enumerate(variants):
@@ -240,15 +247,20 @@ def convert_smithing(recipe: dict, namespace: str, stem: str) -> list[dict]:
     return converted
 
 
-def convert(recipe: dict, namespace: str, stem: str) -> list[dict]:
+def convert(
+    recipe: dict,
+    namespace: str,
+    stem: str,
+    preserve_inputs: frozenset[str] = frozenset(),
+) -> list[dict]:
     kind = TYPE_MAP[recipe["type"]]
     if kind == "shaped":
-        return convert_shaped(recipe, namespace, stem)
+        return convert_shaped(recipe, namespace, stem, preserve_inputs)
     if kind == "shapeless":
-        return convert_shapeless(recipe, namespace, stem)
+        return convert_shapeless(recipe, namespace, stem, preserve_inputs)
     if kind == "smithing":
-        return convert_smithing(recipe, namespace, stem)
-    return convert_single_input(recipe, namespace, stem, kind)
+        return convert_smithing(recipe, namespace, stem, preserve_inputs)
+    return convert_single_input(recipe, namespace, stem, kind, preserve_inputs)
 
 
 def main() -> None:

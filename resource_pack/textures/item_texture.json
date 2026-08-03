@@ -3,64 +3,64 @@
   "texture_name": "atlas.items",
   "texture_data": {
     "matcha_charred_meat": {
-      "textures": "textures/items/charred_meat"
+      "textures": "textures/items/source_imports/charred_meat"
     },
     "matcha_charred_fish": {
-      "textures": "textures/items/charred_fish"
+      "textures": "textures/items/source_imports/charred_fish"
     },
     "matcha_charred_potato": {
-      "textures": "textures/items/charred_potato"
+      "textures": "textures/items/source_imports/charred_potato"
     },
     "matcha_fried_egg": {
-      "textures": "textures/items/fried_egg"
+      "textures": "textures/items/source_imports/fried_egg"
     },
     "matcha_baked_apple": {
-      "textures": "textures/items/baked_apple"
+      "textures": "textures/items/source_imports/baked_apple"
     },
     "matcha_bronze_alloy": {
       "textures": "textures/items/bronze_alloy"
     },
     "matcha_bronze_sword": {
-      "textures": "textures/items/bronze_sword"
+      "textures": "textures/items/source_imports/bronze_sword"
     },
     "matcha_heart_container": {
-      "textures": "textures/items/heart_container"
+      "textures": "textures/items/source_imports/heart_container"
     },
     "matcha_bronze_axe": {
-      "textures": "textures/items/generated_equipment/bronze_axe"
+      "textures": "textures/items/source_imports/bronze_axe"
     },
     "matcha_bronze_pickaxe": {
-      "textures": "textures/items/generated_equipment/bronze_pickaxe"
+      "textures": "textures/items/source_imports/bronze_pickaxe"
     },
     "matcha_bronze_shovel": {
-      "textures": "textures/items/generated_equipment/bronze_shovel"
+      "textures": "textures/items/source_imports/bronze_shovel"
     },
     "matcha_bronze_hoe": {
-      "textures": "textures/items/generated_equipment/bronze_hoe"
+      "textures": "textures/items/source_imports/bronze_hoe"
     },
     "matcha_bronze_spear": {
-      "textures": "textures/items/generated_equipment/bronze_spear"
+      "textures": "textures/items/source_imports/bronze_spear"
     },
     "matcha_bronze_mattock": {
-      "textures": "textures/items/generated_equipment/bronze_mattock"
+      "textures": "textures/items/source_imports/bronze_mattock"
     },
     "matcha_bronze_dolabra": {
-      "textures": "textures/items/generated_equipment/bronze_dolabra"
+      "textures": "textures/items/source_imports/bronze_dolabra"
     },
     "matcha_bronze_shears": {
-      "textures": "textures/items/generated_equipment/bronze_shears"
+      "textures": "textures/items/source_imports/bronze_shears"
     },
     "matcha_bronze_helmet": {
-      "textures": "textures/items/generated_equipment/bronze_helmet"
+      "textures": "textures/items/source_imports/bronze_helmet"
     },
     "matcha_bronze_chestplate": {
-      "textures": "textures/items/generated_equipment/bronze_chestplate"
+      "textures": "textures/items/source_imports/bronze_chestplate"
     },
     "matcha_bronze_leggings": {
-      "textures": "textures/items/generated_equipment/bronze_leggings"
+      "textures": "textures/items/source_imports/bronze_leggings"
     },
     "matcha_bronze_boots": {
-      "textures": "textures/items/generated_equipment/bronze_boots"
+      "textures": "textures/items/source_imports/bronze_boots"
     },
     "matcha_adamant_axe": {
       "textures": "textures/items/generated_equipment/adamant_axe"
@@ -72,10 +72,10 @@
       "textures": "textures/items/generated_equipment/adamant_chestplate"
     },
     "matcha_adamant_claymore": {
-      "textures": "textures/items/generated_equipment/adamant_claymore"
+      "textures": "textures/items/source_imports/adamant_claymore"
     },
     "matcha_adamant_dolabra": {
-      "textures": "textures/items/generated_equipment/adamant_dolabra"
+      "textures": "textures/items/source_imports/adamant_dolabra"
     },
     "matcha_adamant_helmet": {
       "textures": "textures/items/generated_equipment/adamant_helmet"
@@ -87,7 +87,7 @@
       "textures": "textures/items/generated_equipment/adamant_leggings"
     },
     "matcha_adamant_mattock": {
-      "textures": "textures/items/generated_equipment/adamant_mattock"
+      "textures": "textures/items/source_imports/adamant_mattock"
     },
     "matcha_adamant_pickaxe": {
       "textures": "textures/items/generated_equipment/adamant_pickaxe"
@@ -102,115 +102,115 @@
       "textures": "textures/items/generated_equipment/adamant_sword"
     },
     "matcha_electrum_axe": {
-      "textures": "textures/items/generated_equipment/electrum_axe"
+      "textures": "textures/items/source_imports/electrum_axe"
     },
     "matcha_electrum_boots": {
-      "textures": "textures/items/generated_equipment/electrum_boots"
+      "textures": "textures/items/source_imports/electrum_boots"
     },
     "matcha_electrum_chestplate": {
-      "textures": "textures/items/generated_equipment/electrum_chestplate"
+      "textures": "textures/items/source_imports/electrum_chestplate"
     },
     "matcha_electrum_dolabra": {
-      "textures": "textures/items/generated_equipment/electrum_dolabra"
+      "textures": "textures/items/source_imports/electrum_dolabra"
     },
     "matcha_electrum_helmet": {
-      "textures": "textures/items/generated_equipment/electrum_helmet"
+      "textures": "textures/items/source_imports/electrum_helmet"
     },
     "matcha_electrum_hoe": {
-      "textures": "textures/items/generated_equipment/electrum_hoe"
+      "textures": "textures/items/source_imports/electrum_hoe"
     },
     "matcha_electrum_leggings": {
-      "textures": "textures/items/generated_equipment/electrum_leggings"
+      "textures": "textures/items/source_imports/electrum_leggings"
     },
     "matcha_electrum_mattock": {
-      "textures": "textures/items/generated_equipment/electrum_mattock"
+      "textures": "textures/items/source_imports/electrum_mattock"
     },
     "matcha_electrum_pickaxe": {
-      "textures": "textures/items/generated_equipment/electrum_pickaxe"
+      "textures": "textures/items/source_imports/electrum_pickaxe"
     },
     "matcha_electrum_shovel": {
-      "textures": "textures/items/generated_equipment/electrum_shovel"
+      "textures": "textures/items/source_imports/electrum_shovel"
     },
     "matcha_electrum_spear": {
-      "textures": "textures/items/generated_equipment/electrum_spear"
+      "textures": "textures/items/source_imports/electrum_spear"
     },
     "matcha_electrum_sword": {
-      "textures": "textures/items/generated_equipment/electrum_sword"
+      "textures": "textures/items/source_imports/electrum_sword"
     },
     "matcha_shakudo_axe": {
-      "textures": "textures/items/generated_equipment/shakudo_axe"
+      "textures": "textures/items/source_imports/shakudo_axe"
     },
     "matcha_shakudo_boots": {
-      "textures": "textures/items/generated_equipment/shakudo_boots"
+      "textures": "textures/items/source_imports/shakudo_boots"
     },
     "matcha_shakudo_chestplate": {
-      "textures": "textures/items/generated_equipment/shakudo_chestplate"
+      "textures": "textures/items/source_imports/shakudo_chestplate"
     },
     "matcha_shakudo_dolabra": {
-      "textures": "textures/items/generated_equipment/shakudo_dolabra"
+      "textures": "textures/items/source_imports/shakudo_dolabra"
     },
     "matcha_shakudo_helmet": {
-      "textures": "textures/items/generated_equipment/shakudo_helmet"
+      "textures": "textures/items/source_imports/shakudo_helmet"
     },
     "matcha_shakudo_hoe": {
-      "textures": "textures/items/generated_equipment/shakudo_hoe"
+      "textures": "textures/items/source_imports/shakudo_hoe"
     },
     "matcha_shakudo_leggings": {
-      "textures": "textures/items/generated_equipment/shakudo_leggings"
+      "textures": "textures/items/source_imports/shakudo_leggings"
     },
     "matcha_shakudo_mattock": {
-      "textures": "textures/items/generated_equipment/shakudo_mattock"
+      "textures": "textures/items/source_imports/shakudo_mattock"
     },
     "matcha_shakudo_pickaxe": {
-      "textures": "textures/items/generated_equipment/shakudo_pickaxe"
+      "textures": "textures/items/source_imports/shakudo_pickaxe"
     },
     "matcha_shakudo_shovel": {
-      "textures": "textures/items/generated_equipment/shakudo_shovel"
+      "textures": "textures/items/source_imports/shakudo_shovel"
     },
     "matcha_shakudo_spear": {
-      "textures": "textures/items/generated_equipment/shakudo_spear"
+      "textures": "textures/items/source_imports/shakudo_spear"
     },
     "matcha_shakudo_sword": {
       "textures": "textures/items/generated_equipment/shakudo_sword"
     },
     "matcha_steel_axe": {
-      "textures": "textures/items/generated_equipment/steel_axe"
+      "textures": "textures/items/source_imports/steel_axe"
     },
     "matcha_steel_boots": {
-      "textures": "textures/items/generated_equipment/steel_boots"
+      "textures": "textures/items/source_imports/steel_boots"
     },
     "matcha_steel_chestplate": {
-      "textures": "textures/items/generated_equipment/steel_chestplate"
+      "textures": "textures/items/source_imports/steel_chestplate"
     },
     "matcha_steel_dolabra": {
-      "textures": "textures/items/generated_equipment/steel_dolabra"
+      "textures": "textures/items/source_imports/steel_dolabra"
     },
     "matcha_steel_helmet": {
-      "textures": "textures/items/generated_equipment/steel_helmet"
+      "textures": "textures/items/source_imports/steel_helmet"
     },
     "matcha_steel_hoe": {
-      "textures": "textures/items/generated_equipment/steel_hoe"
+      "textures": "textures/items/source_imports/steel_hoe"
     },
     "matcha_steel_leggings": {
-      "textures": "textures/items/generated_equipment/steel_leggings"
+      "textures": "textures/items/source_imports/steel_leggings"
     },
     "matcha_steel_mattock": {
-      "textures": "textures/items/generated_equipment/steel_mattock"
+      "textures": "textures/items/source_imports/steel_mattock"
     },
     "matcha_steel_pickaxe": {
-      "textures": "textures/items/generated_equipment/steel_pickaxe"
+      "textures": "textures/items/source_imports/steel_pickaxe"
     },
     "matcha_steel_shears": {
-      "textures": "textures/items/generated_equipment/steel_shears"
+      "textures": "textures/items/source_imports/steel_shears"
     },
     "matcha_steel_shovel": {
-      "textures": "textures/items/generated_equipment/steel_shovel"
+      "textures": "textures/items/source_imports/steel_shovel"
     },
     "matcha_steel_spear": {
-      "textures": "textures/items/generated_equipment/steel_spear"
+      "textures": "textures/items/source_imports/steel_spear"
     },
     "matcha_steel_sword": {
-      "textures": "textures/items/generated_equipment/steel_sword"
+      "textures": "textures/items/source_imports/steel_sword"
     },
     "matcha_raw_estus": {
       "textures": "textures/items/blaze_powder"
@@ -228,10 +228,10 @@
       "textures": "textures/items/generated_loot/cdfc89dd82"
     },
     "matcha_loot_028369266f": {
-      "textures": "textures/items/source_imports/beetroot"
+      "textures": "textures/items/source_imports/loot_item_028369266f"
     },
     "matcha_loot_28e2874b14": {
-      "textures": "textures/items/source_imports/carrot"
+      "textures": "textures/items/source_imports/loot_item_28e2874b14"
     },
     "matcha_loot_c45f6b6d8f": {
       "textures": "textures/items/glow_berries"
@@ -240,7 +240,7 @@
       "textures": "textures/items/chorus_fruit"
     },
     "matcha_loot_b6d0741578": {
-      "textures": "textures/items/source_imports/apple"
+      "textures": "textures/items/source_imports/loot_item_b6d0741578"
     },
     "matcha_loot_d247b21ee8": {
       "textures": "textures/items/melon_slice"
@@ -249,22 +249,22 @@
       "textures": "textures/items/snowball"
     },
     "matcha_loot_58fa09963e": {
-      "textures": "textures/items/source_imports/sweet_berries"
+      "textures": "textures/items/source_imports/loot_item_58fa09963e"
     },
     "matcha_loot_2ea2e3d523": {
       "textures": "textures/items/lapis_lazuli"
     },
     "matcha_loot_8c6fa5e3dc": {
-      "textures": "textures/items/source_imports/bread"
+      "textures": "textures/items/source_imports/loot_item_8c6fa5e3dc"
     },
     "matcha_loot_45051c1a4f": {
-      "textures": "textures/items/source_imports/rabbit_hide"
+      "textures": "textures/items/source_imports/loot_item_45051c1a4f"
     },
     "matcha_loot_6980a6fc7b": {
-      "textures": "textures/items/source_imports/leather_leggings"
+      "textures": "textures/items/source_imports/loot_item_6980a6fc7b"
     },
     "matcha_loot_0b468afb17": {
-      "textures": "textures/items/source_imports/leather_boots"
+      "textures": "textures/items/source_imports/loot_item_0b468afb17"
     },
     "matcha_loot_2611ae5e5a": {
       "textures": "textures/items/charcoal"
@@ -273,13 +273,13 @@
       "textures": "textures/items/popped_chorus_fruit"
     },
     "matcha_loot_433e5f5c17": {
-      "textures": "textures/items/source_imports/potion"
+      "textures": "textures/items/source_imports/loot_item_433e5f5c17"
     },
     "matcha_loot_17898a8d18": {
-      "textures": "textures/items/source_imports/iron_sword"
+      "textures": "textures/items/source_imports/loot_item_17898a8d18"
     },
     "matcha_loot_0317534a0d": {
-      "textures": "textures/items/source_imports/golden_hoe"
+      "textures": "textures/items/source_imports/loot_item_0317534a0d"
     },
     "matcha_loot_155c35c823": {
       "textures": "textures/items/compass"
@@ -300,10 +300,10 @@
       "textures": "textures/items/enchanted_golden_apple"
     },
     "matcha_loot_25479cb30e": {
-      "textures": "textures/items/source_imports/golden_apple"
+      "textures": "textures/items/source_imports/loot_item_25479cb30e"
     },
     "matcha_loot_945956504a": {
-      "textures": "textures/items/source_imports/golden_carrot"
+      "textures": "textures/items/source_imports/loot_item_945956504a"
     },
     "matcha_loot_f26e7c2d83": {
       "textures": "textures/items/generated_loot/f26e7c2d83"
@@ -318,10 +318,10 @@
       "textures": "textures/items/generated_loot/e07c904137"
     },
     "matcha_loot_aadb914327": {
-      "textures": "textures/items/source_imports/frog_spawn_egg"
+      "textures": "textures/items/source_imports/loot_item_aadb914327"
     },
     "matcha_loot_02bdb93dc2": {
-      "textures": "textures/items/source_imports/tadpole_spawn_egg"
+      "textures": "textures/items/source_imports/loot_item_02bdb93dc2"
     },
     "matcha_loot_6f4213d042": {
       "textures": "textures/items/generated_loot/6f4213d042"
@@ -336,52 +336,52 @@
       "textures": "textures/items/generated_loot/6bc27853fd"
     },
     "matcha_food_apple_empanada": {
-      "textures": "textures/items/generated_foods/apple_empanada"
+      "textures": "textures/items/source_imports/apple_empanada"
     },
     "matcha_food_baked_apple": {
       "textures": "textures/items/generated_foods/baked_apple"
     },
     "matcha_food_baked_golden_apple": {
-      "textures": "textures/items/generated_foods/baked_golden_apple"
+      "textures": "textures/items/source_imports/baked_golden_apple"
     },
     "matcha_food_baked_potato": {
-      "textures": "textures/items/generated_foods/baked_potato"
+      "textures": "textures/items/source_imports/baked_potato"
     },
     "matcha_food_baked_pumpkin": {
       "textures": "textures/items/vanilla_proxy/breeze_rod"
     },
     "matcha_food_bokguk": {
-      "textures": "textures/items/generated_foods/bokguk"
+      "textures": "textures/items/source_imports/bokguk"
     },
     "matcha_food_braised_brown_mushroom": {
-      "textures": "textures/items/generated_foods/braised_brown_mushroom"
+      "textures": "textures/items/source_imports/braised_brown_mushroom"
     },
     "matcha_food_braised_crimson_fungus": {
-      "textures": "textures/items/generated_foods/braised_crimson_fungus"
+      "textures": "textures/items/source_imports/braised_crimson_fungus"
     },
     "matcha_food_braised_red_mushroom": {
-      "textures": "textures/items/generated_foods/braised_red_mushroom"
+      "textures": "textures/items/source_imports/braised_red_mushroom"
     },
     "matcha_food_braised_warped_fungus": {
-      "textures": "textures/items/generated_foods/braised_warped_fungus"
+      "textures": "textures/items/source_imports/braised_warped_fungus"
     },
     "matcha_food_bread": {
-      "textures": "textures/items/generated_foods/bread"
+      "textures": "textures/items/source_imports/bread"
     },
     "matcha_food_brownie": {
-      "textures": "textures/items/generated_foods/brownie"
+      "textures": "textures/items/source_imports/brownie"
     },
     "matcha_food_bruschetta": {
-      "textures": "textures/items/generated_foods/bruschetta"
+      "textures": "textures/items/source_imports/bruschetta"
     },
     "matcha_food_canned_apples": {
-      "textures": "textures/items/generated_foods/canned_apples"
+      "textures": "textures/items/source_imports/canned_apples"
     },
     "matcha_food_canned_golden_apples": {
-      "textures": "textures/items/generated_foods/canned_golden_apples"
+      "textures": "textures/items/source_imports/canned_golden_apples"
     },
     "matcha_food_carrot_cupcake": {
-      "textures": "textures/items/generated_foods/carrot_cupcake"
+      "textures": "textures/items/source_imports/carrot_cupcake"
     },
     "matcha_food_charred_fish": {
       "textures": "textures/items/generated_foods/charred_fish"
@@ -393,16 +393,16 @@
       "textures": "textures/items/generated_foods/charred_potato"
     },
     "matcha_food_cheese": {
-      "textures": "textures/items/source_imports/cookie"
+      "textures": "textures/items/source_imports/cheese"
     },
     "matcha_food_chocolate": {
-      "textures": "textures/items/generated_foods/chocolate"
+      "textures": "textures/items/source_imports/chocolate"
     },
     "matcha_food_chocolate_chip_cookie": {
-      "textures": "textures/items/generated_foods/chocolate_chip_cookie"
+      "textures": "textures/items/source_imports/chocolate_chip_cookie"
     },
     "matcha_food_chorus_mochi": {
-      "textures": "textures/items/generated_foods/chorus_mochi"
+      "textures": "textures/items/source_imports/chorus_mochi"
     },
     "matcha_food_cooked_beef": {
       "textures": "textures/items/vanilla_proxy/beef_cooked"
@@ -411,7 +411,7 @@
       "textures": "textures/items/vanilla_proxy/chicken_cooked"
     },
     "matcha_food_cooked_cod": {
-      "textures": "textures/items/generated_foods/cooked_cod"
+      "textures": "textures/items/source_imports/cooked_cod"
     },
     "matcha_food_cooked_mutton": {
       "textures": "textures/items/vanilla_proxy/mutton_cooked"
@@ -420,13 +420,13 @@
       "textures": "textures/items/vanilla_proxy/porkchop_cooked"
     },
     "matcha_food_cooked_pufferfish": {
-      "textures": "textures/items/generated_foods/cooked_pufferfish"
+      "textures": "textures/items/source_imports/cooked_pufferfish"
     },
     "matcha_food_cooked_rabbit": {
-      "textures": "textures/items/generated_foods/cooked_rabbit"
+      "textures": "textures/items/source_imports/cooked_rabbit"
     },
     "matcha_food_cooked_salmon": {
-      "textures": "textures/items/generated_foods/cooked_salmon"
+      "textures": "textures/items/source_imports/cooked_salmon"
     },
     "matcha_food_chicken_noodle_soup": {
       "textures": "textures/items/vanilla_proxy/rabbit_stew"
@@ -435,397 +435,397 @@
       "textures": "textures/items/vanilla_proxy/pumpkin_pie"
     },
     "matcha_food_green_curry": {
-      "textures": "textures/items/generated_foods/green_curry"
+      "textures": "textures/items/source_imports/green_curry"
     },
     "matcha_food_morsel_stew": {
       "textures": "textures/items/vanilla_proxy/rabbit_stew"
     },
     "matcha_food_paneer_makhani": {
-      "textures": "textures/items/generated_foods/paneer_makhani"
+      "textures": "textures/items/source_imports/crafting_paneer_makhani"
     },
     "matcha_food_ramen": {
-      "textures": "textures/items/generated_foods/ramen"
+      "textures": "textures/items/source_imports/crafting_ramen"
     },
     "matcha_food_squid_ink_pasta": {
       "textures": "textures/items/vanilla_proxy/rabbit_stew"
     },
     "matcha_food_stuffed_mushrooms": {
-      "textures": "textures/items/source_imports/baked_potato"
+      "textures": "textures/items/source_imports/crafting_stuffed_mushrooms"
     },
     "matcha_food_crimson_stroganoff": {
-      "textures": "textures/items/generated_foods/crimson_stroganoff"
+      "textures": "textures/items/source_imports/crimson_stroganoff"
     },
     "matcha_food_dried_kelp": {
       "textures": "textures/items/vanilla_proxy/dried_kelp"
     },
     "matcha_food_french_toast": {
-      "textures": "textures/items/generated_foods/french_toast"
+      "textures": "textures/items/source_imports/french_toast"
     },
     "matcha_food_fried_egg": {
       "textures": "textures/items/generated_foods/fried_egg"
     },
     "matcha_food_gimmari": {
-      "textures": "textures/items/generated_foods/gimmari"
+      "textures": "textures/items/source_imports/gimmari"
     },
     "matcha_food_glow_berry_crumble": {
-      "textures": "textures/items/generated_foods/glow_berry_crumble"
+      "textures": "textures/items/source_imports/glow_berry_crumble"
     },
     "matcha_food_glow_jam": {
-      "textures": "textures/items/generated_foods/glow_jam"
+      "textures": "textures/items/source_imports/glow_jam"
     },
     "matcha_food_glow_mash": {
-      "textures": "textures/items/generated_foods/glow_mash"
+      "textures": "textures/items/source_imports/glow_mash"
     },
     "matcha_food_gnocchi": {
-      "textures": "textures/items/generated_foods/gnocchi"
+      "textures": "textures/items/source_imports/gnocchi"
     },
     "matcha_food_golden_apple": {
-      "textures": "textures/items/generated_foods/golden_apple"
+      "textures": "textures/items/source_imports/golden_apple"
     },
     "matcha_food_golden_apple_empanada": {
-      "textures": "textures/items/generated_foods/golden_apple_empanada"
+      "textures": "textures/items/source_imports/golden_apple_empanada"
     },
     "matcha_food_golden_carrot": {
-      "textures": "textures/items/generated_foods/golden_carrot"
+      "textures": "textures/items/source_imports/golden_carrot"
     },
     "matcha_food_golden_carrot_cupcake": {
-      "textures": "textures/items/generated_foods/golden_carrot_cupcake"
+      "textures": "textures/items/source_imports/golden_carrot_cupcake"
     },
     "matcha_food_golden_pickled_carrots": {
-      "textures": "textures/items/generated_foods/golden_pickled_carrots"
+      "textures": "textures/items/source_imports/golden_pickled_carrots"
     },
     "matcha_food_golden_steamed_carrots": {
-      "textures": "textures/items/generated_foods/golden_steamed_carrots"
+      "textures": "textures/items/source_imports/golden_steamed_carrots"
     },
     "matcha_food_grilled_melon": {
-      "textures": "textures/items/generated_foods/grilled_melon"
+      "textures": "textures/items/source_imports/grilled_melon"
     },
     "matcha_food_grilled_tomatoes": {
-      "textures": "textures/items/generated_foods/grilled_tomatoes"
+      "textures": "textures/items/source_imports/grilled_tomatoes"
     },
     "matcha_food_honey_ginger_tea": {
-      "textures": "textures/items/generated_foods/honey_ginger_tea"
+      "textures": "textures/items/source_imports/honey_ginger_tea"
     },
     "matcha_food_honied_french_toast": {
-      "textures": "textures/items/generated_foods/honied_french_toast"
+      "textures": "textures/items/source_imports/honied_french_toast"
     },
     "matcha_food_japanese_curry": {
-      "textures": "textures/items/generated_foods/japanese_curry"
+      "textures": "textures/items/source_imports/japanese_curry"
     },
     "matcha_food_latke": {
-      "textures": "textures/items/generated_foods/latke"
+      "textures": "textures/items/source_imports/latke"
     },
     "matcha_food_mead": {
-      "textures": "textures/items/generated_foods/mead"
+      "textures": "textures/items/source_imports/mead"
     },
     "matcha_food_melon_sorbet": {
-      "textures": "textures/items/generated_foods/melon_sorbet"
+      "textures": "textures/items/source_imports/melon_sorbet"
     },
     "matcha_food_milk_bottle": {
-      "textures": "textures/items/source_imports/beetroot_soup"
+      "textures": "textures/items/source_imports/milk_bottle"
     },
     "matcha_food_naan": {
-      "textures": "textures/items/generated_foods/naan"
+      "textures": "textures/items/source_imports/naan"
     },
     "matcha_food_pickled_carrots": {
-      "textures": "textures/items/generated_foods/pickled_carrots"
+      "textures": "textures/items/source_imports/pickled_carrots"
     },
     "matcha_food_pickled_crimson_fungus": {
-      "textures": "textures/items/generated_foods/pickled_crimson_fungus"
+      "textures": "textures/items/source_imports/pickled_crimson_fungus"
     },
     "matcha_food_pickled_mushrooms": {
-      "textures": "textures/items/generated_foods/pickled_mushrooms"
+      "textures": "textures/items/source_imports/pickled_mushrooms"
     },
     "matcha_food_pickled_potatoes": {
-      "textures": "textures/items/generated_foods/pickled_potatoes"
+      "textures": "textures/items/source_imports/pickled_potatoes"
     },
     "matcha_food_pickled_red_mushrooms": {
-      "textures": "textures/items/generated_foods/pickled_red_mushrooms"
+      "textures": "textures/items/source_imports/pickled_red_mushrooms"
     },
     "matcha_food_pickled_tomatoes": {
-      "textures": "textures/items/generated_foods/pickled_tomatoes"
+      "textures": "textures/items/source_imports/pickled_tomatoes"
     },
     "matcha_food_pickled_warped_fungus": {
-      "textures": "textures/items/generated_foods/pickled_warped_fungus"
+      "textures": "textures/items/source_imports/pickled_warped_fungus"
     },
     "matcha_food_popped_chorus_fruit": {
       "textures": "textures/items/vanilla_proxy/chorus_fruit_popped"
     },
     "matcha_food_estus_flask": {
-      "textures": "textures/items/source_imports/potion"
+      "textures": "textures/items/source_imports/potions_estus_flask"
     },
     "matcha_food_puerquito": {
-      "textures": "textures/items/generated_foods/puerquito"
+      "textures": "textures/items/source_imports/puerquito"
     },
     "matcha_food_pumpkin_empanada": {
-      "textures": "textures/items/generated_foods/pumpkin_empanada"
+      "textures": "textures/items/source_imports/pumpkin_empanada"
     },
     "matcha_food_pumpkin_jam": {
-      "textures": "textures/items/generated_foods/pumpkin_jam"
+      "textures": "textures/items/source_imports/pumpkin_jam"
     },
     "matcha_food_pupusa": {
-      "textures": "textures/items/generated_foods/pupusa"
+      "textures": "textures/items/source_imports/pupusa"
     },
     "matcha_food_red_mushroom_stroganoff": {
-      "textures": "textures/items/generated_foods/red_mushroom_stroganoff"
+      "textures": "textures/items/source_imports/red_mushroom_stroganoff"
     },
     "matcha_food_rind_jam": {
-      "textures": "textures/items/generated_foods/rind_jam"
+      "textures": "textures/items/source_imports/rind_jam"
     },
     "matcha_food_steamed_carrots": {
-      "textures": "textures/items/generated_foods/steamed_carrots"
+      "textures": "textures/items/source_imports/steamed_carrots"
     },
     "matcha_food_stroganoff": {
-      "textures": "textures/items/generated_foods/stroganoff"
+      "textures": "textures/items/source_imports/stroganoff"
     },
     "matcha_food_sweet_berry_danish": {
-      "textures": "textures/items/generated_foods/sweet_berry_danish"
+      "textures": "textures/items/source_imports/sweet_berry_danish"
     },
     "matcha_food_sweet_berry_jam": {
-      "textures": "textures/items/generated_foods/sweet_berry_jam"
+      "textures": "textures/items/source_imports/sweet_berry_jam"
     },
     "matcha_food_sweet_berry_mash": {
-      "textures": "textures/items/generated_foods/sweet_berry_mash"
+      "textures": "textures/items/source_imports/sweet_berry_mash"
     },
     "matcha_food_sweet_berry_toast": {
-      "textures": "textures/items/generated_foods/sweet_berry_toast"
+      "textures": "textures/items/source_imports/sweet_berry_toast"
     },
     "matcha_food_warped_stroganoff": {
-      "textures": "textures/items/generated_foods/warped_stroganoff"
+      "textures": "textures/items/source_imports/warped_stroganoff"
     },
     "matcha_component_benzene": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_endermite"
+      "textures": "textures/items/source_imports/benzene"
     },
     "matcha_component_campfire": {
-      "textures": "textures/items/generated_components/campfire"
+      "textures": "textures/items/source_imports/campfire"
     },
     "matcha_component_carbon_rich_iron": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_piglin_brute"
+      "textures": "textures/items/source_imports/carbon_rich_iron"
     },
     "matcha_component_chainmail_boots": {
-      "textures": "textures/items/generated_components/chainmail_boots"
+      "textures": "textures/items/source_imports/chainmail_boots"
     },
     "matcha_component_chainmail_chestplate": {
-      "textures": "textures/items/generated_components/chainmail_chestplate"
+      "textures": "textures/items/source_imports/chainmail_chestplate"
     },
     "matcha_component_chainmail_helmet": {
-      "textures": "textures/items/generated_components/chainmail_helmet"
+      "textures": "textures/items/source_imports/chainmail_helmet"
     },
     "matcha_component_chainmail_leggings": {
-      "textures": "textures/items/generated_components/chainmail_leggings"
+      "textures": "textures/items/source_imports/chainmail_leggings"
     },
     "matcha_component_copper_axe": {
-      "textures": "textures/items/generated_components/copper_axe"
+      "textures": "textures/items/source_imports/copper_axe"
     },
     "matcha_component_copper_boots": {
-      "textures": "textures/items/generated_components/copper_boots"
+      "textures": "textures/items/source_imports/copper_boots"
     },
     "matcha_component_copper_chestplate": {
-      "textures": "textures/items/generated_components/copper_chestplate"
+      "textures": "textures/items/source_imports/copper_chestplate"
     },
     "matcha_component_copper_compass": {
       "textures": "textures/items/vanilla_proxy/compass_item"
     },
     "matcha_component_copper_dolabra": {
-      "textures": "textures/items/generated_components/copper_dolabra"
+      "textures": "textures/items/source_imports/copper_dolabra"
     },
     "matcha_component_copper_helmet": {
-      "textures": "textures/items/generated_components/copper_helmet"
+      "textures": "textures/items/source_imports/copper_helmet"
     },
     "matcha_component_copper_hoe": {
-      "textures": "textures/items/generated_components/copper_hoe"
+      "textures": "textures/items/source_imports/copper_hoe"
     },
     "matcha_component_copper_leggings": {
-      "textures": "textures/items/generated_components/copper_leggings"
+      "textures": "textures/items/source_imports/copper_leggings"
     },
     "matcha_component_copper_mattock": {
-      "textures": "textures/items/generated_components/copper_mattock"
+      "textures": "textures/items/source_imports/copper_mattock"
     },
     "matcha_component_copper_pickaxe": {
-      "textures": "textures/items/generated_components/copper_pickaxe"
+      "textures": "textures/items/source_imports/copper_pickaxe"
     },
     "matcha_component_copper_shears": {
-      "textures": "textures/items/generated_components/copper_shears"
+      "textures": "textures/items/source_imports/copper_shears"
     },
     "matcha_component_copper_shovel": {
-      "textures": "textures/items/generated_components/copper_shovel"
+      "textures": "textures/items/source_imports/copper_shovel"
     },
     "matcha_component_copper_spear": {
-      "textures": "textures/items/generated_components/copper_spear"
+      "textures": "textures/items/source_imports/copper_spear"
     },
     "matcha_component_copper_sword": {
-      "textures": "textures/items/generated_components/copper_sword"
+      "textures": "textures/items/source_imports/copper_sword"
     },
     "matcha_component_diamond_axe": {
-      "textures": "textures/items/generated_components/diamond_axe"
+      "textures": "textures/items/source_imports/diamond_axe"
     },
     "matcha_component_diamond_boots": {
-      "textures": "textures/items/generated_components/diamond_boots"
+      "textures": "textures/items/source_imports/diamond_boots"
     },
     "matcha_component_diamond_chestplate": {
-      "textures": "textures/items/generated_components/diamond_chestplate"
+      "textures": "textures/items/source_imports/diamond_chestplate"
     },
     "matcha_component_diamond_dolabra": {
-      "textures": "textures/items/generated_components/diamond_dolabra"
+      "textures": "textures/items/source_imports/diamond_dolabra"
     },
     "matcha_component_diamond_helmet": {
-      "textures": "textures/items/generated_components/diamond_helmet"
+      "textures": "textures/items/source_imports/diamond_helmet"
     },
     "matcha_component_diamond_hoe": {
-      "textures": "textures/items/generated_components/diamond_hoe"
+      "textures": "textures/items/source_imports/diamond_hoe"
     },
     "matcha_component_diamond_leggings": {
-      "textures": "textures/items/generated_components/diamond_leggings"
+      "textures": "textures/items/source_imports/diamond_leggings"
     },
     "matcha_component_diamond_mattock": {
-      "textures": "textures/items/generated_components/diamond_mattock"
+      "textures": "textures/items/source_imports/diamond_mattock"
     },
     "matcha_component_diamond_pickaxe": {
-      "textures": "textures/items/generated_components/diamond_pickaxe"
+      "textures": "textures/items/source_imports/diamond_pickaxe"
     },
     "matcha_component_diamond_shovel": {
-      "textures": "textures/items/generated_components/diamond_shovel"
+      "textures": "textures/items/source_imports/diamond_shovel"
     },
     "matcha_component_diamond_spear": {
-      "textures": "textures/items/generated_components/diamond_spear"
+      "textures": "textures/items/source_imports/diamond_spear"
     },
     "matcha_component_diamond_sword": {
-      "textures": "textures/items/generated_components/diamond_sword"
+      "textures": "textures/items/source_imports/diamond_sword"
     },
     "matcha_component_divine_fragment": {
       "textures": "textures/items/generated_components/divine_fragment"
     },
     "matcha_component_golden_axe": {
-      "textures": "textures/items/generated_components/golden_axe"
+      "textures": "textures/items/source_imports/golden_axe"
     },
     "matcha_component_golden_boots": {
-      "textures": "textures/items/generated_components/golden_boots"
+      "textures": "textures/items/source_imports/golden_boots"
     },
     "matcha_component_golden_chestplate": {
-      "textures": "textures/items/generated_components/golden_chestplate"
+      "textures": "textures/items/source_imports/golden_chestplate"
     },
     "matcha_component_golden_compass": {
       "textures": "textures/items/vanilla_proxy/compass_item"
     },
     "matcha_component_golden_helmet": {
-      "textures": "textures/items/generated_components/golden_helmet"
+      "textures": "textures/items/source_imports/golden_helmet"
     },
     "matcha_component_golden_hoe": {
-      "textures": "textures/items/generated_components/golden_hoe"
+      "textures": "textures/items/source_imports/golden_hoe"
     },
     "matcha_component_golden_leggings": {
-      "textures": "textures/items/generated_components/golden_leggings"
+      "textures": "textures/items/source_imports/golden_leggings"
     },
     "matcha_component_golden_pickaxe": {
-      "textures": "textures/items/generated_components/golden_pickaxe"
+      "textures": "textures/items/source_imports/golden_pickaxe"
     },
     "matcha_component_golden_shovel": {
-      "textures": "textures/items/generated_components/golden_shovel"
+      "textures": "textures/items/source_imports/golden_shovel"
     },
     "matcha_component_golden_spear": {
-      "textures": "textures/items/generated_components/golden_spear"
+      "textures": "textures/items/source_imports/golden_spear"
     },
     "matcha_component_golden_sword": {
-      "textures": "textures/items/generated_components/golden_sword"
+      "textures": "textures/items/source_imports/golden_sword"
     },
     "matcha_component_invisible_item_frame": {
-      "textures": "textures/items/generated_components/invisible_item_frame"
+      "textures": "textures/items/source_imports/invisible_item_frame"
     },
     "matcha_component_iron_axe": {
-      "textures": "textures/items/generated_components/iron_axe"
+      "textures": "textures/items/source_imports/iron_axe"
     },
     "matcha_component_iron_boots": {
-      "textures": "textures/items/generated_components/iron_boots"
+      "textures": "textures/items/source_imports/iron_boots"
     },
     "matcha_component_iron_chestplate": {
-      "textures": "textures/items/generated_components/iron_chestplate"
+      "textures": "textures/items/source_imports/iron_chestplate"
     },
     "matcha_component_iron_dolabra": {
-      "textures": "textures/items/generated_components/iron_dolabra"
+      "textures": "textures/items/source_imports/iron_dolabra"
     },
     "matcha_component_iron_helmet": {
-      "textures": "textures/items/generated_components/iron_helmet"
+      "textures": "textures/items/source_imports/iron_helmet"
     },
     "matcha_component_iron_hoe": {
-      "textures": "textures/items/generated_components/iron_hoe"
+      "textures": "textures/items/source_imports/iron_hoe"
     },
     "matcha_component_iron_leggings": {
-      "textures": "textures/items/generated_components/iron_leggings"
+      "textures": "textures/items/source_imports/iron_leggings"
     },
     "matcha_component_iron_mattock": {
-      "textures": "textures/items/generated_components/iron_mattock"
+      "textures": "textures/items/source_imports/iron_mattock"
     },
     "matcha_component_iron_pickaxe": {
-      "textures": "textures/items/generated_components/iron_pickaxe"
+      "textures": "textures/items/source_imports/iron_pickaxe"
     },
     "matcha_component_iron_shears": {
       "textures": "textures/items/generated_components/iron_shears"
     },
     "matcha_component_iron_shovel": {
-      "textures": "textures/items/generated_components/iron_shovel"
+      "textures": "textures/items/source_imports/iron_shovel"
     },
     "matcha_component_iron_spear": {
-      "textures": "textures/items/generated_components/iron_spear"
+      "textures": "textures/items/source_imports/iron_spear"
     },
     "matcha_component_iron_sword": {
-      "textures": "textures/items/generated_components/iron_sword"
+      "textures": "textures/items/source_imports/iron_sword"
     },
     "matcha_component_leather_boots": {
-      "textures": "textures/items/generated_components/leather_boots"
+      "textures": "textures/items/source_imports/leather_boots"
     },
     "matcha_component_leather_chestplate": {
-      "textures": "textures/items/generated_components/leather_chestplate"
+      "textures": "textures/items/source_imports/leather_chestplate"
     },
     "matcha_component_leather_helmet": {
-      "textures": "textures/items/generated_components/leather_helmet"
+      "textures": "textures/items/source_imports/leather_helmet"
     },
     "matcha_component_leather_pants": {
       "textures": "textures/items/generated_components/leather_pants"
     },
     "matcha_component_mace": {
-      "textures": "textures/items/generated_components/mace"
+      "textures": "textures/items/source_imports/mace"
     },
     "matcha_component_minecart_from_steel": {
       "textures": "textures/items/generated_components/minecart_from_steel"
     },
     "matcha_component_music_disc_golden": {
-      "textures": "textures/items/generated_components/music_disc_golden"
+      "textures": "textures/items/source_imports/music_disc_golden"
     },
     "matcha_component_nazar": {
       "textures": "textures/items/generated_components/nazar"
     },
     "matcha_component_snow_shovel": {
-      "textures": "textures/items/generated_components/snow_shovel"
+      "textures": "textures/items/source_imports/snow_shovel"
     },
     "matcha_component_soul_campfire": {
-      "textures": "textures/items/generated_components/soul_campfire"
+      "textures": "textures/items/source_imports/soul_campfire"
     },
     "matcha_component_stabilised_estus": {
       "textures": "textures/items/generated_components/stabilised_estus"
     },
     "matcha_component_sturdy_leather_boots": {
-      "textures": "textures/items/generated_components/sturdy_leather_boots"
+      "textures": "textures/items/source_imports/sturdy_leather_boots"
     },
     "matcha_component_sturdy_leather_chestplate": {
-      "textures": "textures/items/generated_components/sturdy_leather_chestplate"
+      "textures": "textures/items/source_imports/sturdy_leather_chestplate"
     },
     "matcha_component_sturdy_leather_helmet": {
-      "textures": "textures/items/generated_components/sturdy_leather_helmet"
+      "textures": "textures/items/source_imports/sturdy_leather_helmet"
     },
     "matcha_component_sturdy_leather_pants": {
       "textures": "textures/items/generated_components/sturdy_leather_pants"
     },
     "matcha_component_tinder": {
-      "textures": "textures/items/generated_components/tinder"
+      "textures": "textures/items/source_imports/tinder"
     },
     "matcha_component_warding_stone": {
-      "textures": "textures/items/generated_components/warding_stone"
+      "textures": "textures/items/source_imports/warding_stone"
     },
     "matcha_component_wooden_axe": {
       "textures": "textures/items/vanilla_proxy/wood_axe"
     },
     "matcha_component_wooden_cross": {
-      "textures": "textures/items/generated_components/wooden_cross"
+      "textures": "textures/items/source_imports/wooden_cross"
     },
     "matcha_component_wooden_hoe": {
       "textures": "textures/items/vanilla_proxy/wood_hoe"
@@ -837,43 +837,43 @@
       "textures": "textures/items/vanilla_proxy/wood_shovel"
     },
     "matcha_component_wooden_spear": {
-      "textures": "textures/items/generated_components/wooden_spear"
+      "textures": "textures/items/source_imports/wooden_spear"
     },
     "matcha_component_wooden_sword": {
       "textures": "textures/items/vanilla_proxy/wood_sword"
     },
     "matcha_component_music_disc_labyrinthine": {
-      "textures": "textures/items/generated_components/music_disc_labyrinthine"
+      "textures": "textures/items/source_imports/music_disc_labyrinthine"
     },
     "matcha_component_dough": {
-      "textures": "textures/items/generated_components/dough"
+      "textures": "textures/items/source_imports/dough"
     },
     "matcha_component_flour": {
-      "textures": "textures/items/generated_components/flour"
+      "textures": "textures/items/source_imports/flour"
     },
     "matcha_component_flour_bag": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_magma_cube"
+      "textures": "textures/items/source_imports/flour_bag"
     },
     "matcha_component_uncooked_curry": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_strider"
+      "textures": "textures/items/source_imports/uncooked_curry"
     },
     "matcha_component_uncooked_green_curry": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_zombified_piglin"
+      "textures": "textures/items/source_imports/uncooked_green_curry"
     },
     "matcha_component_uncooked_paneer_makhani": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_zoglin"
+      "textures": "textures/items/source_imports/uncooked_paneer_makhani"
     },
     "matcha_component_uncooked_ramen": {
-      "textures": "textures/items/vanilla_proxy/spawn_egg_wither_skeleton"
+      "textures": "textures/items/source_imports/uncooked_ramen"
     },
     "matcha_component_amber_earrings": {
-      "textures": "textures/items/generated_components/amber_earrings"
+      "textures": "textures/items/source_imports/amber_earrings"
     },
     "matcha_component_bronze_elytra": {
-      "textures": "textures/items/generated_components/bronze_elytra"
+      "textures": "textures/items/source_imports/bronze_elytra"
     },
     "matcha_component_butcher_knife": {
-      "textures": "textures/items/generated_components/butcher_knife"
+      "textures": "textures/items/source_imports/butcher_knife"
     },
     "matcha_component_gilded_leather_boots": {
       "textures": "textures/items/generated_components/gilded_leather_boots"
@@ -882,10 +882,10 @@
       "textures": "textures/items/generated_components/warding_shield"
     },
     "matcha_component_silver_sword": {
-      "textures": "textures/items/generated_components/silver_sword"
+      "textures": "textures/items/source_imports/silver_sword"
     },
     "matcha_component_warding_sword": {
-      "textures": "textures/items/generated_components/warding_sword"
+      "textures": "textures/items/source_imports/warding_sword"
     },
     "matcha_blessing_bane_of_arthopods": {
       "textures": "textures/items/generated_blessings/bane_of_arthopods"
@@ -948,7 +948,7 @@
       "textures": "textures/items/generated_blessings/unbreaking"
     },
     "matcha_blessing_warding": {
-      "textures": "textures/items/generated_blessings/warding"
+      "textures": "textures/items/source_imports/blessing_warding"
     },
     "matcha_blessing_wind_burst_anemos": {
       "textures": "textures/items/generated_blessings/wind_burst_anemos"
@@ -972,34 +972,34 @@
       "textures": "textures/items/generated_trades/daab46bfad"
     },
     "matcha_trade_1a8f51e84c": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_1a8f51e84c"
     },
     "matcha_trade_76ac31fa03": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_76ac31fa03"
     },
     "matcha_trade_caf558a84c": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_caf558a84c"
     },
     "matcha_trade_f76bb0de4f": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_f76bb0de4f"
     },
     "matcha_trade_2c77844bfe": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_2c77844bfe"
     },
     "matcha_trade_2a9c804f94": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_2a9c804f94"
     },
     "matcha_trade_28d2d3d8c7": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_28d2d3d8c7"
     },
     "matcha_trade_0e1ba7fb00": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_0e1ba7fb00"
     },
     "matcha_trade_2d75349fc8": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_2d75349fc8"
     },
     "matcha_trade_fb4fc95df5": {
-      "textures": "textures/items/source_imports/splash_potion"
+      "textures": "textures/items/source_imports/trade_item_fb4fc95df5"
     },
     "matcha_trade_cf5f5bf233": {
       "textures": "textures/items/generated_trades/cf5f5bf233"
@@ -1077,7 +1077,7 @@
       "textures": "textures/items/generated_trades/e6499dbe68"
     },
     "matcha_trade_be8c8e93b2": {
-      "textures": "textures/items/source_imports/salmon"
+      "textures": "textures/items/source_imports/trade_item_be8c8e93b2"
     },
     "matcha_trade_233789c421": {
       "textures": "textures/items/generated_trades/233789c421"
@@ -1197,7 +1197,7 @@
       "textures": "textures/items/generated_trades/651ce908a3"
     },
     "matcha_trade_3fc6e6d22b": {
-      "textures": "textures/items/source_imports/ender_pearl"
+      "textures": "textures/items/source_imports/trade_item_3fc6e6d22b"
     },
     "matcha_trade_3ff70043ae": {
       "textures": "textures/items/generated_trades/3ff70043ae"

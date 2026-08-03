@@ -302,6 +302,8 @@ def main() -> None:
     for signature, entries in signature_groups.items():
         canonical_path, canonical_data = canonical_recipe(entries)
         item_id_by_signature[signature] = custom_item_id(canonical_data, canonical_path)
+    if len(set(item_id_by_signature.values())) != len(item_id_by_signature):
+        raise SystemExit("Distinct food item signatures resolved to duplicate item identifiers")
 
     def resolved_item_id(recipe: dict) -> str:
         return item_id_by_signature[item_signature(recipe)]
@@ -325,16 +327,25 @@ def main() -> None:
                 }
             )
             continue
-        canonical.setdefault(item_id, (path, recipe))
+        if item_id in canonical:
+            canonical[item_id] = canonical_recipe([canonical[item_id], (path, recipe)])
+        else:
+            canonical[item_id] = (path, recipe)
         effects[item_id] = actions
         if recipe["result"]["id"] == "minecraft:splash_potion":
             splashes[item_id] = actions
-        names[item_id] = display_name(recipe, path, lang)
 
     if conflicts:
         raise SystemExit(
             "Conflicting food definitions:\n" + json.dumps(conflicts, indent=2)
         )
+
+    # Alternate acquisition recipes (for example *_from_* and *_campfire)
+    # share one item and must not rename it in the creative catalog.
+    names = {
+        item_id: display_name(recipe, path, lang)
+        for item_id, (path, recipe) in canonical.items()
+    }
 
     atlas_path = args.resource_pack / "textures/item_texture.json"
     atlas = json.loads(atlas_path.read_text(encoding="utf-8"))
